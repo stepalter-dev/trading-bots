@@ -1,0 +1,114 @@
+{
+ "state": {
+  "cash": 27364.83,
+  "dataFeedAlert": null,
+  "dataFeedFailures": 0,
+  "lastRunNotes": "NOTIFY session (~4:19pm AEST Wed Sep 23), LAST session of the trading day. Feed healthy (14/14). Swing sleeve: held PME.AX/TLS.AX/CBA.AX unchanged into the close — prices flat vs last check, no new catalysts, no horizon triggers breached. Day-trade sleeve: no open day-trade positions to flatten (none opened today). Growth/core split ~36.7%/63.3%, within 35-65% band.",
+  "lastUpdated": "2026-09-23T06:18:40Z",
+  "positions": {
+   "CBA.AX": {
+    "avgCost": 151.78,
+    "bucket": "core",
+    "lastPrice": 151.05,
+    "shares": 44
+   },
+   "PME.AX": {
+    "avgCost": 169.06,
+    "bucket": "growth",
+    "lastPrice": 161.31,
+    "shares": 40
+   },
+   "TLS.AX": {
+    "avgCost": 4.835,
+    "bucket": "core",
+    "lastPrice": 4.81,
+    "shares": 937
+   }
+  },
+  "startingCash": 45336.45
+ },
+ "nav_history": [
+  {
+   "benchmarkClose": 78.92,
+   "benchmarkNav": 45336.45,
+   "cash": 27364.83,
+   "coreValue": 11209.22,
+   "date": "2026-09-18",
+   "daytradeValue": 0,
+   "growthValue": 6762.4,
+   "nav": 45336.45,
+   "positionsValue": 17971.62
+  },
+  {
+   "benchmarkClose": 78.87,
+   "benchmarkNav": 45307.75,
+   "cash": 27364.83,
+   "coreValue": 11257.27,
+   "date": "2026-09-21",
+   "daytradeValue": 0,
+   "growthValue": 6622.8,
+   "nav": 45244.9,
+   "positionsValue": 17880.07
+  },
+  {
+   "benchmarkClose": 79.13,
+   "benchmarkNav": 45457.11,
+   "cash": 27364.83,
+   "coreValue": 11228.23,
+   "date": "2026-09-22",
+   "daytradeValue": 0,
+   "growthValue": 6573.2,
+   "nav": 45166.26,
+   "positionsValue": 17801.43
+  },
+  {
+   "benchmarkClose": 79.22,
+   "benchmarkNav": 45508.81,
+   "cash": 27364.83,
+   "coreValue": 11154.17,
+   "date": "2026-09-23",
+   "daytradeValue": 0,
+   "growthValue": 6452.4,
+   "nav": 44971.4,
+   "positionsValue": 17606.57
+  }
+ ],
+ "trades": [
+  {
+   "action": "buy",
+   "bucket": "core",
+   "date": "2026-09-18T06:05:05Z",
+   "horizon": "Hold through next quarterly update; reassess if NSW contract synergies fail to show in FY27 guidance or valuation stretches materially above sector average P/E.",
+   "price": 151.78,
+   "rationale": "Won NSW state government banking services contract (liquidity management, transaction banking, FX, transit payments) — durable revenue catalyst for defensive core bank holding.",
+   "sentimentSummary": "Neutral-to-positive — contract win noted amid general bank sector softness today.",
+   "shares": 44,
+   "ticker": "CBA.AX",
+   "id": "2026-09-18-CBA-c4n7r1"
+  },
+  {
+   "action": "buy",
+   "bucket": "growth",
+   "date": "2026-09-18T06:05:05Z",
+   "horizon": "Hold through FY27 half-year results (~Feb 2027); reassess if North American revenue growth decelerates below ~20% YoY or price breaks below A$150 support.",
+   "price": 169.06,
+   "rationale": "Record-breaking FY26 results drove a +2.9% gain today; strong North American radiology SaaS growth momentum continues.",
+   "sentimentSummary": "Positive — Motley Fool AU and market coverage citing record results.",
+   "shares": 40,
+   "ticker": "PME.AX",
+   "id": "2026-09-18-PME-a1x9k2"
+  },
+  {
+   "action": "buy",
+   "bucket": "core",
+   "date": "2026-09-18T06:05:05Z",
+   "horizon": "Hold through next trading update; reassess if analyst sentiment reverses or outage-related churn shows up in ARPU/subscriber metrics.",
+   "price": 4.835,
+   "rationale": "Barrenjoey upgraded TLS to Overweight (Sep 2) and an external probe confirmed the July network outage was a resolved technical timing issue, removing an overhang; defensive telco anchor for the core sleeve.",
+   "sentimentSummary": "Improving — analyst upgrade plus outage resolution reduces near-term risk.",
+   "shares": 937,
+   "ticker": "TLS.AX",
+   "id": "2026-09-18-TLS-b7m3q8"
+  }
+ ]
+}

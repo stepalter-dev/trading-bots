@@ -1,0 +1,168 @@
+{
+ "state": {
+  "cash": 25587.43,
+  "dataFeedAlert": null,
+  "dataFeedFailures": 0,
+  "lastRunNotes": "Notify session, ~3:06pm ET Wednesday, last session of the trading day. Swing sleeve: held AAPL/GOOGL/META unchanged — GOOGL gave back ~3.9% today without a clear negative catalyst found in research (normal volatility, not a horizon breach); META stayed firm (+1.6%) heading into tonight's Meta Connect keynote (7pm ET, after market close, so no announcements have landed yet); AAPL modestly lower in line with the broader market pullback (SPY -0.7%). No fresh single-session catalyst to act on either direction. META remains ~19.5% of NAV, still under the 20% cap. No day-trade positions were open at any point today, so nothing to flatten. Growth/core split ~60.5%/39.5%, within the 35-65% tolerance band.",
+  "lastUpdated": "2026-09-23T19:06:42Z",
+  "positions": {
+   "AAPL": {
+    "avgCost": 333.08,
+    "bucket": "core",
+    "lastPrice": 337,
+    "shares": 24
+   },
+   "GOOGL": {
+    "avgCost": 342.87,
+    "bucket": "growth",
+    "lastPrice": 339.14,
+    "shares": 10
+   },
+   "META": {
+    "avgCost": 665.6,
+    "bucket": "growth",
+    "lastPrice": 748.55,
+    "shares": 12
+   }
+  },
+  "startingCash": 45000
+ },
+ "nav_history": [
+  {
+   "benchmarkNav": 45000,
+   "cash": 29018.88,
+   "date": "2026-09-15",
+   "nav": 45000,
+   "positionsValue": 15981.12,
+   "benchmarkClose": 760.88
+  },
+  {
+   "benchmarkNav": 44596.13,
+   "cash": 25590.18,
+   "coreValue": 7977.84,
+   "date": "2026-09-16",
+   "growthValue": 11508.42,
+   "nav": 45076.44,
+   "positionsValue": 19486.26,
+   "benchmarkClose": 754.05
+  },
+  {
+   "benchmarkNav": 45101.94,
+   "cash": 25587.43,
+   "coreValue": 8088,
+   "date": "2026-09-17",
+   "daytradeValue": 0,
+   "growthValue": 11661.02,
+   "nav": 45336.45,
+   "positionsValue": 19749.02,
+   "benchmarkClose": 762.6
+  },
+  {
+   "benchmarkNav": 45014.42,
+   "cash": 25587.43,
+   "coreValue": 8066.88,
+   "date": "2026-09-18",
+   "daytradeValue": 0,
+   "growthValue": 11579.09,
+   "nav": 45233.4,
+   "positionsValue": 19645.97,
+   "benchmarkClose": 761.12
+  },
+  {
+   "benchmarkNav": 45790.45,
+   "cash": 25587.43,
+   "coreValue": 8133.36,
+   "date": "2026-09-21",
+   "daytradeValue": 0,
+   "growthValue": 12474.96,
+   "nav": 46195.75,
+   "positionsValue": 20608.32,
+   "benchmarkClose": 774.24
+  },
+  {
+   "benchmarkNav": 45780.1,
+   "cash": 25587.43,
+   "coreValue": 8169.12,
+   "date": "2026-09-22",
+   "daytradeValue": 0,
+   "growthValue": 12377.61,
+   "nav": 46134.16,
+   "positionsValue": 20546.73,
+   "benchmarkClose": 774.065
+  },
+  {
+   "benchmarkNav": 45421.11,
+   "cash": 25587.43,
+   "coreValue": 8088,
+   "date": "2026-09-23",
+   "daytradeValue": 0,
+   "growthValue": 12374,
+   "nav": 46049.43,
+   "positionsValue": 20462,
+   "benchmarkClose": 767.995
+  }
+ ],
+ "trades": [
+  {
+   "action": "buy",
+   "bucket": "core",
+   "date": "2026-09-15T04:16:11Z",
+   "horizon": "Medium-term (~2-4 months) — through the iPhone Duo launch cycle and holiday-quarter earnings",
+   "price": 333.08,
+   "rationale": "Apple unveiled the $1,999 foldable iPhone Duo, its biggest hardware redesign in years; Citi reiterated Buy with a $365 target and called it Apple's most significant new hardware category since the Watch/AirPods.",
+   "sentimentSummary": "Analyst commentary strongly bullish on the Duo launch; stock rallying even as broader tech sells off.",
+   "shares": 24,
+   "ticker": "AAPL",
+   "id": "2026-09-15-AAPL-a4f7k2"
+  },
+  {
+   "action": "buy",
+   "bucket": "growth",
+   "date": "2026-09-15T04:16:11Z",
+   "horizon": "Medium-term (~1-3 months) — tracking Muse AI adoption/monetization signals into next earnings",
+   "price": 665.6,
+   "rationale": "Meta's Muse AI agent (task-completing assistant, #3 in App Store) is driving a fresh bull case beyond ads; JPMorgan upgraded to Buy ($820 PT) and Goldman reaffirmed Buy after the launch.",
+   "sentimentSummary": "Wall Street broadly bullish post-Muse launch, with some debate over monetization risk longer term.",
+   "shares": 12,
+   "ticker": "META",
+   "id": "2026-09-15-META-b9p3m1"
+  },
+  {
+   "action": "buy",
+   "bucket": "growth",
+   "date": "2026-09-16T21:15:00Z",
+   "horizon": "Short-to-medium-term (4-8 weeks) — reassess into Alphabet's Oct 27, 2026 Q3 earnings as the post-ruling rally digests and DOJ appeal risk is monitored.",
+   "price": 342.87,
+   "rationale": "A federal judge's antitrust remedy ruling lets Google keep Chrome and avoids a forced breakup, removing a years-long regulatory overhang; shares are up sharply post-ruling with a Strong Buy analyst consensus (~$428 avg PT, 58 buys/0 sells) and bullish chatter calling it a breakout to fresh highs.",
+   "sentimentSummary": "Broadly bullish across financial media and retail trader chatter (TradingView/Reddit-adjacent) framing the ruling as a major overhang removed; Jim Cramer called it a 'shockingly favorable' outcome.",
+   "shares": 10,
+   "ticker": "GOOGL",
+   "id": "2026-09-16-GOOGL-q7x2mk"
+  },
+  {
+   "action": "buy",
+   "bucket": "daytrade",
+   "date": "2026-09-17T19:15:00Z",
+   "horizon": "Intraday — close by end of trading day; will be closed this session or forcibly flattened at the 3:50pm ET close-out slot per the day-trade rule.",
+   "price": 545.79,
+   "rationale": "AMD is leading a broad semiconductor sector rally today (NVDA, INTC also up) on continued AI-buildout enthusiasm and carried-over bullish analyst conviction from the prior session; Strong Buy consensus (44 buys/0 sells). Playing sector momentum into the close as a short intraday swing, not a multi-week fundamental thesis.",
+   "sentimentSummary": "Wall Street strongly bullish (Strong Buy consensus, no sell ratings); WallStreetBets sentiment mixed (45% positive/55% negative over past 24h) despite the price momentum, a caution flag against chasing the move too hard.",
+   "shares": 5,
+   "ticker": "AMD",
+   "id": "2026-09-17-AMD-j8k3p1"
+  },
+  {
+   "action": "sell",
+   "bucket": "daytrade",
+   "date": "2026-09-17T19:55:00Z",
+   "price": 545.24,
+   "rationale": "Mandatory flatten before market close per the day-trade rule — no overnight day-trade holds, ever. The semiconductor-rally momentum stalled into the close, leaving the position essentially flat.",
+   "realizedPnL": -2.75,
+   "realizedPnLPct": -0.1008,
+   "sentimentSummary": "Sector rally lost steam in the final hour; no fresh catalyst to justify holding overnight even if permitted.",
+   "shares": 5,
+   "ticker": "AMD",
+   "id": "2026-09-17-AMD-f4n9wq"
+  }
+ ]
+}
