@@ -7,13 +7,12 @@
 
     python -m bot.session apply <market> <decision.json> [--force] [--dry]
         Referee applies the decision, updates the data file, posts to Discord and (unless
-        --dry / --no-push) commits and pushes the data to GitHub. Needs GH_TOKEN in the
-        environment for the push; DISCORD_WEBHOOK for Discord.
+        --dry / --no-push) uploads the data file to GitHub via the REST API. Needs GH_TOKEN in the
+        environment only for local testing; DISCORD_WEBHOOK for Discord.
 """
 import argparse
 import json
 import os
-import subprocess
 import sys
 
 from . import brain, core, engine
@@ -22,33 +21,45 @@ from .markets import MARKETS
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def _git(*args, check=True):
-    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, check=check)
-
-
 def push_data(key):
-    """Commit docs/data and push, retrying if another market pushed first."""
+    """Upload docs/data/<key>.json to GitHub through the REST contents API.
+
+    No git credentials in the sandbox are needed: if the environment's API-credential
+    proxy injects the token for api.github.com, no Authorization header is required here.
+    A GH_TOKEN env var is used as a header only when present (local testing).
+    """
+    import base64
+    import urllib.error
+    import urllib.request
+
+    repo = os.environ.get("GITHUB_REPO", "stepalter-dev/trading-bots")
+    rel = f"docs/data/{key}.json"
+    url = f"https://api.github.com/repos/{repo}/contents/{rel}"
+    with open(os.path.join(ROOT, rel), "rb") as f:
+        content = base64.b64encode(f.read()).decode("ascii")
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": "paper-trading-bot", "Content-Type": "application/json"}
     token = os.environ.get("GH_TOKEN", "").strip()
-    if not token:
-        print("GH_TOKEN not set - data saved locally but NOT pushed")
-        return False
-    remote = _git("remote", "get-url", "origin").stdout.strip()
-    path = remote.split("github.com/", 1)[-1].split("github.com:", 1)[-1]
-    authed = f"https://x-access-token:{token}@github.com/{path}"
-    _git("config", "user.name", "paper-trading-bot")
-    _git("config", "user.email", "bot@users.noreply.github.com")
-    _git("add", "docs/data")
-    if _git("diff", "--cached", "--quiet", check=False).returncode == 0:
-        print("no data changes to push")
-        return True
-    _git("commit", "-m", f"{key}: session")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    def call(method, u, body=None):
+        req = urllib.request.Request(u, data=json.dumps(body).encode() if body else None, headers=headers, method=method)
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read().decode())
+
     for attempt in range(4):
-        _git("pull", "--rebase", authed, "main", check=False)
-        r = _git("push", authed, "HEAD:main", check=False)
-        if r.returncode == 0:
+        try:
+            sha = call("GET", url + "?ref=main").get("sha")
+            call("PUT", url, {"message": f"{key}: session", "content": content, "sha": sha, "branch": "main"})
             print("pushed data to GitHub")
             return True
-        print(f"push attempt {attempt + 1} failed: {r.stderr.strip()[:200]}")
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode(errors="replace")[:200]
+            print(f"push attempt {attempt + 1} failed: HTTP {e.code} {detail}")
+            if e.code in (401, 403, 404):
+                return False  # auth/permission problem - retrying will not help
+        except (urllib.error.URLError, TimeoutError) as e:
+            print(f"push attempt {attempt + 1} failed: {e}")
     return False
 
 
