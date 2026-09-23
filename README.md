@@ -1,13 +1,27 @@
 # Paper-trading bots (US, ASX, crypto)
 
-Three fake-money bots that run **unattended on GitHub Actions** - no approvals, no PC needed.
+Three fake-money bots with a shared dashboard on GitHub Pages.
 
-- `bot/` - the code. Claude (with web search) proposes trades; `engine.py` enforces every hard rule in code (position caps, 5% cash buffer, trade counts, day-trade flatten).
-- `docs/index.html` - the live dashboard (GitHub Pages). It reads `docs/data/{us,asx,crypto}.json`.
-- `docs/data/*.json` - the bots' state, NAV history and trade log. Every session commits an update here.
-- `.github/workflows/run-*.yml` - the schedules.
+- `bot/` - the code. `engine.py` is a deterministic referee: every hard rule (position caps, 5% cash buffer, trade counts, day-trade flatten) is enforced in code, whoever proposes the trades.
+- `docs/index.html` - the live dashboard. It reads `docs/data/{us,asx,crypto}.json`.
+- `docs/data/*.json` - state, NAV history and trade log per bot. Each session commits an update here.
 
-## One-time setup
+## How it runs today (free): Claude routines
+
+Each bot is a scheduled Claude routine. A fire does:
+
+1. `git clone` this repo, then `python3 -m bot.session prepare <market>` - prints `SKIP: ...` (wrong hour, weekend, market closed, duplicate) or a briefing with the strategy rules, positions and prices.
+2. Claude researches with web search and writes a decision JSON.
+3. `python3 -m bot.session apply <market> /tmp/decision.json` - the referee applies it, updates the data file, posts to Discord and pushes the data to this repo with `GH_TOKEN`.
+
+No dashboard-database tool is used, so there are no approval prompts. Strategy and rules live in this repo (`bot/brain.py`, `bot/engine.py`, `bot/markets.py`), so tuning = editing here.
+
+`alt-github-actions/` holds an alternative that runs fully on GitHub's scheduler using the Anthropic API (paid). It is parked; move the files to `.github/workflows/` and add `ANTHROPIC_API_KEY` + `DISCORD_WEBHOOK` secrets to use it.
+
+Local tests: `python -m pytest tests`; `python -m bot.session prepare asx --force`; `python -m bot.session apply asx decision.json --force --dry`.
+
+## Paid alternative setup (parked)
+
 
 1. **GitHub repo**: create a new **public** repo (e.g. `trading-bots`), empty (no README). Public is required for free GitHub Pages; the data is fake money.
 2. **Anthropic API key**: console.anthropic.com -> API keys -> create key. Add credit and set a monthly spend limit (Settings -> Limits). This is billed separately from a Claude subscription.

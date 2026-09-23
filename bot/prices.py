@@ -2,19 +2,15 @@
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-import requests
+from .http import get_json
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (paper-trading-bot)"}
 URL = "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1mo"
 
 
 def fetch_one(ticker, retries=2):
     for attempt in range(retries + 1):
         try:
-            r = requests.get(URL.format(ticker=ticker), headers=HEADERS, timeout=15)
-            if r.status_code != 200:
-                raise RuntimeError(f"HTTP {r.status_code}")
-            res = r.json()["chart"]["result"][0]
+            res = get_json(URL.format(ticker=ticker))["chart"]["result"][0]
             meta = res["meta"]
             price = meta.get("regularMarketPrice")
             if price is None:

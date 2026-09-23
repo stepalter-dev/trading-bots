@@ -3,7 +3,7 @@ import os
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
-import requests
+from .http import post_json
 
 RED, GREEN, BLUE, ORANGE = 15158332, 3066993, 3447003, 15105570
 
@@ -89,10 +89,6 @@ def post(cfg, embeds):
     if not url:
         print("DISCORD_WEBHOOK not set - skipping Discord post")
         return False
-    try:
-        r = requests.post(url, json={"username": cfg["username"], "embeds": embeds}, timeout=15)
-        print("Discord:", r.status_code)
-        return r.status_code < 300
-    except requests.RequestException as e:
-        print("Discord post failed:", e)
-        return False
+    status = post_json(url, {"username": cfg["username"], "embeds": embeds})
+    print("Discord:", status)
+    return 200 <= status < 300
