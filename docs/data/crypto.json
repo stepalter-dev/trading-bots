@@ -1,55 +1,62 @@
 {
  "state": {
-  "cash": 18402.824998121636,
+  "cash": 15902.841926992469,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Today's board-wide surge (BTC +6.7%, alts up double/triple digits) is broad altseason/rate-cut beta plus a BTC short squeeze, not fresh idiosyncratic news - confirmed AVAX (Helicon/Aave RWA), UNI and BCH (CME futures Oct 19) and NEAR (Hyperliquid/Ondo) are all still running on catalysts already priced in when bought, with no new confirming headlines today. LTC and DOT are also just riding the broad rally (LTC has no project-specific driver despite high volume; DOT's ETF/governance catalysts are a week+ old and already reflected). The Trump-Xi summit happening today is a live macro risk (their last meeting knocked BTC down ~5%), which argues against opening new positions into the event. Growth (29.7% of NAV) and core (29.9% of NAV) are balanced within the band, so holding everything unchanged.",
-  "lastUpdated": "2026-09-24T14:16:04Z",
+  "lastRunNotes": "Today's board-wide crypto surge (BTC +6.9%, alts up double digits) is mostly Trump-Xi summit short-squeeze beta plus broad altseason momentum, not fresh idiosyncratic news - UNI, AVAX, BCH and NEAR are all still running on catalysts already priced in when bought earlier today, so I'm holding those rather than chasing the pump further. Litecoin is the exception: Coinbase launched LTC-collateralized fixed-rate loans on Sept 23 (new regulated-finance utility) alongside genuinely unusual on-chain volume (vol_x 4.38, ~$1B moved in a day, ~3x normal), so I added a modest new core position. Post-trade growth/core split (ex-cash, ex-daytrade) is roughly 46%/54%, inside the 35-65% band, and cash stays far above the 5% floor.",
+  "lastUpdated": "2026-09-24T20:12:15Z",
   "positions": {
    "BTC-USD": {
     "avgCost": 84412.12,
     "bucket": "core",
-    "lastPrice": 84122.17,
+    "lastPrice": 84379.24,
     "shares": 0.080557
    },
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 114.84,
+    "lastPrice": 117.19,
     "shares": 59.243771
    },
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.204281,
+    "lastPrice": 0.212947,
     "shares": 22498.275528
    },
    "UNI7083-USD": {
     "shares": 237.068965,
     "avgCost": 9.28,
-    "lastPrice": 9.1548,
+    "lastPrice": 9.3425,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    },
    "AVAX-USD": {
     "shares": 216.514122,
     "avgCost": 10.161,
-    "lastPrice": 10.27,
+    "lastPrice": 10.437,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    },
    "BCH-USD": {
     "shares": 6.540611,
     "avgCost": 336.36,
-    "lastPrice": 339.65,
+    "lastPrice": 336.39,
     "bucket": "core",
     "openedDate": "2026-09-24"
    },
    "NEAR-USD": {
     "shares": 506.583451,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.4544,
+    "lastPrice": 4.8102,
     "bucket": "growth",
+    "openedDate": "2026-09-24"
+   },
+   "LTC-USD": {
+    "shares": 34.780427,
+    "avgCost": 71.87902181675821,
+    "lastPrice": 71.621,
+    "bucket": "core",
     "openedDate": "2026-09-24"
    }
   },
@@ -69,13 +76,13 @@
   },
   {
    "date": "2026-09-24",
-   "nav": 45450.94,
-   "cash": 18402.82,
-   "positionsValue": 27048.12,
-   "benchmarkNav": 45180.73,
-   "benchmarkClose": 84122.17,
-   "growthValue": 13454.0,
-   "coreValue": 13594.12,
+   "nav": 46036.45,
+   "cash": 15902.84,
+   "positionsValue": 30133.6,
+   "benchmarkNav": 45318.8,
+   "benchmarkClose": 84379.24,
+   "growthValue": 13854.12,
+   "coreValue": 16279.48,
    "daytradeValue": 0.0
   }
  ],
@@ -165,6 +172,20 @@
    "rationale": "Hyperliquid turned on confidential-by-default NEAR perps (Sept 17) and added a NEAR/USDC spot market (Sept 23); NEAR Intents now also routes to 20 tokenized US stocks/ETFs via a new Ondo Finance integration - a concrete utility expansion, not just beta, confirmed by the watchlist's highest vol_x (1.77x).",
    "horizon": "Reassess if NEAR fails to hold the $4 support level by early October, or sooner if Hyperliquid perp volume / Ondo Intents usage clearly fades",
    "sentimentSummary": "Bullish social/CT chatter around the Hyperliquid listing and Ondo tokenized-stock access; RSI above 63 with a bullish MACD, but some risk of short-term exhaustion after an 80%+ weekly run."
+  },
+  {
+   "id": "2026-09-24-LTC-USD-ivk9xe",
+   "ticker": "LTC-USD",
+   "action": "buy",
+   "shares": 34.780427,
+   "price": 71.692621,
+   "refPrice": 71.621,
+   "fee": 6.4831,
+   "date": "2026-09-24T20:12:15Z",
+   "bucket": "core",
+   "rationale": "Fresh, specific catalyst (Coinbase fixed-rate loans accepting LTC as collateral, launched Sept 23) confirmed by real unusual volume (vol_x 4.38, ~$1B on-chain movement, ~3x normal spot volume) rather than pure rally beta.",
+   "horizon": "Reassess if LTC fails to hold above ~$65 support or if Coinbase loan-collateral usage data fades by mid-October.",
+   "sentimentSummary": "Coverage (Invezz, CoinDesk, Investing.com) framing it as a genuine activity-driven breakout, not just broad-market sympathy."
   }
  ],
  "lessons": [],
