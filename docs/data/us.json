@@ -3,25 +3,25 @@
   "cash": 25587.43,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Big movers INTC (+25% in 5 days on NVDA's $5B stake/Xeon-DGX deal, but now showing pullback signs at 63x forward P/E) and AMD (+9% Monday to a record/trillion-dollar cap on chip-export optimism) are extended rallies with the good news already priced in, so not chasing either. META's Muse AI monetization reveal (PayPal, Walmart/Best Buy/Sephora integrations) drove fresh JPMorgan ($920 PT) and Citizens ($885 PT) upgrades, but META is already ~19.8% of NAV near the 20% cap and growth is 60.8% of swing NAV (within the 35-65% band but near the top), so holding rather than adding. GOOGL's dip looks like broad tech risk-off, not a horizon breach ahead of Oct 27 earnings; AAPL horizon also intact. No day-trade candidates: volume ratios across the whole watchlist are below the 10-day average despite large price swings, so there's no unusual-volume signal to act on.",
-  "lastUpdated": "2026-09-24T14:12:34Z",
+  "lastRunNotes": "Checked today's biggest movers: ADBE (-13.7%, weak Q4 guidance + CEO transition), NFLX (-10.6%, Wells Fargo downgrade on engagement concerns), AMZN (-6.1%, rising delivery/logistics cost pressure), and HD/PEP (macro housing and volume weakness) are all negative fundamental catalysts, not dip-buying opportunities. CRM's 14.8% pop has a real catalyst (Agentforce past $1B ARR, guidance raise) but it's already up ~40% from August lows, so passing to avoid chasing an extended rally, same lesson as INTC/AMD last session. Held positions' theses remain intact: AAPL ahead of Oct 16 preorders/Oct 23 iPhone Duo launch, GOOGL awaiting Oct 27 earnings with the DOJ appeal still pending into 2027, and META's Muse AI monetization story is strengthening (JPMorgan PT raised to $920) but the position is already near the 20% cap so no add is warranted. Growth/core split stays ~61%/39% of swing NAV, within the 35-65% band. Holding, no trades this session.",
+  "lastUpdated": "2026-09-24T16:13:20Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 337.46,
+    "lastPrice": 337.315,
     "shares": 24
    },
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 338.61,
+    "lastPrice": 339.745,
     "shares": 10
    },
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 764.805,
+    "lastPrice": 761.065,
     "shares": 12
    }
   },
@@ -103,13 +103,13 @@
   },
   {
    "date": "2026-09-24",
-   "nav": 46250.23,
+   "nav": 46213.22,
    "cash": 25587.43,
-   "positionsValue": 20662.8,
-   "benchmarkNav": 45295.43,
-   "benchmarkClose": 765.87,
-   "growthValue": 12563.76,
-   "coreValue": 8099.04,
+   "positionsValue": 20625.79,
+   "benchmarkNav": 45171.23,
+   "benchmarkClose": 763.77,
+   "growthValue": 12530.23,
+   "coreValue": 8095.56,
    "daytradeValue": 0.0
   }
  ],
