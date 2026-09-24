@@ -3,25 +3,25 @@
   "cash": 27364.83,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "NOTIFY session (~4:19pm AEST Wed Sep 23), LAST session of the trading day. Feed healthy (14/14). Swing sleeve: held PME.AX/TLS.AX/CBA.AX unchanged into the close — prices flat vs last check, no new catalysts, no horizon triggers breached. Day-trade sleeve: no open day-trade positions to flatten (none opened today). Growth/core split ~36.7%/63.3%, within 35-65% band.",
-  "lastUpdated": "2026-09-23T06:18:40Z",
+  "lastRunNotes": "Broad ASX selloff today (STW -4.1%) driven by RBA rate-hike fears after Bullock linked AI data-centre spending to inflation, plus major banks bringing forward rate-hike forecasts -- growth/tech (XRO -33%, WTC -27%, PLS -27%, MIN -24%, CAR -21%) and miners/retail hit hardest while insurers/telco/banks held up. Held PME dropped -17.5% today but this is macro/valuation-multiple compression, not company-specific (Jefferies still has a $192.60 PT, above both current price and our $150 horizon stop); CBA and TLS have no breached triggers either. Growth/core split ~36.7%/63.3%, within band. No genuine stock-specific catalyst found for a new trade, so holding all positions and no day-trades.",
+  "lastUpdated": "2026-09-24T01:12:31Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.05,
+    "lastPrice": 148.1,
     "shares": 44
    },
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 161.31,
+    "lastPrice": 159.32,
     "shares": 40
    },
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.81,
+    "lastPrice": 4.8,
     "shares": 937
    }
   },
@@ -71,6 +71,17 @@
    "growthValue": 6452.4,
    "nav": 44971.4,
    "positionsValue": 17606.57
+  },
+  {
+   "date": "2026-09-24",
+   "nav": 44751.63,
+   "cash": 27364.83,
+   "positionsValue": 17386.8,
+   "benchmarkNav": 44905.63,
+   "benchmarkClose": 78.17,
+   "growthValue": 6372.8,
+   "coreValue": 11014.0,
+   "daytradeValue": 0.0
   }
  ],
  "trades": [
