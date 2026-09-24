@@ -702,7 +702,7 @@
     const totalReturnPct = startingCash ? (totalReturn / startingCash) * 100 : 0;
 
     document.getElementById("nav-value").textContent = fmtUSD(nav);
-    document.getElementById("nav-note").textContent = portfolioState ? "As of last session" : "Starting balance";
+    document.getElementById("nav-note").textContent = portfolioState ? (stores[currentMarket].liveAt ? "Live prices · " + new Date(stores[currentMarket].liveAt).toLocaleTimeString([], { hour: "numeric", minute: "2-digit" }) : "As of last session") : "Starting balance";
     document.getElementById("cash-value").textContent = fmtUSD(cash);
     document.getElementById("cash-pct").textContent = nav ? Math.round((cash / nav) * 100) + "% of book" : "—";
     document.getElementById("positions-value").textContent = fmtUSD(positionsValue);
@@ -1037,12 +1037,24 @@
 
   async function loadAll() {
     let failed = [];
+    let live = null;
+    try {
+      const lr = await fetch("data/live.json?t=" + Date.now(), { cache: "no-store" });
+      if (lr.ok) live = await lr.json();
+    } catch (e) { /* live prices are optional */ }
     for (const key of Object.keys(MARKETS)) {
       try {
         const r = await fetch("data/" + key + ".json?t=" + Date.now(), { cache: "no-store" });
         if (!r.ok) throw new Error("HTTP " + r.status);
         const d = await r.json();
         stores[key].portfolioState = d.state;
+        stores[key].liveAt = null;
+        const lp = live && live.markets && live.markets[key] && live.markets[key].prices;
+        const sessAt = d.state && d.state.lastUpdated;
+        if (lp && d.state && d.state.positions && (!sessAt || live.updatedAt >= sessAt)) {
+          Object.entries(d.state.positions).forEach(([t, p]) => { if (lp[t] != null) p.lastPrice = lp[t]; });
+          stores[key].liveAt = live.updatedAt;
+        }
         stores[key].navHistory = d.nav_history || [];
         stores[key].trades = (d.trades || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
       } catch (e) { failed.push(key.toUpperCase()); }

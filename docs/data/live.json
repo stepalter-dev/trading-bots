@@ -1,0 +1,31 @@
+{
+ "markets": {
+  "us": {
+   "prices": {
+    "AAPL": 337.02,
+    "GOOGL": 337.83,
+    "META": 744.1,
+    "SPY": 767.81
+   },
+   "benchmark": "SPY"
+  },
+  "asx": {
+   "prices": {
+    "CBA.AX": 147.7,
+    "PME.AX": 159.48,
+    "TLS.AX": 4.8,
+    "STW.AX": 78.16
+   },
+   "benchmark": "STW.AX"
+  },
+  "crypto": {
+   "prices": {
+    "BTC-USD": 84323.85,
+    "SOL-USD": 115.04,
+    "XLM-USD": 0.201812
+   },
+   "benchmark": "BTC-USD"
+  }
+ },
+ "updatedAt": "2026-09-24T00:45:15Z"
+}
