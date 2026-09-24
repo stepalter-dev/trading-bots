@@ -773,7 +773,7 @@
           '<div class="trade-body">' +
           '<div class="trade-head"><span class="ticker">' + (t.ticker || "—") + '</span>' +
           '<span class="trade-date num">' + fmtDate(t.date) + '</span></div>' +
-          '<div class="trade-meta num">' + (t.shares || 0) + cfg.unitAt + fmtUSD(t.price || 0) + '</div>' +
+          '<div class="trade-meta num">' + (t.shares || 0) + cfg.unitAt + fmtUSD(t.price || 0) + feeTxt(t) + '</div>' +
           (t.rationale ? '<div class="rationale">' + t.rationale + '</div>' : '') +
           '</div></div>';
       }).join("");
@@ -938,7 +938,7 @@
           '<div class="trade-head"><span class="ticker">' + (t.ticker || "—") + '</span>' + bucketBadge +
           '<span class="horizon-pill">' + (t.horizon || "Horizon not recorded") + '</span>' +
           '<span class="trade-date num">' + fmtDate(t.date) + '</span></div>' +
-          '<div class="trade-meta num">' + (t.shares || 0) + cfg.unitAt + fmtUSD(t.price || 0) + '</div>' +
+          '<div class="trade-meta num">' + (t.shares || 0) + cfg.unitAt + fmtUSD(t.price || 0) + feeTxt(t) + '</div>' +
           (t.rationale ? '<div class="rationale">' + t.rationale + '</div>' : '') +
           (t.sentimentSummary ? '<div class="thesis-sentiment">' + t.sentimentSummary + '</div>' : '') +
           '</div></div>';
@@ -988,7 +988,7 @@
         const pnlPct = t.realizedPnLPct != null ? " (" + (pnl >= 0 ? "+" : "") + t.realizedPnLPct.toFixed(1) + "%)" : "";
         return '<div class="dt-row">' +
           '<span class="ticker">' + (t.ticker || "—") + '</span>' +
-          '<span class="trade-meta num">' + (t.shares || 0) + cfg.unitAt + fmtUSD(t.price || 0) + '</span>' +
+          '<span class="trade-meta num">' + (t.shares || 0) + cfg.unitAt + fmtUSD(t.price || 0) + feeTxt(t) + '</span>' +
           '<span class="trade-date num">' + fmtDate(t.date) + '</span>' +
           '<span class="dt-pnl ' + (pnl >= 0 ? "pos" : "neg") + '">' + (pnl >= 0 ? "+" : "-") + fmtUSD(Math.abs(pnl)) + pnlPct + '</span>' +
           (t.rationale ? '<div class="rationale" style="flex-basis:100%;">' + t.rationale + '</div>' : '') +
@@ -1010,6 +1010,8 @@
   });
 
   const DAY = 86400000;
+  function feeTxt(t) { return t.fee ? ' · fee ' + fmtUSD(t.fee) : ''; }
+  function costsPaid() { return (trades || []).reduce((a, t) => a + (t.fee || 0) + (t.refPrice ? Math.abs((t.price || 0) - t.refPrice) * (t.shares || 0) : 0), 0); }
   function fmtDay(ts, withYear) {
     return new Date(ts).toLocaleDateString(undefined, { day: "numeric", month: "short", year: withYear ? "2-digit" : undefined, timeZone: "UTC" });
   }
@@ -1066,6 +1068,8 @@
       html += '<span>Benchmark <b class="' + (bPct >= 0 ? "pos" : "neg") + '">' + fmtPct(bPct) + '</b></span>';
       html += '<span>' + (diff >= 0 ? "Ahead by " : "Behind by ") + '<b class="' + (diff >= 0 ? "pos" : "neg") + '">' + Math.abs(diff).toFixed(2) + ' pts</b></span>';
     }
+    const paid = costsPaid();
+    if (paid > 0) html += '<span>Costs paid <b>' + fmtUSD(paid) + '</b> (fees + slippage, already in the numbers)</span>';
     sumEl.innerHTML = html;
 
     const vals = [];

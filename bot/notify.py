@@ -63,6 +63,9 @@ def build_embeds(cfg, *, nav, bench_nav, growth_pct, feed_alert, feed_failed_now
             {"name": "Price", "value": f"`{_money(cfg, t['price'])}`", "inline": True},
             {"name": "Total Value", "value": f"`{_money(cfg, t['shares'] * t['price'])}`", "inline": True},
         ]
+        if t.get("fee") is not None:
+            slip = abs(t["price"] - t.get("refPrice", t["price"])) * t["shares"]
+            f.append({"name": "Costs", "value": f"`{_money(cfg, t['fee'])}` fee + `{_money(cfg, slip)}` slippage", "inline": True})
         if t.get("realizedPnL") is not None:
             pnl = t["realizedPnL"]
             f.append({"name": "Realized P&L", "value": f"**{'+' if pnl >= 0 else ''}{_money(cfg, pnl)} ({t.get('realizedPnLPct', 0):+.2f}%)**", "inline": True})

@@ -2,7 +2,10 @@ import copy
 from bot import engine
 from bot.markets import MARKETS
 
-US, CRYPTO = MARKETS["us"], MARKETS["crypto"]
+US_REAL, CRYPTO_REAL, ASX_REAL = MARKETS["us"], MARKETS["crypto"], MARKETS["asx"]
+# rule tests run cost-free so the numbers stay round; cost maths is tested separately below
+US = {**US_REAL, "costs": None}
+CRYPTO = {**CRYPTO_REAL, "costs": None}
 P = lambda price: {"ok": True, "price": price}
 
 
@@ -78,3 +81,30 @@ def test_average_cost_on_add():
     engine.apply_decisions(s, US, {"AAPL": P(120)}, [{"action": "buy", "ticker": "AAPL", "usd": 6000}], "t", "d", False)
     p = s["positions"]["AAPL"]
     assert p["shares"] == 100 and abs(p["avgCost"] - ((50 * 100 + 50 * 120) / 100)) < 1e-9
+
+
+def test_costs_reduce_cash_and_raise_cost_basis():
+    s = fresh(100000)
+    ex, _ = engine.apply_decisions(s, US_REAL, {"AAPL": P(100)}, [{"action": "buy", "ticker": "AAPL", "usd": 10000}], "t", "d", False)
+    t = ex[0]
+    assert t["price"] > 100 and t["refPrice"] == 100 and t["fee"] >= 1.0  # slipped up, min fee
+    spent = 100000 - s["cash"]
+    assert spent <= 10000 + 1e-6  # budget includes fee
+    assert abs(spent - (t["shares"] * t["price"] + t["fee"])) < 1e-6
+    assert s["positions"]["AAPL"]["avgCost"] > t["price"]  # fee is in the basis
+
+
+def test_round_trip_at_flat_price_loses_money():
+    for cfg, price, usd in ((US_REAL, 100, 10000), (ASX_REAL, 50, 10000), (CRYPTO_REAL, 84000, 10000)):
+        s = fresh(50000)
+        key = {"us": "AAPL", "asx": "CBA.AX", "crypto": "BTC-USD"}[cfg["key"]]
+        engine.apply_decisions(s, cfg, {key: P(price)}, [{"action": "buy", "ticker": key, "usd": usd}], "t", "d", False)
+        ex, _ = engine.apply_decisions(s, cfg, {key: P(price)}, [{"action": "sell", "ticker": key, "shares": "all"}], "t", "d", False)
+        assert ex[0]["realizedPnL"] < 0 and s["cash"] < 50000, cfg["key"]
+
+
+def test_fee_minimums_and_caps():
+    assert engine.fee_of(ASX_REAL, 10, 10.0) == 6.0            # A$6 minimum on a tiny trade
+    assert engine.fee_of(US_REAL, 1000, 100.0) == 5.0           # 1000 x $0.005
+    assert engine.fee_of(US_REAL, 1, 1.0) == 0.01               # capped at 1% of value
+    assert abs(engine.fee_of(CRYPTO_REAL, 1, 50000.0) - 130.0) < 1e-6  # 0.26%

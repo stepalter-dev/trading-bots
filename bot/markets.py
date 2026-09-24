@@ -25,6 +25,9 @@ MARKETS = {
         "stock_hours": True,  # skip when the benchmark quote is stale (closed / holiday)
         "whole_units": True,
         "username": "Trading Bot Sentinel",
+        # Assumed costs (like a discount broker): slippage = adverse fill vs the quote,
+        # fee = per-unit and/or % of trade value, with a minimum and an optional cap.
+        "costs": {"slip_bps": 5, "fee_per_unit": 0.005, "fee_pct": 0.0, "fee_min": 1.0, "fee_max_pct": 1.0},
         "prefix": "",
         "growth": US_GROWTH,
         "core": US_CORE,
@@ -42,6 +45,7 @@ MARKETS = {
         "stock_hours": True,
         "whole_units": True,
         "username": "ASX Trading Bot",
+        "costs": {"slip_bps": 8, "fee_per_unit": 0.0, "fee_pct": 0.08, "fee_min": 6.0, "fee_max_pct": None},
         "prefix": "[ASX] ",
         "growth": ASX_GROWTH,
         "core": ASX_CORE,
@@ -59,6 +63,7 @@ MARKETS = {
         "stock_hours": False,
         "whole_units": False,
         "username": "Crypto Trading Bot",
+        "costs": {"slip_bps": 10, "fee_per_unit": 0.0, "fee_pct": 0.26, "fee_min": 0.0, "fee_max_pct": None},
         "prefix": "[CRYPTO] ",
         "growth": CRYPTO_GROWTH,
         "core": CRYPTO_CORE,

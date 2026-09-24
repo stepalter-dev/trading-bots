@@ -36,6 +36,26 @@ def round_units(cfg, x):
     return math.floor(x * 1e6) / 1e6
 
 
+def costs_of(cfg):
+    return cfg.get("costs") or {"slip_bps": 0, "fee_per_unit": 0.0, "fee_pct": 0.0, "fee_min": 0.0, "fee_max_pct": None}
+
+
+def fill_price(cfg, price, side):
+    """Quote adjusted for slippage: buys fill higher, sells fill lower."""
+    slip = costs_of(cfg)["slip_bps"] / 10000.0
+    return price * (1 + slip) if side == "buy" else price * (1 - slip)
+
+
+def fee_of(cfg, units, fill):
+    c = costs_of(cfg)
+    value = units * fill
+    fee = units * c["fee_per_unit"] + value * c["fee_pct"] / 100.0
+    fee = max(fee, c["fee_min"]) if units > 0 else 0.0
+    if c.get("fee_max_pct"):
+        fee = min(fee, value * c["fee_max_pct"] / 100.0)
+    return round(fee, 4)
+
+
 def _trade_id(date_local, ticker):
     rand = "".join(random.choices(string.ascii_lowercase + string.digits, k=6))
     return f"{date_local}-{ticker}-{rand}"
@@ -53,9 +73,14 @@ def _sell(state, cfg, ticker, shares, price, now_iso, date_local, rationale, sen
     shares = min(shares, pos["shares"])
     if shares <= 0:
         return None
-    pnl = (price - pos["avgCost"]) * shares
-    pct = ((price - pos["avgCost"]) / pos["avgCost"] * 100) if pos["avgCost"] else 0.0
-    state["cash"] += shares * price
+    quote = price
+    price = fill_price(cfg, quote, "sell")
+    fee = fee_of(cfg, shares, price)
+    proceeds = shares * price - fee
+    basis = pos["avgCost"] * shares
+    pnl = proceeds - basis
+    pct = (pnl / basis * 100) if basis else 0.0
+    state["cash"] += proceeds
     pos["shares"] = round(pos["shares"] - shares, 8)
     bucket = pos.get("bucket")
     if pos["shares"] <= 1e-9:
@@ -65,7 +90,9 @@ def _sell(state, cfg, ticker, shares, price, now_iso, date_local, rationale, sen
         "ticker": ticker,
         "action": "sell",
         "shares": shares,
-        "price": price,
+        "price": round(price, 6),
+        "refPrice": quote,
+        "fee": fee,
         "date": now_iso,
         "bucket": bucket,
         "rationale": rationale,
@@ -172,26 +199,35 @@ def apply_decisions(state, cfg, prices, decisions, now_iso, date_local, is_last)
             usd = 0.0
         held_value = pos["shares"] * pos.get("lastPrice", pos["avgCost"]) if pos else 0.0
         usd = min(usd, cap * nav - held_value, state["cash"] - MIN_CASH_FRACTION * nav)
+        quote = price
+        price = fill_price(cfg, quote, "buy")
         units = round_units(cfg, usd / price) if usd > 0 else 0
+        for _ in range(6):  # the budget must also cover the fee
+            if units <= 0 or units * price + fee_of(cfg, units, price) <= usd + 1e-9:
+                break
+            units = round_units(cfg, (usd - fee_of(cfg, units, price)) / price)
         if units <= 0:
             rejected.append(f"BUY {ticker}: nothing affordable within caps (cap {cap:.0%}, cash buffer {MIN_CASH_FRACTION:.0%})")
             continue
-        cost = units * price
+        fee = fee_of(cfg, units, price)
+        cost = units * price + fee  # cost basis includes the fee
         state["cash"] -= cost
         if pos:
             total = pos["shares"] + units
             pos["avgCost"] = (pos["shares"] * pos["avgCost"] + cost) / total
             pos["shares"] = round(total, 8)
-            pos["lastPrice"] = price
+            pos["lastPrice"] = quote
         else:
-            state["positions"][ticker] = {"shares": units, "avgCost": price, "lastPrice": price, "bucket": bucket, "openedDate": date_local}
+            state["positions"][ticker] = {"shares": units, "avgCost": cost / units, "lastPrice": quote, "bucket": bucket, "openedDate": date_local}
         horizon = (d.get("horizon") or "").strip() or ("Intraday - close by end of trading day" if bucket == "daytrade" else "Horizon not specified")
         trade = {
             "id": _trade_id(date_local, ticker),
             "ticker": ticker,
             "action": "buy",
             "shares": units,
-            "price": price,
+            "price": round(price, 6),
+            "refPrice": quote,
+            "fee": fee,
             "date": now_iso,
             "bucket": bucket,
             "rationale": rationale,

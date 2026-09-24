@@ -45,6 +45,15 @@ def build_context(state, cfg, prices, trades, nav, bench, slot, is_last, now_loc
     lines.append(f"Currency: {cfg['currency']}   NAV: {nav:,.2f}   Cash: {state['cash']:,.2f} ({state['cash'] / nav * 100:.0f}% of NAV)   Starting capital: {state['startingCash']:,.2f}")
     if bench:
         lines.append(f"Benchmark {cfg['benchmark_name']}: {bench['price']:.2f} ({_fmt(bench.get('chg'))}% today)")
+    c = cfg.get("costs")
+    if c:
+        fee_bits = []
+        if c.get("fee_per_unit"):
+            fee_bits.append(f"{c['fee_per_unit']} per unit")
+        if c.get("fee_pct"):
+            fee_bits.append(f"{c['fee_pct']}% of trade value")
+        lines.append(f"TRADING COSTS (charged on every fill): slippage ~{c['slip_bps'] / 100:.2f}% against you + fee ({' + '.join(fee_bits)}, minimum {cfg['currency']}{c['fee_min']:g}). "
+                     f"A round trip costs roughly {(2 * c['slip_bps'] / 100) + 2 * c.get('fee_pct', 0):.2f}%+ of the position, so small or churny trades lose money by default - only trade when the expected move clearly clears that.")
     lines.append("")
     lines.append("HELD POSITIONS:")
     if not state["positions"]:

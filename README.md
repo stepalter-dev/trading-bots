@@ -40,3 +40,15 @@ Schedules fire hourly-ish; the bot only does real work at its session slots (loc
 
 Watchlists and slots: `bot/markets.py`. Trading rules: `bot/engine.py`. Strategy prompt: `bot/brain.py`.
 Local tests: `pip install -r requirements.txt pytest`, `python -m pytest tests`, `python -m bot.run us --force --dry --stub`.
+
+## Trading costs (assumed)
+
+Every fill pays slippage and a fee, defined per market in `bot/markets.py` (`costs`):
+
+| Market | Slippage | Fee |
+|---|---|---|
+| US | 0.05% | $0.005/share, min $1, max 1% |
+| ASX | 0.08% | 0.08% of value, min A$6 |
+| Crypto | 0.10% | 0.26% of value |
+
+Buys fill above the quote and sells below it. Fees are part of the cost basis, so realised P&L is net of costs. These are assumptions modelled on discount brokers, not a quote from any real broker; history before 2026-09-24 was recorded cost-free. Trade records carry `refPrice` (the quote), `price` (the fill) and `fee`.
