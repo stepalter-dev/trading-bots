@@ -36,7 +36,7 @@ MARKETS = {
         "currency": "A$",
         "benchmark": "STW.AX",
         "benchmark_name": "S&P/ASX 200 (STW)",
-        "slots": [10, 12, 14, 15],
+        "slots": [11, 12, 14, 15],  # Yahoo ASX quotes lag ~20 min, so 10am would look stale
         "last_slot": 15,
         "weekdays_only": True,
         "stock_hours": True,
