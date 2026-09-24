@@ -7,8 +7,7 @@
 
     python -m bot.session apply <market> <decision.json> [--force] [--dry]
         Referee applies the decision, updates the data file, posts to Discord and (unless
-        --dry / --no-push) uploads the data file to GitHub via the REST API. Needs GH_TOKEN in the
-        environment only for local testing; DISCORD_WEBHOOK for Discord.
+        --dry / --no-push) commits and pushes the data file to main with git. DISCORD_WEBHOOK for Discord.
 """
 import argparse
 import json
@@ -22,44 +21,35 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def push_data(key):
-    """Upload docs/data/<key>.json to GitHub through the REST contents API.
+    """Commit docs/data/<key>.json and push it to main with plain git.
 
-    No git credentials in the sandbox are needed: if the environment's API-credential
-    proxy injects the token for api.github.com, no Authorization header is required here.
-    A GH_TOKEN env var is used as a header only when present (local testing).
+    The routine sandbox's git remote already carries access once the repo has been
+    attached, so no token handling is needed here.
     """
-    import base64
-    import urllib.error
-    import urllib.request
+    import subprocess
 
-    repo = os.environ.get("GITHUB_REPO", "stepalter-dev/trading-bots")
     rel = f"docs/data/{key}.json"
-    url = f"https://api.github.com/repos/{repo}/contents/{rel}"
-    with open(os.path.join(ROOT, rel), "rb") as f:
-        content = base64.b64encode(f.read()).decode("ascii")
-    headers = {"Accept": "application/vnd.github+json", "User-Agent": "paper-trading-bot", "Content-Type": "application/json"}
-    token = os.environ.get("GH_TOKEN", "").strip()
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
+    ident = ["-c", "user.name=trading-bot", "-c", "user.email=trading-bot@users.noreply.github.com"]
 
-    def call(method, u, body=None):
-        req = urllib.request.Request(u, data=json.dumps(body).encode() if body else None, headers=headers, method=method)
-        with urllib.request.urlopen(req, timeout=30) as r:
-            return json.loads(r.read().decode())
+    def git(*a):
+        r = subprocess.run(["git", *ident, *a], cwd=ROOT, capture_output=True, text=True)
+        return r.returncode, (r.stdout + r.stderr).strip()
 
+    git("add", rel)
+    if git("diff", "--cached", "--quiet")[0] == 0:
+        print("no data change to push")
+        return True
+    code, out = git("commit", "-m", f"{key}: session")
+    if code:
+        print("commit failed:", out[:200])
+        return False
     for attempt in range(4):
-        try:
-            sha = call("GET", url + "?ref=main").get("sha")
-            call("PUT", url, {"message": f"{key}: session", "content": content, "sha": sha, "branch": "main"})
+        code, out = git("push", "origin", "HEAD:main")
+        if code == 0:
             print("pushed data to GitHub")
             return True
-        except urllib.error.HTTPError as e:
-            detail = e.read().decode(errors="replace")[:200]
-            print(f"push attempt {attempt + 1} failed: HTTP {e.code} {detail}")
-            if e.code in (401, 403, 404):
-                return False  # auth/permission problem - retrying will not help
-        except (urllib.error.URLError, TimeoutError) as e:
-            print(f"push attempt {attempt + 1} failed: {e}")
+        print(f"push attempt {attempt + 1} failed: {out[:200]}")
+        git("pull", "--rebase", "-X", "theirs", "origin", "main")
     return False
 
 
