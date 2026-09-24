@@ -1,28 +1,35 @@
 {
  "state": {
-  "cash": 27202.81,
+  "cash": 25702.8100042162,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Genesis session: deployed initial barbell across CORE (BTC on continued ETF inflows/short-covering rally, XLM on the Sept 17 Protocol 28 mainnet upgrade) and GROWTH (SOL on $1.12B cumulative ETF inflows plus the October Alpenglow upgrade catalyst). Growth/core split 37.5%/62.5%, well within band. Kept 60% cash reserve given today's mixed signals (month-long rally vs. today's pullback on rising yields).",
-  "lastUpdated": "2026-09-23T22:45:00Z",
+  "lastRunNotes": "Held all three positions (BTC, SOL, XLM core/growth) - no fresh catalyst to sell any of them. NEAR-USD has a genuine catalyst: NEAR Intents system added limit orders across 30+ chains, DeFi TVL near $190M, and a new confidential perps platform launched on NEAR, driving an ~80% week-over-week and ~22-24h surge alongside a broad BTC-led market rally (BTC ~$84-86k, near 8-month highs). Added a small growth-bucket starter position in NEAR-USD sized well under caps given the move is already extended; growth/core stays within the 35-65% band.",
+  "lastUpdated": "2026-09-24T00:02:45Z",
   "positions": {
    "BTC-USD": {
     "avgCost": 84412.12,
     "bucket": "core",
-    "lastPrice": 84412.12,
+    "lastPrice": 84432.45,
     "shares": 0.080557
    },
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 114.78,
+    "lastPrice": 115.05,
     "shares": 59.243771
    },
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.201511,
+    "lastPrice": 0.202171,
     "shares": 22498.275528
+   },
+   "NEAR-USD": {
+    "shares": 346.572398,
+    "avgCost": 4.3281,
+    "lastPrice": 4.3281,
+    "bucket": "growth",
+    "openedDate": "2026-09-24"
    }
   },
   "startingCash": 45336.45
@@ -38,6 +45,17 @@
    "growthValue": 6800,
    "nav": 45336.45,
    "positionsValue": 18133.64
+  },
+  {
+   "date": "2026-09-24",
+   "nav": 45368.93,
+   "cash": 25702.81,
+   "positionsValue": 19666.12,
+   "benchmarkNav": 45347.37,
+   "benchmarkClose": 84432.45,
+   "growthValue": 8316.0,
+   "coreValue": 11350.12,
+   "daytradeValue": 0.0
   }
  ],
  "trades": [
@@ -76,6 +94,18 @@
    "shares": 22498.275528,
    "ticker": "XLM-USD",
    "id": "2026-09-23-XLM-USD-b7m3q8"
+  },
+  {
+   "id": "2026-09-24-NEAR-USD-x3rrp6",
+   "ticker": "NEAR-USD",
+   "action": "buy",
+   "shares": 346.572398,
+   "price": 4.3281,
+   "date": "2026-09-24T00:02:45Z",
+   "bucket": "growth",
+   "rationale": "NEAR Intents limit-order expansion across 30+ chains plus a new confidential perps platform launch is driving real DeFi TVL/volume growth, not just hype; sizing small since the ~80%/week move is already extended.",
+   "horizon": "Reassess within 2-3 weeks against continued Intents TVL/volume growth; trim if the rally stalls without follow-through DeFi usage.",
+   "sentimentSummary": "Broadly bullish crypto-media coverage of the Intents rollout and TVL growth this week."
   }
  ]
 }
