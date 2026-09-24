@@ -164,5 +164,23 @@
    "ticker": "AMD",
    "id": "2026-09-17-AMD-f4n9wq"
   }
+ ],
+ "lessons": [],
+ "journal": [
+  {
+   "id": "2026-09-17-AMD-f4n9wq",
+   "date": "2026-09-17T19:55:00Z",
+   "ticker": "AMD",
+   "bucket": "daytrade",
+   "entryPrice": 545.7902,
+   "exitPrice": 545.24,
+   "pnl": -2.75,
+   "pnlPct": -0.1008,
+   "daysHeld": 0,
+   "whyBought": "AMD is leading a broad semiconductor sector rally today (NVDA, INTC also up) on continued AI-buildout enthusiasm and carried-over bullish analyst conviction from the prior session; Strong Buy consensus (44 buys/0 sells). Playing sector momentum into the close as a short intraday swing, not a multi-w",
+   "horizon": "Intraday — close by end of trading day; will be closed this session or forcibly flattened at the 3:50pm ET close-out slot per the day-trade rule.",
+   "whySold": "Mandatory flatten before market close per the day-trade rule — no overnight day-trade holds, ever. The semiconductor-rally momentum stalled into the close, leaving the position essentially flat.",
+   "review": null
+  }
  ]
 }

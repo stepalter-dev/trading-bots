@@ -507,6 +507,14 @@
       </div>
     </div>
 
+    <div class="panel" id="track-panel">
+      <h2>Track record &amp; lessons</h2>
+      <div class="caption">Closed trades, what the bot learned from them, and the standing lessons it carries into every session.</div>
+      <div id="track-stats" class="perf-summary"></div>
+      <div id="track-lessons"></div>
+      <div id="track-journal"></div>
+    </div>
+
     <div class="grid-2">
       <div class="panel">
         <h2>Current holdings</h2>
@@ -997,6 +1005,41 @@
     }
   }
 
+  function renderTrack() {
+    const st = stores[currentMarket];
+    const j = (st.journal || []).slice().sort((a, b) => b.date.localeCompare(a.date));
+    const statsEl = document.getElementById("track-stats");
+    const lessonsEl = document.getElementById("track-lessons");
+    const jEl = document.getElementById("track-journal");
+    const esc = (t) => String(t == null ? "" : t).replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+    if (!j.length) {
+      statsEl.innerHTML = "<span>No closed trades yet. Results and lessons appear here after the first sale.</span>";
+    } else {
+      const wins = j.filter((e) => e.pnlPct > 0), losses = j.filter((e) => e.pnlPct <= 0);
+      const avg = (a) => (a.length ? a.reduce((x, e) => x + e.pnlPct, 0) / a.length : 0);
+      const total = j.reduce((x, e) => x + (e.pnl || 0), 0);
+      statsEl.innerHTML =
+        "<span>Closed <b>" + j.length + "</b></span>" +
+        "<span>Win rate <b>" + Math.round((wins.length / j.length) * 100) + "%</b></span>" +
+        '<span>Avg win <b class="pos">' + fmtPct(avg(wins)) + "</b></span>" +
+        '<span>Avg loss <b class="neg">' + fmtPct(avg(losses)) + "</b></span>" +
+        '<span>Realized <b class="' + (total >= 0 ? "pos" : "neg") + '">' + (total >= 0 ? "+" : "-") + fmtUSD(Math.abs(total)) + "</b></span>" +
+        (j.length < 15 ? '<span style="color:var(--ink-faint)">Only ' + j.length + " closed trade" + (j.length === 1 ? "" : "s") + " so far - too few to read much into.</span>" : "");
+    }
+    const ls = st.lessons || [];
+    lessonsEl.innerHTML = '<h3 style="font-size:13px;margin:12px 0 6px">Standing lessons</h3>' +
+      (ls.length ? "<ol style='margin:0;padding-left:20px;font-size:13px'>" + ls.map((x) => "<li>" + esc(x) + "</li>").join("") + "</ol>"
+                 : '<div style="font-size:13px;color:var(--ink-faint)">None yet. The bot only records a lesson once it is backed by several reviewed trades.</div>');
+    jEl.innerHTML = j.length ? '<h3 style="font-size:13px;margin:14px 0 6px">Reviewed trades</h3>' + j.slice(0, 8).map((e) => {
+      const r = e.review;
+      return '<div class="trade" style="display:block"><b class="ticker">' + esc(e.ticker) + "</b> " +
+        '<span class="' + (e.pnlPct >= 0 ? "pos" : "neg") + '">' + fmtPct(e.pnlPct) + "</span>" +
+        ' <span style="color:var(--ink-faint)">' + esc(e.date.slice(0, 10)) + (e.daysHeld != null ? " · held " + e.daysHeld + "d" : "") + " · " + esc(e.bucket || "") + "</span>" +
+        (r ? '<div style="font-size:13px"><b>' + esc(r.verdict) + ":</b> " + esc(r.lesson) + "</div>"
+           : '<div style="font-size:13px;color:var(--ink-faint)">Awaiting review at the next session.</div>') + "</div>";
+    }).join("") : "";
+  }
+
   let chartRange = 0;
   try { const saved = localStorage.getItem("chartRange"); if (saved !== null) chartRange = +saved || 0; } catch (e) {}
   document.querySelectorAll("#range-tabs button").forEach((btn) => {
@@ -1036,6 +1079,7 @@
   }
 
   function drawChart() {
+    renderTrack();
     const svg = document.getElementById("chart");
     const tip = document.getElementById("chart-tip");
     const sumEl = document.getElementById("perf-summary");
@@ -1184,6 +1228,8 @@
           }
         } catch (e) { /* keep the GitHub overlay */ }
         stores[key].navHistory = d.nav_history || [];
+        stores[key].journal = d.journal || [];
+        stores[key].lessons = d.lessons || [];
         stores[key].trades = (d.trades || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
       } catch (e) { failed.push(key.toUpperCase()); }
     }

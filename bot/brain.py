@@ -32,7 +32,13 @@ When you are done, reply with ONE json code block and nothing after it, in exact
   ]
 }}
 ```
-Use an empty "trades" list when holding. Use "usd" (dollar amount to spend) for buys and "shares" (a number or "all") for sells."""
+Use an empty "trades" list when holding. Use "usd" (dollar amount to spend) for buys and "shares" (a number or "all") for sells.
+
+LEARNING FROM YOUR OWN TRACK RECORD. The briefing may end with a SCORECARD, STANDING LESSONS and CLOSED TRADES AWAITING YOUR REVIEW. You have no memory between sessions apart from this; use it honestly:
+- For each closed trade awaiting review, add an entry to an optional "reviews" list: {{"id": "<id from the briefing>", "verdict": "sound|flawed|lucky|unlucky", "lesson": "one sentence"}}. Judge the DECISION, not the outcome: "sound" = good reasoning (win or loss); "flawed" = the reasoning was weak or ignored a warning sign; "lucky" = won despite weak reasoning; "unlucky" = good reasoning, bad result.
+- Optionally add "lessons": the COMPLETE list (max 10 short strings) of standing lessons you want to keep for future sessions. Only add a lesson supported by at least 3 reviewed trades or a clear repeated pattern, and drop lessons the record no longer supports. Omit "lessons" to leave the list unchanged. With few closed trades, record reviews but do not change your approach.
+- Never treat a small sample as proof, and never chase past winners or avoid past losers just because of the last result.
+Both "reviews" and "lessons" are optional additions to the same json block."""
 
 
 def _fmt(x, nd=2):

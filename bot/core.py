@@ -6,7 +6,7 @@ finish()  - apply a decision, do the accounting, save, post to Discord
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
-from . import engine, notify, prices as pricing, store
+from . import engine, learning, notify, prices as pricing, store
 from .markets import MARKETS, universe
 
 DUPLICATE_MINUTES = 45
@@ -20,7 +20,7 @@ def begin(key, force=False, now_utc=None):
     cfg = MARKETS[key]
     now_utc = now_utc or datetime.now(timezone.utc)
     now_local = now_utc.astimezone(ZoneInfo(cfg["tz"]))
-    data = store.load(key)
+    data = learning.ensure(store.load(key))
     state = data["state"]
 
     if not force:
@@ -114,6 +114,8 @@ def finish(s, decision, dry=False):
     state["lastUpdated"] = s["now_iso"]
     state["lastRunNotes"] = " ".join(x for x in [decision_notes] + notes if x).strip()
     trades.extend(executed)
+    learning.record_sells(data, executed)
+    learning.apply_reflection(data, decision)
 
     now_local = s["now_local"]
     local_time = f"{now_local:%I:%M%p}".lstrip("0") + f" {now_local:%Z}"

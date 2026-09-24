@@ -14,7 +14,7 @@ import json
 import os
 import sys
 
-from . import brain, core, engine
+from . import brain, core, engine, learning
 from .markets import MARKETS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -83,7 +83,8 @@ def main(argv=None):
         cfg = s["cfg"]
         print(brain.SYSTEM.format(label=cfg["label"], max_swing=3, max_dt=2))
         print("\n========== BRIEFING ==========")
-        print(brain.build_context(state, cfg, s["prices"], s["data"]["trades"], engine.nav_of(state), s["bench"], s["slot"], s["is_last"], s["now_local"]))
+        print(brain.build_context(state, cfg, s["prices"], s["data"]["trades"], engine.nav_of(state), s["bench"], s["slot"], s["is_last"], s["now_local"])
+              + learning.briefing_text(s["data"], cfg, engine.nav_of(state)))
         print("\n========== YOUR TASK ==========")
         print("Research the news with web search, decide, then save ONLY the JSON object described above (no code fence needed) to a file, e.g. /tmp/decision.json, and run the `apply` command.")
         return 0
