@@ -1,28 +1,49 @@
 {
  "state": {
-  "cash": 27202.81,
+  "cash": 20602.810095198,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Genesis session: deployed initial barbell across CORE (BTC on continued ETF inflows/short-covering rally, XLM on the Sept 17 Protocol 28 mainnet upgrade) and GROWTH (SOL on $1.12B cumulative ETF inflows plus the October Alpenglow upgrade catalyst). Growth/core split 37.5%/62.5%, well within band. Kept 60% cash reserve given today's mixed signals (month-long rally vs. today's pullback on rising yields).",
-  "lastUpdated": "2026-09-23T22:45:00Z",
+  "lastRunNotes": "Broad altseason rally on Fed/BoJ macro shifts and Greed-71 sentiment; held BTC/SOL/XLM core theses intact (SOL's Alpenglow upgrade still pending in October). Added three swing positions on confirmed catalysts rather than chasing the biggest movers blind: UNI and BCH both on CME Group's Sept 22 announcement to list regulated futures Oct 19 (first DEX token on a regulated futures rail), and AVAX on its Sept 22 Helicon upgrade plus Aave V4's RWA Hub expanding onto the chain. Sized modestly (~5% NAV each) since all three had already run 20-115% intraday on the news. Growth/core (ex-daytrade) moves to roughly 45%/55%, within band; skipped day-trades since these are multi-week theses, not same-day setups.",
+  "lastUpdated": "2026-09-24T02:11:49Z",
   "positions": {
    "BTC-USD": {
     "avgCost": 84412.12,
     "bucket": "core",
-    "lastPrice": 84412.12,
+    "lastPrice": 83727.44,
     "shares": 0.080557
    },
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 114.78,
+    "lastPrice": 114.14,
     "shares": 59.243771
    },
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.201511,
+    "lastPrice": 0.198633,
     "shares": 22498.275528
+   },
+   "UNI7083-USD": {
+    "shares": 237.068965,
+    "avgCost": 9.28,
+    "lastPrice": 9.28,
+    "bucket": "growth",
+    "openedDate": "2026-09-24"
+   },
+   "AVAX-USD": {
+    "shares": 216.514122,
+    "avgCost": 10.161,
+    "lastPrice": 10.161,
+    "bucket": "growth",
+    "openedDate": "2026-09-24"
+   },
+   "BCH-USD": {
+    "shares": 6.540611,
+    "avgCost": 336.36,
+    "lastPrice": 336.36,
+    "bucket": "core",
+    "openedDate": "2026-09-24"
    }
   },
   "startingCash": 45336.45
@@ -38,6 +59,17 @@
    "growthValue": 6800,
    "nav": 45336.45,
    "positionsValue": 18133.64
+  },
+  {
+   "date": "2026-09-24",
+   "nav": 45178.63,
+   "cash": 20602.81,
+   "positionsValue": 24575.82,
+   "benchmarkNav": 44968.72,
+   "benchmarkClose": 83727.44,
+   "growthValue": 11162.08,
+   "coreValue": 13413.73,
+   "daytradeValue": 0.0
   }
  ],
  "trades": [
@@ -76,6 +108,42 @@
    "shares": 22498.275528,
    "ticker": "XLM-USD",
    "id": "2026-09-23-XLM-USD-b7m3q8"
+  },
+  {
+   "id": "2026-09-24-UNI7083-USD-dqd6v0",
+   "ticker": "UNI7083-USD",
+   "action": "buy",
+   "shares": 237.068965,
+   "price": 9.28,
+   "date": "2026-09-24T02:11:49Z",
+   "bucket": "growth",
+   "rationale": "CME Group announced Sept 22 it will list UNI futures Oct 19, the first DEX token on a regulated CME futures rail alongside BTC/SOL/XRP; real institutional-adoption catalyst.",
+   "horizon": "Reassess at Oct 19 CME UNI futures launch, or sooner if regulatory review stalls",
+   "sentimentSummary": "Coverage bullish, whale accumulation noted ahead of futures launch"
+  },
+  {
+   "id": "2026-09-24-AVAX-USD-je3x5u",
+   "ticker": "AVAX-USD",
+   "action": "buy",
+   "shares": 216.514122,
+   "price": 10.161,
+   "date": "2026-09-24T02:11:49Z",
+   "bucket": "growth",
+   "rationale": "Sept 22 Helicon upgrade cut validator lockup from 14 days to 48 hours, and Aave deployed its V4 RWA Hub on Avalanche (first expansion beyond Ethereum), an institutional TradFi-liquidity catalyst.",
+   "horizon": "Reassess in 4-6 weeks on RWA Hub TVL growth or DeFi TVL stabilization",
+   "sentimentSummary": "Positive on upgrade/RWA news, though broader DeFi TVL on the chain has been declining"
+  },
+  {
+   "id": "2026-09-24-BCH-USD-9c1s0e",
+   "ticker": "BCH-USD",
+   "action": "buy",
+   "shares": 6.540611,
+   "price": 336.36,
+   "date": "2026-09-24T02:11:49Z",
+   "bucket": "core",
+   "rationale": "Same Sept 22 CME announcement lists BCH futures for Oct 19 launch; adds a regulated-derivatives catalyst to an established, core-bucket coin.",
+   "horizon": "Reassess at Oct 19 CME BCH futures launch",
+   "sentimentSummary": "Bullish short-term momentum into the futures listing date"
   }
  ]
 }
