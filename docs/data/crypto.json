@@ -3,52 +3,52 @@
   "cash": 18402.824998121636,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Today's move is mostly broad altseason beta (Glassnode Altcoin Cycle Signal 75, total mkt cap +5.5%, BTC's own +7% driven by a short squeeze) rather than fresh idiosyncratic news. Checked AVAX and BCH specifically: both are still running on the same catalysts already priced in when bought (Helicon/Aave RWA Hub, CME futures date), no new confirming headlines today, so held unchanged. Added one modest new growth position, NEAR, on a genuinely fresh and specific catalyst (Hyperliquid confidential perps launch + new spot listing, Ondo-powered tokenized-stock access via NEAR Intents), backed by the highest vol_x on the watchlist. Growth/core (ex-daytrade) stays roughly 50/50, inside band; cash stays well above the 5% floor.",
-  "lastUpdated": "2026-09-24T08:12:35Z",
+  "lastRunNotes": "Today's board-wide surge (BTC +6.7%, alts up double/triple digits) is broad altseason/rate-cut beta plus a BTC short squeeze, not fresh idiosyncratic news - confirmed AVAX (Helicon/Aave RWA), UNI and BCH (CME futures Oct 19) and NEAR (Hyperliquid/Ondo) are all still running on catalysts already priced in when bought, with no new confirming headlines today. LTC and DOT are also just riding the broad rally (LTC has no project-specific driver despite high volume; DOT's ETF/governance catalysts are a week+ old and already reflected). The Trump-Xi summit happening today is a live macro risk (their last meeting knocked BTC down ~5%), which argues against opening new positions into the event. Growth (29.7% of NAV) and core (29.9% of NAV) are balanced within the band, so holding everything unchanged.",
+  "lastUpdated": "2026-09-24T14:16:04Z",
   "positions": {
    "BTC-USD": {
     "avgCost": 84412.12,
     "bucket": "core",
-    "lastPrice": 84436.37,
+    "lastPrice": 84122.17,
     "shares": 0.080557
    },
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 115.3,
+    "lastPrice": 114.84,
     "shares": 59.243771
    },
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.203628,
+    "lastPrice": 0.204281,
     "shares": 22498.275528
    },
    "UNI7083-USD": {
     "shares": 237.068965,
     "avgCost": 9.28,
-    "lastPrice": 9.2064,
+    "lastPrice": 9.1548,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    },
    "AVAX-USD": {
     "shares": 216.514122,
     "avgCost": 10.161,
-    "lastPrice": 10.255,
+    "lastPrice": 10.27,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    },
    "BCH-USD": {
     "shares": 6.540611,
     "avgCost": 336.36,
-    "lastPrice": 338.68,
+    "lastPrice": 339.65,
     "bucket": "core",
     "openedDate": "2026-09-24"
    },
    "NEAR-USD": {
     "shares": 506.583451,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.3272,
+    "lastPrice": 4.4544,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    }
@@ -69,13 +69,13 @@
   },
   {
    "date": "2026-09-24",
-   "nav": 45427.02,
+   "nav": 45450.94,
    "cash": 18402.82,
-   "positionsValue": 27024.19,
-   "benchmarkNav": 45349.48,
-   "benchmarkClose": 84436.37,
-   "growthValue": 13425.8,
-   "coreValue": 13598.39,
+   "positionsValue": 27048.12,
+   "benchmarkNav": 45180.73,
+   "benchmarkClose": 84122.17,
+   "growthValue": 13454.0,
+   "coreValue": 13594.12,
    "daytradeValue": 0.0
   }
  ],
