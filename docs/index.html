@@ -1139,6 +1139,8 @@
 
   render();
 
+  const PRICE_API = "https://bot-prices.windsorkerrj.workers.dev/";
+  const BENCH = { us: "SPY", asx: "STW.AX", crypto: "BTC-USD" };
   async function loadAll() {
     let failed = [];
     let live = null;
@@ -1160,6 +1162,23 @@
           stores[key].liveAt = live.updatedAt;
           stores[key].liveBench = lp[live.markets[key].benchmark] != null ? lp[live.markets[key].benchmark] : null;
         }
+        // freshest source: the price Worker (on demand); falls back to the GitHub live.json overlay above
+        try {
+          const held = Object.keys((d.state && d.state.positions) || {});
+          const tks = held.concat([BENCH[key]]);
+          const ctl = new AbortController();
+          const to = setTimeout(() => ctl.abort(), 6000);
+          const wr = await fetch(PRICE_API + "?t=" + encodeURIComponent(tks.join(",")), { signal: ctl.signal });
+          clearTimeout(to);
+          if (wr.ok) {
+            const w = await wr.json();
+            if (w && w.prices && held.some((t) => w.prices[t] != null)) {
+              held.forEach((t) => { if (w.prices[t] != null) d.state.positions[t].lastPrice = w.prices[t]; });
+              stores[key].liveAt = w.updatedAt;
+              stores[key].liveBench = w.prices[BENCH[key]] != null ? w.prices[BENCH[key]] : stores[key].liveBench;
+            }
+          }
+        } catch (e) { /* keep the GitHub overlay */ }
         stores[key].navHistory = d.nav_history || [];
         stores[key].trades = (d.trades || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
       } catch (e) { failed.push(key.toUpperCase()); }
