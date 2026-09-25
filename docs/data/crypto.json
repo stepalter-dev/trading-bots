@@ -1,6 +1,6 @@
 {
  "state": {
-  "cash": 15902.841926992469,
+  "cash": 2464.186423,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
   "lastRunNotes": "Board-wide rally continues (BTC +8% today) driven by Trump-Xi summit optimism and $2B+ of spot BTC ETF inflows this week - broad macro/beta, not fresh idiosyncratic catalysts for any single name. NEAR, UNI, AVAX, BCH and LTC are all still running on catalysts already priced in when bought (Hyperliquid/Ondo for NEAR, CME futures Oct 19 for UNI/BCH, Helicon/Aave RWA for AVAX, Coinbase loan collateral for LTC), so holding rather than adding into the pump. No other watchlist name shows genuine unusual volume (vol_x) or a new specific catalyst. Growth/core split stays near 45/55, within band; cash at 34% is comfortably above the 5% floor.",
@@ -10,90 +10,95 @@
     "avgCost": 84412.12,
     "bucket": "core",
     "lastPrice": 84841.04,
-    "shares": 0.080557
+    "shares": 0.01248252
    },
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
     "lastPrice": 118.23,
-    "shares": 59.243771
+    "shares": 9.1799753
    },
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
     "lastPrice": 0.222763,
-    "shares": 22498.275528
+    "shares": 3486.16589045
    },
    "UNI7083-USD": {
-    "shares": 237.068965,
+    "shares": 36.73444831,
     "avgCost": 9.28,
     "lastPrice": 9.2085,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    },
    "AVAX-USD": {
-    "shares": 216.514122,
+    "shares": 33.54942231,
     "avgCost": 10.161,
     "lastPrice": 10.306,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    },
    "BCH-USD": {
-    "shares": 6.540611,
+    "shares": 1.01348456,
     "avgCost": 336.36,
     "lastPrice": 340.98,
     "bucket": "core",
     "openedDate": "2026-09-24"
    },
    "NEAR-USD": {
-    "shares": 506.583451,
+    "shares": 78.49641388,
     "avgCost": 4.34278911546277,
     "lastPrice": 4.6133,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    },
    "LTC-USD": {
-    "shares": 34.780427,
+    "shares": 5.38931698,
     "avgCost": 71.87902181675821,
     "lastPrice": 71.33,
     "bucket": "core",
     "openedDate": "2026-09-24"
    }
   },
-  "startingCash": 45336.45
+  "startingCash": 7025.0,
+  "rescaled": {
+   "factor": 0.15495258,
+   "sliceAud": 10000.0,
+   "note": "Scaled from a separate portfolio into an A$10,000 slice of one A$40,000 fund on 2026-09-25."
+  }
  },
  "nav_history": [
   {
    "benchmarkClose": 84412.12,
-   "benchmarkNav": 45336.45,
-   "cash": 27202.81,
-   "coreValue": 11333.64,
+   "benchmarkNav": 7025.0,
+   "cash": 4215.145655,
+   "coreValue": 1756.176785,
    "date": "2026-09-23",
-   "daytradeValue": 0,
-   "growthValue": 6800,
-   "nav": 45336.45,
-   "positionsValue": 18133.64
+   "daytradeValue": 0.0,
+   "growthValue": 1053.67756,
+   "nav": 7025.0,
+   "positionsValue": 2809.854345
   },
   {
    "date": "2026-09-24",
-   "nav": 46036.45,
-   "cash": 15902.84,
-   "positionsValue": 30133.6,
-   "benchmarkNav": 45318.8,
+   "nav": 7133.466808,
+   "cash": 2464.186124,
+   "positionsValue": 4669.279134,
+   "benchmarkNav": 7022.265087,
    "benchmarkClose": 84379.24,
-   "growthValue": 13854.12,
-   "coreValue": 16279.48,
+   "growthValue": 2146.73167,
+   "coreValue": 2522.547465,
    "daytradeValue": 0.0
   },
   {
    "date": "2026-09-25",
-   "nav": 46216.13,
-   "cash": 15902.84,
-   "positionsValue": 30313.28,
-   "benchmarkNav": 45566.83,
+   "nav": 7161.308688,
+   "cash": 2464.186124,
+   "positionsValue": 4697.121014,
+   "benchmarkNav": 7060.697976,
    "benchmarkClose": 84841.04,
-   "growthValue": 13755.86,
-   "coreValue": 16557.43,
+   "growthValue": 2131.506029,
+   "coreValue": 2565.616535,
    "daytradeValue": 0.0
   }
  ],
@@ -106,7 +111,7 @@
    "price": 84412.12,
    "rationale": "US spot BTC ETFs took in $3.52B in August with only 5/21 sessions seeing outflows; over $648M in short positions unwound as price broke above $85k, and BTC is on a rare three-month winning streak. Establishing core position on this institutional-flow catalyst despite today's intraday pullback on rising bond yields.",
    "sentimentSummary": "Bullish institutional flow narrative, but short-term choppy as yields rise; mixed but net positive.",
-   "shares": 0.080557,
+   "shares": 0.01248252,
    "ticker": "BTC-USD",
    "id": "2026-09-23-BTC-USD-a1x9k2"
   },
@@ -118,7 +123,7 @@
    "price": 114.78,
    "rationale": "Five spot SOL ETFs have drawn $1.12B cumulative inflows with institutional accumulation (Goldman Sachs, Electric Capital) absorbing retail profit-taking; Alpenglow consensus upgrade targeting ~150ms finality is scheduled for October 2026 as a forward catalyst. Sized as growth-sleeve position given higher volatility.",
    "sentimentSummary": "Strong institutional accumulation narrative with a concrete upcoming technical catalyst.",
-   "shares": 59.243771,
+   "shares": 9.1799753,
    "ticker": "SOL-USD",
    "id": "2026-09-23-SOL-USD-c4p8w1"
   },
@@ -130,7 +135,7 @@
    "price": 0.201511,
    "rationale": "Stellar's Protocol 28 ('Adapter') upgrade activated on mainnet Sept 17, 2026, improving consensus resilience and enabling atomic smart-contract fleet upgrades, driving a direct price catalyst and record throughput. Established core position to capture continued adoption momentum.",
    "sentimentSummary": "Positive technical catalyst confirmed live on mainnet, early-stage adoption story.",
-   "shares": 22498.275528,
+   "shares": 3486.16589045,
    "ticker": "XLM-USD",
    "id": "2026-09-23-XLM-USD-b7m3q8"
   },
@@ -138,7 +143,7 @@
    "id": "2026-09-24-UNI7083-USD-dqd6v0",
    "ticker": "UNI7083-USD",
    "action": "buy",
-   "shares": 237.068965,
+   "shares": 36.73444831,
    "price": 9.28,
    "date": "2026-09-24T02:11:49Z",
    "bucket": "growth",
@@ -150,7 +155,7 @@
    "id": "2026-09-24-AVAX-USD-je3x5u",
    "ticker": "AVAX-USD",
    "action": "buy",
-   "shares": 216.514122,
+   "shares": 33.54942231,
    "price": 10.161,
    "date": "2026-09-24T02:11:49Z",
    "bucket": "growth",
@@ -162,7 +167,7 @@
    "id": "2026-09-24-BCH-USD-9c1s0e",
    "ticker": "BCH-USD",
    "action": "buy",
-   "shares": 6.540611,
+   "shares": 1.01348456,
    "price": 336.36,
    "date": "2026-09-24T02:11:49Z",
    "bucket": "core",
@@ -174,10 +179,10 @@
    "id": "2026-09-24-NEAR-USD-wh6qpr",
    "ticker": "NEAR-USD",
    "action": "buy",
-   "shares": 506.583451,
+   "shares": 78.49641388,
    "price": 4.331527,
    "refPrice": 4.3272,
-   "fee": 5.7051,
+   "fee": 0.88402,
    "date": "2026-09-24T08:12:35Z",
    "bucket": "growth",
    "rationale": "Hyperliquid turned on confidential-by-default NEAR perps (Sept 17) and added a NEAR/USDC spot market (Sept 23); NEAR Intents now also routes to 20 tokenized US stocks/ETFs via a new Ondo Finance integration - a concrete utility expansion, not just beta, confirmed by the watchlist's highest vol_x (1.77x).",
@@ -188,10 +193,10 @@
    "id": "2026-09-24-LTC-USD-ivk9xe",
    "ticker": "LTC-USD",
    "action": "buy",
-   "shares": 34.780427,
+   "shares": 5.38931698,
    "price": 71.692621,
    "refPrice": 71.621,
-   "fee": 6.4831,
+   "fee": 1.004573,
    "date": "2026-09-24T20:12:15Z",
    "bucket": "core",
    "rationale": "Fresh, specific catalyst (Coinbase fixed-rate loans accepting LTC as collateral, launched Sept 23) confirmed by real unusual volume (vol_x 4.38, ~$1B on-chain movement, ~3x normal spot volume) rather than pure rally beta.",

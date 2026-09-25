@@ -1,6 +1,6 @@
 {
  "state": {
-  "cash": 25587.43,
+  "cash": 3994.482128,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
   "lastRunNotes": "Reviewed AAPL, GOOGL, META (all held, no fresh catalysts beyond their existing multi-week theses) plus the day's big movers (INTC, AMD, CRM). Real-world news confirms INTC/AMD momentum is a continuation of the Meta Muse AI-driven CPU-demand narrative and CRM's rally is a month-long AI/Agentforce re-rating -- both already priced in, with no unusual volume today (vol_x well under 1.5x), so not fresh, tradable catalysts. ADBE's drop is stale post-earnings/CEO-transition weakness, not a dip worth buying. Rising long yields are pressuring staples/retail/financials broadly (COST, HD, PEP, JPM, XLF) but that's macro rotation, not a stock-specific catalyst. Growth/core split is 61%/39% (within the 35-65% band, no genuine catalyst to rebalance). Holding everything, no day-trades since this is the last session of the day.",
@@ -10,106 +10,111 @@
     "avgCost": 333.08,
     "bucket": "core",
     "lastPrice": 337.359,
-    "shares": 24
+    "shares": 3.746667
    },
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
     "lastPrice": 341.38,
-    "shares": 10
+    "shares": 1.561111
    },
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
     "lastPrice": 776.575,
-    "shares": 12
+    "shares": 1.873333
    }
   },
-  "startingCash": 45000
+  "startingCash": 7025.0,
+  "rescaled": {
+   "factor": 0.15611111,
+   "sliceAud": 10000.0,
+   "note": "Scaled from a separate portfolio into an A$10,000 slice of one A$40,000 fund on 2026-09-25."
+  }
  },
  "nav_history": [
   {
-   "benchmarkNav": 45000,
-   "cash": 29018.88,
+   "benchmarkNav": 7025.0,
+   "cash": 4530.1696,
    "date": "2026-09-15",
-   "nav": 45000,
-   "positionsValue": 15981.12,
+   "nav": 7025.0,
+   "positionsValue": 2494.8304,
    "benchmarkClose": 760.88
   },
   {
-   "benchmarkNav": 44596.13,
-   "cash": 25590.18,
-   "coreValue": 7977.84,
+   "benchmarkNav": 6961.951406,
+   "cash": 3994.911433,
+   "coreValue": 1245.429467,
    "date": "2026-09-16",
-   "growthValue": 11508.42,
-   "nav": 45076.44,
-   "positionsValue": 19486.26,
+   "growthValue": 1796.592233,
+   "nav": 7036.933133,
+   "positionsValue": 3042.0217,
    "benchmarkClose": 754.05
   },
   {
-   "benchmarkNav": 45101.94,
-   "cash": 25587.43,
-   "coreValue": 8088,
+   "benchmarkNav": 7040.913967,
+   "cash": 3994.482128,
+   "coreValue": 1262.626667,
    "date": "2026-09-17",
-   "daytradeValue": 0,
-   "growthValue": 11661.02,
-   "nav": 45336.45,
-   "positionsValue": 19749.02,
+   "daytradeValue": 0.0,
+   "growthValue": 1820.414789,
+   "nav": 7077.523583,
+   "positionsValue": 3083.041456,
    "benchmarkClose": 762.6
   },
   {
-   "benchmarkNav": 45014.42,
-   "cash": 25587.43,
-   "coreValue": 8066.88,
+   "benchmarkNav": 7027.251122,
+   "cash": 3994.482128,
+   "coreValue": 1259.3296,
    "date": "2026-09-18",
-   "daytradeValue": 0,
-   "growthValue": 11579.09,
-   "nav": 45233.4,
-   "positionsValue": 19645.97,
+   "daytradeValue": 0.0,
+   "growthValue": 1807.624606,
+   "nav": 7061.436333,
+   "positionsValue": 3066.954206,
    "benchmarkClose": 761.12
   },
   {
-   "benchmarkNav": 45790.45,
-   "cash": 25587.43,
-   "coreValue": 8133.36,
+   "benchmarkNav": 7148.398028,
+   "cash": 3994.482128,
+   "coreValue": 1269.707867,
    "date": "2026-09-21",
-   "daytradeValue": 0,
-   "growthValue": 12474.96,
-   "nav": 46195.75,
-   "positionsValue": 20608.32,
+   "daytradeValue": 0.0,
+   "growthValue": 1947.479867,
+   "nav": 7211.669861,
+   "positionsValue": 3217.187733,
    "benchmarkClose": 774.24
   },
   {
-   "benchmarkNav": 45780.1,
-   "cash": 25587.43,
-   "coreValue": 8169.12,
+   "benchmarkNav": 7146.782278,
+   "cash": 3994.482128,
+   "coreValue": 1275.2904,
    "date": "2026-09-22",
-   "daytradeValue": 0,
-   "growthValue": 12377.61,
-   "nav": 46134.16,
-   "positionsValue": 20546.73,
+   "daytradeValue": 0.0,
+   "growthValue": 1932.28245,
+   "nav": 7202.054978,
+   "positionsValue": 3207.57285,
    "benchmarkClose": 774.065
   },
   {
-   "benchmarkNav": 45421.11,
-   "cash": 25587.43,
-   "coreValue": 8088,
+   "benchmarkNav": 7090.73995,
+   "cash": 3994.482128,
+   "coreValue": 1262.626667,
    "date": "2026-09-23",
-   "daytradeValue": 0,
-   "growthValue": 12374,
-   "nav": 46049.43,
-   "positionsValue": 20462,
+   "daytradeValue": 0.0,
+   "growthValue": 1931.718889,
+   "nav": 7188.827683,
+   "positionsValue": 3194.345556,
    "benchmarkClose": 767.995
   },
   {
    "date": "2026-09-24",
-   "nav": 46416.75,
-   "cash": 25587.43,
-   "positionsValue": 20829.32,
-   "benchmarkNav": 45383.56,
+   "nav": 7246.170417,
+   "cash": 3994.482128,
+   "positionsValue": 3251.688289,
+   "benchmarkNav": 7084.877978,
    "benchmarkClose": 767.36,
-   "growthValue": 12732.7,
-   "coreValue": 8096.62,
+   "growthValue": 1987.715944,
+   "coreValue": 1263.972344,
    "daytradeValue": 0.0
   }
  ],
@@ -122,7 +127,7 @@
    "price": 333.08,
    "rationale": "Apple unveiled the $1,999 foldable iPhone Duo, its biggest hardware redesign in years; Citi reiterated Buy with a $365 target and called it Apple's most significant new hardware category since the Watch/AirPods.",
    "sentimentSummary": "Analyst commentary strongly bullish on the Duo launch; stock rallying even as broader tech sells off.",
-   "shares": 24,
+   "shares": 3.746667,
    "ticker": "AAPL",
    "id": "2026-09-15-AAPL-a4f7k2"
   },
@@ -134,7 +139,7 @@
    "price": 665.6,
    "rationale": "Meta's Muse AI agent (task-completing assistant, #3 in App Store) is driving a fresh bull case beyond ads; JPMorgan upgraded to Buy ($820 PT) and Goldman reaffirmed Buy after the launch.",
    "sentimentSummary": "Wall Street broadly bullish post-Muse launch, with some debate over monetization risk longer term.",
-   "shares": 12,
+   "shares": 1.873333,
    "ticker": "META",
    "id": "2026-09-15-META-b9p3m1"
   },
@@ -146,7 +151,7 @@
    "price": 342.87,
    "rationale": "A federal judge's antitrust remedy ruling lets Google keep Chrome and avoids a forced breakup, removing a years-long regulatory overhang; shares are up sharply post-ruling with a Strong Buy analyst consensus (~$428 avg PT, 58 buys/0 sells) and bullish chatter calling it a breakout to fresh highs.",
    "sentimentSummary": "Broadly bullish across financial media and retail trader chatter (TradingView/Reddit-adjacent) framing the ruling as a major overhang removed; Jim Cramer called it a 'shockingly favorable' outcome.",
-   "shares": 10,
+   "shares": 1.561111,
    "ticker": "GOOGL",
    "id": "2026-09-16-GOOGL-q7x2mk"
   },
@@ -158,7 +163,7 @@
    "price": 545.79,
    "rationale": "AMD is leading a broad semiconductor sector rally today (NVDA, INTC also up) on continued AI-buildout enthusiasm and carried-over bullish analyst conviction from the prior session; Strong Buy consensus (44 buys/0 sells). Playing sector momentum into the close as a short intraday swing, not a multi-week fundamental thesis.",
    "sentimentSummary": "Wall Street strongly bullish (Strong Buy consensus, no sell ratings); WallStreetBets sentiment mixed (45% positive/55% negative over past 24h) despite the price momentum, a caution flag against chasing the move too hard.",
-   "shares": 5,
+   "shares": 0.780556,
    "ticker": "AMD",
    "id": "2026-09-17-AMD-j8k3p1"
   },
@@ -168,10 +173,10 @@
    "date": "2026-09-17T19:55:00Z",
    "price": 545.24,
    "rationale": "Mandatory flatten before market close per the day-trade rule — no overnight day-trade holds, ever. The semiconductor-rally momentum stalled into the close, leaving the position essentially flat.",
-   "realizedPnL": -2.75,
+   "realizedPnL": -0.429306,
    "realizedPnLPct": -0.1008,
    "sentimentSummary": "Sector rally lost steam in the final hour; no fresh catalyst to justify holding overnight even if permitted.",
-   "shares": 5,
+   "shares": 0.780556,
    "ticker": "AMD",
    "id": "2026-09-17-AMD-f4n9wq"
   }
@@ -185,7 +190,7 @@
    "bucket": "daytrade",
    "entryPrice": 545.7902,
    "exitPrice": 545.24,
-   "pnl": -2.75,
+   "pnl": -0.429306,
    "pnlPct": -0.1008,
    "daysHeld": 0,
    "whyBought": "AMD is leading a broad semiconductor sector rally today (NVDA, INTC also up) on continued AI-buildout enthusiasm and carried-over bullish analyst conviction from the prior session; Strong Buy consensus (44 buys/0 sells). Playing sector momentum into the close as a short intraday swing, not a multi-w",

@@ -1,6 +1,6 @@
 {
  "state": {
-  "cash": 27364.83,
+  "cash": 6035.944588,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
   "lastRunNotes": "Broad macro-driven selloff continues (not stock-specific): US 30-year yields at highest since 2004, 10-year since 2007, plus oil above $100-105 on Houthi attacks on Saudi energy infrastructure, driving multiple compression across ASX growth/tech names (XRO, WTC, CAR, MIN, PME) with no confirmed company-specific bad news. Volume remains below the 10-day average across the watchlist (vol_x mostly <1x), so there's no capitulation/bottom signal to buy into - this is a falling knife, not a catalyst. Held positions unchanged: CBA (NSW contract thesis intact, no sell trigger), PME (still above A$150 support horizon, no NA growth deceleration confirmed), TLS (actually up today, thesis intact). Growth/core split among swing positions stays within band. Holding with no new trades; day-trades are disallowed this last session anyway.",
@@ -10,88 +10,93 @@
     "avgCost": 151.78,
     "bucket": "core",
     "lastPrice": 150.38,
-    "shares": 44
+    "shares": 9.705215
    },
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
     "lastPrice": 161.41,
-    "shares": 40
+    "shares": 8.822923
    },
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
     "lastPrice": 4.78,
-    "shares": 937
+    "shares": 206.676967
    }
   },
-  "startingCash": 45336.45
+  "startingCash": 10000.0,
+  "rescaled": {
+   "factor": 0.22057307,
+   "sliceAud": 10000.0,
+   "note": "Scaled from a separate portfolio into an A$10,000 slice of one A$40,000 fund on 2026-09-25."
+  }
  },
  "nav_history": [
   {
    "benchmarkClose": 78.92,
-   "benchmarkNav": 45336.45,
-   "cash": 27364.83,
-   "coreValue": 11209.22,
+   "benchmarkNav": 10000.0,
+   "cash": 6035.944588,
+   "coreValue": 2472.452078,
    "date": "2026-09-18",
-   "daytradeValue": 0,
-   "growthValue": 6762.4,
-   "nav": 45336.45,
-   "positionsValue": 17971.62
+   "daytradeValue": 0.0,
+   "growthValue": 1491.603335,
+   "nav": 10000.0,
+   "positionsValue": 3964.055412
   },
   {
    "benchmarkClose": 78.87,
-   "benchmarkNav": 45307.75,
-   "cash": 27364.83,
-   "coreValue": 11257.27,
+   "benchmarkNav": 9993.669553,
+   "cash": 6035.944588,
+   "coreValue": 2483.050614,
    "date": "2026-09-21",
-   "daytradeValue": 0,
-   "growthValue": 6622.8,
-   "nav": 45244.9,
-   "positionsValue": 17880.07
+   "daytradeValue": 0.0,
+   "growthValue": 1460.811334,
+   "nav": 9979.806535,
+   "positionsValue": 3943.861948
   },
   {
    "benchmarkClose": 79.13,
-   "benchmarkNav": 45457.11,
-   "cash": 27364.83,
-   "coreValue": 11228.23,
+   "benchmarkNav": 10026.614347,
+   "cash": 6035.944588,
+   "coreValue": 2476.645172,
    "date": "2026-09-22",
-   "daytradeValue": 0,
-   "growthValue": 6573.2,
-   "nav": 45166.26,
-   "positionsValue": 17801.43
+   "daytradeValue": 0.0,
+   "growthValue": 1449.87091,
+   "nav": 9962.460669,
+   "positionsValue": 3926.516081
   },
   {
    "benchmarkClose": 79.22,
-   "benchmarkNav": 45508.81,
-   "cash": 27364.83,
-   "coreValue": 11154.17,
+   "benchmarkNav": 10038.017974,
+   "cash": 6035.944588,
+   "coreValue": 2460.30953,
    "date": "2026-09-23",
-   "daytradeValue": 0,
-   "growthValue": 6452.4,
-   "nav": 44971.4,
-   "positionsValue": 17606.57
+   "daytradeValue": 0.0,
+   "growthValue": 1423.225683,
+   "nav": 9919.4798,
+   "positionsValue": 3883.535213
   },
   {
    "date": "2026-09-24",
-   "nav": 44922.14,
-   "cash": 27364.83,
-   "positionsValue": 17557.31,
-   "benchmarkNav": 45204.35,
+   "nav": 9908.614371,
+   "cash": 6035.944588,
+   "positionsValue": 3872.669783,
+   "benchmarkNav": 9970.862297,
    "benchmarkClose": 78.69,
-   "growthValue": 6505.6,
-   "coreValue": 11051.71,
+   "growthValue": 1434.96017,
+   "coreValue": 2437.709613,
    "daytradeValue": 0.0
   },
   {
    "date": "2026-09-25",
-   "nav": 44916.81,
-   "cash": 27364.83,
-   "positionsValue": 17551.98,
-   "benchmarkNav": 44951.59,
+   "nav": 9907.438717,
+   "cash": 6035.944588,
+   "positionsValue": 3871.494129,
+   "benchmarkNav": 9915.110248,
    "benchmarkClose": 78.25,
-   "growthValue": 6456.4,
-   "coreValue": 11095.58,
+   "growthValue": 1424.107975,
+   "coreValue": 2447.386154,
    "daytradeValue": 0.0
   }
  ],
@@ -104,7 +109,7 @@
    "price": 151.78,
    "rationale": "Won NSW state government banking services contract (liquidity management, transaction banking, FX, transit payments) — durable revenue catalyst for defensive core bank holding.",
    "sentimentSummary": "Neutral-to-positive — contract win noted amid general bank sector softness today.",
-   "shares": 44,
+   "shares": 9.705215,
    "ticker": "CBA.AX",
    "id": "2026-09-18-CBA-c4n7r1"
   },
@@ -116,7 +121,7 @@
    "price": 169.06,
    "rationale": "Record-breaking FY26 results drove a +2.9% gain today; strong North American radiology SaaS growth momentum continues.",
    "sentimentSummary": "Positive — Motley Fool AU and market coverage citing record results.",
-   "shares": 40,
+   "shares": 8.822923,
    "ticker": "PME.AX",
    "id": "2026-09-18-PME-a1x9k2"
   },
@@ -128,7 +133,7 @@
    "price": 4.835,
    "rationale": "Barrenjoey upgraded TLS to Overweight (Sep 2) and an external probe confirmed the July network outage was a resolved technical timing issue, removing an overhang; defensive telco anchor for the core sleeve.",
    "sentimentSummary": "Improving — analyst upgrade plus outage resolution reduces near-term risk.",
-   "shares": 937,
+   "shares": 206.676967,
    "ticker": "TLS.AX",
    "id": "2026-09-18-TLS-b7m3q8"
   }
