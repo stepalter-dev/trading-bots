@@ -14,7 +14,7 @@ import json
 import os
 import sys
 
-from . import brain, core, engine, learning, signals
+from . import brain, core, engine, learning, signals, vc
 from .markets import MARKETS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -53,6 +53,29 @@ def push_data(key):
     return False
 
 
+def run_vc(args, ap):
+    if args.mode == "prepare":
+        return vc.prepare(force=args.force)
+    if not args.decision:
+        ap.error("apply needs a decision.json path")
+    with open(args.decision, encoding="utf-8") as f:
+        raw = f.read()
+    try:
+        decision = brain._extract_json(raw)
+    except ValueError:
+        print("Could not parse the decision file; recording a session with no new deals.")
+        decision = {"notes": "Decision file unreadable - no new deals."}
+    try:
+        print(vc.apply(decision, force=args.force, dry=args.dry))
+    except vc.Skip as why:
+        print(f"SKIP: {why}.")
+        return 0
+    if not args.dry and not args.no_push and not push_data("vc"):
+        print("WARNING: data was not pushed to GitHub")
+        return 1
+    return 0
+
+
 def main(argv=None):
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -60,12 +83,15 @@ def main(argv=None):
         pass
     ap = argparse.ArgumentParser()
     ap.add_argument("mode", choices=["prepare", "apply"])
-    ap.add_argument("market", choices=sorted(MARKETS))
+    ap.add_argument("market", choices=sorted(MARKETS) + ["vc"])
     ap.add_argument("decision", nargs="?")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--no-push", action="store_true")
     args = ap.parse_args(argv)
+
+    if args.market == "vc":
+        return run_vc(args, ap)
 
     try:
         s = core.begin(args.market, force=args.force)

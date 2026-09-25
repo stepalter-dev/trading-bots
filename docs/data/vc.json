@@ -1,0 +1,13 @@
+{
+ "state": {
+  "cash": 10000.0,
+  "startingCash": 10000.0,
+  "holdings": {},
+  "seen": [],
+  "lastUpdated": null,
+  "lastRunNotes": ""
+ },
+ "nav_history": [],
+ "deals": [],
+ "forecasts": []
+}

@@ -194,6 +194,16 @@
   .plan-nums .neg { color: #b3402f; }
   .plan-bar { position: relative; height: 6px; margin-top: 6px; border-radius: 3px; background: linear-gradient(90deg, #b3402f55, var(--line) 50%, var(--accent)); }
   .plan-bar i { position: absolute; top: -3px; width: 3px; height: 12px; margin-left: -1px; background: var(--ink); border-radius: 1px; }
+  #special-view .panel { margin-bottom: 20px; }
+  #special-view table a { color: inherit; }
+  .fund-row { cursor: pointer; }
+  .fund-row:hover td { background: var(--line); }
+  .ret-bar { position: relative; height: 8px; border-radius: 4px; background: var(--line); }
+  .ret-bar::after { content: ""; position: absolute; left: 50%; top: -3px; width: 1px; height: 14px; background: var(--ink-faint); }
+  .ret-bar i { position: absolute; top: 0; height: 8px; border-radius: 4px; }
+  .ret-bar i.pos { background: var(--gain); }
+  .ret-bar i.neg { background: var(--loss); }
+  .market-switch { flex-wrap: wrap; }
   .nav-area { fill: var(--accent); opacity: 0.08; stroke: none; }
   .chart-wrap { position: relative; }
   .range-tabs { display: inline-flex; gap: 4px; margin: 0 0 10px; padding: 3px; border: 1px solid var(--line); border-radius: 999px; }
@@ -443,9 +453,11 @@
   </header>
 
   <div class="market-switch" role="tablist" aria-label="Market">
-    <button class="market-btn active" id="marketbtn-us" data-market="us" role="tab" aria-selected="true">🇺🇸 US Bot</button>
+    <button class="market-btn active" id="marketbtn-fund" data-market="fund" role="tab" aria-selected="true">💼 Fund</button>
+    <button class="market-btn" id="marketbtn-us" data-market="us" role="tab" aria-selected="false">🇺🇸 US Bot</button>
     <button class="market-btn" id="marketbtn-asx" data-market="asx" role="tab" aria-selected="false">🇦🇺 ASX Bot</button>
     <button class="market-btn" id="marketbtn-crypto" data-market="crypto" role="tab" aria-selected="false">🪙 Crypto Bot</button>
+    <button class="market-btn" id="marketbtn-vc" data-market="vc" role="tab" aria-selected="false">🚀 VC Scout</button>
   </div>
 
   <div class="feed-alert" id="feed-alert" hidden></div>
@@ -457,6 +469,8 @@
     <button class="tab-btn" id="tabbtn-thesis" data-tab="thesis" role="tab" aria-selected="false" aria-controls="tab-thesis">Thesis &amp; Horizon</button>
     <button class="tab-btn" id="tabbtn-daytrade" data-tab="daytrade" role="tab" aria-selected="false" aria-controls="tab-daytrade">Day Trading</button>
   </nav>
+
+  <section id="special-view" hidden></section>
 
   <section id="tab-overview" class="tab-panel" role="tabpanel" aria-labelledby="tabbtn-overview">
     <div class="hero">
@@ -648,7 +662,7 @@
     },
   };
 
-  let currentMarket = "us";
+  let currentMarket = "fund";
   let cfg = MARKETS.us;
   const stores = {
     us: { portfolioState: null, navHistory: [], trades: [] },
@@ -671,14 +685,7 @@
   let trades = [];
 
   document.querySelectorAll(".market-btn").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      currentMarket = btn.dataset.market;
-      document.querySelectorAll(".market-btn").forEach((b) => {
-        b.classList.toggle("active", b === btn);
-        b.setAttribute("aria-selected", b === btn ? "true" : "false");
-      });
-      render();
-    });
+    btn.addEventListener("click", () => selectMarket(btn.dataset.market));
   });
 
   document.querySelectorAll(".tab-btn").forEach((btn) => {
@@ -687,6 +694,7 @@
         b.classList.toggle("active", b === btn);
         b.setAttribute("aria-selected", b === btn ? "true" : "false");
       });
+      activeTab = btn.dataset.tab;
       document.querySelectorAll(".tab-panel").forEach((panel) => {
         panel.hidden = panel.id !== "tab-" + btn.dataset.tab;
       });
@@ -713,6 +721,9 @@
   }
 
   function render() {
+    showSpecial(!!SPECIAL[currentMarket]);
+    if (currentMarket === "fund") return renderFund();
+    if (currentMarket === "vc") return renderVC();
     cfg = MARKETS[currentMarket];
     portfolioState = stores[currentMarket].portfolioState;
     navHistory = stores[currentMarket].navHistory;
@@ -1210,6 +1221,151 @@
     svg.onmouseleave = svg.ontouchend = () => { tip.style.display = "none"; cursor.style.display = "none"; };
   }
 
+  // ---------- Fund overview + VC Scout (views that are not a price-traded market) ----------
+  const SPECIAL = { fund: true, vc: true };
+  let activeTab = "overview";
+  let fundCfg = null, vcData = null, audUsd = null, audUsdAt = null;
+  const escH = (t) => String(t == null ? "" : t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const money = (v, cur, dp) => (v < 0 ? "-" : "") + cur + Math.abs(v).toLocaleString("en-AU", { minimumFractionDigits: dp == null ? 2 : dp, maximumFractionDigits: dp == null ? 2 : dp });
+  const pctS = (v) => (v >= 0 ? "+" : "") + v.toFixed(2) + "%";
+  const cls = (v) => (v >= 0 ? "pos" : "neg");
+
+  function navOfState(st) {
+    if (!st) return null;
+    let v = st.cash;
+    Object.values(st.positions || {}).forEach((p) => { v += (p.shares || 0) * (p.lastPrice != null ? p.lastPrice : p.avgCost || 0); });
+    return v;
+  }
+  function vcHoldingValue(h) {
+    if (h.status === "dead" || h.status === "exited") return 0;
+    return h.tranches.reduce((s, t) => s + t.amount * h.markValuation / t.valuation, 0);
+  }
+  function vcInvested(h) { return h.tranches.reduce((s, t) => s + t.amount, 0); }
+  function vcNav(d) { return d.state.cash + Object.values(d.state.holdings || {}).reduce((s, h) => s + vcHoldingValue(h), 0); }
+
+  function showSpecial(on) {
+    document.querySelector("nav.tabs").hidden = on;
+    document.querySelectorAll(".tab-panel").forEach((p) => { p.hidden = on || p.id !== "tab-" + activeTab; });
+    document.getElementById("special-view").hidden = !on;
+    const fa = document.getElementById("feed-alert");
+    if (on && fa) fa.hidden = true;
+  }
+
+  function sliceRows() {
+    const rate = audUsd || (fundCfg && fundCfg.startAudUsd) || 0.7;
+    const rows = [];
+    ["us", "asx", "crypto", "vc"].forEach((k) => {
+      const sl = fundCfg && fundCfg.slices[k];
+      if (!sl) return;
+      let nav = null, start = null;
+      if (k === "vc") { if (vcData) { nav = vcNav(vcData); start = vcData.state.startingCash; } }
+      else if (stores[k] && stores[k].portfolioState) { nav = navOfState(stores[k].portfolioState); start = stores[k].portfolioState.startingCash; }
+      const toAud = sl.currency === "USD" ? 1 / rate : 1;
+      rows.push({ key: k, label: sl.label, cur: sl.currency === "USD" ? "US$" : "A$", nav, start,
+                  navAud: nav == null ? null : nav * toAud, ret: nav == null || !start ? null : (nav / start - 1) * 100 });
+    });
+    return rows;
+  }
+
+  function renderFund() {
+    document.getElementById("page-title").textContent = (fundCfg && fundCfg.name) || "Claude's Fund";
+    document.getElementById("page-eyebrow").textContent = "One A$40,000 paper fund · four A$10,000 slices · fake money only";
+    const rows = sliceRows();
+    const total = rows.reduce((s, r) => s + (r.navAud || 0), 0);
+    const base = (fundCfg && fundCfg.total) || 40000;
+    const ret = (total / base - 1) * 100;
+    const best = rows.filter((r) => r.ret != null).sort((a, b) => b.ret - a.ret)[0];
+    const lu = rows.map((r) => r.key === "vc" ? vcData && vcData.state.lastUpdated : stores[r.key] && stores[r.key].portfolioState && stores[r.key].portfolioState.lastUpdated).filter(Boolean).sort().pop();
+    document.getElementById("last-updated").textContent = lu ? fmtDate(lu) : "—";
+    const maxAbs = Math.max(1, ...rows.map((r) => Math.abs(r.ret || 0)));
+    document.getElementById("special-view").innerHTML =
+      '<div class="hero">' +
+        '<div class="tile"><div class="label">Fund value</div><div class="value num">' + money(total, "A$") + '</div><div class="sub">Started with ' + money(base, "A$", 0) + '</div></div>' +
+        '<div class="tile"><div class="label">Total return</div><div class="value num ' + cls(ret) + '">' + pctS(ret) + '</div><div class="sub ' + cls(total - base) + '">' + (total - base >= 0 ? "+" : "") + money(total - base, "A$") + '</div></div>' +
+        '<div class="tile"><div class="label">Leading slice</div><div class="value">' + (best ? escH(best.label) : "—") + '</div><div class="sub ' + (best ? cls(best.ret) : "") + '">' + (best ? pctS(best.ret) : "") + '</div></div>' +
+        '<div class="tile"><div class="label">AUD / USD</div><div class="value num">' + (audUsd ? audUsd.toFixed(4) : "—") + '</div><div class="sub">' + (audUsd ? "live rate" : "rate unavailable, using start rate") + '</div></div>' +
+      '</div>' +
+      '<div class="panel"><h2>The four slices</h2><div class="caption">Each slice started at A$10,000 and runs independently, so the markets can be compared fairly. US stocks and crypto are held in US$ and converted to A$ at the live rate.</div>' +
+      '<table><thead><tr><th>Slice</th><th>Value</th><th>In A$</th><th>Return</th><th style="width:34%"></th></tr></thead><tbody>' +
+      rows.map((r) => {
+        const w = r.ret == null ? 0 : Math.abs(r.ret) / maxAbs * 50;
+        return '<tr class="fund-row" data-go="' + r.key + '"><td><b>' + escH(r.label) + '</b></td>' +
+          '<td class="num">' + (r.nav == null ? "—" : money(r.nav, r.cur)) + '</td>' +
+          '<td class="num">' + (r.navAud == null ? "—" : money(r.navAud, "A$")) + '</td>' +
+          '<td class="num ' + (r.ret == null ? "" : cls(r.ret)) + '">' + (r.ret == null ? "—" : pctS(r.ret)) + '</td>' +
+          '<td><div class="ret-bar"><i class="' + (r.ret >= 0 ? "pos" : "neg") + '" style="width:' + w.toFixed(1) + '%;' + (r.ret >= 0 ? "left:50%" : "right:50%") + '"></i></div></td></tr>';
+      }).join("") +
+      '</tbody></table><div class="caption" style="margin-top:10px">Click a slice to open it. Currency moves change the A$ value of the US$ slices even when their own return is flat.</div></div>';
+    document.querySelectorAll(".fund-row").forEach((tr) => tr.addEventListener("click", () => selectMarket(tr.dataset.go)));
+  }
+
+  function renderVC() {
+    document.getElementById("page-title").textContent = "VC Scout";
+    document.getElementById("page-eyebrow").textContent = "Paper venture fund · A$10,000 slice · backs early-stage startups weekly";
+    const view = document.getElementById("special-view");
+    if (!vcData) { view.innerHTML = '<div class="status-banner show">VC Scout data not loaded yet.</div>'; return; }
+    const s = vcData.state;
+    const hs = Object.values(s.holdings || {}).sort((a, b) => b.investedDate.localeCompare(a.investedDate));
+    const nav = vcNav(vcData);
+    const inv = hs.reduce((t, h) => t + vcInvested(h), 0);
+    const val = hs.reduce((t, h) => t + vcHoldingValue(h), 0) + hs.filter((h) => h.status === "exited").reduce((t, h) => t + (h.proceeds || 0), 0);
+    const tvpi = inv ? val / inv : null;
+    document.getElementById("last-updated").textContent = s.lastUpdated ? fmtDate(s.lastUpdated) : "—";
+    const fc = vcData.forecasts || [];
+    const res = fc.filter((f) => f.outcome !== null && f.outcome !== undefined);
+    const brier = res.length ? res.reduce((t, f) => t + Math.pow(f.prob - (f.outcome ? 1 : 0), 2), 0) / res.length : null;
+    const statusPill = (h) => '<span class="risk-pill ' + ({ active: "core", public: "core", exited: "growth", dead: "daytrade" }[h.status] || "core") + '">' + escH(h.status) + '</span>';
+    view.innerHTML =
+      '<div class="hero">' +
+        '<div class="tile"><div class="label">Fund NAV</div><div class="value num">' + money(nav, "A$") + '</div><div class="sub ' + cls(nav - s.startingCash) + '">' + pctS((nav / s.startingCash - 1) * 100) + '</div></div>' +
+        '<div class="tile"><div class="label">Deployed</div><div class="value num">' + money(inv, "A$") + '</div><div class="sub">' + hs.length + ' compan' + (hs.length === 1 ? "y" : "ies") + '</div></div>' +
+        '<div class="tile"><div class="label">Value / cost (TVPI)</div><div class="value num">' + (tvpi == null ? "—" : tvpi.toFixed(2) + "x") + '</div><div class="sub">Marked at cost until a verified event</div></div>' +
+        '<div class="tile"><div class="label">Forecast score</div><div class="value num">' + (brier == null ? "—" : brier.toFixed(3)) + '</div><div class="sub">' + (brier == null ? fc.length + " forecasts open" : "Brier (0 best, 0.25 = guessing) · " + res.length + " resolved") + '</div></div>' +
+      '</div>' +
+      (s.lastRunNotes ? '<div class="panel"><h2>Latest scout notes</h2><div class="thesis-rationale">' + escH(s.lastRunNotes) + '</div></div>' : "") +
+      '<div class="panel"><h2>Portfolio</h2><div class="caption">Each cheque went in at an assumed valuation. Marks change only on evidence: a new round, an acquisition or a shutdown.</div>' +
+      (hs.length ? '<table><thead><tr><th>Company</th><th>Source</th><th>In</th><th>Entry → mark</th><th>Multiple</th><th>Odds (raise · alive)</th><th>Status</th></tr></thead><tbody>' +
+        hs.map((h) => {
+          const iv = vcInvested(h), v = h.status === "exited" ? (h.proceeds || 0) : vcHoldingValue(h), m = iv ? v / iv : 0;
+          return '<tr><td><a href="' + escH(h.url || h.website || "#") + '" target="_blank" rel="noopener"><b>' + escH(h.name) + '</b></a><div class="rationale" style="font-size:12px">' + escH(h.oneLiner || "") + '</div></td>' +
+            '<td>' + escH(h.source) + '<div style="font-size:11px;color:var(--ink-faint)">' + escH(h.investedDate) + '</div></td>' +
+            '<td class="num">' + money(iv, "A$") + '</td>' +
+            '<td class="num">US$' + (h.entryValuation / 1e6).toFixed(0) + 'M → US$' + (h.markValuation / 1e6).toFixed(0) + 'M</td>' +
+            '<td class="num ' + (m >= 1 ? "pos" : "neg") + '">' + m.toFixed(2) + 'x</td>' +
+            '<td class="num">' + Math.round(h.pRaise12m * 100) + '% · ' + Math.round(h.pAlive12m * 100) + '%</td>' +
+            '<td>' + statusPill(h) + '</td></tr>';
+        }).join("") + '</tbody></table>'
+        : '<div class="status-banner show" style="margin:0">No cheques written yet. The scout runs every Monday at 10:10am AEST.</div>') + '</div>' +
+      '<div class="panel"><h2>Theses</h2>' + (hs.length ? hs.slice(0, 12).map((h) =>
+        '<div class="thesis-card"><div class="thesis-top"><div class="thesis-id"><span class="ticker">' + escH(h.name) + '</span></div><span class="horizon-pill">' + escH(h.source) + '</span></div>' +
+        '<div class="thesis-rationale">' + escH(h.thesis) + '</div></div>').join("") : '<div style="font-size:13px;color:var(--ink-faint)">Theses appear here once the scout backs its first companies.</div>') + '</div>' +
+      '<div class="panel"><h2>Deal log</h2>' + ((vcData.deals || []).length ? (vcData.deals || []).slice().reverse().slice(0, 30).map((d) =>
+        '<div class="hist-row"><span class="pill ' + (d.type === "invest" || d.type === "followon" ? "buy" : d.type === "shutdown" ? "sell" : "buy") + '">' + escH(d.type.replace("_", " ")) + '</span>' +
+        '<div class="trade-body"><div class="trade-head"><span class="ticker">' + escH(d.name) + '</span> <span style="color:var(--ink-faint);font-size:12px">' + escH((d.date || "").slice(0, 10)) + '</span></div>' +
+        '<div style="font-size:13px">' + (d.amount != null ? money(d.amount, "A$") + " at US$" + (d.valuation / 1e6).toFixed(0) + "M" : "Value " + money(d.valueBefore || 0, "A$") + " → " + money(d.valueAfter || 0, "A$") + (d.assumedMark ? " (assumed step-up)" : "")) +
+        (d.evidence ? ' · <a href="' + escH(d.evidence) + '" target="_blank" rel="noopener">evidence</a>' : "") + '</div></div></div>').join("")
+        : '<div style="font-size:13px;color:var(--ink-faint)">No deals yet.</div>') + '</div>';
+  }
+
+  function selectMarket(key) {
+    currentMarket = key;
+    document.querySelectorAll(".market-btn").forEach((b) => {
+      b.classList.toggle("active", b.dataset.market === key);
+      b.setAttribute("aria-selected", b.dataset.market === key ? "true" : "false");
+    });
+    try { history.replaceState(null, "", "#" + key); } catch (e) {}
+    render();
+  }
+
+  async function loadSpecial() {
+    try { const r = await fetch("data/fund.json?t=" + Date.now(), { cache: "no-store" }); if (r.ok) fundCfg = await r.json(); } catch (e) {}
+    try { const r = await fetch("data/vc.json?t=" + Date.now(), { cache: "no-store" }); if (r.ok) vcData = await r.json(); } catch (e) {}
+    try {
+      const r = await fetch(PRICE_API + "?t=AUDUSD%3DX");
+      if (r.ok) { const w = await r.json(); if (w.prices && w.prices["AUDUSD=X"]) { audUsd = w.prices["AUDUSD=X"]; audUsdAt = w.updatedAt; } }
+    } catch (e) {}
+  }
+
   render();
 
   const PRICE_API = "https://bot-prices.windsorkerrj.workers.dev/";
@@ -1258,13 +1414,14 @@
         stores[key].trades = (d.trades || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
       } catch (e) { failed.push(key.toUpperCase()); }
     }
+    await loadSpecial();
     showBanner(failed.length ? "Couldn't load data for: " + failed.join(", ") + " (will retry)." : "");
     render();
   }
 
   (function initFromHash() {
     const h = (location.hash || "").replace("#", "");
-    if (MARKETS[h]) {
+    if (MARKETS[h] || SPECIAL[h]) {
       currentMarket = h;
       document.querySelectorAll(".market-btn").forEach((b) => {
         b.classList.toggle("active", b.dataset.market === h);
