@@ -3,13 +3,13 @@
   "cash": 354.9053771999629,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked each held catalyst (CME UNI/BCH futures Oct 19, Aave V4 RWA Hub on Avalanche, Hyperliquid spot/perps + Ondo Intents for NEAR, Coinbase fixed-rate loan collateral for LTC) - all confirmed still valid but already substantially priced in by this week's pumps (AVAX +17%, NEAR +~80% over the week, UNI/BCH +5-15% on the CME announcement itself), so no fresh idiosyncratic trigger to add into any of them. BTC is chopping in an ~$82.9k-85k range on no new information (broad 'Rektember' seasonality chatter, no hard catalyst). Holding everything, no new trades; growth/core split stays ~45/55, within band; recent 30h already saw 6 buys so also respecting trade-less discipline. Added target/stop/prob plans for all 8 positions that had none. Moved 0.0124825 BTC-USD from the active sleeve into the index anchor (no trade needed). PLAN BTC-USD: not held or no price",
-  "lastUpdated": "2026-09-25T08:13:35Z",
+  "lastRunNotes": "Checked NEAR's rally (Venice AI confidential inference launch Sept 24, new Private Limit Orders, Confidential Intents TVL ~$70M/volume $27B) - genuine continuing catalysts explain the Wikipedia attention spike, not just old news, but price hasn't hit target and cash is already at the 5% floor so no room to add. LTC's Coinbase fixed-rate loan collateral catalyst is confirmed and still driving on-chain volume, already reflected in the held position. Broader market is a healthy altcoin rotation (positive BTC ETF flows, BTC chopping ~$84k) with no fresh idiosyncratic trigger for any watchlist name outside current holdings. No position has hit its 14-day minimum hold plus target, and none hit its stop, so no sells are eligible; with cash at the floor, holding everything unchanged. Growth/core split stays ~60/40, within the 35-65 band.",
+  "lastUpdated": "2026-09-25T14:22:06Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 116.61,
+    "lastPrice": 120.23,
     "shares": 6.3626533,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.217248,
+    "lastPrice": 0.216246,
     "shares": 2416.26626045,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 25.46069531,
     "avgCost": 9.28,
-    "lastPrice": 9.138,
+    "lastPrice": 9.6812,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 23.25314931,
     "avgCost": 10.161,
-    "lastPrice": 10.203,
+    "lastPrice": 10.328,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.70244756,
     "avgCost": 336.36,
-    "lastPrice": 333.11,
+    "lastPrice": 331.2,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 54.40596988,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.562,
+    "lastPrice": 5.0601,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 3.73534298,
     "avgCost": 71.87902181675821,
-    "lastPrice": 71.217,
+    "lastPrice": 69.532,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -127,7 +127,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 84156.25
+   "lastPrice": 83729.11
   }
  },
  "nav_history": [
@@ -155,13 +155,13 @@
   },
   {
    "date": "2026-09-25",
-   "nav": 7084.54,
+   "nav": 7119.81,
    "cash": 354.91,
-   "positionsValue": 6729.63,
-   "benchmarkNav": 7003.71,
-   "benchmarkClose": 84156.25,
-   "growthValue": 1460.06,
-   "coreValue": 1024.94,
+   "positionsValue": 6764.9,
+   "benchmarkNav": 6968.16,
+   "benchmarkClose": 83729.11,
+   "growthValue": 1526.93,
+   "coreValue": 1014.88,
    "daytradeValue": 0.0
   }
  ],
@@ -390,7 +390,7 @@
  "coinbaseRank": [
   {
    "date": "2026-09-25",
-   "rank": 39
+   "rank": 42
   }
  ]
 }
