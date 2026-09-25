@@ -3,25 +3,25 @@
   "cash": 27364.83,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Fourth consecutive down session, but today's move is a sharp acceleration of the same macro story: rising bond yields (US 10Y ~4.79%, AU long bond back to 2011 levels) are compressing multiples on long-duration growth names (XRO -32%, WTC -27%, CAR -21.5%, MIN -21.6%, PLS -27.3%), not company-specific news. Volume stays well below average (vol_x 0.2-0.56) across the board, so there's no capitulation signal, just a broad derating. Held PME fell -15.85% with zero negative company news -- Buy consensus and $202.77 target intact, still above its A$150 stop. CBA's -4.91% also has no bank-specific news behind it (broad premium-valuation compression, not the NSW contract thesis breaking) and TLS is flat/up. No genuine specific catalyst on any watchlist name, so holding across the board rather than reacting to macro-driven volatility.",
-  "lastUpdated": "2026-09-24T05:11:51Z",
+  "lastRunNotes": "Broad macro selloff continues to accelerate (STW -4.7% today): rising bond yields ahead of the RBA's Sep 28-29 meeting (all four majors now forecasting a hike) plus AI-disruption fears for software are compressing growth-stock multiples market-wide, with volume still well below average (vol_x 0.03-0.78) confirming no capitulation, just a broad derating. None of my three held positions have company-specific bad news: CBA is down on rate-hike-driven sector pressure not NSW contract concerns, PME (-16% today) has zero negative company news and remains above its A$150 stop, and TLS is actually up 1.4%. Growth/core split excluding cash is ~37%/63%, within the 35-65% band, and cash is 61% of NAV. Holding across the board - no genuine stock-specific catalyst to trade on.",
+  "lastUpdated": "2026-09-25T01:12:10Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 149.17,
+    "lastPrice": 149.78,
     "shares": 44
    },
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 162.64,
+    "lastPrice": 160.38,
     "shares": 40
    },
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.79,
+    "lastPrice": 4.76,
     "shares": 937
    }
   },
@@ -81,6 +81,17 @@
    "benchmarkClose": 78.69,
    "growthValue": 6505.6,
    "coreValue": 11051.71,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-09-25",
+   "nav": 44830.47,
+   "cash": 27364.83,
+   "positionsValue": 17465.64,
+   "benchmarkNav": 44957.33,
+   "benchmarkClose": 78.26,
+   "growthValue": 6415.2,
+   "coreValue": 11050.44,
    "daytradeValue": 0.0
   }
  ],
