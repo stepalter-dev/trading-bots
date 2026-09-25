@@ -3,13 +3,13 @@
   "cash": 359.6518809041654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Reviewed held AAPL/GOOGL/META plus today's top movers (MSFT +3.5% off a Sept 23 Stifel upgrade already 2 days stale, INTC -2.5% profit-taking after last week's AI-chip-demand rally, AMD/Meta Muse-AI narrative continuing). No unusual volume anywhere (all vol_x well under 1.5x) and no fresh, specific catalyst cleared the bar today. Cash is already at the 5% floor with nothing freed up to deploy, and META (15.3% of NAV) is already above the 12% single-position cap while still inside its 14-day hold, so there's no room to add there even with the ongoing Muse Charm device news. Growth/core split within the active sleeve (~60/40) stays inside the 35-65% band. Holding, no trades this session.",
-  "lastUpdated": "2026-09-25T16:13:30Z",
+  "lastRunNotes": "Cash is exactly at the 5% floor with no swing sells available to free it (AAPL/GOOGL/META are all within their 14-day holds, none at target or stop), so no new buys are possible regardless of candidates. Checked today's big movers: MSFT's +4% move traces back to a Stifel upgrade already flagged as stale last session; INTC's pullback (-2.5%) looks like profit-taking after its AI-turnaround rally, not a fresh catalyst, and volume is unremarkable (0.52x). Meta's Connect 2026 Muse Charm device news (Sept 23) and Apple's iPhone Duo remain in-play for held META/AAPL theses but don't change their existing plans. Growth/core split stays as-is: GOOGL+META growth (~21.2% NAV), AAPL core (~13.9% NAV); holding, no trades.",
+  "lastUpdated": "2026-09-25T18:11:46Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 339.773,
+    "lastPrice": 339.95,
     "shares": 2.947272,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 345.382,
+    "lastPrice": 344.06,
     "shares": 1.22803,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 749.07,
+    "lastPrice": 751.14,
     "shares": 1.473636,
     "plan": {
      "target": 880.0,
@@ -62,7 +62,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 771.69
+   "lastPrice": 771.035
   }
  },
  "nav_history": [
@@ -152,13 +152,13 @@
   },
   {
    "date": "2026-09-25",
-   "nav": 7224.22,
+   "nav": 7222.49,
    "cash": 359.65,
-   "positionsValue": 6864.57,
-   "benchmarkNav": 7124.86,
-   "benchmarkClose": 771.69,
-   "growthValue": 1528.0,
-   "coreValue": 1001.4,
+   "positionsValue": 6862.84,
+   "benchmarkNav": 7118.81,
+   "benchmarkClose": 771.035,
+   "growthValue": 1529.42,
+   "coreValue": 1001.93,
    "daytradeValue": 0.0
   }
  ],
