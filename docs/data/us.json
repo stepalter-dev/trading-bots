@@ -1,28 +1,55 @@
 {
  "state": {
-  "cash": 3994.482128,
+  "cash": 359.6518809041654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Reviewed AAPL, GOOGL, META (all held, no fresh catalysts beyond their existing multi-week theses) plus the day's big movers (INTC, AMD, CRM). Real-world news confirms INTC/AMD momentum is a continuation of the Meta Muse AI-driven CPU-demand narrative and CRM's rally is a month-long AI/Agentforce re-rating -- both already priced in, with no unusual volume today (vol_x well under 1.5x), so not fresh, tradable catalysts. ADBE's drop is stale post-earnings/CEO-transition weakness, not a dip worth buying. Rising long yields are pressuring staples/retail/financials broadly (COST, HD, PEP, JPM, XLF) but that's macro rotation, not a stock-specific catalyst. Growth/core split is 61%/39% (within the 35-65% band, no genuine catalyst to rebalance). Holding everything, no day-trades since this is the last session of the day.",
-  "lastUpdated": "2026-09-24T19:11:54Z",
+  "lastRunNotes": "Reviewed held AAPL/GOOGL/META plus today's top movers (MSFT +2.68%, COST +2.23%, AMD/INTC continuation). No unusual volume anywhere (all vol_x well under 1.5x) and today's news (MSFT analyst upgrade dated Sept 23, COST earnings beat already priced in premarket, AMD/INTC still riding the known Muse-AI CPU-demand narrative) looks already stale, so no fresh tradable catalyst met the bar. META's Muse AI rally continues (JPM/Citizens/KeyBanc raising PTs to $880-920) but the position is already up 13.5% and can't be trimmed yet (bought 9/15, <14-day hold). Set fresh plans on all three no-plan holdings; growth/core split (~61%/39% of active) stays inside the 35-65% band. Holding, no new trades this session.",
+  "lastUpdated": "2026-09-25T14:13:24Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 337.359,
-    "shares": 3.746667
+    "lastPrice": 334.86,
+    "shares": 2.947272,
+    "plan": {
+     "target": 365.0,
+     "stop": 300.0,
+     "prob": 0.4,
+     "rr": 0.86,
+     "evPct": -2.65,
+     "entryRef": 334.86,
+     "setLater": true
+    }
    },
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 341.38,
-    "shares": 1.561111
+    "lastPrice": 341.97,
+    "shares": 1.22803,
+    "plan": {
+     "target": 370.0,
+     "stop": 320.0,
+     "prob": 0.42,
+     "rr": 1.28,
+     "evPct": -0.28,
+     "entryRef": 341.97,
+     "setLater": true
+    }
    },
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 776.575,
-    "shares": 1.873333
+    "lastPrice": 754.5,
+    "shares": 1.473636,
+    "plan": {
+     "target": 880.0,
+     "stop": 700.0,
+     "prob": 0.48,
+     "rr": 2.3,
+     "evPct": 4.23,
+     "entryRef": 754.5,
+     "setLater": true
+    }
    }
   },
   "startingCash": 7025.0,
@@ -30,6 +57,12 @@
    "factor": 0.15611111,
    "sliceAud": 10000.0,
    "note": "Scaled from a separate portfolio into an A$10,000 slice of one A$40,000 fund on 2026-09-25."
+  },
+  "anchor": {
+   "ticker": "SPY",
+   "shares": 5.617764,
+   "avgCost": 768.0367442656811,
+   "lastPrice": 767.475
   }
  },
  "nav_history": [
@@ -116,6 +149,17 @@
    "growthValue": 1987.715944,
    "coreValue": 1263.972344,
    "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-09-25",
+   "nav": 7189.88,
+   "cash": 359.65,
+   "positionsValue": 6830.22,
+   "benchmarkNav": 7085.94,
+   "benchmarkClose": 767.475,
+   "growthValue": 1531.81,
+   "coreValue": 986.92,
+   "daytradeValue": 0.0
   }
  ],
  "trades": [
@@ -179,6 +223,64 @@
    "shares": 0.780556,
    "ticker": "AMD",
    "id": "2026-09-17-AMD-f4n9wq"
+  },
+  {
+   "id": "2026-09-25-AAPL-6hjo9y",
+   "ticker": "AAPL",
+   "action": "sell",
+   "shares": 0.799395,
+   "price": 334.69257,
+   "refPrice": 334.86,
+   "fee": 1.0,
+   "date": "2026-09-25T14:13:24Z",
+   "bucket": "core",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": 0.29,
+   "realizedPnLPct": 0.11,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-25-GOOGL-d2vzd6",
+   "ticker": "GOOGL",
+   "action": "sell",
+   "shares": 0.333081,
+   "price": 341.799015,
+   "refPrice": 341.97,
+   "fee": 1.0,
+   "date": "2026-09-25T14:13:24Z",
+   "bucket": "growth",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": -1.36,
+   "realizedPnLPct": -1.19,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-25-META-l4o6d8",
+   "ticker": "META",
+   "action": "sell",
+   "shares": 0.399697,
+   "price": 754.12275,
+   "refPrice": 754.5,
+   "fee": 1.0,
+   "date": "2026-09-25T14:13:24Z",
+   "bucket": "growth",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": 34.38,
+   "realizedPnLPct": 12.92,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-25-SPY-1rwwqo",
+   "ticker": "SPY",
+   "action": "buy",
+   "shares": 5.617764,
+   "price": 767.858737,
+   "refPrice": 767.475,
+   "fee": 1.0,
+   "date": "2026-09-25T14:13:24Z",
+   "bucket": "anchor",
+   "rationale": "Rebalance: topped the index anchor up to 60% of NAV (core-satellite rule).",
+   "horizon": "Permanent core holding"
   }
  ],
  "lessons": [],
