@@ -2,10 +2,10 @@
  "markets": {
   "us": {
    "prices": {
-    "AAPL": 335.92,
-    "GOOGL": 342.36,
-    "META": 777.59,
-    "SPY": 767.18
+    "AAPL": 339.9,
+    "GOOGL": 344.65,
+    "META": 751.84,
+    "SPY": 771.205
    },
    "benchmark": "SPY"
   },
@@ -20,17 +20,17 @@
   },
   "crypto": {
    "prices": {
-    "SOL-USD": 119.63,
-    "XLM-USD": 0.223274,
-    "UNI7083-USD": 9.798,
-    "AVAX-USD": 10.604,
-    "BCH-USD": 335.42,
-    "NEAR-USD": 5.0218,
-    "LTC-USD": 70.375,
-    "BTC-USD": 84237.13
+    "SOL-USD": 120.83,
+    "XLM-USD": 0.216624,
+    "UNI7083-USD": 9.6031,
+    "AVAX-USD": 10.384,
+    "BCH-USD": 338.69,
+    "NEAR-USD": 4.986,
+    "LTC-USD": 69.629,
+    "BTC-USD": 83837.99
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-09-25T12:15:26Z"
+ "updatedAt": "2026-09-25T17:25:26Z"
 }
