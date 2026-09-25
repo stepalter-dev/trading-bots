@@ -1,63 +1,120 @@
 {
  "state": {
-  "cash": 2464.186423,
+  "cash": 354.9053771999629,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Board-wide rally continues (BTC +8% today) driven by Trump-Xi summit optimism and $2B+ of spot BTC ETF inflows this week - broad macro/beta, not fresh idiosyncratic catalysts for any single name. NEAR, UNI, AVAX, BCH and LTC are all still running on catalysts already priced in when bought (Hyperliquid/Ondo for NEAR, CME futures Oct 19 for UNI/BCH, Helicon/Aave RWA for AVAX, Coinbase loan collateral for LTC), so holding rather than adding into the pump. No other watchlist name shows genuine unusual volume (vol_x) or a new specific catalyst. Growth/core split stays near 45/55, within band; cash at 34% is comfortably above the 5% floor.",
-  "lastUpdated": "2026-09-25T02:12:13Z",
+  "lastRunNotes": "Checked each held catalyst (CME UNI/BCH futures Oct 19, Aave V4 RWA Hub on Avalanche, Hyperliquid spot/perps + Ondo Intents for NEAR, Coinbase fixed-rate loan collateral for LTC) - all confirmed still valid but already substantially priced in by this week's pumps (AVAX +17%, NEAR +~80% over the week, UNI/BCH +5-15% on the CME announcement itself), so no fresh idiosyncratic trigger to add into any of them. BTC is chopping in an ~$82.9k-85k range on no new information (broad 'Rektember' seasonality chatter, no hard catalyst). Holding everything, no new trades; growth/core split stays ~45/55, within band; recent 30h already saw 6 buys so also respecting trade-less discipline. Added target/stop/prob plans for all 8 positions that had none. Moved 0.0124825 BTC-USD from the active sleeve into the index anchor (no trade needed). PLAN BTC-USD: not held or no price",
+  "lastUpdated": "2026-09-25T08:13:35Z",
   "positions": {
-   "BTC-USD": {
-    "avgCost": 84412.12,
-    "bucket": "core",
-    "lastPrice": 84841.04,
-    "shares": 0.01248252
-   },
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 118.23,
-    "shares": 9.1799753
+    "lastPrice": 116.61,
+    "shares": 6.3626533,
+    "plan": {
+     "target": 140.0,
+     "stop": 98.0,
+     "prob": 0.4,
+     "rr": 1.26,
+     "evPct": -1.55,
+     "entryRef": 116.61,
+     "setLater": true
+    }
    },
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.222763,
-    "shares": 3486.16589045
+    "lastPrice": 0.217248,
+    "shares": 2416.26626045,
+    "plan": {
+     "target": 0.25,
+     "stop": 0.185,
+     "prob": 0.45,
+     "rr": 1.02,
+     "evPct": -1.38,
+     "entryRef": 0.217248,
+     "setLater": true
+    }
    },
    "UNI7083-USD": {
-    "shares": 36.73444831,
+    "shares": 25.46069531,
     "avgCost": 9.28,
-    "lastPrice": 9.2085,
+    "lastPrice": 9.138,
     "bucket": "growth",
-    "openedDate": "2026-09-24"
+    "openedDate": "2026-09-24",
+    "plan": {
+     "target": 11.5,
+     "stop": 7.5,
+     "prob": 0.4,
+     "rr": 1.44,
+     "evPct": -0.42,
+     "entryRef": 9.138,
+     "setLater": true
+    }
    },
    "AVAX-USD": {
-    "shares": 33.54942231,
+    "shares": 23.25314931,
     "avgCost": 10.161,
-    "lastPrice": 10.306,
+    "lastPrice": 10.203,
     "bucket": "growth",
-    "openedDate": "2026-09-24"
+    "openedDate": "2026-09-24",
+    "plan": {
+     "target": 13.0,
+     "stop": 8.0,
+     "prob": 0.4,
+     "rr": 1.27,
+     "evPct": -1.99,
+     "entryRef": 10.203,
+     "setLater": true
+    }
    },
    "BCH-USD": {
-    "shares": 1.01348456,
+    "shares": 0.70244756,
     "avgCost": 336.36,
-    "lastPrice": 340.98,
+    "lastPrice": 333.11,
     "bucket": "core",
-    "openedDate": "2026-09-24"
+    "openedDate": "2026-09-24",
+    "plan": {
+     "target": 380.0,
+     "stop": 290.0,
+     "prob": 0.45,
+     "rr": 1.09,
+     "evPct": -0.78,
+     "entryRef": 333.11,
+     "setLater": true
+    }
    },
    "NEAR-USD": {
-    "shares": 78.49641388,
+    "shares": 54.40596988,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.6133,
+    "lastPrice": 4.562,
     "bucket": "growth",
-    "openedDate": "2026-09-24"
+    "openedDate": "2026-09-24",
+    "plan": {
+     "target": 5.5,
+     "stop": 3.7,
+     "prob": 0.4,
+     "rr": 1.09,
+     "evPct": -3.11,
+     "entryRef": 4.562,
+     "setLater": true
+    }
    },
    "LTC-USD": {
-    "shares": 5.38931698,
+    "shares": 3.73534298,
     "avgCost": 71.87902181675821,
-    "lastPrice": 71.33,
+    "lastPrice": 71.217,
     "bucket": "core",
-    "openedDate": "2026-09-24"
+    "openedDate": "2026-09-24",
+    "plan": {
+     "target": 85.0,
+     "stop": 62.0,
+     "prob": 0.45,
+     "rr": 1.5,
+     "evPct": 1.59,
+     "entryRef": 71.217,
+     "setLater": true
+    }
    }
   },
   "startingCash": 7025.0,
@@ -65,6 +122,12 @@
    "factor": 0.15495258,
    "sliceAud": 10000.0,
    "note": "Scaled from a separate portfolio into an A$10,000 slice of one A$40,000 fund on 2026-09-25."
+  },
+  "anchor": {
+   "ticker": "BTC-USD",
+   "shares": 0.05043752,
+   "avgCost": 84447.72255577098,
+   "lastPrice": 84156.25
   }
  },
  "nav_history": [
@@ -92,13 +155,13 @@
   },
   {
    "date": "2026-09-25",
-   "nav": 7161.308688,
-   "cash": 2464.186124,
-   "positionsValue": 4697.121014,
-   "benchmarkNav": 7060.697976,
-   "benchmarkClose": 84841.04,
-   "growthValue": 2131.506029,
-   "coreValue": 2565.616535,
+   "nav": 7084.54,
+   "cash": 354.91,
+   "positionsValue": 6729.63,
+   "benchmarkNav": 7003.71,
+   "benchmarkClose": 84156.25,
+   "growthValue": 1460.06,
+   "coreValue": 1024.94,
    "daytradeValue": 0.0
   }
  ],
@@ -202,8 +265,132 @@
    "rationale": "Fresh, specific catalyst (Coinbase fixed-rate loans accepting LTC as collateral, launched Sept 23) confirmed by real unusual volume (vol_x 4.38, ~$1B on-chain movement, ~3x normal spot volume) rather than pure rally beta.",
    "horizon": "Reassess if LTC fails to hold above ~$65 support or if Coinbase loan-collateral usage data fades by mid-October.",
    "sentimentSummary": "Coverage (Invezz, CoinDesk, Investing.com) framing it as a genuine activity-driven breakout, not just broad-market sympathy."
+  },
+  {
+   "id": "2026-09-25-SOL-USD-v85uuz",
+   "ticker": "SOL-USD",
+   "action": "sell",
+   "shares": 2.817322,
+   "price": 116.49339,
+   "refPrice": 116.61,
+   "fee": 0.8533,
+   "date": "2026-09-25T08:13:35Z",
+   "bucket": "growth",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": 3.97,
+   "realizedPnLPct": 1.23,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-25-XLM-USD-kd7hjv",
+   "ticker": "XLM-USD",
+   "action": "sell",
+   "shares": 1069.89963,
+   "price": 0.217031,
+   "refPrice": 0.217248,
+   "fee": 0.6037,
+   "date": "2026-09-25T08:13:35Z",
+   "bucket": "core",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": 16.0,
+   "realizedPnLPct": 7.42,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-25-UNI7083-USD-1ica8t",
+   "ticker": "UNI7083-USD",
+   "action": "sell",
+   "shares": 11.273753,
+   "price": 9.128862,
+   "refPrice": 9.138,
+   "fee": 0.2676,
+   "date": "2026-09-25T08:13:35Z",
+   "bucket": "growth",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": -1.97,
+   "realizedPnLPct": -1.88,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-25-AVAX-USD-ayxbto",
+   "ticker": "AVAX-USD",
+   "action": "sell",
+   "shares": 10.296273,
+   "price": 10.192797,
+   "refPrice": 10.203,
+   "fee": 0.2729,
+   "date": "2026-09-25T08:13:35Z",
+   "bucket": "growth",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": 0.05,
+   "realizedPnLPct": 0.05,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-25-BCH-USD-2iaoyr",
+   "ticker": "BCH-USD",
+   "action": "sell",
+   "shares": 0.311037,
+   "price": 332.77689,
+   "refPrice": 333.11,
+   "fee": 0.2691,
+   "date": "2026-09-25T08:13:35Z",
+   "bucket": "core",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": -1.38,
+   "realizedPnLPct": -1.32,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-25-NEAR-USD-an3940",
+   "ticker": "NEAR-USD",
+   "action": "sell",
+   "shares": 24.090444,
+   "price": 4.557438,
+   "refPrice": 4.562,
+   "fee": 0.2855,
+   "date": "2026-09-25T08:13:35Z",
+   "bucket": "growth",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": 4.89,
+   "realizedPnLPct": 4.67,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-25-LTC-USD-fgiruu",
+   "ticker": "LTC-USD",
+   "action": "sell",
+   "shares": 1.653974,
+   "price": 71.145783,
+   "refPrice": 71.217,
+   "fee": 0.306,
+   "date": "2026-09-25T08:13:35Z",
+   "bucket": "core",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": -1.52,
+   "realizedPnLPct": -1.28,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-25-BTC-USD-p46qsk",
+   "ticker": "BTC-USD",
+   "action": "buy",
+   "shares": 0.037955,
+   "price": 84240.40625,
+   "refPrice": 84156.25,
+   "fee": 8.3131,
+   "date": "2026-09-25T08:13:35Z",
+   "bucket": "anchor",
+   "rationale": "Rebalance: topped the index anchor up to 60% of NAV (core-satellite rule).",
+   "horizon": "Permanent core holding"
   }
  ],
  "lessons": [],
- "journal": []
+ "journal": [],
+ "coinbaseRank": [
+  {
+   "date": "2026-09-25",
+   "rank": 39
+  }
+ ]
 }
