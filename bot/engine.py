@@ -126,6 +126,8 @@ def forced_flatten(state, cfg, prices, now_iso, date_local, is_last):
 
 def apply_decisions(state, cfg, prices, decisions, now_iso, date_local, is_last):
     """Validate and execute LLM-proposed trades. Returns (executed, rejected_notes)."""
+    from . import edge  # local import: edge imports this module
+
     executed, rejected = [], []
     swing_count = 0
     dt_opens = 0
@@ -199,6 +201,10 @@ def apply_decisions(state, cfg, prices, decisions, now_iso, date_local, is_last)
             usd = 0.0
         held_value = pos["shares"] * pos.get("lastPrice", pos["avgCost"]) if pos else 0.0
         usd = min(usd, cap * nav - held_value, state["cash"] - MIN_CASH_FRACTION * nav)
+        plan, why_not = edge.evaluate(cfg, price, d.get("target"), d.get("stop"), d.get("prob"), edge.kind_of(bucket), usd)
+        if not plan:
+            rejected.append(f"BUY {ticker}: odds check failed - {why_not}")
+            continue
         quote = price
         price = fill_price(cfg, quote, "buy")
         units = round_units(cfg, usd / price) if usd > 0 else 0
@@ -217,8 +223,9 @@ def apply_decisions(state, cfg, prices, decisions, now_iso, date_local, is_last)
             pos["avgCost"] = (pos["shares"] * pos["avgCost"] + cost) / total
             pos["shares"] = round(total, 8)
             pos["lastPrice"] = quote
+            pos["plan"] = plan
         else:
-            state["positions"][ticker] = {"shares": units, "avgCost": cost / units, "lastPrice": quote, "bucket": bucket, "openedDate": date_local}
+            state["positions"][ticker] = {"shares": units, "avgCost": cost / units, "lastPrice": quote, "bucket": bucket, "openedDate": date_local, "plan": plan}
         horizon = (d.get("horizon") or "").strip() or ("Intraday - close by end of trading day" if bucket == "daytrade" else "Horizon not specified")
         trade = {
             "id": _trade_id(date_local, ticker),
@@ -232,6 +239,7 @@ def apply_decisions(state, cfg, prices, decisions, now_iso, date_local, is_last)
             "bucket": bucket,
             "rationale": rationale,
             "horizon": horizon,
+            "plan": plan,
         }
         if sentiment:
             trade["sentimentSummary"] = sentiment

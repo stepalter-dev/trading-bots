@@ -81,7 +81,7 @@ def main(argv=None):
         state = s["data"]["state"]
         engine.mark_to_market(state, s["prices"])
         cfg = s["cfg"]
-        print(brain.SYSTEM.format(label=cfg["label"], max_swing=3, max_dt=2))
+        print(brain.format_system(cfg))
         print("\n========== BRIEFING ==========")
         print(brain.build_context(state, cfg, s["prices"], s["data"]["trades"], engine.nav_of(state), s["bench"], s["slot"], s["is_last"], s["now_local"])
               + learning.briefing_text(s["data"], cfg, engine.nav_of(state)))

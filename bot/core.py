@@ -6,7 +6,7 @@ finish()  - apply a decision, do the accounting, save, post to Discord
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
-from . import engine, learning, notify, prices as pricing, store
+from . import edge, engine, learning, notify, prices as pricing, store
 from .markets import MARKETS, universe
 
 DUPLICATE_MINUTES = 45
@@ -74,7 +74,14 @@ def finish(s, decision, dry=False):
         decision_notes = "Price feed unhealthy this session (more than half of price fetches failed) - no new trades, holdings marked at last-known prices."
     else:
         decision_notes = decision.get("notes", "")
-        done, rejected = engine.apply_decisions(state, cfg, prices, decision.get("trades", []), s["now_iso"], s["date_local"], s["is_last"])
+        # the plan's stop is binding: exit first, before any new decisions
+        stopped, _ = edge.stop_exits(state, cfg, prices, s["now_iso"], s["date_local"], engine._sell)
+        executed += stopped
+        if stopped:
+            notes.append("Stop-loss exits: " + ", ".join(t["ticker"] for t in stopped) + ".")
+        decisions = [d for d in decision.get("trades", []) if not any(d.get("ticker") == t["ticker"] for t in stopped)]
+        notes += edge.set_plans(state, cfg, prices, decision.get("plans"))
+        done, rejected = engine.apply_decisions(state, cfg, prices, decisions, s["now_iso"], s["date_local"], s["is_last"])
         executed += done
         if rejected:
             notes.append("Referee adjusted/rejected: " + "; ".join(rejected))

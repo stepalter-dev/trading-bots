@@ -69,6 +69,11 @@ def build_embeds(cfg, *, nav, bench_nav, growth_pct, feed_alert, feed_failed_now
         if t.get("realizedPnL") is not None:
             pnl = t["realizedPnL"]
             f.append({"name": "Realized P&L", "value": f"**{'+' if pnl >= 0 else ''}{_money(cfg, pnl)} ({t.get('realizedPnLPct', 0):+.2f}%)**", "inline": True})
+        plan = t.get("plan")
+        if plan:
+            f.append({"name": "Plan", "value": f"Target `{_money(cfg, plan['target'])}` · Stop `{_money(cfg, plan['stop'])}` · Odds `{plan['prob']:.0%}` · R:R `{plan['rr']:.1f}:1`", "inline": False})
+        if t.get("exitReason") == "stop":
+            f.append({"name": "Exit", "value": "Stop-loss hit - sold per plan", "inline": False})
         f.append({"name": "Rationale", "value": "> *" + (t.get("rationale") or "")[:900] + "*", "inline": False})
         embeds.append({
             "title": p + ("\U0001F535 BUY " if is_buy else "\U0001F7E0 SELL ") + t["ticker"] + (" (day-trade)" if t.get("bucket") == "daytrade" else ""),

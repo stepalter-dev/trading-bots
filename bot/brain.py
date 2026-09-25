@@ -3,6 +3,7 @@ import json
 import os
 import re
 
+from .edge import MAX_STOP_PCT, MIN_RR, plan_line
 from .markets import bucket_of, universe
 
 MODEL = os.environ.get("BOT_MODEL", "claude-sonnet-5")
@@ -19,6 +20,9 @@ You may ONLY trade tickers from the watchlist supplied below. A deterministic re
 - Every BUY needs an explicit `horizon` tied to a concrete trigger. Review held positions against the horizon recorded when they were bought.
 - Day-trades: base them on short-term catalysts (same-day news, technical level, unusual volume ratio), not multi-week theses.
 - Unusual volume: `vol_x` is today's volume divided by the recent 10-day average; well above 1.5-2x is a meaningful signal.
+- ASYMMETRIC ODDS (enforced by the referee): every BUY must include a `target` price, a `stop` price and `prob`, your honest probability (0-100) that the price reaches the target before the stop. The referee computes reward:risk = (target-price)/(price-stop) and expected value = prob x upside - (1-prob) x downside - trading costs. It REJECTS buys with reward:risk below {rr_swing:g} (swing) / {rr_dt:g} (day-trade), a non-positive expected value, or a stop more than {stop_swing:g}% (swing) / {stop_dt:g}% (day-trade) below the price. Prefer bets where the upside is several times the downside. Set the stop where the thesis is genuinely proven wrong, not just to pass the check, and do not inflate the probability: it is scored later for calibration.
+- Stops are binding: a held position trading at or below its stop is sold automatically at the start of the session. A position flagged TARGET REACHED should be sold (take profit) or given a new, higher plan.
+- Held positions shown with NO PLAN need one: add a `plans` entry for them (ticker, target, stop, prob) without trading.
 
 Use web search sparingly (a handful of queries) on the names that matter: big movers, held positions, and any candidate you are seriously considering. Prefer recent, specific news over generic commentary. Never invent prices; use only the prices in the data provided.
 
@@ -27,18 +31,26 @@ When you are done, reply with ONE json code block and nothing after it, in exact
 {{
   "notes": "2-4 sentence plain-English summary of what you looked at and decided, including the growth/core balance",
   "trades": [
-    {{"action": "buy", "ticker": "XXX", "bucket": "growth|core|daytrade", "usd": 2500, "rationale": "one or two sentences", "sentiment": "optional one line on social/news sentiment", "horizon": "concrete trigger or date to reassess"}},
+    {{"action": "buy", "ticker": "XXX", "bucket": "growth|core|daytrade", "usd": 2500, "target": 118.0, "stop": 94.0, "prob": 45, "rationale": "one or two sentences, including why the upside outweighs the downside", "sentiment": "optional one line on social/news sentiment", "horizon": "concrete trigger or date to reassess"}},
     {{"action": "sell", "ticker": "YYY", "shares": "all", "rationale": "..."}}
+  ],
+  "plans": [
+    {{"ticker": "ZZZ", "target": 150.0, "stop": 120.0, "prob": 55}}
   ]
 }}
 ```
-Use an empty "trades" list when holding. Use "usd" (dollar amount to spend) for buys and "shares" (a number or "all") for sells.
+"plans" is optional (only for held positions that need a new or first plan). Use an empty "trades" list when holding. Use "usd" (dollar amount to spend) for buys and "shares" (a number or "all") for sells.
 
 LEARNING FROM YOUR OWN TRACK RECORD. The briefing may end with a SCORECARD, STANDING LESSONS and CLOSED TRADES AWAITING YOUR REVIEW. You have no memory between sessions apart from this; use it honestly:
 - For each closed trade awaiting review, add an entry to an optional "reviews" list: {{"id": "<id from the briefing>", "verdict": "sound|flawed|lucky|unlucky", "lesson": "one sentence"}}. Judge the DECISION, not the outcome: "sound" = good reasoning (win or loss); "flawed" = the reasoning was weak or ignored a warning sign; "lucky" = won despite weak reasoning; "unlucky" = good reasoning, bad result.
 - Optionally add "lessons": the COMPLETE list (max 10 short strings) of standing lessons you want to keep for future sessions. Only add a lesson supported by at least 3 reviewed trades or a clear repeated pattern, and drop lessons the record no longer supports. Omit "lessons" to leave the list unchanged. With few closed trades, record reviews but do not change your approach.
 - Never treat a small sample as proof, and never chase past winners or avoid past losers just because of the last result.
 Both "reviews" and "lessons" are optional additions to the same json block."""
+
+
+def format_system(cfg):
+    return SYSTEM.format(label=cfg["label"], max_swing=3, max_dt=2, rr_swing=MIN_RR["swing"], rr_dt=MIN_RR["daytrade"],
+                         stop_swing=MAX_STOP_PCT["swing"], stop_dt=MAX_STOP_PCT["daytrade"])
 
 
 def _fmt(x, nd=2):
@@ -71,6 +83,7 @@ def build_context(state, cfg, prices, trades, nav, bench, slot, is_last, now_loc
         horizon = origin.get("horizon", "n/a") if origin else "n/a"
         reason = (origin.get("rationale", "")[:160] if origin else "")
         lines.append(f"  {t} [{p.get('bucket')}] {p['shares']} @ avg {p['avgCost']:.4f}, now {last:.4f} ({pnl_pct:+.1f}%), value {p['shares'] * last:,.2f} ({p['shares'] * last / nav * 100:.1f}% of NAV) | horizon: {horizon} | why bought: {reason}")
+        lines.append(f"      {plan_line(p, last, cfg['currency'])}")
     lines.append("")
     lines.append("WATCHLIST PRICES (ticker | bucket | price | day% | 5d% | vol_x):")
     for t in universe(cfg):
@@ -107,7 +120,7 @@ def decide(cfg, context):
     import anthropic  # imported lazily so offline tests don't need the package
 
     client = anthropic.Anthropic()
-    system = SYSTEM.format(label=cfg["label"], max_swing=3, max_dt=2)
+    system = format_system(cfg)
     tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": MAX_SEARCHES}]
     messages = [{"role": "user", "content": context}]
 

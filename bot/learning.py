@@ -46,6 +46,9 @@ def journal_entry(sell, trades):
         "whyBought": (buy or {}).get("rationale", "")[:300],
         "horizon": (buy or {}).get("horizon", ""),
         "whySold": sell.get("rationale", "")[:300],
+        "prob": ((buy or {}).get("plan") or {}).get("prob"),
+        "rr": ((buy or {}).get("plan") or {}).get("rr"),
+        "exitReason": sell.get("exitReason"),
         "review": None,
     }
 
@@ -99,6 +102,30 @@ def _stats(entries):
     }
 
 
+CAL_BANDS = ((0.0, 0.4), (0.4, 0.55), (0.55, 0.7), (0.7, 1.01))
+
+
+def calibration(journal):
+    """[(band_label, n, avg_predicted, actual_win_rate)] for closed trades that had a probability."""
+    rows = []
+    for lo, hi in CAL_BANDS:
+        es = [e for e in journal if e.get("prob") is not None and lo <= e["prob"] < hi]
+        if es:
+            rows.append((f"{lo:.0%}-{min(hi, 1):.0%}", len(es), sum(e["prob"] for e in es) / len(es),
+                         sum(1 for e in es if e["pnlPct"] > 0) / len(es)))
+    return rows
+
+
+def calibration_text(journal):
+    rows = calibration(journal)
+    if not rows:
+        return ""
+    parts = [f"{band}: {n} trade{'s' if n != 1 else ''}, you said {pred:.0%} on average, {act:.0%} actually won" for band, n, pred, act in rows]
+    stops = sum(1 for e in journal if e.get("exitReason") == "stop")
+    extra = f" Stops hit: {stops}." if stops else ""
+    return "  Calibration of your probabilities (win = closed at a profit): " + "; ".join(parts) + "." + extra
+
+
 def scorecard_text(data, cfg, nav, bench_now=None):
     j = data["journal"]
     state = data["state"]
@@ -125,6 +152,9 @@ def scorecard_text(data, cfg, nav, bench_now=None):
         if reviewed:
             counts = {v: sum(1 for e in reviewed if e["review"]["verdict"] == v) for v in VERDICTS}
             lines.append("  Your own past reviews: " + ", ".join(f"{v} {c}" for v, c in counts.items() if c) + ".")
+        cal = calibration_text(j)
+        if cal:
+            lines.append(cal)
         if allst["n"] < 15:
             lines.append(f"  Only {allst['n']} closed trade{'s' if allst['n'] != 1 else ''} so far: too few to draw conclusions. Record observations, but do not change your approach because of a handful of results.")
     pos = state["positions"].values()
