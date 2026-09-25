@@ -41,7 +41,9 @@ def main():
             t.extractall(files, filter="data")
         head = git(repo, "rev-parse", "--short", "HEAD")
 
-    shutil.copy2(os.path.abspath(__file__), os.path.join(DEST, "backup.py"))  # keep the script next to the backup
+    target = os.path.join(DEST, "backup.py")
+    if os.path.normcase(os.path.abspath(__file__)) != os.path.normcase(target):
+        shutil.copy2(os.path.abspath(__file__), target)  # keep the script next to the backup
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     with open(os.path.join(DEST, "README.txt"), "w", encoding="utf-8") as f:
         f.write(f"Backup of github.com/stepalter-dev/trading-bots  (last updated {now}, commit {head})\n\n"
