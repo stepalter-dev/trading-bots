@@ -11,7 +11,7 @@ The free path (Claude routines) uses bot/session.py instead.
 import argparse
 import sys
 
-from . import brain, core, learning
+from . import brain, core, learning, signals
 from .markets import MARKETS
 
 
@@ -41,6 +41,7 @@ def main(argv=None):
         engine.mark_to_market(state, s["prices"])
         context = brain.build_context(state, s["cfg"], s["prices"], s["data"]["trades"], engine.nav_of(state), s["bench"], s["slot"], s["is_last"], s["now_local"])
         context += learning.briefing_text(s["data"], s["cfg"], engine.nav_of(state))
+        context += signals.briefing_text(s["cfg"], s["data"], s["prices"])
         try:
             decision = {"notes": "Stub run - holding.", "trades": []} if args.stub else brain.decide(s["cfg"], context)
         except Exception as e:  # noqa: BLE001 - a brain failure must never corrupt state

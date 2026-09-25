@@ -6,7 +6,7 @@ finish()  - apply a decision, do the accounting, save, post to Discord
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
-from . import edge, engine, learning, notify, prices as pricing, store
+from . import edge, engine, learning, notify, prices as pricing, signals, store
 from .markets import MARKETS, universe
 
 DUPLICATE_MINUTES = 45
@@ -122,6 +122,9 @@ def finish(s, decision, dry=False):
     state["lastRunNotes"] = " ".join(x for x in [decision_notes] + notes if x).strip()
     trades.extend(executed)
     learning.record_sells(data, executed)
+    if cfg["key"] == "crypto" and not dry:  # slow-moving crypto signals, cached once a day
+        signals.record_rank(data)
+        signals.refresh_dev(data)
     learning.apply_reflection(data, decision)
 
     now_local = s["now_local"]
