@@ -26,7 +26,7 @@ def _money(cfg, x):
     return ("-" if x < 0 else "") + cfg["currency"] + f"{abs(x):,.2f}"
 
 
-def build_embeds(cfg, *, nav, bench_nav, growth_pct, feed_alert, feed_failed_now, executed, notes, now_utc, local_time, start_cash):
+def build_embeds(cfg, *, nav, bench_nav, growth_pct, feed_alert, feed_failed_now, executed, notes, now_utc, local_time, start_cash, anchor_pct=None):
     p = cfg["prefix"]
     iso = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
     n = len(executed)
@@ -41,6 +41,8 @@ def build_embeds(cfg, *, nav, bench_nav, growth_pct, feed_alert, feed_failed_now
         {"name": "Session", "value": local_time, "inline": True},
         {"name": "NAV", "value": f"{_money(cfg, nav)} ({'+' if delta >= 0 else ''}{_money(cfg, delta)} vs {cfg['benchmark_name']})", "inline": True},
     ]
+    if anchor_pct is not None:
+        fields.append({"name": "Index Anchor", "value": f"{anchor_pct:.0f}% in {cfg['benchmark']}", "inline": True})
     if growth_pct is not None:
         fields.append({"name": "Growth / Core Split", "value": f"{growth_pct:.0f}% / {100 - growth_pct:.0f}%", "inline": True})
     fields.append({"name": "Data Feed", "value": feed_alert or ("Degraded this session - no trades" if feed_failed_now else "Healthy"), "inline": True})

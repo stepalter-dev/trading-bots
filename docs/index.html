@@ -416,6 +416,9 @@
   .risk-pill.unclassified { background: var(--surface-alt); color: var(--ink-faint); }
 
   .alloc-seg.daytrade { background: var(--daytrade); }
+  .alloc-seg.anchor { background: var(--ink-soft); }
+  .alloc-legend .dot.anchor { background: var(--ink-soft); }
+  .risk-pill.anchor { background: var(--surface-alt); color: var(--ink-soft); }
   .alloc-legend .dot.daytrade { background: var(--daytrade); }
 
   .dt-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; margin-bottom: 4px; }
@@ -504,7 +507,7 @@
 
     <div class="panel">
       <h2>Risk allocation</h2>
-      <div class="caption">Barbell target: roughly half the invested book in higher-risk growth names, half in steadier core names.</div>
+      <div class="caption">Core-satellite: about 60% sits in the market index (the anchor); the active sleeve is a barbell of higher-risk growth and steadier core names.</div>
       <div class="alloc-bar" id="alloc-bar"></div>
       <div class="alloc-legend" id="alloc-legend"></div>
     </div>
@@ -614,7 +617,7 @@
   </section>
 
   <footer>
-    <span id="footer-rules"><strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund (held as US$7,025) · US stocks &amp; ETFs only, whole shares on new buys · max 20% of the slice in any swing position, 10% in a day-trade, 5% always in cash · every buy needs a target, stop &amp; odds: at least 2:1 reward-to-risk (1.5:1 for day-trades) and a positive expected value after fees · stops sell automatically · day-trades closed by the 3pm ET session · no leverage, options or shorting</span>
+    <span id="footer-rules"><strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund (held as US$7,025) · US stocks &amp; ETFs only, whole shares on new buys · 60% held in the market index as an anchor, rebalanced automatically · the rest is actively managed: max 12% of the slice per position, 5% always in cash, at most 2 trades a session · new buys only above the 200-day average, need a target, stop &amp; odds with at least 2:1 reward-to-risk and positive expected value after fees · positions held at least 2 weeks (stops sell automatically) · new buys capped at 30% of the slice per 30 days · day-trading paused · no leverage, options or shorting</span>
     <span>Not investment advice · nothing here trades real money</span>
   </footer>
 </div>
@@ -631,7 +634,7 @@
       defaultStartingCash: 7025,
       benchLabel: "S&amp;P 500 benchmark",
       perfCaption: "Net asset value since inception, vs. an equal-dollar S&amp;P 500 (SPY) benchmark.",
-      footerRules: "<strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund (held as US$7,025) · US stocks &amp; ETFs only, whole shares on new buys · max 20% of the slice in any swing position, 10% in a day-trade, 5% always in cash · every buy needs a target, stop &amp; odds: at least 2:1 reward-to-risk (1.5:1 for day-trades) and a positive expected value after fees · stops sell automatically · day-trades closed by the 3pm ET session · no leverage, options or shorting",
+      footerRules: "<strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund (held as US$7,025) · US stocks &amp; ETFs only, whole shares on new buys · 60% held in the market index as an anchor, rebalanced automatically · the rest is actively managed: max 12% of the slice per position, 5% always in cash, at most 2 trades a session · new buys only above the 200-day average, need a target, stop &amp; odds with at least 2:1 reward-to-risk and positive expected value after fees · positions held at least 2 weeks (stops sell automatically) · new buys capped at 30% of the slice per 30 days · day-trading paused · no leverage, options or shorting",
       docs: { portfolio: "state", navHistory: "nav_history", trades: "trades" },
     },
     asx: {
@@ -644,7 +647,7 @@
       defaultStartingCash: 10000,
       benchLabel: "S&amp;P/ASX 200 benchmark",
       perfCaption: "Net asset value since inception, vs. an equal-dollar S&amp;P/ASX 200 (STW) benchmark.",
-      footerRules: "<strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund · ASX-listed stocks &amp; ETFs only, whole shares on new buys · max 20% of the slice in any swing position, 10% in a day-trade, 5% always in cash · every buy needs a target, stop &amp; odds: at least 2:1 reward-to-risk (1.5:1 for day-trades) and a positive expected value after fees · stops sell automatically · day-trades closed by the 3pm AEST session · no leverage, options or shorting",
+      footerRules: "<strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund · ASX-listed stocks &amp; ETFs only, whole shares on new buys · 60% held in the market index as an anchor, rebalanced automatically · the rest is actively managed: max 12% of the slice per position, 5% always in cash, at most 2 trades a session · new buys only above the 200-day average, need a target, stop &amp; odds with at least 2:1 reward-to-risk and positive expected value after fees · positions held at least 2 weeks (stops sell automatically) · new buys capped at 30% of the slice per 30 days · day-trading paused · no leverage, options or shorting",
       docs: { portfolio: "state_asx", navHistory: "nav_history_asx", trades: "trades_asx" },
     },
     crypto: {
@@ -657,7 +660,7 @@
       defaultStartingCash: 7025,
       benchLabel: "Bitcoin (BTC) benchmark",
       perfCaption: "Net asset value since inception, vs. an equal-dollar Bitcoin (BTC-USD) buy-and-hold benchmark.",
-      footerRules: "<strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund (held as US$7,025) · a fixed list of major cryptocurrencies, fractional units allowed · max 20% of the slice in any swing position, 10% in a day-trade, 5% always in cash · every buy needs a target, stop &amp; odds: at least 2:1 reward-to-risk (1.5:1 for day-trades) and a positive expected value after fees · stops sell automatically · day-trades closed by the 20:00 UTC session · no leverage, futures or shorting",
+      footerRules: "<strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund (held as US$7,025) · a fixed list of major cryptocurrencies, fractional units allowed · 60% held in the market index as an anchor, rebalanced automatically · the rest is actively managed: max 12% of the slice per position, 5% always in cash, at most 2 trades a session · new buys only above the 200-day average, need a target, stop &amp; odds with at least 2:1 reward-to-risk and positive expected value after fees · positions held at least 2 weeks (stops sell automatically) · new buys capped at 30% of the slice per 30 days · day-trading paused · no leverage, futures or shorting",
       docs: { portfolio: "state_crypto", navHistory: "nav_history_crypto", trades: "trades_crypto" },
     },
   };
@@ -826,11 +829,12 @@
     const legend = document.getElementById("alloc-legend");
     if (!nav || nav <= 0) { bar.innerHTML = ""; legend.innerHTML = ""; return; }
 
-    let growthValue = 0, coreValue = 0, daytradeValue = 0, unknownValue = 0;
+    let growthValue = 0, coreValue = 0, daytradeValue = 0, anchorValue = 0, unknownValue = 0;
     posEntries.forEach(([ticker, p]) => {
       const val = (p.shares || 0) * (p.lastPrice != null ? p.lastPrice : p.avgCost || 0);
       const bucket = bucketFor(ticker, p);
-      if (bucket === "growth") growthValue += val;
+      if (bucket === "anchor") anchorValue += val;
+      else if (bucket === "growth") growthValue += val;
       else if (bucket === "core") coreValue += val;
       else if (bucket === "daytrade") daytradeValue += val;
       else unknownValue += val;
@@ -838,6 +842,7 @@
 
     const seg = (val) => Math.max(0, (val / nav) * 100);
     const segs = [
+      { cls: "anchor", label: "Index anchor", val: anchorValue },
       { cls: "growth", label: "Growth / high-risk", val: growthValue },
       { cls: "core", label: "Core / defensive", val: coreValue },
       { cls: "daytrade", label: "Day trading", val: daytradeValue },
@@ -946,7 +951,7 @@
     if (posEntries.length === 0) {
       thesisPositions.innerHTML = '<div class="status-banner show" style="margin:0;">No open positions yet — nothing to hold a thesis on.</div>';
     } else {
-      thesisPositions.innerHTML = posEntries.map(([ticker, p]) => {
+      thesisPositions.innerHTML = posEntries.filter(([, p]) => !p.isAnchor).map(([ticker, p]) => {
         // Most recent buy trade for this ticker carries the live thesis.
         const originTrade = trades
           .filter((t) => t.ticker === ticker && (t.action || "").toLowerCase() === "buy")
@@ -1267,6 +1272,19 @@
     return rows;
   }
 
+  function reviewPanel() {
+    if (!fundCfg || !fundCfg.review) return "";
+    const rv = fundCfg.review, rules = fundCfg.rules || {};
+    const days = Math.ceil((Date.parse(rv.next + "T00:00:00Z") - Date.now()) / 86400000);
+    const when = new Date(rv.next + "T00:00:00Z").toLocaleDateString("en-AU", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+    return '<div class="panel"><h2>Next review: ' + escH(when) + (days > 0 ? ' <span style="color:var(--ink-faint);font-weight:400;font-size:13px">(' + days + ' days)</span>' : "") + '</h2>' +
+      '<div class="caption">Success was defined before the test started, and the rules are frozen until then, so the result is a fair test.</div>' +
+      '<ol style="margin:0 0 10px;padding-left:20px;font-size:13px">' + rv.success_criteria.map((c) => "<li>" + escH(c) + "</li>").join("") + '</ol>' +
+      '<div style="font-size:13px"><b>If it fails:</b> ' + escH(rv.if_it_fails) + '</div>' +
+      (rules.summary ? '<div style="font-size:13px;margin-top:8px"><b>Current rules (since ' + escH(rules.adopted) + '):</b> ' + escH(rules.summary) + '</div>' : "") +
+      '</div>';
+  }
+
   function renderFund() {
     document.getElementById("footer-rules").innerHTML = "<strong>Rules:</strong> one A$40,000 paper fund in four fixed A$10,000 slices (US stocks, ASX stocks, crypto, VC Scout) · slices run independently and never share cash, so the markets can be compared fairly · US$ slices are converted to A$ at the live AUD/USD rate";
     document.getElementById("page-title").textContent = (fundCfg && fundCfg.name) || "Claude's Fund";
@@ -1296,7 +1314,8 @@
           '<td class="num ' + (r.ret == null ? "" : cls(r.ret)) + '">' + (r.ret == null ? "—" : pctS(r.ret)) + '</td>' +
           '<td><div class="ret-bar"><i class="' + (r.ret >= 0 ? "pos" : "neg") + '" style="width:' + w.toFixed(1) + '%;' + (r.ret >= 0 ? "left:50%" : "right:50%") + '"></i></div></td></tr>';
       }).join("") +
-      '</tbody></table><div class="caption" style="margin-top:10px">Click a slice to open it. Currency moves change the A$ value of the US$ slices even when their own return is flat.</div></div>';
+      '</tbody></table><div class="caption" style="margin-top:10px">Click a slice to open it. Currency moves change the A$ value of the US$ slices even when their own return is flat.</div></div>' +
+      reviewPanel();
     document.querySelectorAll(".fund-row").forEach((tr) => tr.addEventListener("click", () => selectMarket(tr.dataset.go)));
   }
 
@@ -1410,6 +1429,12 @@
             }
           }
         } catch (e) { /* keep the GitHub overlay */ }
+        // the index anchor (core-satellite) is shown as a holding; its live price is the benchmark's
+        if (d.state && d.state.anchor) {
+          const a = d.state.anchor;
+          const lp = stores[key].liveAt && stores[key].liveBench != null ? stores[key].liveBench : a.lastPrice;
+          d.state.positions["⚓ " + a.ticker] = { shares: a.shares, avgCost: a.avgCost, lastPrice: lp, bucket: "anchor", isAnchor: true };
+        }
         stores[key].navHistory = d.nav_history || [];
         stores[key].journal = d.journal || [];
         stores[key].lessons = d.lessons || [];

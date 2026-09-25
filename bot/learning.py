@@ -57,7 +57,7 @@ def ensure(data):
     """Make sure the data file has a journal (backfilled from past sells) and a lessons list."""
     data.setdefault("lessons", [])
     if "journal" not in data:
-        sells = sorted((t for t in data["trades"] if t["action"] == "sell" and t.get("realizedPnLPct") is not None), key=lambda t: t["date"])
+        sells = sorted((t for t in data["trades"] if t["action"] == "sell" and t.get("realizedPnLPct") is not None and t.get("exitReason") != "rebalance"), key=lambda t: t["date"])
         data["journal"] = [journal_entry(s, data["trades"]) for s in sells]
     return data
 
@@ -66,7 +66,7 @@ def record_sells(data, executed):
     """Add journal entries for the sells executed this session."""
     known = {j["id"] for j in data["journal"]}
     for t in executed:
-        if t["action"] == "sell" and t.get("realizedPnLPct") is not None and t["id"] not in known:
+        if t["action"] == "sell" and t.get("realizedPnLPct") is not None and t["id"] not in known and t.get("exitReason") != "rebalance":
             data["journal"].append(journal_entry(t, data["trades"] + executed))
 
 

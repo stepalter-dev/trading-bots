@@ -79,9 +79,13 @@ def finish(s, decision, dry=False):
         executed += stopped
         if stopped:
             notes.append("Stop-loss exits: " + ", ".join(t["ticker"] for t in stopped) + ".")
+        # core-satellite: keep 60% in the index before the active decisions use what cash is left
+        rebal, rnotes = engine.rebalance_anchor(state, cfg, prices, s["now_iso"], s["date_local"])
+        executed += rebal
+        notes += rnotes
         decisions = [d for d in decision.get("trades", []) if not any(d.get("ticker") == t["ticker"] for t in stopped)]
         notes += edge.set_plans(state, cfg, prices, decision.get("plans"))
-        done, rejected = engine.apply_decisions(state, cfg, prices, decisions, s["now_iso"], s["date_local"], s["is_last"])
+        done, rejected = engine.apply_decisions(state, cfg, prices, decisions, s["now_iso"], s["date_local"], s["is_last"], history=data["trades"])
         executed += done
         if rejected:
             notes.append("Referee adjusted/rejected: " + "; ".join(rejected))
@@ -138,6 +142,7 @@ def finish(s, decision, dry=False):
         cfg, nav=nav, bench_nav=bench_nav, growth_pct=growth_pct, feed_alert=state["dataFeedAlert"],
         feed_failed_now=s["feed_failed"], executed=executed, notes=state["lastRunNotes"],
         now_utc=s["now_utc"], local_time=local_time, start_cash=state["startingCash"],
+        anchor_pct=bv["anchor"] / nav * 100 if nav else None,
     )
     notify.post(cfg, embeds)
     return summary

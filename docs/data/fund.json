@@ -6,9 +6,65 @@
  "note": "One A$40,000 fund in four fixed A$10,000 slices. US stocks and crypto slices are held in US$ (converted at AUD/USD 0.7025 on 2026-09-25) and converted back to A$ at the live rate for the fund total.",
  "startAudUsd": 0.7025,
  "slices": {
-  "us": {"label": "US stocks", "aud": 10000, "currency": "USD"},
-  "asx": {"label": "ASX stocks", "aud": 10000, "currency": "AUD"},
-  "crypto": {"label": "Crypto", "aud": 10000, "currency": "USD"},
-  "vc": {"label": "VC Scout", "aud": 10000, "currency": "AUD"}
+  "us": {
+   "label": "US stocks",
+   "aud": 10000,
+   "currency": "USD"
+  },
+  "asx": {
+   "label": "ASX stocks",
+   "aud": 10000,
+   "currency": "AUD"
+  },
+  "crypto": {
+   "label": "Crypto",
+   "aud": 10000,
+   "currency": "USD"
+  },
+  "vc": {
+   "label": "VC Scout",
+   "aud": 10000,
+   "currency": "AUD"
+  }
+ },
+ "rules": {
+  "adopted": "2026-09-25",
+  "summary": "Core-satellite (60% in the market index, rebalanced at 55-65%), active positions max 12% of the slice, max 2 trades a session, 2-week minimum hold, new buys capped at 30% of the slice per 30 days, trend filter (buy only above the 200-day average), day-trading paused. Chosen from the backtest in BACKTEST.md.",
+  "frozen_until_review": true
+ },
+ "review": {
+  "next": "2026-12-25",
+  "every": "quarter (25 Dec, 25 Mar, 25 Jun, 25 Sep)",
+  "success_criteria": [
+   "Each market slice (US, ASX, crypto) beats its benchmark after all costs, measured from 25 Sep 2026 (the day these rules were adopted).",
+   "Each market slice's worst drawdown over the period is no deeper than its benchmark's.",
+   "No rule changes before the review, so the result is a fair test."
+  ],
+  "if_it_fails": "A slice that fails both tests moves further into its index (anchor 80%). A slice that passes keeps its rules. Day-trading stays paused unless the journal shows a positive edge over at least 15 closed trades.",
+  "vc": "The VC Scout is judged on forecast calibration (Brier score) once enough forecasts resolve, not on returns in the first year."
+ },
+ "rulesBaseline": {
+  "us": {
+   "date": "2026-09-24",
+   "nav": 7246.170417,
+   "benchmarkClose": 767.36,
+   "benchmarkNav": 7084.877978
+  },
+  "asx": {
+   "date": "2026-09-25",
+   "nav": 9907.438717,
+   "benchmarkClose": 78.25,
+   "benchmarkNav": 9915.110248
+  },
+  "crypto": {
+   "date": "2026-09-25",
+   "nav": 7161.308688,
+   "benchmarkClose": 84841.04,
+   "benchmarkNav": 7060.697976
+  },
+  "vc": {
+   "date": "2026-09-25",
+   "nav": 10000.0
+  }
  }
 }

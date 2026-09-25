@@ -9,16 +9,18 @@ from .markets import bucket_of, universe
 MODEL = os.environ.get("BOT_MODEL", "claude-sonnet-5")
 MAX_SEARCHES = int(os.environ.get("BOT_MAX_SEARCHES", "5"))
 
-SYSTEM = """You are the decision engine of a fake-money paper-trading bot competing against a friend's OpenAI-based bot. Nothing here touches real money. You run a "barbell" strategy on the {label} market: a GROWTH bucket (higher-risk) and a CORE bucket (defensive) held for weeks to months, plus a separate DAY-TRADE sleeve (opened and closed within one trading day).
+SYSTEM = """You are the decision engine of a fake-money paper-trading bot competing against a friend's OpenAI-based bot. Nothing here touches real money. You run a CORE-SATELLITE fund on the {label} market: about 60% of NAV sits in the market's benchmark as a permanent index ANCHOR (the referee buys, trims and rebalances it automatically; you never trade it), and you manage the ACTIVE SLEEVE (~35% of NAV) as a "barbell" of GROWTH (higher-risk) and CORE (defensive) positions held for weeks to months. The goal is to beat the benchmark after costs, so every active position must be a better bet than simply holding more of the index.
 
 You may ONLY trade tickers from the watchlist supplied below. A deterministic referee applies your proposed trades and will reject or shrink anything that breaks the hard rules, so do not try to bend them:
-- At most {max_swing} swing trades (buys/sells of growth/core) and {max_dt} new day-trade opens per session.
-- No swing position above 20% of NAV, no day-trade position above 10% of NAV, and at least 5% of NAV always kept in cash.
+- At most {max_swing} swing trades (buys/sells of growth/core) per session. DAY-TRADING IS PAUSED (the referee rejects day-trade buys) until the track record shows an edge.
+- No swing position above {cap:.0%} of NAV, and at least 5% of NAV always kept in cash. Cash left after the anchor is what you can invest.
+- TRADE LESS: a swing position must be held at least {min_hold} days before you sell it (the stop still sells automatically, and you may sell early once the target is reached). New swing buys are capped at {turnover:.0%} of NAV per rolling 30 days. Costs and churn are the main reason active funds lose to the index.
+- TREND FILTER (enforced): new swing buys are only allowed when the price is above its 200-day average (`trend` = UP in the watchlist). Do not propose buys of DOWN names.
+- MOMENTUM (information, not a rule): `mom12_1` is the return from 12 months ago to 1 month ago. Stronger momentum has historically persisted; weigh it, but a catalyst is still required.
 - Whole shares only for stocks; fractional units are allowed for crypto. No leverage, options, futures or shorting.
 - Aim to keep growth vs core (excluding day-trades) inside a 35%-65% band each. Only rebalance for a genuine catalyst.
 - Trade only on a specific, real catalyst you found (news, earnings, guidance, sentiment shift, unusual volume). Holding is a good and common outcome; never force a trade because a session fired.
 - Every BUY needs an explicit `horizon` tied to a concrete trigger. Review held positions against the horizon recorded when they were bought.
-- Day-trades: base them on short-term catalysts (same-day news, technical level, unusual volume ratio), not multi-week theses.
 - Unusual volume: `vol_x` is today's volume divided by the recent 10-day average; well above 1.5-2x is a meaningful signal.
 - ASYMMETRIC ODDS (enforced by the referee): every BUY must include a `target` price, a `stop` price and `prob`, your honest probability (0-100) that the price reaches the target before the stop. The referee computes reward:risk = (target-price)/(price-stop) and expected value = prob x upside - (1-prob) x downside - trading costs. It REJECTS buys with reward:risk below {rr_swing:g} (swing) / {rr_dt:g} (day-trade), a non-positive expected value, or a stop more than {stop_swing:g}% (swing) / {stop_dt:g}% (day-trade) below the price. Prefer bets where the upside is several times the downside. Set the stop where the thesis is genuinely proven wrong, not just to pass the check, and do not inflate the probability: it is scored later for calibration.
 - Stops are binding: a held position trading at or below its stop is sold automatically at the start of the session. A position flagged TARGET REACHED should be sold (take profit) or given a new, higher plan.
@@ -50,7 +52,10 @@ Both "reviews" and "lessons" are optional additions to the same json block."""
 
 
 def format_system(cfg):
-    return SYSTEM.format(label=cfg["label"], max_swing=3, max_dt=2, rr_swing=MIN_RR["swing"], rr_dt=MIN_RR["daytrade"],
+    from . import engine
+
+    return SYSTEM.format(label=cfg["label"], max_swing=engine.MAX_SWING_TRADES, cap=engine.SWING_POSITION_CAP, min_hold=engine.MIN_HOLD_DAYS,
+                         turnover=engine.TURNOVER_CAP, rr_swing=MIN_RR["swing"], rr_dt=MIN_RR["daytrade"],
                          stop_swing=MAX_STOP_PCT["swing"], stop_dt=MAX_STOP_PCT["daytrade"])
 
 
@@ -74,7 +79,14 @@ def build_context(state, cfg, prices, trades, nav, bench, slot, is_last, now_loc
         lines.append(f"TRADING COSTS (charged on every fill): slippage ~{c['slip_bps'] / 100:.2f}% against you + fee ({' + '.join(fee_bits)}, minimum {cfg['currency']}{c['fee_min']:g}). "
                      f"A round trip costs roughly {(2 * c['slip_bps'] / 100) + 2 * c.get('fee_pct', 0):.2f}%+ of the position, so small or churny trades lose money by default - only trade when the expected move clearly clears that.")
     lines.append("")
-    lines.append("HELD POSITIONS:")
+    a = state.get("anchor")
+    if a:
+        av = a["shares"] * a.get("lastPrice", a["avgCost"])
+        lines.append(f"INDEX ANCHOR (managed by the referee, do not trade): {a['ticker']} {a['shares']:.4f} units, value {av:,.2f} ({av / nav * 100:.0f}% of NAV, target 60%)")
+    else:
+        lines.append("INDEX ANCHOR: not set up yet - the referee buys it (60% of NAV) when this session is applied, trimming active positions pro rata if cash is short. Leave room for that.")
+    lines.append("")
+    lines.append("ACTIVE POSITIONS:")
     if not state["positions"]:
         lines.append("  (none - fully in cash)")
     for t, p in state["positions"].items():
@@ -86,13 +98,17 @@ def build_context(state, cfg, prices, trades, nav, bench, slot, is_last, now_loc
         lines.append(f"  {t} [{p.get('bucket')}] {p['shares']} @ avg {p['avgCost']:.4f}, now {last:.4f} ({pnl_pct:+.1f}%), value {p['shares'] * last:,.2f} ({p['shares'] * last / nav * 100:.1f}% of NAV) | horizon: {horizon} | why bought: {reason}")
         lines.append(f"      {plan_line(p, last, cfg['currency'])}")
     lines.append("")
-    lines.append("WATCHLIST PRICES (ticker | bucket | price | day% | 5d% | vol_x):")
+    lines.append("WATCHLIST (ticker | bucket | price | day% | 5d% | vol_x | trend vs 200-day avg | mom12_1% | momentum rank):")
+    ranked = sorted((t for t in universe(cfg) if prices.get(t, {}).get("mom12_1") is not None), key=lambda t: -prices[t]["mom12_1"])
+    rank = {t: i + 1 for i, t in enumerate(ranked)}
     for t in universe(cfg):
         r = prices.get(t, {})
         if not r.get("ok"):
             lines.append(f"  {t} | {bucket_of(cfg, t)} | UNAVAILABLE THIS SESSION")
             continue
-        lines.append(f"  {t} | {bucket_of(cfg, t)} | {r['price']:.4f} | {_fmt(r.get('chg'))} | {_fmt(r.get('chg5'))} | {_fmt(r.get('volratio'))}")
+        trend = "n/a" if r.get("above_ma200") is None else ("UP" if r["above_ma200"] else "DOWN (no new buys)")
+        rk = f"{rank[t]}/{len(ranked)}" if t in rank else "-"
+        lines.append(f"  {t} | {bucket_of(cfg, t)} | {r['price']:.4f} | {_fmt(r.get('chg'))} | {_fmt(r.get('chg5'))} | {_fmt(r.get('volratio'))} | {trend} | {_fmt(r.get('mom12_1'), 1)} | {rk}")
     lines.append("")
     recent = sorted(trades, key=lambda z: z.get("date", ""), reverse=True)[:6]
     if recent:

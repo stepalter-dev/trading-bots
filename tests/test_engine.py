@@ -1,3 +1,4 @@
+import pytest
 import copy
 from bot import engine
 from bot.markets import MARKETS
@@ -6,7 +7,13 @@ US_REAL, CRYPTO_REAL, ASX_REAL = MARKETS["us"], MARKETS["crypto"], MARKETS["asx"
 # rule tests run cost-free so the numbers stay round; cost maths is tested separately below
 US = {**US_REAL, "costs": None}
 CRYPTO = {**CRYPTO_REAL, "costs": None}
-P = lambda price: {"ok": True, "price": price}
+P = lambda price: {"ok": True, "price": price, "ma200": price * 0.9, "above_ma200": True}  # in an uptrend
+
+
+@pytest.fixture(autouse=True)
+def _daytrade_on(monkeypatch):
+    """Day-trading is paused in production; these rule tests exercise it anyway."""
+    monkeypatch.setattr(engine, "DAYTRADE_ENABLED", True)
 
 
 def apply(state, cfg, prices, ds, *rest):
@@ -23,11 +30,11 @@ def fresh(cash=10000.0):
     return {"cash": cash, "startingCash": cash, "positions": {}}
 
 
-def test_buy_capped_at_20pct_and_whole_shares():
+def test_buy_capped_at_12pct_and_whole_shares():
     s = fresh()
     ex, rej = apply(s, US, {"AAPL": P(100)}, [{"action": "buy", "ticker": "AAPL", "usd": 9000}], "t", "d", False)
-    assert s["positions"]["AAPL"]["shares"] == 20  # 20% of 10k = 2000 -> 20 shares
-    assert s["cash"] == 8000
+    assert s["positions"]["AAPL"]["shares"] == 12  # 12% of 10k = 1200 -> 12 shares
+    assert s["cash"] == 8800
 
 
 def test_cash_buffer_kept():
@@ -50,7 +57,7 @@ def test_swing_trade_limit():
     prices = {t: P(10) for t in ["AAPL", "MSFT", "JPM", "V"]}
     ds = [{"action": "buy", "ticker": t, "usd": 1000} for t in prices]
     ex, rej = apply(s, US, prices, ds, "t", "d", False)
-    assert len(ex) == 3 and len(rej) == 1
+    assert len(ex) == 2 and len(rej) == 2
 
 
 def test_daytrade_rules_and_flatten():

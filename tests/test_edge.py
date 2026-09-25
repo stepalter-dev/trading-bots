@@ -1,8 +1,15 @@
+import pytest
 from bot import edge, engine, learning
 from bot.markets import MARKETS
 
 US = {**MARKETS["us"], "costs": None}
-P = lambda price: {"ok": True, "price": price}
+P = lambda price: {"ok": True, "price": price, "ma200": price * 0.9, "above_ma200": True}  # in an uptrend
+
+
+@pytest.fixture(autouse=True)
+def _daytrade_on(monkeypatch):
+    """Day-trading is paused in production; these rule tests exercise it anyway."""
+    monkeypatch.setattr(engine, "DAYTRADE_ENABLED", True)
 
 
 def fresh(cash=10000.0):
