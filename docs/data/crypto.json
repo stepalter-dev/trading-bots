@@ -3,59 +3,59 @@
   "cash": 15902.841926992469,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Today's board-wide crypto surge (BTC +6.9%, alts up double digits) is mostly Trump-Xi summit short-squeeze beta plus broad altseason momentum, not fresh idiosyncratic news - UNI, AVAX, BCH and NEAR are all still running on catalysts already priced in when bought earlier today, so I'm holding those rather than chasing the pump further. Litecoin is the exception: Coinbase launched LTC-collateralized fixed-rate loans on Sept 23 (new regulated-finance utility) alongside genuinely unusual on-chain volume (vol_x 4.38, ~$1B moved in a day, ~3x normal), so I added a modest new core position. Post-trade growth/core split (ex-cash, ex-daytrade) is roughly 46%/54%, inside the 35-65% band, and cash stays far above the 5% floor.",
-  "lastUpdated": "2026-09-24T20:12:15Z",
+  "lastRunNotes": "Board-wide rally continues (BTC +8% today) driven by Trump-Xi summit optimism and $2B+ of spot BTC ETF inflows this week - broad macro/beta, not fresh idiosyncratic catalysts for any single name. NEAR, UNI, AVAX, BCH and LTC are all still running on catalysts already priced in when bought (Hyperliquid/Ondo for NEAR, CME futures Oct 19 for UNI/BCH, Helicon/Aave RWA for AVAX, Coinbase loan collateral for LTC), so holding rather than adding into the pump. No other watchlist name shows genuine unusual volume (vol_x) or a new specific catalyst. Growth/core split stays near 45/55, within band; cash at 34% is comfortably above the 5% floor.",
+  "lastUpdated": "2026-09-25T02:12:13Z",
   "positions": {
    "BTC-USD": {
     "avgCost": 84412.12,
     "bucket": "core",
-    "lastPrice": 84379.24,
+    "lastPrice": 84841.04,
     "shares": 0.080557
    },
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 117.19,
+    "lastPrice": 118.23,
     "shares": 59.243771
    },
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.212947,
+    "lastPrice": 0.222763,
     "shares": 22498.275528
    },
    "UNI7083-USD": {
     "shares": 237.068965,
     "avgCost": 9.28,
-    "lastPrice": 9.3425,
+    "lastPrice": 9.2085,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    },
    "AVAX-USD": {
     "shares": 216.514122,
     "avgCost": 10.161,
-    "lastPrice": 10.437,
+    "lastPrice": 10.306,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    },
    "BCH-USD": {
     "shares": 6.540611,
     "avgCost": 336.36,
-    "lastPrice": 336.39,
+    "lastPrice": 340.98,
     "bucket": "core",
     "openedDate": "2026-09-24"
    },
    "NEAR-USD": {
     "shares": 506.583451,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.8102,
+    "lastPrice": 4.6133,
     "bucket": "growth",
     "openedDate": "2026-09-24"
    },
    "LTC-USD": {
     "shares": 34.780427,
     "avgCost": 71.87902181675821,
-    "lastPrice": 71.621,
+    "lastPrice": 71.33,
     "bucket": "core",
     "openedDate": "2026-09-24"
    }
@@ -83,6 +83,17 @@
    "benchmarkClose": 84379.24,
    "growthValue": 13854.12,
    "coreValue": 16279.48,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-09-25",
+   "nav": 46216.13,
+   "cash": 15902.84,
+   "positionsValue": 30313.28,
+   "benchmarkNav": 45566.83,
+   "benchmarkClose": 84841.04,
+   "growthValue": 13755.86,
+   "coreValue": 16557.43,
    "daytradeValue": 0.0
   }
  ],
