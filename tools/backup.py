@@ -37,7 +37,7 @@ def main():
         tar = os.path.join(td, "head.tar")
         git("archive", "-o", tar, "HEAD")
         with tarfile.open(tar) as t:
-            t.extractall(files)
+            t.extractall(files, filter="data")
 
     head = git("rev-parse", "--short", "HEAD")
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
