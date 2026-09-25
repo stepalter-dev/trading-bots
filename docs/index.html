@@ -614,7 +614,7 @@
   </section>
 
   <footer>
-    <span id="footer-rules"><strong>Rules:</strong> $100,000 starting paper capital · US stocks &amp; ETFs only · no leverage, no options · position sizing and cash-buffer limits enforced each session</span>
+    <span id="footer-rules"><strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund (held as US$7,025) · US stocks &amp; ETFs only, whole shares on new buys · max 20% of the slice in any swing position, 10% in a day-trade, 5% always in cash · every buy needs a target, stop &amp; odds: at least 2:1 reward-to-risk (1.5:1 for day-trades) and a positive expected value after fees · stops sell automatically · day-trades closed by the 3pm ET session · no leverage, options or shorting</span>
     <span>Not investment advice · nothing here trades real money</span>
   </footer>
 </div>
@@ -628,10 +628,10 @@
       unitAt: " sh @ ",
       locale: "en-US",
       timeZone: "America/New_York",
-      defaultStartingCash: 100000,
+      defaultStartingCash: 7025,
       benchLabel: "S&amp;P 500 benchmark",
       perfCaption: "Net asset value since inception, vs. an equal-dollar S&amp;P 500 (SPY) benchmark.",
-      footerRules: "<strong>Rules:</strong> $100,000 starting paper capital · US stocks &amp; ETFs only · no leverage, no options · position sizing and cash-buffer limits enforced each session",
+      footerRules: "<strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund (held as US$7,025) · US stocks &amp; ETFs only, whole shares on new buys · max 20% of the slice in any swing position, 10% in a day-trade, 5% always in cash · every buy needs a target, stop &amp; odds: at least 2:1 reward-to-risk (1.5:1 for day-trades) and a positive expected value after fees · stops sell automatically · day-trades closed by the 3pm ET session · no leverage, options or shorting",
       docs: { portfolio: "state", navHistory: "nav_history", trades: "trades" },
     },
     asx: {
@@ -641,10 +641,10 @@
       unitAt: " sh @ ",
       locale: "en-AU",
       timeZone: "Australia/Sydney",
-      defaultStartingCash: 45336.45,
+      defaultStartingCash: 10000,
       benchLabel: "S&amp;P/ASX 200 benchmark",
       perfCaption: "Net asset value since inception, vs. an equal-dollar S&amp;P/ASX 200 (STW) benchmark.",
-      footerRules: "<strong>Rules:</strong> A$45,336.45 starting paper capital (matched to the US bot's NAV at fork) · ASX-listed stocks &amp; ETFs only · no leverage, no options · position sizing and cash-buffer limits enforced each session",
+      footerRules: "<strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund · ASX-listed stocks &amp; ETFs only, whole shares on new buys · max 20% of the slice in any swing position, 10% in a day-trade, 5% always in cash · every buy needs a target, stop &amp; odds: at least 2:1 reward-to-risk (1.5:1 for day-trades) and a positive expected value after fees · stops sell automatically · day-trades closed by the 3pm AEST session · no leverage, options or shorting",
       docs: { portfolio: "state_asx", navHistory: "nav_history_asx", trades: "trades_asx" },
     },
     crypto: {
@@ -654,10 +654,10 @@
       locale: "en-US",
       unitAt: " units @ ",
       timeZone: "UTC",
-      defaultStartingCash: 45336.45,
+      defaultStartingCash: 7025,
       benchLabel: "Bitcoin (BTC) benchmark",
       perfCaption: "Net asset value since inception, vs. an equal-dollar Bitcoin (BTC-USD) buy-and-hold benchmark.",
-      footerRules: "<strong>Rules:</strong> $45,336.45 starting paper capital · a fixed list of major cryptocurrencies (USD pairs) only · fractional units allowed · no leverage, no futures, no shorting · position sizing and cash-buffer limits enforced each session",
+      footerRules: "<strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund (held as US$7,025) · a fixed list of major cryptocurrencies, fractional units allowed · max 20% of the slice in any swing position, 10% in a day-trade, 5% always in cash · every buy needs a target, stop &amp; odds: at least 2:1 reward-to-risk (1.5:1 for day-trades) and a positive expected value after fees · stops sell automatically · day-trades closed by the 20:00 UTC session · no leverage, futures or shorting",
       docs: { portfolio: "state_crypto", navHistory: "nav_history_crypto", trades: "trades_crypto" },
     },
   };
@@ -1268,6 +1268,7 @@
   }
 
   function renderFund() {
+    document.getElementById("footer-rules").innerHTML = "<strong>Rules:</strong> one A$40,000 paper fund in four fixed A$10,000 slices (US stocks, ASX stocks, crypto, VC Scout) · slices run independently and never share cash, so the markets can be compared fairly · US$ slices are converted to A$ at the live AUD/USD rate";
     document.getElementById("page-title").textContent = (fundCfg && fundCfg.name) || "Claude's Fund";
     document.getElementById("page-eyebrow").textContent = "One A$40,000 paper fund · four A$10,000 slices · fake money only";
     const rows = sliceRows();
@@ -1300,6 +1301,7 @@
   }
 
   function renderVC() {
+    document.getElementById("footer-rules").innerHTML = "<strong>Rules:</strong> A$10,000 slice of the A$40,000 paper fund · up to 5 cheques a week within a paced weekly budget (about A$154), minimum A$20 · 20% held back for follow-ons, which are only allowed after a verified raise and capped at 2x the first cheque · holdings marked at cost until there is evidence of a new round, acquisition or shutdown";
     document.getElementById("page-title").textContent = "VC Scout";
     document.getElementById("page-eyebrow").textContent = "Paper venture fund · A$10,000 slice · backs early-stage startups weekly";
     const view = document.getElementById("special-view");
