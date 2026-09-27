@@ -3,13 +3,13 @@
   "cash": 354.9053771999629,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked news on all held names: NEAR's Sept 23-24 catalysts (Ondo tokenized stocks live, Venice AI inference launch) confirm the attention spike and support its existing plan toward $5.5, still short of target. AVAX has a new institutional angle (ICE evaluating AVAX for tokenized stock trading, Sept 25) but momentum remains weak (rank 17/18) and it sold off 8% post-Helicon upgrade; the position is too recent (~4 days) to sell under the 14-day hold rule anyway. LTC's Sept 11 Grayscale spot-ETF filing continues to drive its rally and still supports the $85 plan. No position hit its target or stop, cash is pinned at the 5% floor with no swing proceeds freed, and growth (~60%) vs core (~40%) stays within the 35-65% band. Holding across the board this session.",
-  "lastUpdated": "2026-09-26T20:12:32Z",
+  "lastRunNotes": "Checked news on all 7 holdings. NEAR keeps stacking real catalysts (Ondo tokenized stocks live, Venice confidential AI inference, private limit orders all Sept 24) and is up 18.6%, still ~7% short of the $5.5 target. AVAX picked up a fresh institutional angle (New York Life's tokenized bond fund launching on Avalanche via Centrifuge) but its momentum rank is still worst-but-one (17/18) after an 8% post-upgrade selloff, and it's not past the 14-day hold yet anyway. LTC's Grayscale ETF filing and the UNI/BCH CME futures story are unchanged since last session, already reflected in price. No position hit its stop or target. Cash is sitting right at the 5% floor with no new catalyst strong enough to justify selling a working position to fund a buy, so holding everything this session. Growth/core split within the active sleeve is ~60/40, inside the 35-65% band.",
+  "lastUpdated": "2026-09-27T02:12:06Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 120.96,
+    "lastPrice": 121.53,
     "shares": 6.3626533,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.216759,
+    "lastPrice": 0.215627,
     "shares": 2416.26626045,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 25.46069531,
     "avgCost": 9.28,
-    "lastPrice": 9.5454,
+    "lastPrice": 9.8184,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 23.25314931,
     "avgCost": 10.161,
-    "lastPrice": 10.699,
+    "lastPrice": 10.817,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.70244756,
     "avgCost": 336.36,
-    "lastPrice": 336.03,
+    "lastPrice": 335.51,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 54.40596988,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.8501,
+    "lastPrice": 5.1356,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 3.73534298,
     "avgCost": 71.87902181675821,
-    "lastPrice": 71.522,
+    "lastPrice": 72.075,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -127,7 +127,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 84002.38
+   "lastPrice": 84458.89
   }
  },
  "nav_history": [
@@ -173,6 +173,17 @@
    "benchmarkClose": 84002.38,
    "growthValue": 1525.32,
    "coreValue": 1026.95,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-09-27",
+   "nav": 7194.89,
+   "cash": 354.91,
+   "positionsValue": 6839.99,
+   "benchmarkNav": 7028.89,
+   "benchmarkClose": 84458.89,
+   "growthValue": 1554.17,
+   "coreValue": 1025.92,
    "daytradeValue": 0.0
   }
  ],
@@ -406,6 +417,10 @@
   {
    "date": "2026-09-26",
    "rank": 47
+  },
+  {
+   "date": "2026-09-27",
+   "rank": 49
   }
  ]
 }
