@@ -20,17 +20,17 @@
   },
   "crypto": {
    "prices": {
-    "SOL-USD": 121.14,
-    "XLM-USD": 0.215784,
-    "UNI7083-USD": 9.6934,
-    "AVAX-USD": 10.905,
-    "BCH-USD": 334.63,
-    "NEAR-USD": 5.1351,
-    "LTC-USD": 72.24,
-    "BTC-USD": 84362.25
+    "SOL-USD": 121.22,
+    "XLM-USD": 0.2155,
+    "UNI7083-USD": 9.8702,
+    "AVAX-USD": 10.859,
+    "BCH-USD": 331.8,
+    "NEAR-USD": 5.3391,
+    "LTC-USD": 72.052,
+    "BTC-USD": 84511.68
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-09-27T00:35:53Z"
+ "updatedAt": "2026-09-27T05:47:21Z"
 }
