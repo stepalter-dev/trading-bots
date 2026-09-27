@@ -3,13 +3,13 @@
   "cash": 354.9053771999629,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Reviewed all 7 holdings against fresh news; no stops hit and nothing has reached target, so holding with no trades. NEAR's Bitwise ETF filing (ticker NRR, Sept 25) confirmed and drove a 13.9% pop, keeping its thesis intact toward the $6.2 target. LTC now has a Grayscale spot-ETF filing stacked on top of the Coinbase collateral catalyst, both still supportive. UNI/BCH's CME futures catalyst (Oct 19) is real but already largely priced in, with some coverage flagging overbought exhaustion risk, so no reason to add. AVAX's ICE/RWA thesis is unchanged despite a Sept 24 Bitget hack headline unrelated to Avalanche fundamentals. Cash is at the 5% floor so no new buys are affordable without selling a working position, and growth/core mix stays within the 35-65% band.",
-  "lastUpdated": "2026-09-27T14:13:40Z",
+  "lastRunNotes": "Reviewed all 7 holdings against fresh news; no stops hit and no targets reached, so holding again with cash already at the 5% floor (no room for new buys without a sell). NEAR's Bitwise NRR ETF is now confirmed to launch ~Sept 29, thesis intact but position is up 26% and getting closer to sell-the-news risk, so watching closely rather than trimming early (would break the 14-day min hold with no target/stop trigger). LTC's Grayscale ETF filing and Coinbase collateral catalysts remain supportive (up ~47% over the month) but still below target. AVAX picked up a fresh positive (ICE reportedly evaluating AVAX for tokenized stock trading) alongside the unrelated Bitget hack headline; UNI/BCH's Oct 19 CME futures catalyst is already broadly priced in per multiple outlets. Growth/core balance among active positions is roughly even, no rebalance needed.",
+  "lastUpdated": "2026-09-27T20:12:20Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 122.98,
+    "lastPrice": 123.25,
     "shares": 6.3626533,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.216425,
+    "lastPrice": 0.217455,
     "shares": 2416.26626045,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 25.46069531,
     "avgCost": 9.28,
-    "lastPrice": 9.8514,
+    "lastPrice": 9.7865,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 23.25314931,
     "avgCost": 10.161,
-    "lastPrice": 10.984,
+    "lastPrice": 11.048,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.70244756,
     "avgCost": 336.36,
-    "lastPrice": 336.54,
+    "lastPrice": 335.19,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 54.40596988,
     "avgCost": 4.34278911546277,
-    "lastPrice": 5.2234,
+    "lastPrice": 5.488,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 3.73534298,
     "avgCost": 71.87902181675821,
-    "lastPrice": 71.148,
+    "lastPrice": 71.363,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -127,7 +127,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 84998.86
+   "lastPrice": 84789.67
   }
  },
  "nav_history": [
@@ -177,13 +177,13 @@
   },
   {
    "date": "2026-09-27",
-   "nav": 7240.04,
+   "nav": 7247.78,
    "cash": 354.91,
-   "positionsValue": 6885.14,
-   "benchmarkNav": 7073.83,
-   "benchmarkClose": 84998.86,
-   "growthValue": 1572.9,
-   "coreValue": 1025.1,
+   "positionsValue": 6892.88,
+   "benchmarkNav": 7056.42,
+   "benchmarkClose": 84789.67,
+   "growthValue": 1588.85,
+   "coreValue": 1027.45,
    "daytradeValue": 0.0
   }
  ],
@@ -420,7 +420,7 @@
   },
   {
    "date": "2026-09-27",
-   "rank": 44
+   "rank": 49
   }
  ]
 }
