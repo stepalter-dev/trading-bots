@@ -3,13 +3,13 @@
   "cash": 359.6518809041654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Cash is pinned at the 5% floor and none of the three swing positions can be freed: AAPL/META were bought 2026-09-15 and GOOGL 2026-09-16, so all are still short of the 14-day minimum hold (clears ~9/29-9/30), and none is at its stop or target (AAPL $340.32 vs stop $300/target $365; GOOGL $344.50 vs stop $320/target $370; META $752.37 vs stop $700/target $880). So no new buys are possible regardless of watchlist candidates. Checked today's big movers: MSFT's ~3-4% rally is a real catalyst (Stifel upgrade to Buy, PT $530->$575, plus a Satya Nadella Copilot super-app launch on 9/23) but MSFT isn't held and there's no cash to act on it; INTC's -2% looks like ordinary pullback, not news-driven. Meta's Muse Charm device unveil (9/23-9/25) reinforces the existing META growth thesis but doesn't change the plan. Holding across the board this session.",
-  "lastUpdated": "2026-09-25T19:11:51Z",
+  "lastRunNotes": "Cash is pinned at the 5% floor (359.65) so no new buys are possible without breaching the minimum-cash rule, and none of the swing positions can be sold: AAPL and META (bought 2026-09-15) and GOOGL (bought 2026-09-16) are still one to two days short of the 14-day minimum hold, and none is at its stop or target (AAPL 342.15 vs stop 300/target 365; GOOGL 340.57 vs stop 320/target 370; META 718.40 vs stop 700/target 880). META's -4.4% today is profit-taking plus a New Mexico jury data-privacy verdict and Reality Labs capex concerns, not a stop breach, and INTC's -4.6% is post-rally profit-taking plus Apple further dropping Intel-Mac support -- neither is tradeable today anyway. Growth/core split among actives (~40%/60%) stays within the band. Holding with no trades this session.",
+  "lastUpdated": "2026-09-28T14:12:52Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 340.18,
+    "lastPrice": 342.395,
     "shares": 2.947272,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 344.24,
+    "lastPrice": 340.36,
     "shares": 1.22803,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 751.89,
+    "lastPrice": 718.35,
     "shares": 1.473636,
     "plan": {
      "target": 880.0,
@@ -62,7 +62,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 770.74
+   "lastPrice": 767.56
   }
  },
  "nav_history": [
@@ -159,6 +159,17 @@
    "benchmarkClose": 770.74,
    "growthValue": 1530.75,
    "coreValue": 1002.6,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-09-28",
+   "nav": 7157.31,
+   "cash": 359.65,
+   "positionsValue": 6797.66,
+   "benchmarkNav": 7086.73,
+   "benchmarkClose": 767.56,
+   "growthValue": 1476.56,
+   "coreValue": 1009.13,
    "daytradeValue": 0.0
   }
  ],
