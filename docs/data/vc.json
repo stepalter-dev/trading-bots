@@ -1,13 +1,269 @@
 {
  "state": {
-  "cash": 10000.0,
+  "cash": 9845.0,
   "startingCash": 10000.0,
-  "holdings": {},
-  "seen": [],
-  "lastUpdated": null,
-  "lastRunNotes": ""
+  "holdings": {
+   "yc-lyon": {
+    "id": "yc-lyon",
+    "name": "Lyon",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/lyon",
+    "website": "https://lyon.so",
+    "oneLiner": "Foundation models on enterprise transaction data.",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/lyon.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-09-28",
+    "tranches": [
+     {
+      "amount": 45.0,
+      "valuation": 20000000.0,
+      "date": "2026-09-28"
+     }
+    ],
+    "entryValuation": 20000000.0,
+    "markValuation": 20000000.0,
+    "status": "active",
+    "thesis": "Trains proprietary foundation models directly on a customer's own transaction/event data (28B transactions for one fintech, plus a major insurer pilot), beating rules-based baselines 4x on premium-card conversion. Small team but real enterprise traction is a strong early signal in a crowded vertical-AI space.",
+    "pRaise12m": 0.55,
+    "pAlive12m": 0.85,
+    "lastChecked": "2026-09-28"
+   },
+   "yc-herdr": {
+    "id": "yc-herdr",
+    "name": "herdr",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/herdr",
+    "website": "https://herdr.dev/",
+    "oneLiner": "building the open agent runtime",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/herdr.json",
+    "teamSizeAtEntry": 1,
+    "investedDate": "2026-09-28",
+    "tranches": [
+     {
+      "amount": 40.0,
+      "valuation": 28000000.0,
+      "date": "2026-09-28"
+     }
+    ],
+    "entryValuation": 28000000.0,
+    "markValuation": 28000000.0,
+    "status": "active",
+    "thesis": "Open agent runtime with genuine bottom-up adoption (25k GitHub stars, 340k downloads, 500+ community plugins) and already closed a $6M seed led by Bessemer with a strong angel syndicate. Infra bet on agent fleets becoming standard dev workflow; main risk is monetizing an OSS-first project against well-funded competitors.",
+    "pRaise12m": 0.45,
+    "pAlive12m": 0.88,
+    "lastChecked": "2026-09-28"
+   },
+   "yc-useforward": {
+    "id": "yc-useforward",
+    "name": "Forward",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/useforward",
+    "website": "https://www.useforward.co/",
+    "oneLiner": "Unifying Global Private Credit",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/useforward.json",
+    "teamSizeAtEntry": 5,
+    "investedDate": "2026-09-28",
+    "tranches": [
+     {
+      "amount": 35.0,
+      "valuation": 16000000.0,
+      "date": "2026-09-28"
+     }
+    ],
+    "entryValuation": 16000000.0,
+    "markValuation": 16000000.0,
+    "status": "active",
+    "thesis": "Agentic matching between borrowers and private-credit funds, built by founders with direct deal-diligence experience ($1B+) and a 5-person team already shipping. Real workflow pain point in an underdigitized market, but conservative buyers and long enterprise sales cycles are a risk.",
+    "pRaise12m": 0.35,
+    "pAlive12m": 0.75,
+    "lastChecked": "2026-09-28"
+   },
+   "hn-49833867": {
+    "id": "hn-49833867",
+    "name": "Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+    "source": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=49833867",
+    "website": "https://github.com/devdotfast/whiteboard",
+    "oneLiner": "",
+    "ycApi": null,
+    "teamSizeAtEntry": null,
+    "investedDate": "2026-09-28",
+    "tranches": [
+     {
+      "amount": 35.0,
+      "valuation": 15000000.0,
+      "date": "2026-09-28"
+     }
+    ],
+    "entryValuation": 15000000.0,
+    "markValuation": 15000000.0,
+    "status": "active",
+    "thesis": "Open-source IDE (YC W26) that lets coding agents draw architecture/sequence diagrams of their own changes for review - a timely wedge as teams struggle to review AI-generated code. Strong Show HN reception (415 points) and built on VS Code/CodeOSS for fast distribution, though it competes for attention in a busy devtools category.",
+    "pRaise12m": 0.4,
+    "pAlive12m": 0.75,
+    "lastChecked": "2026-09-28"
+   }
+  },
+  "seen": [
+   "hn-49783133",
+   "hn-49800574",
+   "hn-49801329",
+   "hn-49823738",
+   "hn-49833867",
+   "hn-49837006",
+   "hn-49845172",
+   "hn-49858513",
+   "ph-1203994",
+   "ph-1238671",
+   "ph-1249438",
+   "ph-1254383",
+   "ph-1255507",
+   "ph-1256758",
+   "ph-1257863",
+   "ph-1258630",
+   "yc-antimattr",
+   "yc-cyclon",
+   "yc-herdr",
+   "yc-lyon",
+   "yc-pendulum-robotics",
+   "yc-rote",
+   "yc-sinter-systems",
+   "yc-streamline-systems",
+   "yc-superradiant",
+   "yc-the-agentic-data-co",
+   "yc-twentyfour26",
+   "yc-useforward"
+  ],
+  "lastUpdated": "2026-09-28T00:17:17Z",
+  "lastRunNotes": "First session, no holdings yet. Researched most of this week's YC F26 batch plus the top Show HN/PH launches. Skipped Harmony (already raised $34M seed - too obvious/late for this fund), Cyclon and SuperRadiant (pre-traction hype/moonshot with nothing verifiable), and Streamline Systems (no findable info, crowded GPS-denied-nav niche with better-funded incumbents). Backed Lyon, Herdr, Forward, and Whiteboard - each has some concrete signal (paying-like traction, real funding syndicate, experienced team, or strong developer reception) rather than just a pitch."
  },
- "nav_history": [],
- "deals": [],
- "forecasts": []
+ "nav_history": [
+  {
+   "date": "2026-09-28",
+   "nav": 10000.0,
+   "cash": 9845.0,
+   "holdingsValue": 155.0,
+   "deployed": 155.0
+  }
+ ],
+ "deals": [
+  {
+   "type": "invest",
+   "id": "yc-lyon",
+   "name": "Lyon",
+   "source": "YC Fall 2026",
+   "date": "2026-09-28T00:17:17Z",
+   "amount": 45.0,
+   "valuation": 20000000.0,
+   "pRaise12m": 0.55,
+   "pAlive12m": 0.85,
+   "thesis": "Trains proprietary foundation models directly on a customer's own transaction/event data (28B transactions for one fintech, plus a major insurer pilot), beating rules-based baselines 4x on premium-card conversion. Small team but real enterprise traction is a strong early signal in a crowded vertical-AI space.",
+   "url": "https://www.ycombinator.com/companies/lyon"
+  },
+  {
+   "type": "invest",
+   "id": "yc-herdr",
+   "name": "herdr",
+   "source": "YC Fall 2026",
+   "date": "2026-09-28T00:17:17Z",
+   "amount": 40.0,
+   "valuation": 28000000.0,
+   "pRaise12m": 0.45,
+   "pAlive12m": 0.88,
+   "thesis": "Open agent runtime with genuine bottom-up adoption (25k GitHub stars, 340k downloads, 500+ community plugins) and already closed a $6M seed led by Bessemer with a strong angel syndicate. Infra bet on agent fleets becoming standard dev workflow; main risk is monetizing an OSS-first project against well-funded competitors.",
+   "url": "https://www.ycombinator.com/companies/herdr"
+  },
+  {
+   "type": "invest",
+   "id": "yc-useforward",
+   "name": "Forward",
+   "source": "YC Fall 2026",
+   "date": "2026-09-28T00:17:17Z",
+   "amount": 35.0,
+   "valuation": 16000000.0,
+   "pRaise12m": 0.35,
+   "pAlive12m": 0.75,
+   "thesis": "Agentic matching between borrowers and private-credit funds, built by founders with direct deal-diligence experience ($1B+) and a 5-person team already shipping. Real workflow pain point in an underdigitized market, but conservative buyers and long enterprise sales cycles are a risk.",
+   "url": "https://www.ycombinator.com/companies/useforward"
+  },
+  {
+   "type": "invest",
+   "id": "hn-49833867",
+   "name": "Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+   "source": "Show HN",
+   "date": "2026-09-28T00:17:17Z",
+   "amount": 35.0,
+   "valuation": 15000000.0,
+   "pRaise12m": 0.4,
+   "pAlive12m": 0.75,
+   "thesis": "Open-source IDE (YC W26) that lets coding agents draw architecture/sequence diagrams of their own changes for review - a timely wedge as teams struggle to review AI-generated code. Strong Show HN reception (415 points) and built on VS Code/CodeOSS for fast distribution, though it competes for attention in a busy devtools category.",
+   "url": "https://news.ycombinator.com/item?id=49833867"
+  }
+ ],
+ "forecasts": [
+  {
+   "id": "yc-lyon",
+   "event": "raise_12m",
+   "prob": 0.55,
+   "made": "2026-09-28",
+   "due": "2027-09-28",
+   "outcome": null
+  },
+  {
+   "id": "yc-lyon",
+   "event": "alive_12m",
+   "prob": 0.85,
+   "made": "2026-09-28",
+   "due": "2027-09-28",
+   "outcome": null
+  },
+  {
+   "id": "yc-herdr",
+   "event": "raise_12m",
+   "prob": 0.45,
+   "made": "2026-09-28",
+   "due": "2027-09-28",
+   "outcome": null
+  },
+  {
+   "id": "yc-herdr",
+   "event": "alive_12m",
+   "prob": 0.88,
+   "made": "2026-09-28",
+   "due": "2027-09-28",
+   "outcome": null
+  },
+  {
+   "id": "yc-useforward",
+   "event": "raise_12m",
+   "prob": 0.35,
+   "made": "2026-09-28",
+   "due": "2027-09-28",
+   "outcome": null
+  },
+  {
+   "id": "yc-useforward",
+   "event": "alive_12m",
+   "prob": 0.75,
+   "made": "2026-09-28",
+   "due": "2027-09-28",
+   "outcome": null
+  },
+  {
+   "id": "hn-49833867",
+   "event": "raise_12m",
+   "prob": 0.4,
+   "made": "2026-09-28",
+   "due": "2027-09-28",
+   "outcome": null
+  },
+  {
+   "id": "hn-49833867",
+   "event": "alive_12m",
+   "prob": 0.75,
+   "made": "2026-09-28",
+   "due": "2027-09-28",
+   "outcome": null
+  }
+ ]
 }
