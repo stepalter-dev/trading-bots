@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "RBA meets tomorrow with a 25bp hike ~80-90% priced in, and CBA's own economists front-ran that call with above-RBA mortgage repricing - supportive of the existing NIM thesis but already known, not a fresh tradeable catalyst. PME (dividend ex-date passed, analysts still bullish, 30%+ FY27 growth expected) and TLS (dividend ex-date passed, CEO Connect presentation) news was confirmatory of existing theses, nothing new. BHP has real momentum from copper/iron-ore strength but vol_x is normal today (no spike) and analysts flag it trading well above consensus fair value, so no fresh trigger to buy into an already-priced-in run. No genuine new catalyst anywhere on the watchlist, so holding all three positions unchanged with existing plans intact; growth/core split stays roughly balanced within the 35-65% band.",
-  "lastUpdated": "2026-09-28T02:12:06Z",
+  "lastRunNotes": "No genuine new catalysts today: the RBA hike is ~90%+ priced in already (not fresh), BHP/WOW/MQG headlines are stale earnings/dividend news, and STO/WDS news is old and mixed-to-negative despite UP trend. Held positions (CBA core, PME growth, TLS core) have no new triggers beyond already-priced dividend ex-dates and are all well inside their stop/target bands, so no action needed on them either. Growth/core split stays at ~36%/64%, within the band. Holding with no trades this session.",
+  "lastUpdated": "2026-09-28T04:12:48Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.58,
+    "lastPrice": 151.92,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 160.945,
+    "lastPrice": 159.92,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.77,
+    "lastPrice": 4.81,
     "shares": 184.860626,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.57
+   "lastPrice": 78.62
   }
  },
  "nav_history": [
@@ -134,13 +134,13 @@
   },
   {
    "date": "2026-09-28",
-   "nav": 9887.97,
+   "nav": 9894.0,
    "cash": 494.89,
-   "positionsValue": 9393.07,
-   "benchmarkNav": 9955.66,
-   "benchmarkClose": 78.57,
-   "growthValue": 1270.11,
-   "coreValue": 2197.61,
+   "positionsValue": 9399.1,
+   "benchmarkNav": 9962.0,
+   "benchmarkClose": 78.62,
+   "growthValue": 1262.02,
+   "coreValue": 2207.96,
    "daytradeValue": 0.0
   }
  ],
