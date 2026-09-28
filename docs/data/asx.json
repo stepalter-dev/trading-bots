@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No genuine new catalysts today: the RBA hike is ~90%+ priced in already (not fresh), BHP/WOW/MQG headlines are stale earnings/dividend news, and STO/WDS news is old and mixed-to-negative despite UP trend. Held positions (CBA core, PME growth, TLS core) have no new triggers beyond already-priced dividend ex-dates and are all well inside their stop/target bands, so no action needed on them either. Growth/core split stays at ~36%/64%, within the band. Holding with no trades this session.",
-  "lastUpdated": "2026-09-28T04:12:48Z",
+  "lastRunNotes": "No fresh catalysts today: CBA news is a priced-in RBA hike and routine job cuts, PME/TLS news is just ex-dividend mechanics, and BHP/MIN moves are dividend-mechanical or already-known (ASIC cleared MIN, but MIN trend is DOWN and technically weak anyway). Cash sits right at the 5% floor so any new buy would require selling a held position first, and none of the three holdings (CBA core, PME growth, TLS core) are near their stop or target or have a reason to exit early. Growth/core split stays ~36%/64%, within the band. Holding with no trades this session.",
+  "lastUpdated": "2026-09-28T05:12:30Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.92,
+    "lastPrice": 152.09,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 159.92,
+    "lastPrice": 161.505,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.81,
+    "lastPrice": 4.83,
     "shares": 184.860626,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.62
+   "lastPrice": 78.6
   }
  },
  "nav_history": [
@@ -134,13 +134,13 @@
   },
   {
    "date": "2026-09-28",
-   "nav": 9894.0,
+   "nav": 9910.17,
    "cash": 494.89,
-   "positionsValue": 9399.1,
-   "benchmarkNav": 9962.0,
-   "benchmarkClose": 78.62,
-   "growthValue": 1262.02,
-   "coreValue": 2207.96,
+   "positionsValue": 9415.28,
+   "benchmarkNav": 9959.47,
+   "benchmarkClose": 78.6,
+   "growthValue": 1274.53,
+   "coreValue": 2213.13,
    "daytradeValue": 0.0
   }
  ],
