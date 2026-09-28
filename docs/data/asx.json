@@ -1,28 +1,55 @@
 {
  "state": {
-  "cash": 6035.944588,
+  "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad macro-driven selloff continues (not stock-specific): US 30-year yields at highest since 2004, 10-year since 2007, plus oil above $100-105 on Houthi attacks on Saudi energy infrastructure, driving multiple compression across ASX growth/tech names (XRO, WTC, CAR, MIN, PME) with no confirmed company-specific bad news. Volume remains below the 10-day average across the watchlist (vol_x mostly <1x), so there's no capitulation/bottom signal to buy into - this is a falling knife, not a catalyst. Held positions unchanged: CBA (NSW contract thesis intact, no sell trigger), PME (still above A$150 support horizon, no NA growth deceleration confirmed), TLS (actually up today, thesis intact). Growth/core split among swing positions stays within band. Holding with no new trades; day-trades are disallowed this last session anyway.",
-  "lastUpdated": "2026-09-25T05:12:45Z",
+  "lastRunNotes": "No fresh, stock-specific catalyst today: ASX is in its fourth week of retreat with vol_x below 1x across the entire watchlist (no capitulation or breakout signal), and RBA meets tomorrow. CBA (NSW contract thesis intact, dividend just paid, rate-hike tailwind for NIMs), PME (record FY26 results still digesting, but Bell Potter downgrade and broken 200-day trend argue against adding), and TLS (Barrenjoey upgrade, outage issue resolved) all remain unchanged holds. Growth/core split stays at roughly 49%/51% of the active sleeve, within the 35-65% band. Holding, no trades; adding plans for the three held positions that had none.",
+  "lastUpdated": "2026-09-28T01:12:25Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 150.38,
-    "shares": 9.705215
+    "lastPrice": 150.75,
+    "shares": 8.680755,
+    "plan": {
+     "target": 165.0,
+     "stop": 138.0,
+     "prob": 0.55,
+     "rr": 1.12,
+     "evPct": 1.39,
+     "entryRef": 150.75,
+     "setLater": true
+    }
    },
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 161.41,
-    "shares": 8.822923
+    "lastPrice": 161.88,
+    "shares": 7.891596,
+    "plan": {
+     "target": 195.0,
+     "stop": 145.0,
+     "prob": 0.5,
+     "rr": 1.96,
+     "evPct": 5.02,
+     "entryRef": 161.88,
+     "setLater": true
+    }
    },
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.78,
-    "shares": 206.676967
+    "lastPrice": 4.785,
+    "shares": 184.860626,
+    "plan": {
+     "target": 5.2,
+     "stop": 4.4,
+     "prob": 0.55,
+     "rr": 1.08,
+     "evPct": 1.15,
+     "entryRef": 4.785,
+     "setLater": true
+    }
    }
   },
   "startingCash": 10000.0,
@@ -30,6 +57,12 @@
    "factor": 0.22057307,
    "sliceAud": 10000.0,
    "note": "Scaled from a separate portfolio into an A$10,000 slice of one A$40,000 fund on 2026-09-25."
+  },
+  "anchor": {
+   "ticker": "STW.AX",
+   "shares": 75.414891,
+   "avgCost": 78.6623758842674,
+   "lastPrice": 78.52
   }
  },
  "nav_history": [
@@ -98,6 +131,17 @@
    "growthValue": 1424.107975,
    "coreValue": 2447.386154,
    "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-09-28",
+   "nav": 9887.14,
+   "cash": 494.89,
+   "positionsValue": 9392.25,
+   "benchmarkNav": 9949.32,
+   "benchmarkClose": 78.52,
+   "growthValue": 1277.49,
+   "coreValue": 2193.18,
+   "daytradeValue": 0.0
   }
  ],
  "trades": [
@@ -136,6 +180,64 @@
    "shares": 206.676967,
    "ticker": "TLS.AX",
    "id": "2026-09-18-TLS-b7m3q8"
+  },
+  {
+   "id": "2026-09-28-CBA.AX-xcvgg4",
+   "ticker": "CBA.AX",
+   "action": "sell",
+   "shares": 1.02446,
+   "price": 150.6294,
+   "refPrice": 150.75,
+   "fee": 6.0,
+   "date": "2026-09-28T01:12:25Z",
+   "bucket": "core",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": -7.18,
+   "realizedPnLPct": -4.62,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-28-PME.AX-6roswo",
+   "ticker": "PME.AX",
+   "action": "sell",
+   "shares": 0.931327,
+   "price": 161.750496,
+   "refPrice": 161.88,
+   "fee": 6.0,
+   "date": "2026-09-28T01:12:25Z",
+   "bucket": "growth",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": -12.81,
+   "realizedPnLPct": -8.13,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-28-TLS.AX-woff2u",
+   "ticker": "TLS.AX",
+   "action": "sell",
+   "shares": 21.816341,
+   "price": 4.781172,
+   "refPrice": 4.785,
+   "fee": 6.0,
+   "date": "2026-09-28T01:12:25Z",
+   "bucket": "core",
+   "rationale": "Rebalance: trimmed pro rata to fund the 60% index anchor (core-satellite rule).",
+   "realizedPnL": -7.17,
+   "realizedPnLPct": -6.8,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-09-28-STW.AX-1njxy6",
+   "ticker": "STW.AX",
+   "action": "buy",
+   "shares": 75.414891,
+   "price": 78.582816,
+   "refPrice": 78.52,
+   "fee": 6.0,
+   "date": "2026-09-28T01:12:25Z",
+   "bucket": "anchor",
+   "rationale": "Rebalance: topped the index anchor up to 60% of NAV (core-satellite rule).",
+   "horizon": "Permanent core holding"
   }
  ],
  "lessons": [],
