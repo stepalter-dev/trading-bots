@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked CBA, PME and TLS for fresh news: PME's St Luke's Health System contract and leadership changes are the only new items but don't change the existing thesis/plan; no news on CBA or TLS since last session. Reviewed UP-trend watchlist momentum leaders (BHP, WDS, STO, WOW, MQG) but their news is either stale (weeks-old results/MOUs already priced into 5d moves), negative (STO guidance cut, BHP labor dispute), or generic macro (today's -1.21% index drop, RBA meeting) rather than a fresh company-specific catalyst. Growth/core split stays ~36%/64% within band, cash at the 5% floor, no stops breached or targets reached. Holding with no trades.",
-  "lastUpdated": "2026-09-29T04:11:54Z",
+  "lastRunNotes": "RBA hiked rates 25bp to 4.60% today, driving a broad market selloff (-1.31% on the index) with financials and gold miners hit hardest - a macro move, not a stock-specific catalyst. Checked held positions (CBA, PME, TLS) and found only stale items (dividend payment dates, already-priced news) with no change to existing theses/plans. Checked QBE (the one watchlist name with unusual volume, vol_x=1.01) but its news is stale H1 results and a JV stake acquisition already known - no fresh catalyst. Growth/core split stays within band and cash is at the 5% floor, so holding all positions unchanged this session.",
+  "lastUpdated": "2026-09-29T05:12:55Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 150.24,
+    "lastPrice": 149.96,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 164.04,
+    "lastPrice": 164.24,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.79,
+    "lastPrice": 4.795,
     "shares": 184.860626,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.51
+   "lastPrice": 77.47
   }
  },
  "nav_history": [
@@ -145,13 +145,13 @@
   },
   {
    "date": "2026-09-29",
-   "nav": 9824.52,
+   "nav": 9821.57,
    "cash": 494.89,
-   "positionsValue": 9329.62,
-   "benchmarkNav": 9821.35,
-   "benchmarkClose": 77.51,
-   "growthValue": 1294.54,
-   "coreValue": 2189.68,
+   "positionsValue": 9326.68,
+   "benchmarkNav": 9816.28,
+   "benchmarkClose": 77.47,
+   "growthValue": 1296.12,
+   "coreValue": 2188.17,
    "daytradeValue": 0.0
   }
  ],
