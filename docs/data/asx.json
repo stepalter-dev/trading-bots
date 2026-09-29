@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh catalysts today: CBA news is a priced-in RBA hike and routine job cuts, PME/TLS news is just ex-dividend mechanics, and BHP/MIN moves are dividend-mechanical or already-known (ASIC cleared MIN, but MIN trend is DOWN and technically weak anyway). Cash sits right at the 5% floor so any new buy would require selling a held position first, and none of the three holdings (CBA core, PME growth, TLS core) are near their stop or target or have a reason to exit early. Growth/core split stays ~36%/64%, within the band. Holding with no trades this session.",
-  "lastUpdated": "2026-09-28T05:12:30Z",
+  "lastRunNotes": "Broad macro-driven weakness today (STW -1.27%) ahead of the RBA's 2:30pm rate decision (25bp hike to 4.60% widely expected) and a 5-week low in iron ore, not stock-specific catalysts. CBA, PME and TLS all lack fresh news since the last session (just dividend/ex-div mechanics, a CEO succession note, and a Telstra triple-zero regulatory story already known) and none are near their stop or target. Cash is right at the 5% floor so any new buy needs a sell first, and no candidate on the watchlist has a real catalyst to justify that. Growth/core stays ~36%/64%, within band. Holding with no trades this session.",
+  "lastUpdated": "2026-09-29T01:12:50Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 152.09,
+    "lastPrice": 150.39,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 161.505,
+    "lastPrice": 165.26,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.83,
+    "lastPrice": 4.8,
     "shares": 184.860626,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.6
+   "lastPrice": 77.46
   }
  },
  "nav_history": [
@@ -141,6 +141,17 @@
    "benchmarkClose": 78.6,
    "growthValue": 1274.53,
    "coreValue": 2213.13,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-09-29",
+   "nav": 9833.53,
+   "cash": 494.89,
+   "positionsValue": 9338.63,
+   "benchmarkNav": 9815.02,
+   "benchmarkClose": 77.46,
+   "growthValue": 1304.17,
+   "coreValue": 2192.83,
    "daytradeValue": 0.0
   }
  ],
