@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad macro-driven weakness today (STW -1.27%) ahead of the RBA's 2:30pm rate decision (25bp hike to 4.60% widely expected) and a 5-week low in iron ore, not stock-specific catalysts. CBA, PME and TLS all lack fresh news since the last session (just dividend/ex-div mechanics, a CEO succession note, and a Telstra triple-zero regulatory story already known) and none are near their stop or target. Cash is right at the 5% floor so any new buy needs a sell first, and no candidate on the watchlist has a real catalyst to justify that. Growth/core stays ~36%/64%, within band. Holding with no trades this session.",
-  "lastUpdated": "2026-09-29T01:12:50Z",
+  "lastRunNotes": "No stock-specific catalysts found for CBA, PME or TLS since last session; today's broad ASX weakness (-1.25%) and RBA rate-hike expectations are macro noise, not company news. No watchlist name in an UP trend showed a genuine fresh catalyst (BHP/WDS/STO moves are generic commodity commentary, not company-specific). Growth/core stays ~36%/64%, within band; cash is at the 5% floor. Holding with no trades.",
+  "lastUpdated": "2026-09-29T02:12:04Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 150.39,
+    "lastPrice": 149.84,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 165.26,
+    "lastPrice": 164.51,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.8,
+    "lastPrice": 4.79,
     "shares": 184.860626,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.46
+   "lastPrice": 77.48
   }
  },
  "nav_history": [
@@ -145,13 +145,13 @@
   },
   {
    "date": "2026-09-29",
-   "nav": 9833.53,
+   "nav": 9822.49,
    "cash": 494.89,
-   "positionsValue": 9338.63,
-   "benchmarkNav": 9815.02,
-   "benchmarkClose": 77.46,
-   "growthValue": 1304.17,
-   "coreValue": 2192.83,
+   "positionsValue": 9327.6,
+   "benchmarkNav": 9817.55,
+   "benchmarkClose": 77.48,
+   "growthValue": 1298.25,
+   "coreValue": 2186.21,
    "daytradeValue": 0.0
   }
  ],
