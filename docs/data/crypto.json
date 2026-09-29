@@ -3,13 +3,13 @@
   "cash": 354.9053771999629,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad macro selloff continues: BTC -1% to -2% intraday after Trump rejected Iran's 7-day ceasefire plan, sending oil above $100/bbl and pressuring risk assets broadly (strong dollar, higher yields). This is market-wide, not coin-specific -- BCH's CME futures (Oct 19) and Grayscale ETF-conversion catalysts are intact, it's just pulled back with the tape and is still 6% above its stop. Cash (354.91, 5.01% of NAV) is essentially pinned at the 5% floor with nothing free to deploy, and all 7 active positions were opened Sep 23-25 so none clears the 14-day minimum hold yet; none has hit its target or stop. No legal sells or buys are available this session, so holding across the board. Growth/core split stays roughly 60/40, within tolerance given no genuine new catalyst to force a rebalance.",
-  "lastUpdated": "2026-09-28T20:12:11Z",
+  "lastRunNotes": "Broad macro selloff continues (rate-hike expectations, 10Y yield near 5.17%, traders de-risking ahead of Sept 30 inflation data) pressuring the whole crypto tape, not coin-specific. Cash is pinned at the 5.07% floor with nothing free to deploy, and all 7 active positions were opened Sep 23-25 so none clears the 14-day minimum hold yet; none hit target or stop. NEAR's Wikipedia attention spike traces to the real Sept 24 Bitwise NEAR ETF approval (26% weekly rally) now giving back gains into the macro pullback -- thesis intact, stop close but not breached. BCH/UNI CME futures catalyst (Oct 19) confirmed still on track via CME's own press release. Holding everything; growth/core balance unchanged from last session.",
+  "lastUpdated": "2026-09-29T02:12:14Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 118.84,
+    "lastPrice": 116.55,
     "shares": 6.3626533,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.228726,
+    "lastPrice": 0.225242,
     "shares": 2416.26626045,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 25.46069531,
     "avgCost": 9.28,
-    "lastPrice": 8.7862,
+    "lastPrice": 8.5181,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 23.25314931,
     "avgCost": 10.161,
-    "lastPrice": 10.38,
+    "lastPrice": 10.461,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.70244756,
     "avgCost": 336.36,
-    "lastPrice": 308.36,
+    "lastPrice": 303.59,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 54.40596988,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.798,
+    "lastPrice": 4.6188,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 3.73534298,
     "avgCost": 71.87902181675821,
-    "lastPrice": 68.936,
+    "lastPrice": 67.499,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -127,7 +127,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 83535.93
+   "lastPrice": 82880.39
   }
  },
  "nav_history": [
@@ -195,6 +195,17 @@
    "benchmarkClose": 83535.93,
    "growthValue": 1482.25,
    "coreValue": 1026.77,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-09-29",
+   "nav": 6997.8,
+   "cash": 354.91,
+   "positionsValue": 6642.9,
+   "benchmarkNav": 6897.52,
+   "benchmarkClose": 82880.39,
+   "growthValue": 1452.99,
+   "coreValue": 1009.63,
    "daytradeValue": 0.0
   }
  ],
@@ -436,6 +447,10 @@
   {
    "date": "2026-09-28",
    "rank": 42
+  },
+  {
+   "date": "2026-09-29",
+   "rank": 43
   }
  ]
 }
