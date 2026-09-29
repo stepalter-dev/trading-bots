@@ -3,13 +3,13 @@
   "cash": 359.6518809041654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Cash is pinned at the 5% floor (~$4.71 headroom), so no new swing buy is feasible regardless of setup quality. All three held positions (AAPL, GOOGL, META) are still short of the 14-day minimum hold or not at stop/target, so no sells are eligible either. Checked news: AAPL's dip is valuation/margin caution ahead of Oct 29 earnings, not a thesis break; GOOGL shrugged off a minor South Korea antitrust fine while the US ad-tech ruling tailwind persists; META's AI-capex bond financing story is a known overhang but shares remain strong post-Muse rally, well above the $700 stop. Growth/core split unchanged and within band. Holding, no trades this session.",
-  "lastUpdated": "2026-09-29T16:12:25Z",
+  "lastRunNotes": "Cash is essentially pinned at the 5% floor (~$3.80 headroom on $7,117 NAV), so no new swing buy is feasible regardless of setup quality, and none of the three held positions (AAPL, GOOGL, META) are at their stop or target or past a genuine reason to trim. News check found no thesis-breaking catalysts: AAPL's dip is valuation/margin/China caution plus Meta-Muse competitive noise ahead of Oct earnings, not a break of the foldable-iPhone thesis; GOOGL continues to ride AI-infrastructure spending headlines (Finland data centers, Gemini 3.8 Live) with the antitrust overhang resolved; META keeps rallying on Muse adoption, well above its $700 stop and below its $880 target. Growth/core split among actives stays roughly GOOGL+META (growth) vs AAPL (core), within the 35-65% band. Holding, no trades this session.",
+  "lastUpdated": "2026-09-29T18:12:36Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 330.935,
+    "lastPrice": 331.14,
     "shares": 2.947272,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 338.8,
+    "lastPrice": 338.895,
     "shares": 1.22803,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 719.51,
+    "lastPrice": 731.215,
     "shares": 1.473636,
     "plan": {
      "target": 880.0,
@@ -62,7 +62,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 763.2
+   "lastPrice": 763.07
   }
  },
  "nav_history": [
@@ -174,13 +174,13 @@
   },
   {
    "date": "2026-09-29",
-   "nav": 7098.84,
+   "nav": 7116.08,
    "cash": 359.65,
-   "positionsValue": 6739.19,
-   "benchmarkNav": 7046.47,
-   "benchmarkClose": 763.2,
-   "growthValue": 1476.35,
-   "coreValue": 975.36,
+   "positionsValue": 6756.42,
+   "benchmarkNav": 7045.27,
+   "benchmarkClose": 763.07,
+   "growthValue": 1493.72,
+   "coreValue": 975.96,
    "daytradeValue": 0.0
   }
  ],
