@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No stock-specific catalysts found for CBA, PME or TLS since last session; today's broad ASX weakness (-1.25%) and RBA rate-hike expectations are macro noise, not company news. No watchlist name in an UP trend showed a genuine fresh catalyst (BHP/WDS/STO moves are generic commodity commentary, not company-specific). Growth/core stays ~36%/64%, within band; cash is at the 5% floor. Holding with no trades.",
-  "lastUpdated": "2026-09-29T02:12:04Z",
+  "lastRunNotes": "Checked CBA, PME and TLS for fresh news: PME's St Luke's Health System contract and leadership changes are the only new items but don't change the existing thesis/plan; no news on CBA or TLS since last session. Reviewed UP-trend watchlist momentum leaders (BHP, WDS, STO, WOW, MQG) but their news is either stale (weeks-old results/MOUs already priced into 5d moves), negative (STO guidance cut, BHP labor dispute), or generic macro (today's -1.21% index drop, RBA meeting) rather than a fresh company-specific catalyst. Growth/core split stays ~36%/64% within band, cash at the 5% floor, no stops breached or targets reached. Holding with no trades.",
+  "lastUpdated": "2026-09-29T04:11:54Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 149.84,
+    "lastPrice": 150.24,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 164.51,
+    "lastPrice": 164.04,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.48
+   "lastPrice": 77.51
   }
  },
  "nav_history": [
@@ -145,13 +145,13 @@
   },
   {
    "date": "2026-09-29",
-   "nav": 9822.49,
+   "nav": 9824.52,
    "cash": 494.89,
-   "positionsValue": 9327.6,
-   "benchmarkNav": 9817.55,
-   "benchmarkClose": 77.48,
-   "growthValue": 1298.25,
-   "coreValue": 2186.21,
+   "positionsValue": 9329.62,
+   "benchmarkNav": 9821.35,
+   "benchmarkClose": 77.51,
+   "growthValue": 1294.54,
+   "coreValue": 2189.68,
    "daytradeValue": 0.0
   }
  ],
