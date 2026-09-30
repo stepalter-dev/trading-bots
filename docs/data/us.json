@@ -3,13 +3,13 @@
   "cash": 359.6518809041654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Cash is pinned at the 5% floor (~$0.83 of headroom on $7,176.32 NAV), so no new swing buy is feasible today regardless of setup quality, and no held position is at stop or target so no forced sell. Checked news on all three holdings: AAPL's foldable iPhone Duo launches Oct 23 with no negative developments; META's Muse AI agent is expanding aggressively (small-business rollout, Connect keynote features) even though its 1-month momentum has turned negative, so the thesis holds despite the pullback; GOOGL continues to rally on AI/cloud growth even as it fights new EU orders, no reason to trim. Growth/core split within active sleeve stays ~60/40, inside the band. Holding across the board.",
-  "lastUpdated": "2026-09-30T14:12:39Z",
+  "lastRunNotes": "Checked news on all three holdings: AAPL's iPhone Duo preorders are proceeding normally toward the Oct 23 launch with no negative developments; Meta's Muse AI agent is expanding aggressively into small business (Shopify/Dropbox/Slack integrations, new hire from MongoDB) despite Amazon blocking integration, keeping the AI thesis intact even as short-term momentum is negative; Google's DOJ antitrust appeal is still pending (reply brief filed Sept 29) with no new adverse ruling, and shares are rallying on AI/cloud strength. Cash is pinned at the 5% floor with zero headroom for a new buy, and none of the three positions are at stop or target, so holding everything unchanged this session. Active sleeve stays growth-tilted (GOOGL+META ~21% of NAV) vs core (AAPL ~13.8% of NAV), within the 35-65% band.",
+  "lastUpdated": "2026-09-30T16:12:29Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 337.995,
+    "lastPrice": 337.008,
     "shares": 2.947272,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 351.2,
+    "lastPrice": 351.6,
     "shares": 1.22803,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 727.3,
+    "lastPrice": 737.34,
     "shares": 1.473636,
     "plan": {
      "target": 880.0,
@@ -62,7 +62,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 768.42
+   "lastPrice": 768.725
   }
  },
  "nav_history": [
@@ -185,13 +185,13 @@
   },
   {
    "date": "2026-09-30",
-   "nav": 7175.68,
+   "nav": 7189.77,
    "cash": 359.65,
-   "positionsValue": 6816.03,
-   "benchmarkNav": 7094.66,
-   "benchmarkClose": 768.42,
-   "growthValue": 1503.06,
-   "coreValue": 996.16,
+   "positionsValue": 6830.12,
+   "benchmarkNav": 7097.48,
+   "benchmarkClose": 768.725,
+   "growthValue": 1518.35,
+   "coreValue": 993.25,
    "daytradeValue": 0.0
   }
  ],
