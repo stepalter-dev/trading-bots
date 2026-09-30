@@ -3,13 +3,13 @@
   "cash": 354.9053771999629,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "BTC holding near $83k after a soft core PCE print and rising long-end Treasury yields (10yr ~5.29%); crypto tape mixed/soft with most alts red on the day. Checked the two live catalyst threads: AVAX's Goldman/Lynq and tokenized-asset inflows story is intact (still the strongest specific catalyst on the book) and BCH's CME futures (Oct 19)/Grayscale ETF filing story is confirmed but BCH has cooled from its ~$358 spike to $307, still comfortably above its $290 stop. No held position has hit stop or target, all 7 positions remain short of the 14-day minimum hold (opened Sep 18-25), and cash is pinned at the 5% floor with nothing freed up to fund a new buy. No legally available swing trade this session regardless of research; holding everything unchanged. Active sleeve stays split growth (SOL, UNI, AVAX, NEAR) vs core (XLM, BCH, LTC), within the 35-65% band.",
-  "lastUpdated": "2026-09-30T08:14:05Z",
+  "lastRunNotes": "Cash sits at ~5.0% of NAV (354.91), the hard floor, so no new swing buys are possible without breaching the minimum-cash rule; all 7 open positions are also short of the 14-day minimum hold (opened Sep 18-25) and none have hit target or stop, so nothing is sellable either. Checked news on the shakiest names: AVAX's tokenized-asset-inflow catalyst strengthened further (Charles Schwab announced plans to add AVAX trading; Avalanche led all chains in tokenized stock inflows), and BCH's CME futures (Oct 19)/Grayscale ETF-filing catalyst is intact with price ($307.78) still comfortably above its $290 stop. Growth vs core split (~46%/54% of active sleeve) remains within the 35-65% band. Holding across the board this session.",
+  "lastUpdated": "2026-09-30T14:19:35Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 117.97,
+    "lastPrice": 119.75,
     "shares": 6.3626533,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.2233,
+    "lastPrice": 0.224165,
     "shares": 2416.26626045,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 25.46069531,
     "avgCost": 9.28,
-    "lastPrice": 8.7665,
+    "lastPrice": 8.8609,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 23.25314931,
     "avgCost": 10.161,
-    "lastPrice": 11.05,
+    "lastPrice": 11.02,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.70244756,
     "avgCost": 336.36,
-    "lastPrice": 307.27,
+    "lastPrice": 307.08,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 54.40596988,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.9982,
+    "lastPrice": 5.2901,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 3.73534298,
     "avgCost": 71.87902181675821,
-    "lastPrice": 66.748,
+    "lastPrice": 66.864,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -127,7 +127,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 83092.52
+   "lastPrice": 83984.55
   }
  },
  "nav_history": [
@@ -210,13 +210,13 @@
   },
   {
    "date": "2026-09-30",
-   "nav": 7053.29,
+   "nav": 7129.58,
    "cash": 354.91,
-   "positionsValue": 6698.38,
-   "benchmarkNav": 6915.17,
-   "benchmarkClose": 83092.52,
-   "growthValue": 1502.68,
-   "coreValue": 1004.72,
+   "positionsValue": 6774.68,
+   "benchmarkNav": 6989.41,
+   "benchmarkClose": 83984.55,
+   "growthValue": 1531.6,
+   "coreValue": 1007.11,
    "daytradeValue": 0.0
   }
  ],
@@ -465,7 +465,7 @@
   },
   {
    "date": "2026-09-30",
-   "rank": 39
+   "rank": 36
   }
  ]
 }
