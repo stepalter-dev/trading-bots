@@ -100,3 +100,26 @@ def test_benchmark_position_moves_into_the_anchor_without_trading():
     assert "BTC-USD" not in s["positions"] and "Moved" in notes[0]
     assert not any(t["action"] == "sell" and t["ticker"] == "BTC-USD" for t in trades)
     assert abs(engine.anchor_value(s) / engine.nav_of(s) - 0.60) < 0.001
+
+
+def test_discord_only_when_something_happened(monkeypatch):
+    from datetime import datetime, timezone
+    from bot import core, notify, store
+
+    posts = []
+    monkeypatch.setattr(notify, "post", lambda cfg, embeds: posts.append(embeds))
+    monkeypatch.setattr(store, "save", lambda key, data: None)
+    now = datetime(2026, 10, 1, 14, 10, tzinfo=timezone.utc)
+
+    def session(state):
+        return {"cfg": MARKETS["us"], "data": {"state": state, "nav_history": [], "trades": [], "journal": [], "lessons": []},
+                "prices": {"SPY": UP(500), "AAPL": UP(100)}, "failed": [], "feed_failed": False, "bench": UP(500),
+                "now_utc": now, "now_local": now, "date_local": "2026-10-01", "now_iso": "2026-10-01T14:10:00Z", "slot": 10, "is_last": False}
+
+    hold = {"cash": 450.0, "startingCash": 10000.0, "positions": {"AAPL": {"shares": 35, "avgCost": 100, "lastPrice": 100, "bucket": "core", "openedDate": "2026-09-01"}},
+            "anchor": {"ticker": "SPY", "shares": 12.1, "avgCost": 500, "lastPrice": 500}}
+    core.finish(session(hold), {"notes": "holding", "trades": []})
+    assert posts == []  # a quiet hold is not posted
+    sell = {"action": "sell", "ticker": "AAPL", "shares": 5, "rationale": "trim"}
+    core.finish(session(hold), {"notes": "trimmed", "trades": [sell]})
+    assert len(posts) == 1  # a trade is posted

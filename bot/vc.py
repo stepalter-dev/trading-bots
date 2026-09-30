@@ -545,5 +545,8 @@ def apply(decision, force=False, dry=False):
     if dry:
         return summary + "\n--dry: not saved, not posted"
     store.save("vc", data)
-    notify.post(CFG, embeds_for(data, deals, s["lastRunNotes"], now))
+    if deals:  # Discord only for new cheques, follow-ons or marks
+        notify.post(CFG, embeds_for(data, deals, s["lastRunNotes"], now))
+    else:
+        print("No deals this week - Discord post skipped.")
     return summary

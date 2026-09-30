@@ -138,6 +138,11 @@ def finish(s, decision, dry=False):
         return summary + "\n--dry: not saved, not posted"
 
     store.save(cfg["key"], data)
+    # Discord only when something happened: a trade (incl. stops and index rebalances) or a data-feed alert.
+    # Quiet holds are still saved and shown on the dashboard.
+    if not executed and not state["dataFeedAlert"]:
+        print("No trades this session - Discord post skipped (holds are not notified).")
+        return summary
     embeds = notify.build_embeds(
         cfg, nav=nav, bench_nav=bench_nav, growth_pct=growth_pct, feed_alert=state["dataFeedAlert"],
         feed_failed_now=s["feed_failed"], executed=executed, notes=state["lastRunNotes"],
