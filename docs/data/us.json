@@ -3,13 +3,13 @@
   "cash": 359.6518809041654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No new catalysts since last session: AAPL's iPhone Duo pre-order timeline (Oct 16 order, Oct 23 launch) was just confirmed with no surprises; META's Muse AI keeps expanding (small-business push, Connect announcements, 3.4M downloads) supporting the existing thesis; GOOGL's DOJ antitrust appeals remain pending with no new adverse ruling. AMD's $8.2B World Labs deal is a real catalyst but we hold no AMD and cash is pinned at the 5% floor, so a new buy would require selling a position early (all under 14 days or no stop/target trigger) - not worth the cost for a marginal reallocation. Holding all three positions unchanged; growth/core split (60/40 of active sleeve) stays within band.",
-  "lastUpdated": "2026-09-30T18:11:59Z",
+  "lastRunNotes": "Checked news on all three holdings plus the top momentum names (AMD, INTC). AAPL: iPhone Duo thesis intact/reinforced (Counterpoint forecasts 6M units in 2026, Cramer bullish), no surprises. GOOGL: no new developments, DOJ appeal still pending. META: Muse AI keeps growing (5M+ downloads) but stock pulled back ~4% after the Sep 28 enterprise-platform announcement; thesis and plan unchanged. AMD (World Labs deal, 10% AI-chip price hikes) and INTC (AI demand rally) both have real catalysts and strong momentum, but cash is pinned at the 5% floor and none of the three held positions are eligible for an early sell (none at target, all under the 14-day hold), so there's no way to fund a new buy without breaking the rules. Growth/core split is ~60/40, within band. Holding everything.",
+  "lastUpdated": "2026-09-30T19:12:31Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 336.545,
+    "lastPrice": 336.295,
     "shares": 2.947272,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 349.32,
+    "lastPrice": 349.06,
     "shares": 1.22803,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 734.405,
+    "lastPrice": 732.97,
     "shares": 1.473636,
     "plan": {
      "target": 880.0,
@@ -62,7 +62,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 767.35
+   "lastPrice": 766.61
   }
  },
  "nav_history": [
@@ -185,13 +185,13 @@
   },
   {
    "date": "2026-09-30",
-   "nav": 7173.55,
+   "nav": 7166.23,
    "cash": 359.65,
-   "positionsValue": 6813.9,
-   "benchmarkNav": 7084.78,
-   "benchmarkClose": 767.35,
-   "growthValue": 1511.22,
-   "coreValue": 991.89,
+   "positionsValue": 6806.57,
+   "benchmarkNav": 7077.95,
+   "benchmarkClose": 766.61,
+   "growthValue": 1508.79,
+   "coreValue": 991.15,
    "daytradeValue": 0.0
   }
  ],
