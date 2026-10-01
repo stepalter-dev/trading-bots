@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad macro-driven selloff (ASX 200 -1.94% to a 4-month low on surging bond yields, higher oil prices and a late Wall St selloff), not stock-specific - no held position's thesis changed. CBA news was routine (passing on the RBA rate rise, rural branch pledge, AGM date); PME's board appointment was already priced in with no new catalyst; TLS had only routine AGM/buyback news. Cash is at the 5% floor (494.89, 5.07% of NAV) so there's no capacity for new buys even if a catalyst existed, and no stops or targets were hit. Growth/core split unchanged. Holding.",
-  "lastUpdated": "2026-10-01T04:11:38Z",
+  "lastRunNotes": "Continuation of the broad macro-driven selloff (ASX 200 ~-1.8-2% to a fresh ~4-month low on rate/bond-yield jitters and US overnight weakness) - no stock-specific catalyst for any held name. CBA news is routine RBA rate pass-through (effective 9 Oct) and AGM scheduling, PME's contract-win news is from earlier in the year and already priced in, TLS has no new items. Cash is exactly at the 5% floor (494.89, 5.07% of NAV) so there is no capacity for new buys regardless, and no stop or target was hit. Growth/core split and all existing plans are unchanged. Holding.",
+  "lastUpdated": "2026-10-01T05:13:10Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 149.24,
+    "lastPrice": 149.61,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 161.32,
+    "lastPrice": 161.5,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.81,
+    "lastPrice": 4.815,
     "shares": 184.860626,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 76.92
+   "lastPrice": 77.0
   }
  },
  "nav_history": [
@@ -167,13 +167,13 @@
   },
   {
    "date": "2026-10-01",
-   "nav": 9753.58,
+   "nav": 9765.17,
    "cash": 494.89,
-   "positionsValue": 9258.68,
-   "benchmarkNav": 9746.59,
-   "benchmarkClose": 76.92,
-   "growthValue": 1273.07,
-   "coreValue": 2184.7,
+   "positionsValue": 9270.27,
+   "benchmarkNav": 9756.73,
+   "benchmarkClose": 77.0,
+   "growthValue": 1274.49,
+   "coreValue": 2188.83,
    "daytradeValue": 0.0
   }
  ],
