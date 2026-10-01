@@ -3,13 +3,13 @@
   "cash": 359.6518809041654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked fresh news on all three holdings plus two watchlist candidates. AAPL's $5.7B Taction haptics patent verdict (Sept 27) is already priced in and being appealed; the iPhone Duo (Sept 9 launch, on sale ~Oct 23) and holiday-quarter earnings (~Oct 29) catalysts behind the original thesis are intact, so holding through the soft 1.5% day. GOOGL has no new developments; the DOJ search-monopoly appeal is parked at the DC Circuit with no ruling expected before 2027. META's Muse AI story remains strong (Evercore/Mahaney reiterating a big enterprise-AI upside) despite a 5-day pullback and continued insider selling, which per the playbook is informational, not a catalyst, and the position's tight $700 stop already guards the downside. Looked at CRM (genuine open-market insider buy +Wells Fargo PT hike to $250) and AMD (World Labs acquisition, AI chip price hikes) as possible new swing buys, but cash is pinned essentially at the 5% NAV floor ($359.65 vs a $354.50 minimum), leaving no real room to add a position without cutting a thesis that hasn't broken. Growth/core split of the active sleeve is ~60.6%/39.4%, inside the 35-65% band. Holding everything, no trades this session.",
-  "lastUpdated": "2026-10-01T16:13:35Z",
+  "lastRunNotes": "Checked fresh news on AAPL, GOOGL, and META. AAPL's smart-home hub event (Oct 13) is a new but already-priced-in catalyst; original iPhone Duo/earnings thesis intact, stock well off stop. GOOGL got bullish news (Gemini 4 Argon launch, Anthropic TPU deal) but is choppy intraday with no new ruling; thesis and plan unchanged. META keeps rallying (JPMorgan raised PT to $920 from $820) but is still short of our $880 target and far from the $700 stop, so holding rather than chasing. Cash is already at the 5% floor (only ~$4 of investable room), so no new swing buys are feasible this session regardless; holding all three positions with existing plans unchanged. Growth/core split stays within band.",
+  "lastUpdated": "2026-10-01T18:11:35Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 327.864,
+    "lastPrice": 329.36,
     "shares": 2.947272,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 339.8,
+    "lastPrice": 338.97,
     "shares": 1.22803,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 726.99,
+    "lastPrice": 728.385,
     "shares": 1.473636,
     "plan": {
      "target": 880.0,
@@ -62,7 +62,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 760.59
+   "lastPrice": 762.74
   }
  },
  "nav_history": [
@@ -196,13 +196,13 @@
   },
   {
    "date": "2026-10-01",
-   "nav": 7087.37,
+   "nav": 7104.9,
    "cash": 359.65,
-   "positionsValue": 6727.72,
-   "benchmarkNav": 7022.37,
-   "benchmarkClose": 760.59,
-   "growthValue": 1488.6,
-   "coreValue": 966.3,
+   "positionsValue": 6745.25,
+   "benchmarkNav": 7042.22,
+   "benchmarkClose": 762.74,
+   "growthValue": 1489.64,
+   "coreValue": 970.71,
    "daytradeValue": 0.0
   }
  ],
