@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked all three holdings for fresh catalysts since last session: CBA's only news is the routine RBA-driven rate rise and AGM date, PME added a new non-exec director (Tim Reed) which is incremental governance news not a thesis-changing catalyst, and TLS news is just continuing buyback progress and the same ongoing (not new) Senate triple-zero debate. None of this moves any target/stop. Cash remains at the 5% floor (494.89) so there is no capacity for new buys, and CBA/PME are still only 13 of 14 required days into their swing hold with no stop or target hit, so there is no basis to sell. Holding all positions unchanged; growth/core split stays as is.",
-  "lastUpdated": "2026-10-01T01:12:08Z",
+  "lastRunNotes": "Broad market selloff today was macro-driven (US bond yield spike, Wall St late selloff, potential China import issues) not stock-specific, so no held position's thesis changed. CBA (rate rise, surcharge rule changes) and TLS (AGM date set, buyback continuing) had only routine news; PME's board appointment was already noted last session with no new developments. Cash is at the 5% floor and CBA/PME haven't cleared the 14-day minimum hold yet, so there is no capacity or basis for new buys or sells. Growth/core split unchanged. Holding.",
+  "lastUpdated": "2026-10-01T02:11:54Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 149.32,
+    "lastPrice": 149.8,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 160.99,
+    "lastPrice": 161.465,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.805,
+    "lastPrice": 4.825,
     "shares": 184.860626,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.58
+   "lastPrice": 77.38
   }
  },
  "nav_history": [
@@ -167,13 +167,13 @@
   },
   {
    "date": "2026-10-01",
-   "nav": 9800.52,
+   "nav": 9797.04,
    "cash": 494.89,
-   "positionsValue": 9305.62,
-   "benchmarkNav": 9830.22,
-   "benchmarkClose": 77.58,
-   "growthValue": 1270.47,
-   "coreValue": 2184.47,
+   "positionsValue": 9302.15,
+   "benchmarkNav": 9804.88,
+   "benchmarkClose": 77.38,
+   "growthValue": 1274.22,
+   "coreValue": 2192.33,
    "daytradeValue": 0.0
   }
  ],
