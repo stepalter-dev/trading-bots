@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked all three held names for fresh catalysts: CBA's only news is the already-known ASB NZ subsidiary CEO handover, PME has nothing beyond the already-priced-in Sep 7 ex-dividend, and TLS news is routine ex-dividend execution plus an ongoing (not new) Senate debate about its emergency-call role - none of this changes existing theses, targets or stops. Cash sits exactly at the 5% floor so there is no capacity to buy, and CBA/PME are still only 12 of 14 required days into their swing hold with no stop or target hit, so there is no basis to sell either. Holding all positions unchanged; growth/core split stays within band.",
-  "lastUpdated": "2026-09-30T05:12:25Z",
+  "lastRunNotes": "Checked all three holdings for fresh catalysts since last session: CBA's only news is the routine RBA-driven rate rise and AGM date, PME added a new non-exec director (Tim Reed) which is incremental governance news not a thesis-changing catalyst, and TLS news is just continuing buyback progress and the same ongoing (not new) Senate triple-zero debate. None of this moves any target/stop. Cash remains at the 5% floor (494.89) so there is no capacity for new buys, and CBA/PME are still only 13 of 14 required days into their swing hold with no stop or target hit, so there is no basis to sell. Holding all positions unchanged; growth/core split stays as is.",
+  "lastUpdated": "2026-10-01T01:12:08Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 150.3,
+    "lastPrice": 149.32,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 164.44,
+    "lastPrice": 160.99,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.83,
+    "lastPrice": 4.805,
     "shares": 184.860626,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.6
+   "lastPrice": 77.58
   }
  },
  "nav_history": [
@@ -163,6 +163,17 @@
    "benchmarkClose": 78.6,
    "growthValue": 1297.69,
    "coreValue": 2197.59,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-01",
+   "nav": 9800.52,
+   "cash": 494.89,
+   "positionsValue": 9305.62,
+   "benchmarkNav": 9830.22,
+   "benchmarkClose": 77.58,
+   "growthValue": 1270.47,
+   "coreValue": 2184.47,
    "daytradeValue": 0.0
   }
  ],
