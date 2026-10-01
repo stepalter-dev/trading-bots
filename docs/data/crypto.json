@@ -3,13 +3,13 @@
   "cash": 354.9053771999629,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Cash is exactly at the 5% NAV floor, so no new swing buys are possible regardless of setup quality. All 7 open positions (opened Sep 17-25) are still short of the 14-day minimum hold and none have hit target or stop, so nothing is sellable either. Checked NEAR (ETF approval Sep 24 rallied it, then a short squeeze/correction took it to $4.80 on Sep 29 before recovering to $5.34 today - stop $4.6 held, target $6.2 not yet reached) and BCH (CME futures Oct 19 + Grayscale ETF filing catalyst intact, but trend flipped DOWN and price is only 5.2% above its $290 stop - referee will auto-sell if breached, no manual action possible pre-14-day/pre-target anyway). Holding everything unchanged; growth/core split among active positions stays roughly balanced within the band.",
-  "lastUpdated": "2026-09-30T20:12:05Z",
+  "lastRunNotes": "Cash is exactly at the 5% NAV floor, so no new swing buys are possible regardless of setup quality. All 7 positions are still within or just reaching their 14-day hold window; none have hit target or stop. Checked BCH (CME futures + Grayscale ETF filing catalysts intact for Oct 19), UNI (same CME Oct 19 futures catalyst confirmed), and NEAR (Bitwise NEAR ETF launched Sept 29, price recovered from the Sept 29 dip to $5.22, stop/target plan still valid). Holding everything; growth/core balance roughly matches prior session with no changes.",
+  "lastUpdated": "2026-10-01T02:11:52Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 117.46,
+    "lastPrice": 118.24,
     "shares": 6.3626533,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.226467,
+    "lastPrice": 0.228601,
     "shares": 2416.26626045,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 25.46069531,
     "avgCost": 9.28,
-    "lastPrice": 8.8485,
+    "lastPrice": 8.8507,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 23.25314931,
     "avgCost": 10.161,
-    "lastPrice": 10.901,
+    "lastPrice": 10.898,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.70244756,
     "avgCost": 336.36,
-    "lastPrice": 305.55,
+    "lastPrice": 307.08,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 54.40596988,
     "avgCost": 4.34278911546277,
-    "lastPrice": 5.3147,
+    "lastPrice": 5.221,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 3.73534298,
     "avgCost": 71.87902181675821,
-    "lastPrice": 66.179,
+    "lastPrice": 67.169,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -127,7 +127,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 83567.38
+   "lastPrice": 83581.52
   }
  },
  "nav_history": [
@@ -217,6 +217,17 @@
    "benchmarkClose": 83567.38,
    "growthValue": 1515.28,
    "coreValue": 1009.04,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-01",
+   "nav": 7104.65,
+   "cash": 354.91,
+   "positionsValue": 6749.74,
+   "benchmarkNav": 6955.87,
+   "benchmarkClose": 83581.52,
+   "growthValue": 1515.13,
+   "coreValue": 1018.97,
    "daytradeValue": 0.0
   }
  ],
@@ -466,6 +477,10 @@
   {
    "date": "2026-09-30",
    "rank": 35
+  },
+  {
+   "date": "2026-10-01",
+   "rank": 44
   }
  ]
 }
