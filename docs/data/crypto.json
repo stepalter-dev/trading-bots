@@ -3,13 +3,13 @@
   "cash": 354.9053771999629,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Cash is pinned at the 5% floor ($354.91 of $7,277.97 NAV) with nothing freed up to invest, and all seven active positions were opened 2026-09-25 so none clear the 14-day minimum hold yet; none are at stop or target. NEAR's Wikipedia attention spike is explained by the Oct 1 NEAR Intents $3.8M exploit (price dipped to $4.76, rebounded to $4.88), which is a risk to watch but its stop at $4.60 isn't threatened and the position can't be sold early anyway. AAVE's continued rally (V4 on Base, Kraken stake talks) is a real catalyst but already well-chased (+34% 30d) and unreachable with cash at the floor. No trades this session; growth/core balance unchanged.",
-  "lastUpdated": "2026-10-02T14:21:28Z",
+  "lastRunNotes": "Cash is pinned at the 5% floor ($354.91) and no held position is at target or past its 14-day minimum hold (all opened 2026-09-25), so no new buys or sells are possible regardless of conviction. Checked news on all seven holdings: NEAR's Oct 1 Intents exploit was a $3.8M integration bug now patched with full reimbursement, plus a new Bitwise NEAR ETF (+$50M inflows) and Ondo tokenized-stock listing are net positives, so the position near its stop isn't a thesis break. UNI/BCH Oct 19 CME futures catalyst is confirmed on track with UNI open interest at a 6-year high. LTC's Coinbase collateral catalyst broadened further (now also XRP/DOGE/ADA) and cbLTC launched on Solana, supporting the core thesis. Growth/core split stays roughly balanced; holding across the board this session.",
+  "lastUpdated": "2026-10-02T20:12:44Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 122.15,
+    "lastPrice": 118.15,
     "shares": 6.3626533,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.224459,
+    "lastPrice": 0.210929,
     "shares": 2416.26626045,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 25.46069531,
     "avgCost": 9.28,
-    "lastPrice": 9.0543,
+    "lastPrice": 8.7492,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 23.25314931,
     "avgCost": 10.161,
-    "lastPrice": 11.136,
+    "lastPrice": 10.614,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.70244756,
     "avgCost": 336.36,
-    "lastPrice": 315.22,
+    "lastPrice": 305.25,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 54.40596988,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.8921,
+    "lastPrice": 4.6315,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 3.73534298,
     "avgCost": 71.87902181675821,
-    "lastPrice": 70.247,
+    "lastPrice": 68.902,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -127,7 +127,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 86591.91
+   "lastPrice": 84393.65
   }
  },
  "nav_history": [
@@ -232,13 +232,13 @@
   },
   {
    "date": "2026-10-02",
-   "nav": 7281.39,
+   "nav": 7066.27,
    "cash": 354.91,
-   "positionsValue": 6926.49,
-   "benchmarkNav": 7206.4,
-   "benchmarkClose": 86591.91,
-   "growthValue": 1532.83,
-   "coreValue": 1026.17,
+   "positionsValue": 6711.36,
+   "benchmarkNav": 7023.46,
+   "benchmarkClose": 84393.65,
+   "growthValue": 1473.3,
+   "coreValue": 981.46,
    "daytradeValue": 0.0
   }
  ],
@@ -495,7 +495,7 @@
   },
   {
    "date": "2026-10-02",
-   "rank": 46
+   "rank": 52
   }
  ]
 }
