@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked CBA, PME, TLS plus the watchlist for fresh catalysts. CBA: only a flagged 0.25% variable rate rise (Oct 9) and CEO comments on a 'live' November hike possibility, nothing new for the NSW-contract thesis; AGM is Oct 14. PME: a new independent director appointment (Tim Reed) is minor governance news, not a trading catalyst, and PME remains in a DOWN trend so no capacity to add regardless. TLS: buyback continuing (~30M shares repurchased) and still just a 'hold' rating, no fresh trigger. Cash (494.89, ~5.07% of NAV) is essentially at the 5% floor with no room for a new swing buy, so holding across the board with growth/core balance unchanged.",
-  "lastUpdated": "2026-10-02T04:12:13Z",
+  "lastRunNotes": "Checked CBA, PME, TLS and scanned the watchlist for fresh catalysts. CBA: rate rise (Oct 9) and AGM (Oct 14) already known, nothing new for the NSW-contract thesis. PME: a new A$25M Valley Health contract (29/09) is incremental, not a fresh catalyst, and PME is in a DOWN trend anyway. TLS: buyback continuing, still just a hold rating, AGM Oct 13, no new trigger. No held position has hit its stop or target. Cash (494.89, ~5.06% of NAV) is at the 5% floor so there is no room for a new swing buy without selling a held position, and no catalyst justifies that. Growth/core split among actives is roughly balanced. Holding everything unchanged this session.",
+  "lastUpdated": "2026-10-02T05:12:43Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.08,
+    "lastPrice": 151.18,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 156.84,
+    "lastPrice": 157.73,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.33
+   "lastPrice": 77.46
   }
  },
  "nav_history": [
@@ -178,13 +178,13 @@
   },
   {
    "date": "2026-10-02",
-   "nav": 9767.89,
+   "nav": 9785.58,
    "cash": 494.89,
-   "positionsValue": 9272.99,
-   "benchmarkNav": 9798.54,
-   "benchmarkClose": 77.33,
-   "growthValue": 1237.72,
-   "coreValue": 2203.44,
+   "positionsValue": 9290.69,
+   "benchmarkNav": 9815.01,
+   "benchmarkClose": 77.46,
+   "growthValue": 1244.74,
+   "coreValue": 2204.31,
    "daytradeValue": 0.0
   }
  ],
