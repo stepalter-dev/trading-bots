@@ -3,13 +3,13 @@
   "cash": 494.8941629307892,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Market is bouncing (+0.66%) off Thursday's broad macro selloff on cooler CPI data, not stock-specific news. CBA: routine AGM (Oct 14) and regional branch commitment news, no new catalyst. PME: YTD still down sharply (-25.5%), last company news (director appointment, Valley Health contract) already priced in or minor; no new trigger and trend has turned DOWN so no capacity to add anyway. TLS: buyback continuing and defensive, but a 'hold' rating from analysts and no fresh catalyst since last review. Cash is exactly at the 5% floor (494.89) so there is no capacity for new buys regardless of signal strength. No stops or targets were hit. Growth/core split and all existing plans unchanged. Holding.",
-  "lastUpdated": "2026-10-02T01:12:07Z",
+  "lastRunNotes": "Checked all three holdings plus the broader watchlist for fresh catalysts. CBA: only news is a 0.25% variable home loan rate rise (effective Oct 9) and routine AGM/regional-branch items, nothing new for the NSW-contract thesis. PME: FY26 results and the Valley Health contract are already priced in, trend remains DOWN so no capacity to add anyway, and it's not at target or stop. TLS: buyback continuing, AGM Oct 13, still just a 'hold' broker rating, no fresh trigger. Cash is exactly at the 5% floor so there's no room for new buys regardless, and no position hit its stop or target, so holding everything unchanged this session.",
+  "lastUpdated": "2026-10-02T02:11:34Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 150.05,
+    "lastPrice": 150.13,
     "shares": 8.680755,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 159.28,
+    "lastPrice": 158.39,
     "shares": 7.891596,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.81,
+    "lastPrice": 4.805,
     "shares": 184.860626,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.33
+   "lastPrice": 77.23
   }
  },
  "nav_history": [
@@ -178,13 +178,13 @@
   },
   {
    "date": "2026-10-02",
-   "nav": 9775.43,
+   "nav": 9760.63,
    "cash": 494.89,
-   "positionsValue": 9280.53,
-   "benchmarkNav": 9798.54,
-   "benchmarkClose": 77.33,
-   "growthValue": 1256.97,
-   "coreValue": 2191.73,
+   "positionsValue": 9265.74,
+   "benchmarkNav": 9785.87,
+   "benchmarkClose": 77.23,
+   "growthValue": 1249.95,
+   "coreValue": 2191.5,
    "daytradeValue": 0.0
   }
  ],
