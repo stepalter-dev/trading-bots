@@ -59,6 +59,24 @@ def format_system(cfg):
                          stop_swing=MAX_STOP_PCT["swing"], stop_dt=MAX_STOP_PCT["daytrade"])
 
 
+def hold_line(p, trades, ticker, now_local):
+    """How long a position has been held and whether the minimum hold still blocks a discretionary sell."""
+    from datetime import date
+
+    from . import engine
+
+    opened = p.get("openedDate")
+    if not opened:  # older positions: fall back to the first buy in the trade log
+        buys = sorted(t["date"][:10] for t in trades if t["ticker"] == ticker and t["action"] == "buy" and t.get("bucket") != "anchor")
+        opened = buys[0] if buys else None
+    if not opened:
+        return "held: unknown open date - SELLABLE (no minimum-hold restriction)"
+    days = (now_local.date() - date.fromisoformat(opened[:10])).days
+    if p.get("bucket") == "daytrade" or days >= engine.MIN_HOLD_DAYS:
+        return f"held {days} days (opened {opened[:10]}) - SELLABLE"
+    return f"held {days} days (opened {opened[:10]}) - minimum hold until day {engine.MIN_HOLD_DAYS} ({engine.MIN_HOLD_DAYS - days} more days) unless the target is reached"
+
+
 def _fmt(x, nd=2):
     return "-" if x is None else f"{x:.{nd}f}"
 
@@ -97,6 +115,7 @@ def build_context(state, cfg, prices, trades, nav, bench, slot, is_last, now_loc
         reason = (origin.get("rationale", "")[:160] if origin else "")
         lines.append(f"  {t} [{p.get('bucket')}] {p['shares']} @ avg {p['avgCost']:.4f}, now {last:.4f} ({pnl_pct:+.1f}%), value {p['shares'] * last:,.2f} ({p['shares'] * last / nav * 100:.1f}% of NAV) | horizon: {horizon} | why bought: {reason}")
         lines.append(f"      {plan_line(p, last, cfg['currency'])}")
+        lines.append(f"      {hold_line(p, trades, t, now_local)}")
     lines.append("")
     lines.append("WATCHLIST (ticker | bucket | price | day% | 5d% | vol_x | trend vs 200-day avg | mom12_1% | momentum rank):")
     ranked = sorted((t for t in universe(cfg) if prices.get(t, {}).get("mom12_1") is not None), key=lambda t: -prices[t]["mom12_1"])
