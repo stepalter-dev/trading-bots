@@ -30,7 +30,13 @@
  "rules": {
   "adopted": "2026-09-25",
   "summary": "Core-satellite (60% in the market index, rebalanced at 55-65%), active positions max 12% of the slice, max 2 trades a session, 2-week minimum hold, new buys capped at 30% of the slice per 30 days, trend filter (buy only above the 200-day average), day-trading paused. Chosen from the backtest in BACKTEST.md.",
-  "frozen_until_review": true
+  "frozen_until_review": true,
+  "changes": [
+   {
+    "date": "2026-10-03",
+    "change": "One-time fix, not a strategy change: the switchover had left every slice fully invested (cash at the 5% floor), so the bots could not make any new buy. Active positions were trimmed once to 25% of each slice, freeing about 10% cash. The 60% index anchor and all other rules are unchanged."
+   }
+  ]
  },
  "review": {
   "next": "2026-12-25",

@@ -85,6 +85,36 @@ def mark_to_market(state, prices):
             a["lastPrice"] = r["price"]
 
 
+CASH_FIX_TARGET = 0.25  # one-time (2026-10-03): active sleeve trimmed to 25% of NAV so ~10% is free to invest
+
+
+def free_cash_once(state, cfg, prices, now_iso, date_local):
+    """One-time fix: the 2026-09-25 switchover left every slice fully invested (cash at the 5% floor), so the bots
+    could not buy anything without selling first. Trim the active positions pro rata to CASH_FIX_TARGET of NAV.
+    Runs once per market (flag in state). Returns (trades, notes)."""
+    if state.get("cashFreed"):
+        return [], []
+    nav = nav_of(state)
+    active = {t: p for t, p in state["positions"].items() if p.get("bucket") != "daytrade"}
+    val = sum(p["shares"] * p.get("lastPrice", p["avgCost"]) for p in active.values())
+    excess = val - CASH_FIX_TARGET * nav
+    trades = []
+    if excess > 1 and val > 0:
+        frac = min(1.0, excess / val)
+        for t, p in list(active.items()):
+            r = prices.get(t) or {}
+            if not r.get("ok"):
+                continue
+            units = round(p["shares"] * frac, 6)
+            tr = _sell(state, cfg, t, units, r["price"], now_iso, date_local,
+                       "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).", None) if units > 0 else None
+            if tr:
+                tr["exitReason"] = "rebalance"
+                trades.append(tr)
+    state["cashFreed"] = date_local
+    return trades, ([f"One-time trim: active positions cut to {CASH_FIX_TARGET:.0%} of NAV to free cash for new buys."] if trades else [])
+
+
 def rebalance_anchor(state, cfg, prices, now_iso, date_local):
     """Keep ANCHOR_TARGET of NAV in the benchmark (fractional units). Buys it with spare cash and,
     when cash is short, trims the active positions pro rata; sells it down when it has grown too big.

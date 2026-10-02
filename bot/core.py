@@ -83,6 +83,9 @@ def finish(s, decision, dry=False):
         rebal, rnotes = engine.rebalance_anchor(state, cfg, prices, s["now_iso"], s["date_local"])
         executed += rebal
         notes += rnotes
+        freed, fnotes = engine.free_cash_once(state, cfg, prices, s["now_iso"], s["date_local"])
+        executed += freed
+        notes += fnotes
         decisions = [d for d in decision.get("trades", []) if not any(d.get("ticker") == t["ticker"] for t in stopped)]
         notes += edge.set_plans(state, cfg, prices, decision.get("plans"))
         done, rejected = engine.apply_decisions(state, cfg, prices, decisions, s["now_iso"], s["date_local"], s["is_last"], history=data["trades"])

@@ -117,9 +117,24 @@ def test_discord_only_when_something_happened(monkeypatch):
                 "now_utc": now, "now_local": now, "date_local": "2026-10-01", "now_iso": "2026-10-01T14:10:00Z", "slot": 10, "is_last": False}
 
     hold = {"cash": 450.0, "startingCash": 10000.0, "positions": {"AAPL": {"shares": 35, "avgCost": 100, "lastPrice": 100, "bucket": "core", "openedDate": "2026-09-01"}},
-            "anchor": {"ticker": "SPY", "shares": 12.1, "avgCost": 500, "lastPrice": 500}}
+            "anchor": {"ticker": "SPY", "shares": 12.1, "avgCost": 500, "lastPrice": 500}, "cashFreed": "2026-10-01"}
     core.finish(session(hold), {"notes": "holding", "trades": []})
     assert posts == []  # a quiet hold is not posted
     sell = {"action": "sell", "ticker": "AAPL", "shares": 5, "rationale": "trim"}
     core.finish(session(hold), {"notes": "trimmed", "trades": [sell]})
     assert len(posts) == 1  # a trade is posted
+
+
+def test_free_cash_once_trims_active_to_25pct_and_only_once():
+    s = {"cash": 500.0, "startingCash": 10000.0,
+         "positions": {"AAPL": {"shares": 20, "avgCost": 100, "lastPrice": 100, "bucket": "core"},
+                       "NVDA": {"shares": 15, "avgCost": 100, "lastPrice": 100, "bucket": "growth"}},
+         "anchor": {"ticker": "SPY", "shares": 12, "avgCost": 500, "lastPrice": 500}}  # 60 / 35 / 5
+    prices = {"AAPL": UP(100), "NVDA": UP(100), "SPY": UP(500)}
+    trades, notes = engine.free_cash_once(s, US, prices, "t", "2026-10-03")
+    nav = engine.nav_of(s)
+    active = sum(p["shares"] * p["lastPrice"] for p in s["positions"].values())
+    assert abs(active / nav - 0.25) < 0.001 and abs(s["cash"] / nav - 0.15) < 0.001
+    assert all(t["exitReason"] == "rebalance" for t in trades) and s["cashFreed"] == "2026-10-03"
+    assert engine.free_cash_once(s, US, prices, "t", "2026-10-04") == ([], [])
+    assert engine.rebalance_anchor(s, US, prices, "t", "2026-10-04") == ([], [])  # anchor still in band: cash is not swept
