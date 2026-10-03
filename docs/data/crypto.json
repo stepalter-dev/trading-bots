@@ -1,15 +1,15 @@
 {
  "state": {
-  "cash": 1072.0338147224154,
+  "cash": 772.0359423209654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked AVAX, DOT, LINK and broader market. AVAX's RWA/institutional thesis keeps strengthening (Goldman Sachs' Lynq settlement network, $131M tokenized-stock inflows, Kenya credentialing) but it's still within its minimum hold and well short of target, so no action. DOT's pop is just an unconfirmed stablecoin rumor plus a taxonomy-inclusion story on top of the worst momentum rank on the list (18/18) - not a real edge. LINK is pulling back on profit-taking after its CCIP 2.0 pump, no fresh catalyst either way. No stops hit, no targets reached, and every held position already has a plan, so holding everything this session; growth/core split stays at roughly 60/40 of the active sleeve, within band.",
-  "lastUpdated": "2026-10-03T14:12:35Z",
+  "lastRunNotes": "Researched big movers (AAVE, AVAX) and held positions' catalysts; broader market is choppy (BTC range-bound $82-87k after a soft jobs report eased rate-hike fears, $433M in liquidations). AAVE is up ~20% over 5 days on genuine fundamentals (V4 surpassing $1B deposits with Arc/Base expansion, a new $50M annual DAO buyback, and an Oct 3 governance proposal to form a Cayman Foundation holding the brand/IP), so opened a modest new growth position sized to limit growth/core drift even though short-term technicals look stretched (overbought RSI, talk of a pullback to ~$167 first). AVAX's RWA/institutional thesis (Goldman Sachs' Lynq network, $131M tokenized-stock inflows, resumed ETF inflows, Kenya credentialing) keeps strengthening but it's still in its minimum hold and short of target, so no action. NEAR suffered a $3.8M Intents exploit on Oct 1 but has already recovered above cost and is locked in its minimum hold with its stop not hit, so holding. UNI7083, BCH, LTC, XLM and SOL are all unchanged - no stops hit, no targets reached, and their catalysts (Oct 19 CME futures listings, Coinbase loan collateral) are still pending. Growth/core sits near 66/34 of the active sleeve after this buy, slightly over the 65% aim band, which is why the AAVE position was kept small rather than sized to the 12% cap.",
+  "lastUpdated": "2026-10-03T20:13:00Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 119.15,
+    "lastPrice": 119.94,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.214623,
+    "lastPrice": 0.215805,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 18.13101731,
     "avgCost": 9.28,
-    "lastPrice": 9.1094,
+    "lastPrice": 9.0361,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 11.122,
+    "lastPrice": 11.13,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.50022556,
     "avgCost": 336.36,
-    "lastPrice": 311.94,
+    "lastPrice": 315.61,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 38.74346688,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.6218,
+    "lastPrice": 4.7614,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 2.66000498,
     "avgCost": 71.87902181675821,
-    "lastPrice": 69.678,
+    "lastPrice": 68.952,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -114,6 +114,21 @@
      "evPct": 1.59,
      "entryRef": 71.217,
      "setLater": true
+    }
+   },
+   "AAVE-USD": {
+    "shares": 1.662057,
+    "avgCost": 180.4979446562001,
+    "lastPrice": 179.85,
+    "bucket": "growth",
+    "openedDate": "2026-10-03",
+    "plan": {
+     "target": 225.0,
+     "stop": 160.0,
+     "prob": 0.38,
+     "rr": 2.27,
+     "evPct": 1.98,
+     "entryRef": 179.85
     }
    }
   },
@@ -127,7 +142,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 84778.2
+   "lastPrice": 84859.21
   },
   "cashFreed": "2026-10-03"
  },
@@ -244,13 +259,13 @@
   },
   {
    "date": "2026-10-03",
-   "nav": 7126.97,
-   "cash": 1072.03,
-   "positionsValue": 6054.94,
-   "benchmarkNav": 7055.46,
-   "benchmarkClose": 84778.2,
-   "growthValue": 1068.26,
-   "coreValue": 710.68,
+   "nav": 7139.71,
+   "cash": 772.04,
+   "positionsValue": 6367.68,
+   "benchmarkNav": 7062.2,
+   "benchmarkClose": 84859.21,
+   "growthValue": 1374.97,
+   "coreValue": 712.62,
    "daytradeValue": 0.0
   }
  ],
@@ -577,6 +592,28 @@
    "realizedPnL": -2.17,
    "realizedPnLPct": -2.81,
    "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-10-03-AAVE-USD-3n2w5f",
+   "ticker": "AAVE-USD",
+   "action": "buy",
+   "shares": 1.662057,
+   "price": 180.02985,
+   "refPrice": 179.85,
+   "fee": 0.778,
+   "date": "2026-10-03T20:13:00Z",
+   "bucket": "growth",
+   "rationale": "Aave V4 has crossed $1B in deposits and expanded to Arc/Base with tokenized-stock collateral, backed by a new $50M annual DAO buyback and an Oct 3 governance proposal to form a Cayman Foundation holding the protocol's brand/IP - real institutional-legitimacy catalysts, not just a short squeeze. Upside to $225 is about 2.3x the downside to $160, clearing the 2.0 swing minimum.",
+   "horizon": "Reassess by early November on V4 deposit growth and the DAO Cayman Foundation vote outcome, or sooner if price fails to hold the ~$165 pullback-support zone.",
+   "plan": {
+    "target": 225.0,
+    "stop": 160.0,
+    "prob": 0.38,
+    "rr": 2.27,
+    "evPct": 1.98,
+    "entryRef": 179.85
+   },
+   "sentimentSummary": "Very bullish retail/analyst chatter (68% volume spike, burn talk) but RSI is flagging overbought short-term, with some analysts calling for a pullback to roughly $167 before the next leg up."
   }
  ],
  "lessons": [],
@@ -616,7 +653,7 @@
   },
   {
    "date": "2026-10-03",
-   "rank": 49
+   "rank": 52
   }
  ]
 }
