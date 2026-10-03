@@ -1,16 +1,16 @@
 {
  "state": {
-  "cash": 354.9053771999629,
+  "cash": 1072.0338147224154,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Cash is pinned at the 5% floor ($354.91) and no held position is at target or past its 14-day minimum hold (all opened 2026-09-25), so no new buys or sells are possible regardless of conviction. Checked news on all seven holdings: NEAR's Oct 1 Intents exploit was a $3.8M integration bug now patched with full reimbursement, plus a new Bitwise NEAR ETF (+$50M inflows) and Ondo tokenized-stock listing are net positives, so the position near its stop isn't a thesis break. UNI/BCH Oct 19 CME futures catalyst is confirmed on track with UNI open interest at a 6-year high. LTC's Coinbase collateral catalyst broadened further (now also XRP/DOGE/ADA) and cbLTC launched on Solana, supporting the core thesis. Growth/core split stays roughly balanced; holding across the board this session.",
-  "lastUpdated": "2026-10-02T20:12:44Z",
+  "lastRunNotes": "Cash is pinned at the 5% floor so no new buys are possible, and 5 of 7 positions remain under the 14-day minimum hold (5 more days) with none at target or stop. SOL and XLM are sellable but have no catalyst or target/stop trigger to act on. Checked NEAR (Oct 1 Intents exploit already reimbursed, new Bitwise ETF inflows, issuance-cut governance vote pending mid-Oct - thesis intact) and the CME UNI/BCH futures launch (still confirmed for Oct 19). Holding everything; growth/core balance is unchanged and within band. One-time trim: active positions cut to 25% of NAV to free cash for new buys.",
+  "lastUpdated": "2026-10-03T02:11:29Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 118.15,
-    "shares": 6.3626533,
+    "lastPrice": 119.09,
+    "shares": 4.5309593,
     "plan": {
      "target": 140.0,
      "stop": 98.0,
@@ -24,8 +24,8 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.210929,
-    "shares": 2416.26626045,
+    "lastPrice": 0.216078,
+    "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
      "stop": 0.185,
@@ -37,9 +37,9 @@
     }
    },
    "UNI7083-USD": {
-    "shares": 25.46069531,
+    "shares": 18.13101731,
     "avgCost": 9.28,
-    "lastPrice": 8.7492,
+    "lastPrice": 9.0503,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -53,9 +53,9 @@
     }
    },
    "AVAX-USD": {
-    "shares": 23.25314931,
+    "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.614,
+    "lastPrice": 10.896,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -69,9 +69,9 @@
     }
    },
    "BCH-USD": {
-    "shares": 0.70244756,
+    "shares": 0.50022556,
     "avgCost": 336.36,
-    "lastPrice": 305.25,
+    "lastPrice": 312.63,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -85,9 +85,9 @@
     }
    },
    "NEAR-USD": {
-    "shares": 54.40596988,
+    "shares": 38.74346688,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.6315,
+    "lastPrice": 4.6856,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -101,9 +101,9 @@
     }
    },
    "LTC-USD": {
-    "shares": 3.73534298,
+    "shares": 2.66000498,
     "avgCost": 71.87902181675821,
-    "lastPrice": 68.902,
+    "lastPrice": 70.111,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -127,8 +127,9 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 84393.65
-  }
+   "lastPrice": 84586.9
+  },
+  "cashFreed": "2026-10-03"
  },
  "nav_history": [
   {
@@ -239,6 +240,17 @@
    "benchmarkClose": 84393.65,
    "growthValue": 1473.3,
    "coreValue": 981.46,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-03",
+   "nav": 7118.71,
+   "cash": 1072.03,
+   "positionsValue": 6046.68,
+   "benchmarkNav": 7039.54,
+   "benchmarkClose": 84586.9,
+   "growthValue": 1065.65,
+   "coreValue": 714.68,
    "daytradeValue": 0.0
   }
  ],
@@ -460,6 +472,111 @@
    "bucket": "anchor",
    "rationale": "Rebalance: topped the index anchor up to 60% of NAV (core-satellite rule).",
    "horizon": "Permanent core holding"
+  },
+  {
+   "id": "2026-10-03-SOL-USD-g1ipil",
+   "ticker": "SOL-USD",
+   "action": "sell",
+   "shares": 1.831694,
+   "price": 118.97091,
+   "refPrice": 119.09,
+   "fee": 0.5666,
+   "date": "2026-10-03T02:11:29Z",
+   "bucket": "growth",
+   "rationale": "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).",
+   "realizedPnL": 7.11,
+   "realizedPnLPct": 3.38,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-10-03-XLM-USD-ns4fcb",
+   "ticker": "XLM-USD",
+   "action": "sell",
+   "shares": 695.599735,
+   "price": 0.215862,
+   "refPrice": 0.216078,
+   "fee": 0.3904,
+   "date": "2026-10-03T02:11:29Z",
+   "bucket": "core",
+   "rationale": "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).",
+   "realizedPnL": 9.59,
+   "realizedPnLPct": 6.84,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-10-03-UNI7083-USD-abaz9r",
+   "ticker": "UNI7083-USD",
+   "action": "sell",
+   "shares": 7.329678,
+   "price": 9.04125,
+   "refPrice": 9.0503,
+   "fee": 0.1723,
+   "date": "2026-10-03T02:11:29Z",
+   "bucket": "growth",
+   "rationale": "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).",
+   "realizedPnL": -1.92,
+   "realizedPnLPct": -2.83,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-10-03-AVAX-USD-03ovlp",
+   "ticker": "AVAX-USD",
+   "action": "sell",
+   "shares": 6.694165,
+   "price": 10.885104,
+   "refPrice": 10.896,
+   "fee": 0.1895,
+   "date": "2026-10-03T02:11:29Z",
+   "bucket": "growth",
+   "rationale": "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).",
+   "realizedPnL": 4.66,
+   "realizedPnLPct": 6.85,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-10-03-BCH-USD-u8xm7p",
+   "ticker": "BCH-USD",
+   "action": "sell",
+   "shares": 0.202222,
+   "price": 312.31737,
+   "refPrice": 312.63,
+   "fee": 0.1642,
+   "date": "2026-10-03T02:11:29Z",
+   "bucket": "core",
+   "rationale": "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).",
+   "realizedPnL": -5.03,
+   "realizedPnLPct": -7.39,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-10-03-NEAR-USD-zfq8wx",
+   "ticker": "NEAR-USD",
+   "action": "sell",
+   "shares": 15.662503,
+   "price": 4.680914,
+   "refPrice": 4.6856,
+   "fee": 0.1906,
+   "date": "2026-10-03T02:11:29Z",
+   "bucket": "growth",
+   "rationale": "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).",
+   "realizedPnL": 5.11,
+   "realizedPnLPct": 7.51,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-10-03-LTC-USD-j3l5ye",
+   "ticker": "LTC-USD",
+   "action": "sell",
+   "shares": 1.075338,
+   "price": 70.040889,
+   "refPrice": 70.111,
+   "fee": 0.1958,
+   "date": "2026-10-03T02:11:29Z",
+   "bucket": "core",
+   "rationale": "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).",
+   "realizedPnL": -2.17,
+   "realizedPnLPct": -2.81,
+   "exitReason": "rebalance"
   }
  ],
  "lessons": [],
@@ -496,6 +613,10 @@
   {
    "date": "2026-10-02",
    "rank": 52
+  },
+  {
+   "date": "2026-10-03",
+   "rank": 53
   }
  ]
 }
