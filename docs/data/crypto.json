@@ -3,13 +3,13 @@
   "cash": 1072.0338147224154,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Researched AAVE (up 20%+ in 5d on burn talk/V4 deposits/DAO IP move - already extended with analysts flagging pullback risk to $167 before any run at $200, and Coinbase app rank still climbing which signals late-cycle euphoria, so skipped as a chase with no edge), confirmed CME UNI/BCH futures launch is still on track for Oct 19, confirmed NEAR's issuance-cut vote is now expected ~Oct 11 (thesis intact), and found a fresh institutional catalyst for XLM (DTCC tokenization rollout this month, State Street Galaxy fund live since Sept 29) supporting the current hold. Five of seven positions remain under the 14-day minimum hold with none at target or stop; the two unrestricted positions (SOL, XLM) have no fresh catalyst or trigger to sell early. Holding everything, no new buys - growth/core balance unchanged and within band.",
-  "lastUpdated": "2026-10-03T08:13:01Z",
+  "lastRunNotes": "Checked AVAX, DOT, LINK and broader market. AVAX's RWA/institutional thesis keeps strengthening (Goldman Sachs' Lynq settlement network, $131M tokenized-stock inflows, Kenya credentialing) but it's still within its minimum hold and well short of target, so no action. DOT's pop is just an unconfirmed stablecoin rumor plus a taxonomy-inclusion story on top of the worst momentum rank on the list (18/18) - not a real edge. LINK is pulling back on profit-taking after its CCIP 2.0 pump, no fresh catalyst either way. No stops hit, no targets reached, and every held position already has a plan, so holding everything this session; growth/core split stays at roughly 60/40 of the active sleeve, within band.",
+  "lastUpdated": "2026-10-03T14:12:35Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 119.4,
+    "lastPrice": 119.15,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.214448,
+    "lastPrice": 0.214623,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 18.13101731,
     "avgCost": 9.28,
-    "lastPrice": 9.2469,
+    "lastPrice": 9.1094,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.904,
+    "lastPrice": 11.122,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.50022556,
     "avgCost": 336.36,
-    "lastPrice": 311.8,
+    "lastPrice": 311.94,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 38.74346688,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.6962,
+    "lastPrice": 4.6218,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 2.66000498,
     "avgCost": 71.87902181675821,
-    "lastPrice": 69.23,
+    "lastPrice": 69.678,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -127,7 +127,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 84633.93
+   "lastPrice": 84778.2
   },
   "cashFreed": "2026-10-03"
  },
@@ -244,13 +244,13 @@
   },
   {
    "date": "2026-10-03",
-   "nav": 7121.03,
+   "nav": 7126.97,
    "cash": 1072.03,
-   "positionsValue": 6049.0,
-   "benchmarkNav": 7043.45,
-   "benchmarkClose": 84633.93,
-   "growthValue": 1071.16,
-   "coreValue": 709.12,
+   "positionsValue": 6054.94,
+   "benchmarkNav": 7055.46,
+   "benchmarkClose": 84778.2,
+   "growthValue": 1068.26,
+   "coreValue": 710.68,
    "daytradeValue": 0.0
   }
  ],
@@ -616,7 +616,7 @@
   },
   {
    "date": "2026-10-03",
-   "rank": 52
+   "rank": 49
   }
  ]
 }
