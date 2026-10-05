@@ -1,6 +1,6 @@
 {
  "state": {
-  "cash": 9845.0,
+  "cash": 9695.0,
   "startingCash": 10000.0,
   "holdings": {
    "yc-lyon": {
@@ -26,7 +26,7 @@
     "thesis": "Trains proprietary foundation models directly on a customer's own transaction/event data (28B transactions for one fintech, plus a major insurer pilot), beating rules-based baselines 4x on premium-card conversion. Small team but real enterprise traction is a strong early signal in a crowded vertical-AI space.",
     "pRaise12m": 0.55,
     "pAlive12m": 0.85,
-    "lastChecked": "2026-09-28"
+    "lastChecked": "2026-10-05"
    },
    "yc-herdr": {
     "id": "yc-herdr",
@@ -51,7 +51,7 @@
     "thesis": "Open agent runtime with genuine bottom-up adoption (25k GitHub stars, 340k downloads, 500+ community plugins) and already closed a $6M seed led by Bessemer with a strong angel syndicate. Infra bet on agent fleets becoming standard dev workflow; main risk is monetizing an OSS-first project against well-funded competitors.",
     "pRaise12m": 0.45,
     "pAlive12m": 0.88,
-    "lastChecked": "2026-09-28"
+    "lastChecked": "2026-10-05"
    },
    "yc-useforward": {
     "id": "yc-useforward",
@@ -76,7 +76,7 @@
     "thesis": "Agentic matching between borrowers and private-credit funds, built by founders with direct deal-diligence experience ($1B+) and a 5-person team already shipping. Real workflow pain point in an underdigitized market, but conservative buyers and long enterprise sales cycles are a risk.",
     "pRaise12m": 0.35,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-09-28"
+    "lastChecked": "2026-10-05"
    },
    "hn-49833867": {
     "id": "hn-49833867",
@@ -101,7 +101,82 @@
     "thesis": "Open-source IDE (YC W26) that lets coding agents draw architecture/sequence diagrams of their own changes for review - a timely wedge as teams struggle to review AI-generated code. Strong Show HN reception (415 points) and built on VS Code/CodeOSS for fast distribution, though it competes for attention in a busy devtools category.",
     "pRaise12m": 0.4,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-09-28"
+    "lastChecked": "2026-10-05"
+   },
+   "yc-agent-relay": {
+    "id": "yc-agent-relay",
+    "name": "Agent Relay",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/agent-relay",
+    "website": "https://agentrelay.com",
+    "oneLiner": "The infrastructure to run coding agents for your team",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/agent-relay.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-10-05",
+    "tranches": [
+     {
+      "amount": 55.0,
+      "valuation": 25000000.0,
+      "date": "2026-10-05"
+     }
+    ],
+    "entryValuation": 25000000.0,
+    "markValuation": 25000000.0,
+    "status": "active",
+    "thesis": "Messaging/infra layer for coordinating fleets of coding agents, already open-source with real GitHub adoption and a public enterprise partnership (Coder) covered by GlobeNewswire. Agent-orchestration infra is a hot, well-funded category and this team already has a distribution channel through Coder.",
+    "pRaise12m": 0.45,
+    "pAlive12m": 0.85,
+    "lastChecked": "2026-10-05"
+   },
+   "yc-rystic": {
+    "id": "yc-rystic",
+    "name": "Rystic",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/rystic",
+    "website": "https://rystic.ai",
+    "oneLiner": "API simulators for testing and training agents locally",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/rystic.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-10-05",
+    "tranches": [
+     {
+      "amount": 45.0,
+      "valuation": 18000000.0,
+      "date": "2026-10-05"
+     }
+    ],
+    "entryValuation": 18000000.0,
+    "markValuation": 18000000.0,
+    "status": "active",
+    "thesis": "Local, stateful simulators of third-party APIs (Stripe, GitHub, Slack, Kalshi, etc.) for testing and training agents without hitting production services. Narrow but real pain point for every team building agents; named integrations suggest actual usage rather than a toy demo.",
+    "pRaise12m": 0.3,
+    "pAlive12m": 0.75,
+    "lastChecked": "2026-10-05"
+   },
+   "yc-talos-us": {
+    "id": "yc-talos-us",
+    "name": "Talos",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/talos-us",
+    "website": "https://www.talos-us.com/",
+    "oneLiner": "Predictive maintenance for power infrastructure.",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/talos-us.json",
+    "teamSizeAtEntry": 3,
+    "investedDate": "2026-10-05",
+    "tranches": [
+     {
+      "amount": 50.0,
+      "valuation": 20000000.0,
+      "date": "2026-10-05"
+     }
+    ],
+    "entryValuation": 20000000.0,
+    "markValuation": 20000000.0,
+    "status": "active",
+    "thesis": "Predictive maintenance hardware/software for large power transformers, a capital-intensive but high-value market (grid operators pay dearly to avoid unplanned outages). Hardware/enterprise sales cycles are slower, which tempers near-term funding odds, but the problem is real and durable.",
+    "pRaise12m": 0.25,
+    "pAlive12m": 0.7,
+    "lastChecked": "2026-10-05"
    }
   },
   "seen": [
@@ -113,6 +188,14 @@
    "hn-49837006",
    "hn-49845172",
    "hn-49858513",
+   "hn-49879401",
+   "hn-49880601",
+   "hn-49894351",
+   "hn-49898778",
+   "hn-49902382",
+   "hn-49928566",
+   "hn-49930439",
+   "hn-49937916",
    "ph-1203994",
    "ph-1238671",
    "ph-1249438",
@@ -121,21 +204,41 @@
    "ph-1256758",
    "ph-1257863",
    "ph-1258630",
+   "ph-1262155",
+   "ph-1263814",
+   "ph-1264825",
+   "ph-1266069",
+   "ph-1267919",
+   "ph-1268362",
+   "ph-1268847",
+   "ph-1268851",
+   "yc-agent-relay",
    "yc-antimattr",
+   "yc-aviern",
+   "yc-capveon",
    "yc-cyclon",
+   "yc-deepmark",
+   "yc-habu",
    "yc-herdr",
+   "yc-linklane",
    "yc-lyon",
+   "yc-openhack",
    "yc-pendulum-robotics",
+   "yc-petrichor-bio",
    "yc-rote",
+   "yc-rystic",
+   "yc-sentient-os",
    "yc-sinter-systems",
    "yc-streamline-systems",
    "yc-superradiant",
+   "yc-talos-us",
    "yc-the-agentic-data-co",
    "yc-twentyfour26",
-   "yc-useforward"
+   "yc-useforward",
+   "yc-vexo"
   ],
-  "lastUpdated": "2026-09-28T00:17:17Z",
-  "lastRunNotes": "First session, no holdings yet. Researched most of this week's YC F26 batch plus the top Show HN/PH launches. Skipped Harmony (already raised $34M seed - too obvious/late for this fund), Cyclon and SuperRadiant (pre-traction hype/moonshot with nothing verifiable), and Streamline Systems (no findable info, crowded GPS-denied-nav niche with better-funded incumbents). Backed Lyon, Herdr, Forward, and Whiteboard - each has some concrete signal (paying-like traction, real funding syndicate, experienced team, or strong developer reception) rather than just a pitch."
+  "lastUpdated": "2026-10-05T00:12:38Z",
+  "lastRunNotes": "Checked all 4 holdings (Lyon, herdr, Forward, Whiteboard) for news; no verified raises, down rounds, acquisitions or shutdowns since their initial YC entry, so no marks moved. From this week's candidates, backed three YC Fall 2026 companies with the clearest early signal: Agent Relay (shipping, open-source, already has an enterprise partnership with Coder/GlobeNewswire coverage), Rystic (clear enterprise-grade API-simulator product for agent testing with named integrations), and Talos (hardware predictive-maintenance for power-grid transformers, a real and growing market). Passed on OpenHack (solo founder, very crowded AI-AppSec space), LinkLane (pre-launch Winter 2027 batch, too speculative to verify), and the HN/PH novelty projects (fun demos, no clear path to a venture-scale business)."
  },
  "nav_history": [
   {
@@ -144,6 +247,13 @@
    "cash": 9845.0,
    "holdingsValue": 155.0,
    "deployed": 155.0
+  },
+  {
+   "date": "2026-10-05",
+   "nav": 10000.0,
+   "cash": 9695.0,
+   "holdingsValue": 305.0,
+   "deployed": 305.0
   }
  ],
  "deals": [
@@ -198,6 +308,45 @@
    "pAlive12m": 0.75,
    "thesis": "Open-source IDE (YC W26) that lets coding agents draw architecture/sequence diagrams of their own changes for review - a timely wedge as teams struggle to review AI-generated code. Strong Show HN reception (415 points) and built on VS Code/CodeOSS for fast distribution, though it competes for attention in a busy devtools category.",
    "url": "https://news.ycombinator.com/item?id=49833867"
+  },
+  {
+   "type": "invest",
+   "id": "yc-agent-relay",
+   "name": "Agent Relay",
+   "source": "YC Fall 2026",
+   "date": "2026-10-05T00:12:38Z",
+   "amount": 55.0,
+   "valuation": 25000000.0,
+   "pRaise12m": 0.45,
+   "pAlive12m": 0.85,
+   "thesis": "Messaging/infra layer for coordinating fleets of coding agents, already open-source with real GitHub adoption and a public enterprise partnership (Coder) covered by GlobeNewswire. Agent-orchestration infra is a hot, well-funded category and this team already has a distribution channel through Coder.",
+   "url": "https://www.ycombinator.com/companies/agent-relay"
+  },
+  {
+   "type": "invest",
+   "id": "yc-rystic",
+   "name": "Rystic",
+   "source": "YC Fall 2026",
+   "date": "2026-10-05T00:12:38Z",
+   "amount": 45.0,
+   "valuation": 18000000.0,
+   "pRaise12m": 0.3,
+   "pAlive12m": 0.75,
+   "thesis": "Local, stateful simulators of third-party APIs (Stripe, GitHub, Slack, Kalshi, etc.) for testing and training agents without hitting production services. Narrow but real pain point for every team building agents; named integrations suggest actual usage rather than a toy demo.",
+   "url": "https://www.ycombinator.com/companies/rystic"
+  },
+  {
+   "type": "invest",
+   "id": "yc-talos-us",
+   "name": "Talos",
+   "source": "YC Fall 2026",
+   "date": "2026-10-05T00:12:38Z",
+   "amount": 50.0,
+   "valuation": 20000000.0,
+   "pRaise12m": 0.25,
+   "pAlive12m": 0.7,
+   "thesis": "Predictive maintenance hardware/software for large power transformers, a capital-intensive but high-value market (grid operators pay dearly to avoid unplanned outages). Hardware/enterprise sales cycles are slower, which tempers near-term funding odds, but the problem is real and durable.",
+   "url": "https://www.ycombinator.com/companies/talos-us"
   }
  ],
  "forecasts": [
@@ -263,6 +412,54 @@
    "prob": 0.75,
    "made": "2026-09-28",
    "due": "2027-09-28",
+   "outcome": null
+  },
+  {
+   "id": "yc-agent-relay",
+   "event": "raise_12m",
+   "prob": 0.45,
+   "made": "2026-10-05",
+   "due": "2027-10-05",
+   "outcome": null
+  },
+  {
+   "id": "yc-agent-relay",
+   "event": "alive_12m",
+   "prob": 0.85,
+   "made": "2026-10-05",
+   "due": "2027-10-05",
+   "outcome": null
+  },
+  {
+   "id": "yc-rystic",
+   "event": "raise_12m",
+   "prob": 0.3,
+   "made": "2026-10-05",
+   "due": "2027-10-05",
+   "outcome": null
+  },
+  {
+   "id": "yc-rystic",
+   "event": "alive_12m",
+   "prob": 0.75,
+   "made": "2026-10-05",
+   "due": "2027-10-05",
+   "outcome": null
+  },
+  {
+   "id": "yc-talos-us",
+   "event": "raise_12m",
+   "prob": 0.25,
+   "made": "2026-10-05",
+   "due": "2027-10-05",
+   "outcome": null
+  },
+  {
+   "id": "yc-talos-us",
+   "event": "alive_12m",
+   "prob": 0.7,
+   "made": "2026-10-05",
+   "due": "2027-10-05",
    "outcome": null
   }
  ]
