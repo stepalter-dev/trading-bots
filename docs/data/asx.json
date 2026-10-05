@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked CBA, PME and TLS: no fresh catalysts beyond what was already priced in (CBA rate/AGM commentary and debt issuance are routine; PME's new board member (Tim Reed) is not a share-price catalyst and it remains in a confirmed downtrend although FY26 fundamentals still support the thesis; TLS's AGM and ongoing buyback are already known, still just a hold rating). Scanned momentum leaders (BHP, WDS, STO) which have real catalysts (BHP analyst upgrades/copper strength, WDS/STO benefiting from higher oil prices) but none are held and cash is sitting right at the 5% floor (494.89, 5.05% of NAV) with the active sleeve already near its 35% target, so there is no room for a new swing buy without an unjustified sell. No held position hit its stop or target. Growth/core split among actives is 35.7%/64.3%, inside the band. Holding, no trades this session. One-time trim: active positions cut to 25% of NAV to free cash for new buys.",
-  "lastUpdated": "2026-10-05T00:12:24Z",
+  "lastRunNotes": "Checked CBA, PME and TLS for fresh catalysts: CBA's news is routine (debt issuance, AGM on Oct 14, rates steady per CEO), PME's Jefferies downgrade to Hold (PT A$192.60) was already priced in and its downtrend/weak momentum remain unbroken with no new negative news, and TLS's buyback and FY26 results are already known with nothing fresh. Scanned momentum leaders with UP trend (BHP, WOW, STO, WDS, CPU) for a tradeable edge, but analyst targets offer too little upside to clear the 2:1 reward:risk bar with a sane stop (BHP/WOW/CPU near fair value, STO/WDS only ~8-11% to target) and oil/copper were softening into the weekend - no specific catalyst justifies forcing a swing trade today. Holding all three positions; growth/core split stays at roughly 36%/64% of the active sleeve, within the required band.",
+  "lastUpdated": "2026-10-05T01:13:06Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.93,
+    "lastPrice": 152.02,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 156.24,
+    "lastPrice": 160.49,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.84,
+    "lastPrice": 4.85,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.8
+   "lastPrice": 77.89
   },
   "cashFreed": "2026-10-05"
  },
@@ -190,13 +190,13 @@
   },
   {
    "date": "2026-10-05",
-   "nav": 9789.95,
+   "nav": 9822.47,
    "cash": 1470.49,
-   "positionsValue": 8319.47,
-   "benchmarkNav": 9858.09,
-   "benchmarkClose": 77.8,
-   "growthValue": 877.25,
-   "coreValue": 1574.94,
+   "positionsValue": 8351.99,
+   "benchmarkNav": 9869.49,
+   "benchmarkClose": 77.89,
+   "growthValue": 901.11,
+   "coreValue": 1576.81,
    "daytradeValue": 0.0
   }
  ],
