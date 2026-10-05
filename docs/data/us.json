@@ -3,13 +3,13 @@
   "cash": 1058.123512657653,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Held AAPL/GOOGL/META theses all intact: AAPL's smart-home hub launches Oct 13 as planned (production-yield story is old news, already priced in), GOOGL's Gemini 4 Argon rollout keeps momentum into Oct 27 earnings, META's Muse rally continues but is extended (+11% unrealized, now over the 12% single-name cap) with heavy insider selling and Oct 28 earnings binary risk ahead - trimmed it to bank gains and get back under the cap. Used the proceeds to start a small AMD swing position on a fresh, confirmed catalyst (OpenAI MI450 / Oracle 50k-GPU deals, record highs this week, Stifel PT raised to $700 today), keeping growth/core at roughly 60/40, inside the band. One-time trim: active positions cut to 25% of NAV to free cash for new buys. Referee adjusted/rejected: BUY AMD: 30-day turnover cap reached (30% of NAV in new buys)",
-  "lastUpdated": "2026-10-05T14:24:28Z",
+  "lastRunNotes": "Checked AAPL (home-hub launch Oct 13, Duo pre-orders Oct 16/launch Oct 23 - on track, already priced in, attention only 0.6x), GOOGL (Gemini 4 Argon already launched Oct 1 with mixed market reaction, earnings Oct 27 still the key date), and META (Muse downloads still growing but insider selling remains heavy - $259.9M/12mo, no buys - into Oct 28 earnings binary risk; position already back under the 12% cap from recent trims). None of the three held theses changed enough to warrant action. Considered AMD (Alibaba MI308 China order rumor, Stifel PT $700) and the energy rally (XLE/XOM, Brent >$100) as new buys, but both are stale, already-priced-in stories (AMD China rumor has circulated since Dec 2025 and was already the basis for a prior session's trade; no volume spike today on either) rather than fresh catalysts, so skipping. Holding everything; growth/core mix stays ~61%/39%, within band.",
+  "lastUpdated": "2026-10-05T16:14:00Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 333.69,
+    "lastPrice": 333.67,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 344.89,
+    "lastPrice": 344.9,
     "shares": 0.883627,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 743.375,
+    "lastPrice": 742.77,
     "shares": 1.060353,
     "plan": {
      "target": 880.0,
@@ -62,7 +62,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 772.635
+   "lastPrice": 773.23
   },
   "cashFreed": "2026-10-05"
  },
@@ -219,13 +219,13 @@
   },
   {
    "date": "2026-10-05",
-   "nav": 7199.26,
+   "nav": 7201.92,
    "cash": 1058.12,
-   "positionsValue": 6141.13,
-   "benchmarkNav": 7133.58,
-   "benchmarkClose": 772.635,
-   "growthValue": 1092.99,
-   "coreValue": 707.66,
+   "positionsValue": 6143.8,
+   "benchmarkNav": 7139.07,
+   "benchmarkClose": 773.23,
+   "growthValue": 1092.36,
+   "coreValue": 707.62,
    "daytradeValue": 0.0
   }
  ],
