@@ -1,16 +1,16 @@
 {
  "state": {
-  "cash": 359.6518809041654,
+  "cash": 1058.123512657653,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Cash sits right at the 5% NAV floor with no real room for a new swing buy without selling, and growth/core (60/40 of the active sleeve) is comfortably within the 35-65% band. Checked news on all three holdings: AAPL's Duo launch is still on track (smart home hub launching Oct 13) despite minor AI-agent competitive concerns, GOOGL's Gemini 4 Argon launch and TPU/cloud momentum keep its thesis intact despite a new $3.2B ad-tech damage claim, and META's Muse AI agent has passed 5M downloads supporting the rally, though a NM privacy lawsuit ($35-40B ask) and a disputed message-reading claim are risks to watch, not stop triggers. None of the three has hit its stop or target, so holding all positions with existing plans unchanged.",
-  "lastUpdated": "2026-10-02T19:13:21Z",
+  "lastRunNotes": "Held AAPL/GOOGL/META theses all intact: AAPL's smart-home hub launches Oct 13 as planned (production-yield story is old news, already priced in), GOOGL's Gemini 4 Argon rollout keeps momentum into Oct 27 earnings, META's Muse rally continues but is extended (+11% unrealized, now over the 12% single-name cap) with heavy insider selling and Oct 28 earnings binary risk ahead - trimmed it to bank gains and get back under the cap. Used the proceeds to start a small AMD swing position on a fresh, confirmed catalyst (OpenAI MI450 / Oracle 50k-GPU deals, record highs this week, Stifel PT raised to $700 today), keeping growth/core at roughly 60/40, inside the band. One-time trim: active positions cut to 25% of NAV to free cash for new buys. Referee adjusted/rejected: BUY AMD: 30-day turnover cap reached (30% of NAV in new buys)",
+  "lastUpdated": "2026-10-05T14:24:28Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 333.375,
-    "shares": 2.947272,
+    "lastPrice": 333.69,
+    "shares": 2.120705,
     "plan": {
      "target": 365.0,
      "stop": 300.0,
@@ -24,8 +24,8 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 342.75,
-    "shares": 1.22803,
+    "lastPrice": 344.89,
+    "shares": 0.883627,
     "plan": {
      "target": 370.0,
      "stop": 320.0,
@@ -39,8 +39,8 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 727.63,
-    "shares": 1.473636,
+    "lastPrice": 743.375,
+    "shares": 1.060353,
     "plan": {
      "target": 880.0,
      "stop": 700.0,
@@ -62,8 +62,9 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 769.12
-  }
+   "lastPrice": 772.635
+  },
+  "cashFreed": "2026-10-05"
  },
  "nav_history": [
   {
@@ -215,6 +216,17 @@
    "growthValue": 1493.17,
    "coreValue": 982.55,
    "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-05",
+   "nav": 7199.26,
+   "cash": 1058.12,
+   "positionsValue": 6141.13,
+   "benchmarkNav": 7133.58,
+   "benchmarkClose": 772.635,
+   "growthValue": 1092.99,
+   "coreValue": 707.66,
+   "daytradeValue": 0.0
   }
  ],
  "trades": [
@@ -336,6 +348,51 @@
    "bucket": "anchor",
    "rationale": "Rebalance: topped the index anchor up to 60% of NAV (core-satellite rule).",
    "horizon": "Permanent core holding"
+  },
+  {
+   "id": "2026-10-05-AAPL-p8rckf",
+   "ticker": "AAPL",
+   "action": "sell",
+   "shares": 0.826567,
+   "price": 333.523155,
+   "refPrice": 333.69,
+   "fee": 1.0,
+   "date": "2026-10-05T14:24:28Z",
+   "bucket": "core",
+   "rationale": "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).",
+   "realizedPnL": -0.63,
+   "realizedPnLPct": -0.23,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-10-05-GOOGL-3dbruj",
+   "ticker": "GOOGL",
+   "action": "sell",
+   "shares": 0.344403,
+   "price": 344.717555,
+   "refPrice": 344.89,
+   "fee": 1.0,
+   "date": "2026-10-05T14:24:28Z",
+   "bucket": "growth",
+   "rationale": "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).",
+   "realizedPnL": -0.36,
+   "realizedPnLPct": -0.31,
+   "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-10-05-META-u7c2i8",
+   "ticker": "META",
+   "action": "sell",
+   "shares": 0.413283,
+   "price": 743.003312,
+   "refPrice": 743.375,
+   "fee": 1.0,
+   "date": "2026-10-05T14:24:28Z",
+   "bucket": "growth",
+   "rationale": "One-time trim to free about 10% of the slice as cash for new ideas (the index switchover had left no spare cash).",
+   "realizedPnL": 30.99,
+   "realizedPnLPct": 11.27,
+   "exitReason": "rebalance"
   }
  ],
  "lessons": [],
