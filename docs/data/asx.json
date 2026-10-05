@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked the three held positions (CBA, PME, TLS) and several UP-trend momentum names (MQG, ANZ, WOW) for fresh catalysts. CBA/PME/TLS news is all routine (AGM dates, buyback continuation, debt issuance) with nothing new since the last session 14 hours ago and no target/stop triggers hit. MQG's real catalyst (H1 results) is a month out, ANZ's KPMG switch and mortgage rate rise aren't clean positive catalysts, and WOW already rallied six sessions into its AGM. No new swing buy clears the 2:1 reward:risk bar on a genuine near-term catalyst, so holding with growth/core roughly balanced (PME growth vs CBA+TLS core).",
-  "lastUpdated": "2026-10-05T03:12:21Z",
+  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and UP-trend momentum names (BHP, WDS, STO, MQG, ANZ, WOW). No fresh same-day catalyst anywhere: CBA/PME/TLS news is routine (AGM dates, buyback, debt issuance, board appointment); BHP's BofA copper upgrade to Buy/A$68 is 4 days old and already priced in with no unusual volume (vol_x 0.26); WDS/STO energy catalysts (Q3 earnings, Scarborough LNG) are weeks out, not actionable today. No candidate clears the 2:1 reward:risk bar on a genuine near-term trigger, so holding with growth/core roughly balanced (PME growth vs CBA+TLS core) and no new swing buys or sells this session.",
+  "lastUpdated": "2026-10-05T04:12:07Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.65,
+    "lastPrice": 151.815,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 159.345,
+    "lastPrice": 158.78,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.82,
+    "lastPrice": 4.815,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.7
+   "lastPrice": 77.68
   },
   "cashFreed": "2026-10-05"
  },
@@ -190,13 +190,13 @@
   },
   {
    "date": "2026-10-05",
-   "nav": 9795.49,
+   "nav": 9791.17,
    "cash": 1470.49,
-   "positionsValue": 8325.0,
-   "benchmarkNav": 9845.41,
-   "benchmarkClose": 77.7,
-   "growthValue": 894.68,
-   "coreValue": 1570.58,
+   "positionsValue": 8320.68,
+   "benchmarkNav": 9842.88,
+   "benchmarkClose": 77.68,
+   "growthValue": 891.51,
+   "coreValue": 1570.94,
    "daytradeValue": 0.0
   }
  ],
