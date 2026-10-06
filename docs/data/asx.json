@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and the UP-trend momentum leaders (BHP, RIO, MQG, WOW, STO/WDS, ANZ, CPU). No stops hit, no targets reached, no thesis changes. CBA has only routine mortgage-rate/RBA commentary; BHP/RIO's Pilbara ore-sharing deal is a long-term operational tie-up with no volume confirmation (vol_x well under 1.5x market-wide); Macquarie's audit-tender review cleared with no wrongdoing, already priced in; Woolworths' next catalysts (earnings Oct 28, AGM Oct 29) are weeks away. No watchlist name shows unusual volume today. Holding with growth/core balance unchanged.",
-  "lastUpdated": "2026-10-06T03:11:45Z",
+  "lastRunNotes": "Checked held positions and today's movers. PME's FY26 results/A$407m contracts and TLS's buyback/dividend growth are already-known catalysts with no fresh news; CBA has only routine debt issuance ahead of its Oct 14 AGM. IAG's +2.2% day move lacks a clear catalyst against a weakening weekly trend, and BHP/RIO's gains run counter to falling iron ore prices (-8% over the month), so neither looks like a confirmed signal. No stops hit, no targets reached, no unusual volume anywhere. Holding with growth/core balance unchanged (growth ~9.0% NAV, core ~16.1% NAV of active sleeve).",
+  "lastUpdated": "2026-10-06T04:12:08Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.88,
+    "lastPrice": 151.82,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 158.52,
+    "lastPrice": 157.33,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.1
+   "lastPrice": 78.05
   },
   "cashFreed": "2026-10-05"
  },
@@ -201,13 +201,13 @@
   },
   {
    "date": "2026-10-06",
-   "nav": 9823.1,
+   "nav": 9812.27,
    "cash": 1470.49,
-   "positionsValue": 8352.61,
-   "benchmarkNav": 9896.1,
-   "benchmarkClose": 78.1,
-   "growthValue": 890.05,
-   "coreValue": 1572.66,
+   "positionsValue": 8341.79,
+   "benchmarkNav": 9889.76,
+   "benchmarkClose": 78.05,
+   "growthValue": 883.37,
+   "coreValue": 1572.29,
    "daytradeValue": 0.0
   }
  ],
