@@ -3,13 +3,13 @@
   "cash": 772.0359423209654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No new trades: the five Sept 24 swing positions (UNI, AVAX, NEAR, BCH, LTC) are locked under the 14-day minimum hold for 3 more days and none hit stop/target; AAVE is locked 12 more days. SOL and XLM are technically sellable but have no fresh catalyst (SOL's Alpenglow upgrade is still testnet-only with no mainnet date; XLM's TVL/RWA growth is incremental, already known). ADA has the strongest apparent catalyst (RealFi mainnet live, Petrobras deal, a golden cross, vol_x 2.28) but its 12-month momentum remains deeply negative (-73.9%) and the active sleeve is already past the growth/core band (growth ~66% / core ~34%), so adding another growth name isn't a genuine rebalance, just more growth concentration - holding instead.",
-  "lastUpdated": "2026-10-05T20:13:03Z",
+  "lastRunNotes": "Five Sept 24 swing positions (UNI, AVAX, NEAR, BCH, LTC) plus AAVE remain locked under the 14-day minimum hold; none hit stop or target. Researched ADA (golden cross, RealFi mainnet, Petrobras deal - real catalysts) and TRX (DeFi Summer S3 but offset by hack/sanction headlines, no unusual volume) as new candidates, but passed: ADA's momentum is still deeply negative (-74%) and the active sleeve's growth bucket is already at the top of its 35-65% band (~66%/34%), so adding another growth name would overweight it further without a clear edge over the index. No stops hit, no targets reached, no new catalysts strong enough to justify a trade today. Holding everything unchanged.",
+  "lastUpdated": "2026-10-06T02:12:57Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 120.19,
+    "lastPrice": 120.41,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.214154,
+    "lastPrice": 0.21446,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 18.13101731,
     "avgCost": 9.28,
-    "lastPrice": 9.1299,
+    "lastPrice": 8.9602,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.926,
+    "lastPrice": 11.182,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.50022556,
     "avgCost": 336.36,
-    "lastPrice": 315.38,
+    "lastPrice": 315.36,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 38.74346688,
     "avgCost": 4.34278911546277,
-    "lastPrice": 5.2164,
+    "lastPrice": 5.3032,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 2.66000498,
     "avgCost": 71.87902181675821,
-    "lastPrice": 69.976,
+    "lastPrice": 69.292,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -119,7 +119,7 @@
    "AAVE-USD": {
     "shares": 1.662057,
     "avgCost": 180.4979446562001,
-    "lastPrice": 183.08,
+    "lastPrice": 182.81,
     "bucket": "growth",
     "openedDate": "2026-10-03",
     "plan": {
@@ -142,7 +142,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 85688.1
+   "lastPrice": 85497.79
   },
   "cashFreed": "2026-10-03"
  },
@@ -288,6 +288,17 @@
    "benchmarkClose": 85688.1,
    "growthValue": 1397.42,
    "coreValue": 712.39,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-06",
+   "nav": 7197.91,
+   "cash": 772.04,
+   "positionsValue": 6425.88,
+   "benchmarkNav": 7115.34,
+   "benchmarkClose": 85497.79,
+   "growthValue": 1402.5,
+   "coreValue": 711.08,
    "daytradeValue": 0.0
   }
  ],
@@ -684,6 +695,10 @@
   {
    "date": "2026-10-05",
    "rank": 42
+  },
+  {
+   "date": "2026-10-06",
+   "rank": 45
   }
  ]
 }
