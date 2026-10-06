@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and UP-trend/momentum names (BHP, WDS, STO, MQG, WOW, ANZ). Held positions have only routine news (AGMs, buybacks, debt issuance, board appointments) - no thesis change, no stop hit, no target reached. WDS/STO have an early-stage, unconfirmed A$80B merger rumor plus Scarborough LNG nearing first cargo, but neither shows unusual volume (vol_x ~0.06-0.10) confirming a market reaction, so it's too speculative/already-priced to size a 2:1+ bet on. No candidate clears the bar on a genuine, volume-confirmed catalyst today. Holding with growth/core unchanged (PME growth vs CBA+TLS core); no new swing buys or sells.",
-  "lastUpdated": "2026-10-06T00:12:45Z",
+  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and UP-trend/momentum candidates (WOW, BHP, RIO, MQG, STO/WDS). Held positions show only routine news (AGMs, buybacks, rate changes, a new PME director) with no stop hit, no target reached, and no thesis change. The WDS/STO 'merger rumor' noted previously turns out to be stale 2024 news (talks collapsed Feb 2024), not a live catalyst. No watchlist name shows unusual volume (all vol_x well under 1.5x) to confirm any reaction, including BHP's recent BofA upgrade and RIO's Bell Bay news, so nothing clears the 2:1+ bar. Holding with growth/core unchanged.",
+  "lastUpdated": "2026-10-06T01:13:04Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 150.92,
+    "lastPrice": 150.85,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 157.105,
+    "lastPrice": 160.025,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.815,
+    "lastPrice": 4.82,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.76
+   "lastPrice": 78.0
   },
   "cashFreed": "2026-10-05"
  },
@@ -201,13 +201,13 @@
   },
   {
    "date": "2026-10-06",
-   "nav": 9782.27,
+   "nav": 9816.99,
    "cash": 1470.49,
-   "positionsValue": 8311.78,
-   "benchmarkNav": 9853.02,
-   "benchmarkClose": 77.76,
-   "growthValue": 882.11,
-   "coreValue": 1565.41,
+   "positionsValue": 8346.5,
+   "benchmarkNav": 9883.43,
+   "benchmarkClose": 78.0,
+   "growthValue": 898.5,
+   "coreValue": 1565.64,
    "daytradeValue": 0.0
   }
  ],
