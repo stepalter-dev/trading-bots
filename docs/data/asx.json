@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and UP-trend momentum names (BHP, WDS, STO, MQG, ANZ, WOW). No fresh same-day catalyst anywhere: CBA/PME/TLS news is routine (AGM dates, buyback, debt issuance, board appointment); BHP's BofA copper upgrade to Buy/A$68 is 4 days old and already priced in with no unusual volume (vol_x 0.26); WDS/STO energy catalysts (Q3 earnings, Scarborough LNG) are weeks out, not actionable today. No candidate clears the 2:1 reward:risk bar on a genuine near-term trigger, so holding with growth/core roughly balanced (PME growth vs CBA+TLS core) and no new swing buys or sells this session.",
-  "lastUpdated": "2026-10-05T04:12:07Z",
+  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and UP-trend/momentum names (BHP, WDS, STO, MQG, WOW, ANZ). Held positions have only routine news (AGMs, buybacks, debt issuance, board appointments) - no thesis change, no stop hit, no target reached. WDS/STO have an early-stage, unconfirmed A$80B merger rumor plus Scarborough LNG nearing first cargo, but neither shows unusual volume (vol_x ~0.06-0.10) confirming a market reaction, so it's too speculative/already-priced to size a 2:1+ bet on. No candidate clears the bar on a genuine, volume-confirmed catalyst today. Holding with growth/core unchanged (PME growth vs CBA+TLS core); no new swing buys or sells.",
+  "lastUpdated": "2026-10-06T00:12:45Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.815,
+    "lastPrice": 150.92,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 158.78,
+    "lastPrice": 157.105,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.68
+   "lastPrice": 77.76
   },
   "cashFreed": "2026-10-05"
  },
@@ -197,6 +197,17 @@
    "benchmarkClose": 77.68,
    "growthValue": 891.51,
    "coreValue": 1570.94,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-06",
+   "nav": 9782.27,
+   "cash": 1470.49,
+   "positionsValue": 8311.78,
+   "benchmarkNav": 9853.02,
+   "benchmarkClose": 77.76,
+   "growthValue": 882.11,
+   "coreValue": 1565.41,
    "daytradeValue": 0.0
   }
  ],
