@@ -3,13 +3,13 @@
   "cash": 772.0359423209654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No new trades. News checks on CME UNI/BCH futures (still on track for Oct 19, pending regulatory review), the Aave Cayman Foundation vote (passed Oct 3, thesis intact, no new catalyst since entry), AVAX (continued RWA/Hyundai Card adoption, no deterioration) and LTC (ETF filing and tokenization progress continuing) show all existing theses holding up with no stop hits, no targets reached, and no fresh catalysts. Five Sept 24 swing positions plus AAVE remain under or near their 14-day minimum hold; SOL and XLM are sellable but have no new information justifying an exit. Active sleeve is already growth-heavy (~66% growth / 34% core), so no new growth buys were considered; holding across the board.",
-  "lastUpdated": "2026-10-06T08:12:35Z",
+  "lastRunNotes": "Checked news on all 8 held positions plus top watchlist momentum names (TRX, XRP). CME UNI/BCH futures still on track for Oct 19, AVAX RWA adoption and ETF inflows continuing to build, AAVE V4 deposits still growing toward $200 resistance, LTC ETF inflows turning positive, NEAR's Ondo/Infinex integrations expanding with no thesis deterioration - all theses intact, no stops hit, no targets reached. XRP has real dated catalysts (Oct 8-9 ledger upgrades, Oct 27-29 Ripple Swell) but no quantifiable asymmetric setup and would only worsen the already growth-heavy tilt (66% growth / 34% core) if misapplied; TRX momentum is strong but tainted by hack/sanction headlines, not investable. Holding everything; five Sept 24 positions are 2 days from clearing their 14-day minimum hold with nothing new to act on.",
+  "lastUpdated": "2026-10-06T14:27:51Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 120.52,
+    "lastPrice": 120.99,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.215967,
+    "lastPrice": 0.21516,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 18.13101731,
     "avgCost": 9.28,
-    "lastPrice": 8.8755,
+    "lastPrice": 8.832,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 11.354,
+    "lastPrice": 11.447,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.50022556,
     "avgCost": 336.36,
-    "lastPrice": 316.04,
+    "lastPrice": 316.19,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 38.74346688,
     "avgCost": 4.34278911546277,
-    "lastPrice": 5.2978,
+    "lastPrice": 5.1072,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 2.66000498,
     "avgCost": 71.87902181675821,
-    "lastPrice": 69.792,
+    "lastPrice": 70.028,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -119,7 +119,7 @@
    "AAVE-USD": {
     "shares": 1.662057,
     "avgCost": 180.4979446562001,
-    "lastPrice": 181.13,
+    "lastPrice": 181.96,
     "bucket": "growth",
     "openedDate": "2026-10-03",
     "plan": {
@@ -142,7 +142,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 85873.94
+   "lastPrice": 86112.69
   },
   "cashFreed": "2026-10-03"
  },
@@ -292,13 +292,13 @@
   },
   {
    "date": "2026-10-06",
-   "nav": 7219.96,
+   "nav": 7228.19,
    "cash": 772.04,
-   "positionsValue": 6447.92,
-   "benchmarkNav": 7146.64,
-   "benchmarkClose": 85873.94,
-   "growthValue": 1401.31,
-   "coreValue": 715.35,
+   "positionsValue": 6456.15,
+   "benchmarkNav": 7166.51,
+   "benchmarkClose": 86112.69,
+   "growthValue": 1398.18,
+   "coreValue": 714.66,
    "daytradeValue": 0.0
   }
  ],
@@ -698,7 +698,7 @@
   },
   {
    "date": "2026-10-06",
-   "rank": 41
+   "rank": 40
   }
  ]
 }
