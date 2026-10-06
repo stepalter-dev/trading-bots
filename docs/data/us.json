@@ -3,13 +3,13 @@
   "cash": 1058.123512657653,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, tradable catalyst today. AAPL/GOOGL/META theses are unchanged: iPhone Duo preorders (Oct 16) and the Oct 27 Alphabet earnings are already-known, already-priced dates, and Meta's Muse rollout (business tools, shopping partnerships) is incremental, not a new catalyst. Today's AI-chip rally (AVGO/NVDA/AMD) is a broad sector move tied to previously-reported Broadcom-Anthropic financing, not a fresh company-specific catalyst, and AMD/INTC were already ruled out last session on valuation/no-news grounds. Growth/core split within active sleeve stays ~61%/39% (GOOGL+META growth 15.0% NAV vs AAPL core 9.7% NAV), inside the band. Holding all positions with existing plans unchanged.",
-  "lastUpdated": "2026-10-06T14:13:11Z",
+  "lastRunNotes": "Researched today's biggest mover, AMD (fresh catalyst: Lisa Su's Oct-6 2027 supply-ramp announcement plus Citi/Mizuho PT hikes to $800/$705), but at $655/share a single whole share would already be ~9% of NAV and would push growth from 60.8% to ~71% of the active sleeve, breaking the band after an already extended 30%+ September rally with $56.8M of insider selling - skipping as chasing momentum late. No fresh, ticker-specific catalysts for AAPL/GOOGL/META (iPhone Duo preorders Oct 16 and Alphabet earnings Oct 27 are already-known dates; Meta's Muse news this week is incremental/privacy-negative, not a new bull catalyst), and XOM/NVDA news was generic sector commentary already priced in. No stops hit, no targets reached, all held positions already have plans, so holding with growth/core at 61%/39%.",
+  "lastUpdated": "2026-10-06T16:14:25Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 332.994,
+    "lastPrice": 332.99,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 345.89,
+    "lastPrice": 348.75,
     "shares": 0.883627,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 740.595,
+    "lastPrice": 742.785,
     "shares": 1.060353,
     "plan": {
      "target": 880.0,
@@ -62,7 +62,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 780.265
+   "lastPrice": 781.078
   },
   "cashFreed": "2026-10-05"
  },
@@ -230,13 +230,13 @@
   },
   {
    "date": "2026-10-06",
-   "nav": 7238.58,
+   "nav": 7247.99,
    "cash": 1058.12,
-   "positionsValue": 6180.46,
-   "benchmarkNav": 7204.03,
-   "benchmarkClose": 780.265,
-   "growthValue": 1090.93,
-   "coreValue": 706.18,
+   "positionsValue": 6189.86,
+   "benchmarkNav": 7211.54,
+   "benchmarkClose": 781.078,
+   "growthValue": 1095.78,
+   "coreValue": 706.17,
    "daytradeValue": 0.0
   }
  ],
