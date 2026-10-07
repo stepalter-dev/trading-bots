@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Reviewed held positions (CBA, PME, TLS) against their theses: no stops or targets hit, no news reversing any of them. Checked the UP-trend/high-momentum watchlist names for a fresh catalyst - BHP's copper/iron ore story and WOW's turnaround rally are both already-priced-in narratives from August results with nothing new this week; Santos and Woodside have no confirmed fresh release (Woodside's Q3 report isn't due until ~Oct 21); no unusual volume anywhere on the watchlist. Holding with growth/core balance unchanged (PME growth vs CBA+TLS core).",
-  "lastUpdated": "2026-10-07T01:12:33Z",
+  "lastRunNotes": "Checked held positions (CBA, PME, TLS) against their theses and found no stops/targets hit and no news reversing them. Searched UP-trend/high-momentum watchlist names (TNE, CPU, MQG, BHP, STO, WDS) for a fresh catalyst this week; all available news (TNE's AGM guidance, CBA/CPU results, BHP/Woodside updates) is from August-September and already priced in, with no unusual volume anywhere. Holding with growth/core balance unchanged (PME growth vs CBA+TLS core).",
+  "lastUpdated": "2026-10-07T03:12:05Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.35,
+    "lastPrice": 151.43,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 160.28,
+    "lastPrice": 159.56,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.795,
+    "lastPrice": 4.81,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.0
+   "lastPrice": 78.07
   },
   "cashFreed": "2026-10-05"
  },
@@ -212,13 +212,13 @@
   },
   {
    "date": "2026-10-07",
-   "nav": 9818.22,
+   "nav": 9821.92,
    "cash": 1470.49,
-   "positionsValue": 8347.73,
-   "benchmarkNav": 9883.42,
-   "benchmarkClose": 78.0,
-   "growthValue": 899.93,
-   "coreValue": 1565.44,
+   "positionsValue": 8351.43,
+   "benchmarkNav": 9892.29,
+   "benchmarkClose": 78.07,
+   "growthValue": 895.89,
+   "coreValue": 1567.9,
    "daytradeValue": 0.0
   }
  ],
