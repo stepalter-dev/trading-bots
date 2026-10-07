@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions and today's movers. PME's FY26 results/A$407m contracts and TLS's buyback/dividend growth are already-known catalysts with no fresh news; CBA has only routine debt issuance ahead of its Oct 14 AGM. IAG's +2.2% day move lacks a clear catalyst against a weakening weekly trend, and BHP/RIO's gains run counter to falling iron ore prices (-8% over the month), so neither looks like a confirmed signal. No stops hit, no targets reached, no unusual volume anywhere. Holding with growth/core balance unchanged (growth ~9.0% NAV, core ~16.1% NAV of active sleeve).",
-  "lastUpdated": "2026-10-06T04:12:08Z",
+  "lastRunNotes": "Checked held positions (CBA, PME, TLS) against their recorded theses: no stops or targets hit, no fresh news reversing any thesis. Reviewed the UP-trend/high-momentum watchlist names for a genuine new catalyst - BHP's FY27 copper guidance cut (Escondida grade decline) and STO's production guidance cut are already-known news from August results, not fresh; WOW's rally has no new announcement and only 0.08x volume; WDS's next catalyst (Q3 results) isn't due until Oct 21; CBA's AGM is Oct 14 but nothing has happened yet. No unusual volume anywhere on the watchlist. Holding with growth/core balance unchanged (~36% growth / ~64% core of the active sleeve, inside the 35-65% band).",
+  "lastUpdated": "2026-10-07T00:12:37Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.82,
+    "lastPrice": 150.77,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 157.33,
+    "lastPrice": 158.58,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.825,
+    "lastPrice": 4.82,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.05
+   "lastPrice": 77.98
   },
   "cashFreed": "2026-10-05"
  },
@@ -208,6 +208,17 @@
    "benchmarkClose": 78.05,
    "growthValue": 883.37,
    "coreValue": 1572.29,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-07",
+   "nav": 9806.87,
+   "cash": 1470.49,
+   "positionsValue": 8336.38,
+   "benchmarkNav": 9880.89,
+   "benchmarkClose": 77.98,
+   "growthValue": 890.39,
+   "coreValue": 1565.14,
    "daytradeValue": 0.0
   }
  ],
