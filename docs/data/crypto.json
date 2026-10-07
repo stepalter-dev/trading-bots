@@ -3,13 +3,13 @@
   "cash": 772.0359423209654,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad macro-driven risk-off day: BTC -2%, and nearly every watchlist name down 2-9% with no asset-specific negative news (confirmed via search) - just a broad crypto drawdown, not a catalyst to act on. UNI's Oct 19 CME futures thesis and AAVE's post-SEC roadmap remain intact; five positions (UNI/AVAX/BCH/NEAR/LTC) are still 1 day short of the 14-day minimum hold and none hit stop or target. Growth/core stays tilted ~66/34, outside the 35-65 band, but with no fresh catalyst a rebalance would just be a forced trade into a red tape, so holding across the board this session.",
-  "lastUpdated": "2026-10-07T02:12:33Z",
+  "lastRunNotes": "Another broad macro-driven risk-off day (Fed/inflation-driven selling pressure across crypto) with BTC -1.8% and most watchlist names down 2-6%; confirmed no asset-specific bad news on any held position. UNI's Oct 19 CME futures listing and AAVE's post-SEC-probe 2026 roadmap both remain intact per fresh search, and NEAR continues to show relative strength (+1.6% today, +9.7% over 5d) with no fresh catalyst to act on either way. No stops or targets hit, all positions already carry a plan, and UNI/AVAX/BCH/NEAR/LTC are still 1 day short of the 14-day minimum hold. Growth/core stays ~66/34 (outside the 35-65 band) but forcing a rebalance into a broad red-tape day with no genuine catalyst would just be churn, so holding across the board again this session.",
+  "lastUpdated": "2026-10-07T08:13:53Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 117.86,
+    "lastPrice": 118.5,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.206249,
+    "lastPrice": 0.205931,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "UNI7083-USD": {
     "shares": 18.13101731,
     "avgCost": 9.28,
-    "lastPrice": 8.1748,
+    "lastPrice": 8.1736,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 11.143,
+    "lastPrice": 11.253,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "BCH-USD": {
     "shares": 0.50022556,
     "avgCost": 336.36,
-    "lastPrice": 304.86,
+    "lastPrice": 306.88,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -87,7 +87,7 @@
    "NEAR-USD": {
     "shares": 38.74346688,
     "avgCost": 4.34278911546277,
-    "lastPrice": 4.9989,
+    "lastPrice": 5.1491,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -103,7 +103,7 @@
    "LTC-USD": {
     "shares": 2.66000498,
     "avgCost": 71.87902181675821,
-    "lastPrice": 67.619,
+    "lastPrice": 67.522,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -119,7 +119,7 @@
    "AAVE-USD": {
     "shares": 1.662057,
     "avgCost": 180.4979446562001,
-    "lastPrice": 173.99,
+    "lastPrice": 176.41,
     "bucket": "growth",
     "openedDate": "2026-10-03",
     "plan": {
@@ -142,7 +142,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 83977.8
+   "lastPrice": 84010.23
   },
   "cashFreed": "2026-10-03"
  },
@@ -303,13 +303,13 @@
   },
   {
    "date": "2026-10-07",
-   "nav": 7044.53,
+   "nav": 7060.91,
    "cash": 772.04,
-   "positionsValue": 6272.49,
-   "benchmarkNav": 6988.84,
-   "benchmarkClose": 83977.8,
-   "growthValue": 1349.61,
-   "coreValue": 687.25,
+   "positionsValue": 6288.87,
+   "benchmarkNav": 6991.54,
+   "benchmarkClose": 84010.23,
+   "growthValue": 1364.15,
+   "coreValue": 687.46,
    "daytradeValue": 0.0
   }
  ],
@@ -713,7 +713,7 @@
   },
   {
    "date": "2026-10-07",
-   "rank": 41
+   "rank": 34
   }
  ]
 }
