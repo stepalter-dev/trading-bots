@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh catalysts: CBA's NSW contract, PME's FY26 results, and TLS's outage-review/upgrade theses are all unchanged, and all three sit within their stop/target bands. Today's iron-ore miner weakness (BHP, RIO, FMG, MIN) remains a sector-wide commodity move (iron ore back below US$100/t since September), not stock-specific news, and no watchlist name shows unusual volume (vol_x all under 1.0x) to flag a new catalyst. WOW and QBE's momentum is from older Aug/Sep news already priced in, with no new trigger today. Holding; active sleeve stays at growth ~9.1% / core ~16.0% of NAV, both within band.",
-  "lastUpdated": "2026-10-08T01:13:32Z",
+  "lastRunNotes": "No fresh stock-specific catalysts today. CBA's NSW contract, PME's FY26 results, and TLS's outage-review/upgrade theses are unchanged from last session and all three sit within their stop/target bands. Checked recent news on all three plus energy names (WDS, STO) and iron ore miners (BHP, RIO) -- today's energy sector strength and miner weakness look like broad commodity-price moves, not company-specific news, and no watchlist ticker shows unusual volume (all vol_x under 1.2x) to flag a new catalyst. Holding; active sleeve stays growth ~9.1% / core ~16.0% of NAV, both within band.",
+  "lastUpdated": "2026-10-08T03:12:21Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 150.27,
+    "lastPrice": 148.91,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 158.46,
+    "lastPrice": 158.29,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.86,
+    "lastPrice": 4.845,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.65
+   "lastPrice": 77.53
   },
   "cashFreed": "2026-10-05"
  },
@@ -223,13 +223,13 @@
   },
   {
    "date": "2026-10-08",
-   "nav": 9783.48,
+   "nav": 9763.11,
    "cash": 1470.49,
-   "positionsValue": 8313.0,
-   "benchmarkNav": 9839.08,
-   "benchmarkClose": 77.65,
-   "growthValue": 889.71,
-   "coreValue": 1567.32,
+   "positionsValue": 8292.62,
+   "benchmarkNav": 9823.87,
+   "benchmarkClose": 77.53,
+   "growthValue": 888.76,
+   "coreValue": 1556.94,
    "daytradeValue": 0.0
   }
  ],
