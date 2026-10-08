@@ -3,13 +3,13 @@
   "cash": 1058.123512657653,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, verifiable catalysts today: AAPL's iPhone Duo pre-order setup doesn't start until Oct 12 (pre-orders Oct 16), GOOGL's DOJ appeal is still mid-briefing with no ruling, and META's Muse monetization catalyst remains Q3 earnings on Oct 28. Searches on today's biggest movers (LLY -4.1%, INTC -3.5%, AMD -2.3%, XOM/XLE strength) turned up no dated news explaining the moves, and the lone insider-buy signal (ORCL) is a small, stale filing on a DOWN-trend name that's barred from new buys anyway. Holding across the board; growth/core split unchanged (GOOGL+META growth ~10% of NAV vs AAPL core ~10% of NAV, within band) and all three held positions already have plans in place.",
-  "lastUpdated": "2026-10-08T16:13:05Z",
+  "lastRunNotes": "No fresh dated catalysts: AAPL's iPhone Duo pre-order 'get ready' step starts Oct 12 (orders Oct 16) which is already priced into the existing thesis, GOOGL's DOJ cross-appeal is still mid-briefing with no ruling, and META's Muse coverage is all from September with nothing new today. Today's broad tech weakness (INTC -5.95%, ORCL -5.2%, AVGO -4.12%, AMD -4.23%, NVDA -3.02%) came on below-average volume with no dated news explaining it, and most of those names are DOWN-trend or lack a real catalyst, so no new buys. Holding across the board; growth/core split stays at roughly 60/40 (GOOGL+META growth vs AAPL core), within the 35-65% band. All three held positions already carry plans, so none needed updating.",
+  "lastUpdated": "2026-10-08T18:12:44Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 338.72,
+    "lastPrice": 339.085,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 349.24,
+    "lastPrice": 346.885,
     "shares": 0.883627,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 720.195,
+    "lastPrice": 718.1,
     "shares": 1.060353,
     "plan": {
      "target": 880.0,
@@ -62,7 +62,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 774.83
+   "lastPrice": 772.14
   },
   "cashFreed": "2026-10-05"
  },
@@ -252,13 +252,13 @@
   },
   {
    "date": "2026-10-08",
-   "nav": 7201.52,
+   "nav": 7182.88,
    "cash": 1058.12,
-   "positionsValue": 6143.4,
-   "benchmarkNav": 7153.86,
-   "benchmarkClose": 774.83,
-   "growthValue": 1072.26,
-   "coreValue": 718.33,
+   "positionsValue": 6124.76,
+   "benchmarkNav": 7129.02,
+   "benchmarkClose": 772.14,
+   "growthValue": 1067.96,
+   "coreValue": 719.1,
    "daytradeValue": 0.0
   }
  ],
