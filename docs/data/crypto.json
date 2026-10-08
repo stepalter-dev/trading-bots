@@ -1,15 +1,15 @@
 {
  "state": {
-  "cash": 772.0359423209654,
+  "cash": 1221.852708168771,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad red day across crypto (BTC -0.77%, most alts -1% to -6%) with no asset-specific catalysts: CME BCH/UNI futures listing is still pending regulatory review for Oct 19 with no update, Aave's Cayman foundation proposal is still at the pre-vote ARFC discussion stage, and LTC/NEAR coverage is stale and already priced in. UNI, BCH and LTC are trading closer to their stops but none has been breached. Growth/core remains skewed around 66/34, but forcing a rebalance without a genuine catalyst would just add costs, so holding everything unchanged.",
-  "lastUpdated": "2026-10-08T14:22:10Z",
+  "lastRunNotes": "Broad, catalyst-less red day (BTC -1.78%, most alts -2% to -14%) with no asset-specific news: CFTC review of the Oct 19 CME BCH/UNI futures listing still has no update, no Oct 2026 Aave Cayman Foundation vote news surfaced, and LTC/NEAR coverage remains stale. UNI7083 and NEAR are both trading at/below their stops and will be handled by the referee's automatic stop-sell; AAVE is still in its 14-day minimum-hold lockup. Growth/core stays unchanged; holding everything rather than forcing a trade without a real catalyst. Stop-loss exits: UNI7083-USD, BCH-USD, NEAR-USD.",
+  "lastUpdated": "2026-10-08T20:13:20Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 112.59,
+    "lastPrice": 109.44,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.199089,
+    "lastPrice": 0.192377,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -36,26 +36,10 @@
      "setLater": true
     }
    },
-   "UNI7083-USD": {
-    "shares": 18.13101731,
-    "avgCost": 9.28,
-    "lastPrice": 7.6369,
-    "bucket": "growth",
-    "openedDate": "2026-09-24",
-    "plan": {
-     "target": 11.5,
-     "stop": 7.5,
-     "prob": 0.4,
-     "rr": 1.44,
-     "evPct": -0.42,
-     "entryRef": 9.138,
-     "setLater": true
-    }
-   },
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.641,
+    "lastPrice": 10.191,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -68,42 +52,10 @@
      "setLater": true
     }
    },
-   "BCH-USD": {
-    "shares": 0.50022556,
-    "avgCost": 336.36,
-    "lastPrice": 297.65,
-    "bucket": "core",
-    "openedDate": "2026-09-24",
-    "plan": {
-     "target": 380.0,
-     "stop": 290.0,
-     "prob": 0.45,
-     "rr": 1.09,
-     "evPct": -0.78,
-     "entryRef": 333.11,
-     "setLater": true
-    }
-   },
-   "NEAR-USD": {
-    "shares": 38.74346688,
-    "avgCost": 4.34278911546277,
-    "lastPrice": 5.034,
-    "bucket": "growth",
-    "openedDate": "2026-09-24",
-    "plan": {
-     "target": 6.2,
-     "stop": 4.6,
-     "prob": 0.4,
-     "rr": 1.05,
-     "evPct": -2.6,
-     "entryRef": 5.38,
-     "setLater": true
-    }
-   },
    "LTC-USD": {
     "shares": 2.66000498,
     "avgCost": 71.87902181675821,
-    "lastPrice": 64.476,
+    "lastPrice": 62.974,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -119,7 +71,7 @@
    "AAVE-USD": {
     "shares": 1.662057,
     "avgCost": 180.4979446562001,
-    "lastPrice": 171.86,
+    "lastPrice": 166.73,
     "bucket": "growth",
     "openedDate": "2026-10-03",
     "plan": {
@@ -142,7 +94,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 82571.09
+   "lastPrice": 81808.35
   },
   "cashFreed": "2026-10-03"
  },
@@ -314,13 +266,13 @@
   },
   {
    "date": "2026-10-08",
-   "nav": 6905.17,
-   "cash": 772.04,
-   "positionsValue": 6133.13,
-   "benchmarkNav": 6871.78,
-   "benchmarkClose": 82571.09,
-   "growthValue": 1305.49,
-   "coreValue": 662.96,
+   "nav": 6788.33,
+   "cash": 1221.85,
+   "positionsValue": 5566.47,
+   "benchmarkNav": 6808.3,
+   "benchmarkClose": 81808.35,
+   "growthValue": 941.74,
+   "coreValue": 498.53,
    "daytradeValue": 0.0
   }
  ],
@@ -669,10 +621,110 @@
     "entryRef": 179.85
    },
    "sentimentSummary": "Very bullish retail/analyst chatter (68% volume spike, burn talk) but RSI is flagging overbought short-term, with some analysts calling for a pullback to roughly $167 before the next leg up."
+  },
+  {
+   "id": "2026-10-08-UNI7083-USD-ftngrq",
+   "ticker": "UNI7083-USD",
+   "action": "sell",
+   "shares": 18.13101731,
+   "price": 7.27312,
+   "refPrice": 7.2804,
+   "fee": 0.3429,
+   "date": "2026-10-08T20:13:20Z",
+   "bucket": "growth",
+   "rationale": "Stop hit: price 7.2804 is at/below the planned stop 7.5 - the thesis was proven wrong, exiting per plan.",
+   "realizedPnL": -36.73,
+   "realizedPnLPct": -21.83,
+   "exitReason": "stop"
+  },
+  {
+   "id": "2026-10-08-BCH-USD-j2et7a",
+   "ticker": "BCH-USD",
+   "action": "sell",
+   "shares": 0.50022556,
+   "price": 282.82689,
+   "refPrice": 283.11,
+   "fee": 0.3678,
+   "date": "2026-10-08T20:13:20Z",
+   "bucket": "core",
+   "rationale": "Stop hit: price 283.11 is at/below the planned stop 290 - the thesis was proven wrong, exiting per plan.",
+   "realizedPnL": -27.15,
+   "realizedPnLPct": -16.13,
+   "exitReason": "stop"
+  },
+  {
+   "id": "2026-10-08-NEAR-USD-pxwy1q",
+   "ticker": "NEAR-USD",
+   "action": "sell",
+   "shares": 38.74346688,
+   "price": 4.58511,
+   "refPrice": 4.5897,
+   "fee": 0.4619,
+   "date": "2026-10-08T20:13:20Z",
+   "bucket": "growth",
+   "rationale": "Stop hit: price 4.5897 is at/below the planned stop 4.6 - the thesis was proven wrong, exiting per plan.",
+   "realizedPnL": 8.93,
+   "realizedPnLPct": 5.31,
+   "exitReason": "stop"
   }
  ],
  "lessons": [],
- "journal": [],
+ "journal": [
+  {
+   "id": "2026-10-08-UNI7083-USD-ftngrq",
+   "date": "2026-10-08T20:13:20Z",
+   "ticker": "UNI7083-USD",
+   "bucket": "growth",
+   "entryPrice": 9.3042,
+   "exitPrice": 7.27312,
+   "pnl": -36.73,
+   "pnlPct": -21.83,
+   "daysHeld": 14,
+   "whyBought": "CME Group announced Sept 22 it will list UNI futures Oct 19, the first DEX token on a regulated CME futures rail alongside BTC/SOL/XRP; real institutional-adoption catalyst.",
+   "horizon": "Reassess at Oct 19 CME UNI futures launch, or sooner if regulatory review stalls",
+   "whySold": "Stop hit: price 7.2804 is at/below the planned stop 7.5 - the thesis was proven wrong, exiting per plan.",
+   "prob": null,
+   "rr": null,
+   "exitReason": "stop",
+   "review": null
+  },
+  {
+   "id": "2026-10-08-BCH-USD-j2et7a",
+   "date": "2026-10-08T20:13:20Z",
+   "ticker": "BCH-USD",
+   "bucket": "core",
+   "entryPrice": 337.2206,
+   "exitPrice": 282.82689,
+   "pnl": -27.15,
+   "pnlPct": -16.13,
+   "daysHeld": 14,
+   "whyBought": "Same Sept 22 CME announcement lists BCH futures for Oct 19 launch; adds a regulated-derivatives catalyst to an established, core-bucket coin.",
+   "horizon": "Reassess at Oct 19 CME BCH futures launch",
+   "whySold": "Stop hit: price 283.11 is at/below the planned stop 290 - the thesis was proven wrong, exiting per plan.",
+   "prob": null,
+   "rr": null,
+   "exitReason": "stop",
+   "review": null
+  },
+  {
+   "id": "2026-10-08-NEAR-USD-pxwy1q",
+   "date": "2026-10-08T20:13:20Z",
+   "ticker": "NEAR-USD",
+   "bucket": "growth",
+   "entryPrice": 4.3539,
+   "exitPrice": 4.58511,
+   "pnl": 8.93,
+   "pnlPct": 5.31,
+   "daysHeld": 14,
+   "whyBought": "Hyperliquid turned on confidential-by-default NEAR perps (Sept 17) and added a NEAR/USDC spot market (Sept 23); NEAR Intents now also routes to 20 tokenized US stocks/ETFs via a new Ondo Finance integration - a concrete utility expansion, not just beta, confirmed by the watchlist's highest vol_x (1.",
+   "horizon": "Reassess if NEAR fails to hold the $4 support level by early October, or sooner if Hyperliquid perp volume / Ondo Intents usage clearly fades",
+   "whySold": "Stop hit: price 4.5897 is at/below the planned stop 4.6 - the thesis was proven wrong, exiting per plan.",
+   "prob": null,
+   "rr": null,
+   "exitReason": "stop",
+   "review": null
+  }
+ ],
  "coinbaseRank": [
   {
    "date": "2026-09-25",
