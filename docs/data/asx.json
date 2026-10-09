@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh company-specific catalysts since the last session for the three held positions (CBA's NSW contract thesis, PME's FY26 results momentum, TLS's outage-review/upgrade thesis all unchanged and within stop/target bands). Checked today's strongest UP-trend/momentum names (MQG, BHP, WDS, STO) but found no dated October 2026 news, no unusual volume anywhere on the watchlist (all vol_x well under 1.5x), and the WDS/STO/BHP strength looks like broad commodity/sector moves rather than idiosyncratic catalysts, consistent with prior session's read. Holding; active sleeve stays growth ~9.1% / core ~16.0% of NAV, both within the 35-65% band.",
-  "lastUpdated": "2026-10-09T00:12:44Z",
+  "lastRunNotes": "Checked held positions (CBA's NSW contract, PME's FY26 results momentum, TLS's outage-review/upgrade thesis) plus today's top UP-trend movers (WOW, ANZ) for fresh dated catalysts; found none newer than August/September reporting-season items already priced in, and no unusual volume anywhere on the watchlist (max vol_x 0.62x). Holding across the board; active sleeve stays growth ~9.3% / core ~15.8% of NAV, well within the 35-65% band given the small sleeve size.",
+  "lastUpdated": "2026-10-09T01:12:41Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 150.18,
+    "lastPrice": 149.15,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 157.995,
+    "lastPrice": 161.72,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.7
+   "lastPrice": 77.66
   },
   "cashFreed": "2026-10-05"
  },
@@ -234,13 +234,13 @@
   },
   {
    "date": "2026-10-09",
-   "nav": 9775.54,
+   "nav": 9787.07,
    "cash": 1470.49,
-   "positionsValue": 8305.05,
-   "benchmarkNav": 9845.41,
-   "benchmarkClose": 77.7,
-   "growthValue": 887.1,
-   "coreValue": 1558.21,
+   "positionsValue": 8316.59,
+   "benchmarkNav": 9840.34,
+   "benchmarkClose": 77.66,
+   "growthValue": 908.02,
+   "coreValue": 1551.85,
    "daytradeValue": 0.0
   }
  ],
