@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No new stock-specific catalysts for CBA (NSW contract), PME (FY26 results), or TLS (outage review/upgrade) -- all three theses unchanged and within stop/target bands. Checked WDS, STO, BHP, WOW given their UP trend and strong momentum, but today's energy strength and miner/grocer moves look like broad sector/commodity moves rather than company news (WDS's next catalyst is a Q3 report due 21 Oct), and no watchlist ticker shows unusual volume. Holding; active sleeve stays growth ~9.1% / core ~15.9% of NAV, both within band.",
-  "lastUpdated": "2026-10-08T04:12:38Z",
+  "lastRunNotes": "No fresh company-specific catalysts since the last session for the three held positions (CBA's NSW contract thesis, PME's FY26 results momentum, TLS's outage-review/upgrade thesis all unchanged and within stop/target bands). Checked today's strongest UP-trend/momentum names (MQG, BHP, WDS, STO) but found no dated October 2026 news, no unusual volume anywhere on the watchlist (all vol_x well under 1.5x), and the WDS/STO/BHP strength looks like broad commodity/sector moves rather than idiosyncratic catalysts, consistent with prior session's read. Holding; active sleeve stays growth ~9.1% / core ~16.0% of NAV, both within the 35-65% band.",
+  "lastUpdated": "2026-10-09T00:12:44Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 148.19,
+    "lastPrice": 150.18,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 158.62,
+    "lastPrice": 157.995,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.845,
+    "lastPrice": 4.795,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.45
+   "lastPrice": 77.7
   },
   "cashFreed": "2026-10-05"
  },
@@ -230,6 +230,17 @@
    "benchmarkClose": 77.45,
    "growthValue": 890.61,
    "coreValue": 1552.5,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-09",
+   "nav": 9775.54,
+   "cash": 1470.49,
+   "positionsValue": 8305.05,
+   "benchmarkNav": 9845.41,
+   "benchmarkClose": 77.7,
+   "growthValue": 887.1,
+   "coreValue": 1558.21,
    "daytradeValue": 0.0
   }
  ],
