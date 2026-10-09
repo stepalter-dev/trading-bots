@@ -3,13 +3,13 @@
   "cash": 1221.852708168771,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad, catalyst-less red day across crypto (BTC -1.56%, most alts -4% to -12%); found no fresh asset-specific news on any held position - the AAVE Cayman Foundation framework vote I could confirm is from April (already old), the LTC Coinbase-collateral story is from February not October, and the AVAX RWA Hub on Aave is still unlaunched with no date. Holding everything rather than forcing a trade. Growth (SOL+AVAX+AAVE, ~13.8% of NAV) vs core (XLM+LTC, ~7.4% of NAV) puts growth at ~65% of the active sleeve, right at the top of the band - watch this, but not a reason to trade without a real catalyst.",
-  "lastUpdated": "2026-10-09T02:12:44Z",
+  "lastRunNotes": "Broad, catalyst-less day with no fresh asset-specific news confirmed on any held position: the AAVE Avalanche RWA Hub launch status is contested across sources (same unresolved story as prior sessions), no new LTC/AAVE catalysts surfaced, and ATOM/DOT's day moves had no corroborating October news. All held positions (SOL, XLM, AVAX, LTC, AAVE) already carry plans and are away from stop/target. Holding with no trades; growth (SOL+AVAX+AAVE, ~13.9% of NAV) vs core (XLM+LTC, ~7.4% of NAV) keeps growth near the top of the band but that alone isn't a catalyst to trade.",
+  "lastUpdated": "2026-10-09T08:15:55Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 109.5,
+    "lastPrice": 110.36,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.19327,
+    "lastPrice": 0.195007,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.266,
+    "lastPrice": 10.423,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "LTC-USD": {
     "shares": 2.66000498,
     "avgCost": 71.87902181675821,
-    "lastPrice": 63.484,
+    "lastPrice": 64.157,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "AAVE-USD": {
     "shares": 1.662057,
     "avgCost": 180.4979446562001,
-    "lastPrice": 165.67,
+    "lastPrice": 167.42,
     "bucket": "growth",
     "openedDate": "2026-10-03",
     "plan": {
@@ -94,7 +94,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81953.79
+   "lastPrice": 82570.5
   },
   "cashFreed": "2026-10-03"
  },
@@ -277,13 +277,13 @@
   },
   {
    "date": "2026-10-09",
-   "nav": 6798.31,
+   "nav": 6843.6,
    "cash": 1221.85,
-   "positionsValue": 5576.45,
-   "benchmarkNav": 6820.4,
-   "benchmarkClose": 81953.79,
-   "growthValue": 941.49,
-   "coreValue": 501.42,
+   "positionsValue": 5621.74,
+   "benchmarkNav": 6871.72,
+   "benchmarkClose": 82570.5,
+   "growthValue": 950.89,
+   "coreValue": 506.2,
    "daytradeValue": 0.0
   }
  ],
