@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions (CBA's NSW contract, PME's FY26 results momentum, TLS's outage-review/upgrade thesis) plus today's top UP-trend movers (WOW, ANZ) for fresh dated catalysts; found none newer than August/September reporting-season items already priced in, and no unusual volume anywhere on the watchlist (max vol_x 0.62x). Holding across the board; active sleeve stays growth ~9.3% / core ~15.8% of NAV, well within the 35-65% band given the small sleeve size.",
-  "lastUpdated": "2026-10-09T01:12:41Z",
+  "lastRunNotes": "Re-checked held positions (CBA's NSW banking contract, PME's FY26 results momentum, TLS's outage-review/upgrade thesis) and today's UP-trend movers (ALL, TNE, MQG, WOW, BHP, WDS, STO, QBE, ANZ, IAG) for fresh dated catalysts; found nothing newer than August/September reporting-season items already priced in, and today's gains track the broad market (benchmark +0.56%) rather than stock-specific news. No unusual volume anywhere (max vol_x 0.90x on TLS, already held, vs the 1.5-2x signal threshold). Holding across the board; active sleeve stays growth ~9.3% / core ~15.8% of NAV, within the 35-65% band.",
+  "lastUpdated": "2026-10-09T03:12:01Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 149.15,
+    "lastPrice": 148.91,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 161.72,
+    "lastPrice": 162.9,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.795,
+    "lastPrice": 4.78,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.66
+   "lastPrice": 77.83
   },
   "cashFreed": "2026-10-05"
  },
@@ -234,13 +234,13 @@
   },
   {
    "date": "2026-10-09",
-   "nav": 9787.07,
+   "nav": 9803.07,
    "cash": 1470.49,
-   "positionsValue": 8316.59,
-   "benchmarkNav": 9840.34,
-   "benchmarkClose": 77.66,
-   "growthValue": 908.02,
-   "coreValue": 1551.85,
+   "positionsValue": 8332.58,
+   "benchmarkNav": 9861.88,
+   "benchmarkClose": 77.83,
+   "growthValue": 914.64,
+   "coreValue": 1548.39,
    "daytradeValue": 0.0
   }
  ],
