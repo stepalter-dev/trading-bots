@@ -3,13 +3,13 @@
   "cash": 1221.852708168771,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad altcoin weakness today (most names -5% to -12% on 5d, deeply negative 12mo momentum) while BTC is flat; searches on LTC, NEAR, AAVE and ATOM turned up no credible, dated catalyst for today's moves (NEAR's +6.5% and ATOM's recent pop lack confirmed fresh news, and the AAVE buyback/DAO-vote reporting is stale and contradictory). LTC has broken the ~$65 support that was its reassessment trigger and is only 2.4% above its $62 stop, but with no new bearish catalyst confirmed and the automatic stop already protecting the downside, I'm letting the existing stop handle it rather than spending a trade slot to replicate it. Active sleeve is already growth-heavy (~65.5% growth / 34.5% core), which argues against any new growth buys even if a catalyst had appeared. Holding everything, no trades this session.",
-  "lastUpdated": "2026-10-10T08:13:00Z",
+  "lastRunNotes": "Broad altcoin weakness continues with deeply negative 12mo momentum across the watchlist while BTC is flat; searches on NEAR's +10% pop, LTC's test of support, and AAVE's buyback/V4 status all returned stale, conflicting, or undated results with no confirmed fresh catalyst. Active sleeve is already at the growth/core band edge (growth ~65%, core ~35% of swing positions), so no new growth buys are warranted, and AAVE remains inside its minimum-hold window with price far from target. Holding all positions this session; existing plans for SOL, XLM, AVAX, LTC and AAVE remain in place and the automatic stop will handle LTC if support fails.",
+  "lastUpdated": "2026-10-10T14:12:11Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 109.89,
+    "lastPrice": 109.72,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.197033,
+    "lastPrice": 0.19719,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.574,
+    "lastPrice": 10.474,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "LTC-USD": {
     "shares": 2.66000498,
     "avgCost": 71.87902181675821,
-    "lastPrice": 63.533,
+    "lastPrice": 63.73,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "AAVE-USD": {
     "shares": 1.662057,
     "avgCost": 180.4979446562001,
-    "lastPrice": 174.32,
+    "lastPrice": 172.48,
     "bucket": "growth",
     "openedDate": "2026-10-03",
     "plan": {
@@ -94,7 +94,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 82754.41
+   "lastPrice": 82730.12
   },
   "cashFreed": "2026-10-03"
  },
@@ -288,13 +288,13 @@
   },
   {
    "date": "2026-10-10",
-   "nav": 6866.54,
+   "nav": 6860.62,
    "cash": 1221.85,
-   "positionsValue": 5644.68,
-   "benchmarkNav": 6887.02,
-   "benchmarkClose": 82754.41,
-   "growthValue": 962.73,
-   "coreValue": 508.03,
+   "positionsValue": 5638.77,
+   "benchmarkNav": 6885.0,
+   "benchmarkClose": 82730.12,
+   "growthValue": 957.25,
+   "coreValue": 508.82,
    "daytradeValue": 0.0
   }
  ],
@@ -819,7 +819,7 @@
   },
   {
    "date": "2026-10-10",
-   "rank": 32
+   "rank": 29
   }
  ]
 }
