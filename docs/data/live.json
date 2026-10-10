@@ -20,15 +20,15 @@
   },
   "crypto": {
    "prices": {
-    "SOL-USD": 110.41,
-    "XLM-USD": 0.1971,
-    "AVAX-USD": 10.48,
-    "LTC-USD": 64.099,
-    "AAVE-USD": 170.5,
-    "BTC-USD": 82984.9
+    "SOL-USD": 110.39,
+    "XLM-USD": 0.19659,
+    "AVAX-USD": 10.372,
+    "LTC-USD": 63.988,
+    "AAVE-USD": 168.88,
+    "BTC-USD": 83013.57
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-10-10T19:32:05Z"
+ "updatedAt": "2026-10-10T22:57:12Z"
 }
