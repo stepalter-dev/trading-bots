@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions (CBA's NSW contract/card-fee-reform backdrop, PME's FY26 results momentum, TLS's outage-review/upgrade thesis) and today's UP-trend movers (CPU, ALL, TNE, ANZ, MQG, WOW, COL, BHP, STO, WDS, SUN, QBE, IAG) for fresh dated catalysts via web search; found nothing newer than August/September reporting-season items already priced in (CBA's RBA interchange cap change took effect Oct 1 but was already known/anticipated, Woolworths' Q1 sales update isn't until Oct 28, no BHP/Santos/Woodside October updates yet). No unusual volume anywhere above the 1.5-2x threshold. Holding across the board; active sleeve stays growth ~9.4% / core ~15.8% of NAV, within the 35-65% band. All held positions already have plans recorded.",
-  "lastUpdated": "2026-10-09T04:12:53Z",
+  "lastRunNotes": "Checked CBA (card-fee reform already priced in since Oct 1, no new filings), PME (no October news, FY26 results and contract renewal already known), TLS (AGM is Oct 13 but no new announcement yet, outage review and buyback already priced in), and BHP as today's biggest UP-trend mover (iron ore still soft near US$95-100/t, no fresh October catalyst, just continued record-year drift). No unusual volume anywhere and no fresh dated catalyst to act on, so holding all three positions unchanged (growth 9.6% PME, core 15.6% CBA+TLS combined, both within band) with existing plans intact.",
+  "lastUpdated": "2026-10-12T00:12:04Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 148.89,
+    "lastPrice": 149.37,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 163.86,
+    "lastPrice": 169.325,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.775,
+    "lastPrice": 4.655,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.8
+   "lastPrice": 78.27
   },
   "cashFreed": "2026-10-05"
  },
@@ -241,6 +241,17 @@
    "benchmarkClose": 77.8,
    "growthValue": 920.03,
    "coreValue": 1547.61,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-12",
+   "nav": 9858.72,
+   "cash": 1470.49,
+   "positionsValue": 8388.24,
+   "benchmarkNav": 9917.63,
+   "benchmarkClose": 78.27,
+   "growthValue": 950.72,
+   "coreValue": 1534.79,
    "daytradeValue": 0.0
   }
  ],
