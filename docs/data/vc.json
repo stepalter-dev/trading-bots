@@ -1,6 +1,6 @@
 {
  "state": {
-  "cash": 9695.0,
+  "cash": 9545.0,
   "startingCash": 10000.0,
   "holdings": {
    "yc-lyon": {
@@ -26,7 +26,7 @@
     "thesis": "Trains proprietary foundation models directly on a customer's own transaction/event data (28B transactions for one fintech, plus a major insurer pilot), beating rules-based baselines 4x on premium-card conversion. Small team but real enterprise traction is a strong early signal in a crowded vertical-AI space.",
     "pRaise12m": 0.55,
     "pAlive12m": 0.85,
-    "lastChecked": "2026-10-05"
+    "lastChecked": "2026-10-12"
    },
    "yc-herdr": {
     "id": "yc-herdr",
@@ -51,7 +51,7 @@
     "thesis": "Open agent runtime with genuine bottom-up adoption (25k GitHub stars, 340k downloads, 500+ community plugins) and already closed a $6M seed led by Bessemer with a strong angel syndicate. Infra bet on agent fleets becoming standard dev workflow; main risk is monetizing an OSS-first project against well-funded competitors.",
     "pRaise12m": 0.45,
     "pAlive12m": 0.88,
-    "lastChecked": "2026-10-05"
+    "lastChecked": "2026-10-12"
    },
    "yc-useforward": {
     "id": "yc-useforward",
@@ -76,7 +76,7 @@
     "thesis": "Agentic matching between borrowers and private-credit funds, built by founders with direct deal-diligence experience ($1B+) and a 5-person team already shipping. Real workflow pain point in an underdigitized market, but conservative buyers and long enterprise sales cycles are a risk.",
     "pRaise12m": 0.35,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-05"
+    "lastChecked": "2026-10-12"
    },
    "hn-49833867": {
     "id": "hn-49833867",
@@ -101,7 +101,7 @@
     "thesis": "Open-source IDE (YC W26) that lets coding agents draw architecture/sequence diagrams of their own changes for review - a timely wedge as teams struggle to review AI-generated code. Strong Show HN reception (415 points) and built on VS Code/CodeOSS for fast distribution, though it competes for attention in a busy devtools category.",
     "pRaise12m": 0.4,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-05"
+    "lastChecked": "2026-10-12"
    },
    "yc-agent-relay": {
     "id": "yc-agent-relay",
@@ -126,7 +126,7 @@
     "thesis": "Messaging/infra layer for coordinating fleets of coding agents, already open-source with real GitHub adoption and a public enterprise partnership (Coder) covered by GlobeNewswire. Agent-orchestration infra is a hot, well-funded category and this team already has a distribution channel through Coder.",
     "pRaise12m": 0.45,
     "pAlive12m": 0.85,
-    "lastChecked": "2026-10-05"
+    "lastChecked": "2026-10-12"
    },
    "yc-rystic": {
     "id": "yc-rystic",
@@ -151,7 +151,7 @@
     "thesis": "Local, stateful simulators of third-party APIs (Stripe, GitHub, Slack, Kalshi, etc.) for testing and training agents without hitting production services. Narrow but real pain point for every team building agents; named integrations suggest actual usage rather than a toy demo.",
     "pRaise12m": 0.3,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-05"
+    "lastChecked": "2026-10-12"
    },
    "yc-talos-us": {
     "id": "yc-talos-us",
@@ -176,7 +176,132 @@
     "thesis": "Predictive maintenance hardware/software for large power transformers, a capital-intensive but high-value market (grid operators pay dearly to avoid unplanned outages). Hardware/enterprise sales cycles are slower, which tempers near-term funding odds, but the problem is real and durable.",
     "pRaise12m": 0.25,
     "pAlive12m": 0.7,
-    "lastChecked": "2026-10-05"
+    "lastChecked": "2026-10-12"
+   },
+   "yc-veltha": {
+    "id": "yc-veltha",
+    "name": "Veltha",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/veltha",
+    "website": "https://veltha.ai/",
+    "oneLiner": "AI native TPA starting with workers comp",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/veltha.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-10-12",
+    "tranches": [
+     {
+      "amount": 35.0,
+      "valuation": 22000000.0,
+      "date": "2026-10-12"
+     }
+    ],
+    "entryValuation": 22000000.0,
+    "markValuation": 22000000.0,
+    "status": "active",
+    "thesis": "AI-native TPA for workers' comp claims, founded by two ex-Palantir engineers with deployment experience at large institutions. Regulated-insurance niche has real budget and the team pedigree suggests it can navigate the compliance-heavy sales cycle.",
+    "pRaise12m": 0.4,
+    "pAlive12m": 0.75,
+    "lastChecked": "2026-10-12"
+   },
+   "yc-hopper": {
+    "id": "yc-hopper",
+    "name": "Hopper",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/hopper",
+    "website": "https://withhopper.com",
+    "oneLiner": "Fast inference for voice",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/hopper.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-10-12",
+    "tranches": [
+     {
+      "amount": 30.0,
+      "valuation": 18000000.0,
+      "date": "2026-10-12"
+     }
+    ],
+    "entryValuation": 18000000.0,
+    "markValuation": 18000000.0,
+    "status": "active",
+    "thesis": "Trains speech models on a customer's own production call data for fast, specialized voice inference. Multiple open senior full-stack/voice-infra roles across job boards suggest real funded hiring and early customer traction.",
+    "pRaise12m": 0.35,
+    "pAlive12m": 0.7,
+    "lastChecked": "2026-10-12"
+   },
+   "yc-tilion": {
+    "id": "yc-tilion",
+    "name": "Tilion",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/tilion",
+    "website": "https://tilion.com",
+    "oneLiner": "Super fast, unblockable browser infra for agents",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/tilion.json",
+    "teamSizeAtEntry": 4,
+    "investedDate": "2026-10-12",
+    "tranches": [
+     {
+      "amount": 30.0,
+      "valuation": 16000000.0,
+      "date": "2026-10-12"
+     }
+    ],
+    "entryValuation": 16000000.0,
+    "markValuation": 16000000.0,
+    "status": "active",
+    "thesis": "Recompiled Chromium ('Fortress') for undetectable agent browsing, with a shipped PyPI package and MCP server already in beta use. Crowded space (Kernel, Browserbase, Browser Use) keeps odds modest, but agent browser infra is a real and growing need.",
+    "pRaise12m": 0.25,
+    "pAlive12m": 0.55,
+    "lastChecked": "2026-10-12"
+   },
+   "yc-tire-swing": {
+    "id": "yc-tire-swing",
+    "name": "Tire Swing",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/tire-swing",
+    "website": "https://gettireswing.com",
+    "oneLiner": "AI Compliance for Affordable Housing",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/tire-swing.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-10-12",
+    "tranches": [
+     {
+      "amount": 30.0,
+      "valuation": 20000000.0,
+      "date": "2026-10-12"
+     }
+    ],
+    "entryValuation": 20000000.0,
+    "markValuation": 20000000.0,
+    "status": "active",
+    "thesis": "AI eligibility/compliance automation for affordable-housing operators (LIHTC, Section 8 recertification), positioned as a drop-in replacement for compliance consultants. Niche but sticky government-adjacent recurring revenue with a cybersecurity-background CEO.",
+    "pRaise12m": 0.3,
+    "pAlive12m": 0.65,
+    "lastChecked": "2026-10-12"
+   },
+   "yc-ufoai": {
+    "id": "yc-ufoai",
+    "name": "UFO.ai",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/ufoai",
+    "website": "https://ufo.ai",
+    "oneLiner": "Next-generation agent operating system",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/ufoai.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-10-12",
+    "tranches": [
+     {
+      "amount": 25.0,
+      "valuation": 15000000.0,
+      "date": "2026-10-12"
+     }
+    ],
+    "entryValuation": 15000000.0,
+    "markValuation": 15000000.0,
+    "status": "active",
+    "thesis": "Open-source agent platform reachable via Slack/iMessage/terminal, positioned as team-wide agent infrastructure. Two-person team in an already crowded 'agent OS' category makes this the most speculative of this week's picks.",
+    "pRaise12m": 0.2,
+    "pAlive12m": 0.5,
+    "lastChecked": "2026-10-12"
    }
   },
   "seen": [
@@ -196,6 +321,14 @@
    "hn-49928566",
    "hn-49930439",
    "hn-49937916",
+   "hn-49992057",
+   "hn-49994443",
+   "hn-50008047",
+   "hn-50016312",
+   "hn-50018817",
+   "hn-50024055",
+   "hn-50024499",
+   "hn-50038634",
    "ph-1203994",
    "ph-1238671",
    "ph-1249438",
@@ -212,6 +345,14 @@
    "ph-1268362",
    "ph-1268847",
    "ph-1268851",
+   "ph-1270515",
+   "ph-1272707",
+   "ph-1272903",
+   "ph-1273235",
+   "ph-1273246",
+   "ph-1273845",
+   "ph-1275171",
+   "ph-1275794",
    "yc-agent-relay",
    "yc-antimattr",
    "yc-aviern",
@@ -220,25 +361,37 @@
    "yc-deepmark",
    "yc-habu",
    "yc-herdr",
+   "yc-hopper",
+   "yc-hue",
    "yc-linklane",
    "yc-lyon",
+   "yc-munito-ai",
+   "yc-open-actuation",
    "yc-openhack",
    "yc-pendulum-robotics",
    "yc-petrichor-bio",
+   "yc-ploid",
+   "yc-ratlog",
+   "yc-rivereditor",
    "yc-rote",
    "yc-rystic",
+   "yc-saccade",
    "yc-sentient-os",
    "yc-sinter-systems",
    "yc-streamline-systems",
    "yc-superradiant",
    "yc-talos-us",
    "yc-the-agentic-data-co",
+   "yc-tilion",
+   "yc-tire-swing",
    "yc-twentyfour26",
+   "yc-ufoai",
    "yc-useforward",
+   "yc-veltha",
    "yc-vexo"
   ],
-  "lastUpdated": "2026-10-05T00:12:38Z",
-  "lastRunNotes": "Checked all 4 holdings (Lyon, herdr, Forward, Whiteboard) for news; no verified raises, down rounds, acquisitions or shutdowns since their initial YC entry, so no marks moved. From this week's candidates, backed three YC Fall 2026 companies with the clearest early signal: Agent Relay (shipping, open-source, already has an enterprise partnership with Coder/GlobeNewswire coverage), Rystic (clear enterprise-grade API-simulator product for agent testing with named integrations), and Talos (hardware predictive-maintenance for power-grid transformers, a real and growing market). Passed on OpenHack (solo founder, very crowded AI-AppSec space), LinkLane (pre-launch Winter 2027 batch, too speculative to verify), and the HN/PH novelty projects (fun demos, no clear path to a venture-scale business)."
+  "lastUpdated": "2026-10-12T00:13:32Z",
+  "lastRunNotes": "Checked all 7 holdings (Lyon, herdr, Forward, Whiteboard, Agent Relay, Rystic, Talos) for news since 2026-10-05; found no verified raises, shutdowns, or acquisitions for any, just a weak 'joining YC' aggregator post for herdr that isn't a new funding event. Researched the 28 new candidates and backed 5 from the YC Fall 2026 list, favoring teams with real signal over hype: Veltha (ex-Palantir founders, enterprise insurtech niche with press coverage), Hopper (aggressively hiring senior voice-infra engineers, suggesting funded traction), Tilion (shipped product with real downloads in a crowded browser-infra-for-agents space), Tire Swing (proven affordable-housing compliance niche, though batch label is ambiguous in press), and UFO.ai (open-source agent platform, earliest-stage and most speculative of the five). Show HN and Product Hunt candidates this week looked like novelty/hobby projects without durable business theses, so skipped them."
  },
  "nav_history": [
   {
@@ -254,6 +407,13 @@
    "cash": 9695.0,
    "holdingsValue": 305.0,
    "deployed": 305.0
+  },
+  {
+   "date": "2026-10-12",
+   "nav": 10000.0,
+   "cash": 9545.0,
+   "holdingsValue": 455.0,
+   "deployed": 455.0
   }
  ],
  "deals": [
@@ -347,6 +507,71 @@
    "pAlive12m": 0.7,
    "thesis": "Predictive maintenance hardware/software for large power transformers, a capital-intensive but high-value market (grid operators pay dearly to avoid unplanned outages). Hardware/enterprise sales cycles are slower, which tempers near-term funding odds, but the problem is real and durable.",
    "url": "https://www.ycombinator.com/companies/talos-us"
+  },
+  {
+   "type": "invest",
+   "id": "yc-veltha",
+   "name": "Veltha",
+   "source": "YC Fall 2026",
+   "date": "2026-10-12T00:13:32Z",
+   "amount": 35.0,
+   "valuation": 22000000.0,
+   "pRaise12m": 0.4,
+   "pAlive12m": 0.75,
+   "thesis": "AI-native TPA for workers' comp claims, founded by two ex-Palantir engineers with deployment experience at large institutions. Regulated-insurance niche has real budget and the team pedigree suggests it can navigate the compliance-heavy sales cycle.",
+   "url": "https://www.ycombinator.com/companies/veltha"
+  },
+  {
+   "type": "invest",
+   "id": "yc-hopper",
+   "name": "Hopper",
+   "source": "YC Fall 2026",
+   "date": "2026-10-12T00:13:32Z",
+   "amount": 30.0,
+   "valuation": 18000000.0,
+   "pRaise12m": 0.35,
+   "pAlive12m": 0.7,
+   "thesis": "Trains speech models on a customer's own production call data for fast, specialized voice inference. Multiple open senior full-stack/voice-infra roles across job boards suggest real funded hiring and early customer traction.",
+   "url": "https://www.ycombinator.com/companies/hopper"
+  },
+  {
+   "type": "invest",
+   "id": "yc-tilion",
+   "name": "Tilion",
+   "source": "YC Fall 2026",
+   "date": "2026-10-12T00:13:32Z",
+   "amount": 30.0,
+   "valuation": 16000000.0,
+   "pRaise12m": 0.25,
+   "pAlive12m": 0.55,
+   "thesis": "Recompiled Chromium ('Fortress') for undetectable agent browsing, with a shipped PyPI package and MCP server already in beta use. Crowded space (Kernel, Browserbase, Browser Use) keeps odds modest, but agent browser infra is a real and growing need.",
+   "url": "https://www.ycombinator.com/companies/tilion"
+  },
+  {
+   "type": "invest",
+   "id": "yc-tire-swing",
+   "name": "Tire Swing",
+   "source": "YC Fall 2026",
+   "date": "2026-10-12T00:13:32Z",
+   "amount": 30.0,
+   "valuation": 20000000.0,
+   "pRaise12m": 0.3,
+   "pAlive12m": 0.65,
+   "thesis": "AI eligibility/compliance automation for affordable-housing operators (LIHTC, Section 8 recertification), positioned as a drop-in replacement for compliance consultants. Niche but sticky government-adjacent recurring revenue with a cybersecurity-background CEO.",
+   "url": "https://www.ycombinator.com/companies/tire-swing"
+  },
+  {
+   "type": "invest",
+   "id": "yc-ufoai",
+   "name": "UFO.ai",
+   "source": "YC Fall 2026",
+   "date": "2026-10-12T00:13:32Z",
+   "amount": 25.0,
+   "valuation": 15000000.0,
+   "pRaise12m": 0.2,
+   "pAlive12m": 0.5,
+   "thesis": "Open-source agent platform reachable via Slack/iMessage/terminal, positioned as team-wide agent infrastructure. Two-person team in an already crowded 'agent OS' category makes this the most speculative of this week's picks.",
+   "url": "https://www.ycombinator.com/companies/ufoai"
   }
  ],
  "forecasts": [
@@ -460,6 +685,86 @@
    "prob": 0.7,
    "made": "2026-10-05",
    "due": "2027-10-05",
+   "outcome": null
+  },
+  {
+   "id": "yc-veltha",
+   "event": "raise_12m",
+   "prob": 0.4,
+   "made": "2026-10-12",
+   "due": "2027-10-12",
+   "outcome": null
+  },
+  {
+   "id": "yc-veltha",
+   "event": "alive_12m",
+   "prob": 0.75,
+   "made": "2026-10-12",
+   "due": "2027-10-12",
+   "outcome": null
+  },
+  {
+   "id": "yc-hopper",
+   "event": "raise_12m",
+   "prob": 0.35,
+   "made": "2026-10-12",
+   "due": "2027-10-12",
+   "outcome": null
+  },
+  {
+   "id": "yc-hopper",
+   "event": "alive_12m",
+   "prob": 0.7,
+   "made": "2026-10-12",
+   "due": "2027-10-12",
+   "outcome": null
+  },
+  {
+   "id": "yc-tilion",
+   "event": "raise_12m",
+   "prob": 0.25,
+   "made": "2026-10-12",
+   "due": "2027-10-12",
+   "outcome": null
+  },
+  {
+   "id": "yc-tilion",
+   "event": "alive_12m",
+   "prob": 0.55,
+   "made": "2026-10-12",
+   "due": "2027-10-12",
+   "outcome": null
+  },
+  {
+   "id": "yc-tire-swing",
+   "event": "raise_12m",
+   "prob": 0.3,
+   "made": "2026-10-12",
+   "due": "2027-10-12",
+   "outcome": null
+  },
+  {
+   "id": "yc-tire-swing",
+   "event": "alive_12m",
+   "prob": 0.65,
+   "made": "2026-10-12",
+   "due": "2027-10-12",
+   "outcome": null
+  },
+  {
+   "id": "yc-ufoai",
+   "event": "raise_12m",
+   "prob": 0.2,
+   "made": "2026-10-12",
+   "due": "2027-10-12",
+   "outcome": null
+  },
+  {
+   "id": "yc-ufoai",
+   "event": "alive_12m",
+   "prob": 0.5,
+   "made": "2026-10-12",
+   "due": "2027-10-12",
    "outcome": null
   }
  ]
