@@ -3,13 +3,13 @@
   "cash": 1221.852708168771,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad altcoin weakness continues (most names down 5-10% over 5d) with no fresh, dated catalyst confirmed for any candidate today; AVAX's tokenization/RWA narrative and NEAR's AI integration are from September, not new. LTC sits just below its $65 reassessment trigger but the stop ($62) isn't hit and no news confirms the Coinbase collateral-demand thesis has faded, so no forced sell. AAVE remains in its minimum-hold window with target unreached. Growth/core split stays within band; holding with no trades this session.",
-  "lastUpdated": "2026-10-11T20:12:06Z",
+  "lastRunNotes": "No fresh, dated catalyst confirmed for any held position or watchlist name today: NEAR's price pop has no October news behind it, AVAX's RWA/Helicon story and AAVE's Cayman foundation vote are unchanged from early October, and LTC's Coinbase-collateral thesis has no new confirmation while it hovers just under its $65 reassessment level without hitting its $62 stop. AAVE remains in its minimum-hold window. Growth/core split in the active sleeve is about 65%/35%, slightly growth-heavy but within band, and not worth forcing a rebalance without a real catalyst. Holding with no trades this session.",
+  "lastUpdated": "2026-10-12T02:12:23Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 111.15,
+    "lastPrice": 111.3,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.202722,
+    "lastPrice": 0.201123,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.833,
+    "lastPrice": 10.939,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -55,7 +55,7 @@
    "LTC-USD": {
     "shares": 2.66000498,
     "avgCost": 71.87902181675821,
-    "lastPrice": 64.589,
+    "lastPrice": 64.734,
     "bucket": "core",
     "openedDate": "2026-09-24",
     "plan": {
@@ -71,7 +71,7 @@
    "AAVE-USD": {
     "shares": 1.662057,
     "avgCost": 180.4979446562001,
-    "lastPrice": 170.32,
+    "lastPrice": 169.99,
     "bucket": "growth",
     "openedDate": "2026-10-03",
     "plan": {
@@ -94,7 +94,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 83616.56
+   "lastPrice": 83598.26
   },
   "cashFreed": "2026-10-03"
  },
@@ -306,6 +306,17 @@
    "benchmarkClose": 83616.56,
    "growthValue": 966.08,
    "coreValue": 520.62,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-12",
+   "nav": 6924.57,
+   "cash": 1221.85,
+   "positionsValue": 5702.71,
+   "benchmarkNav": 6957.25,
+   "benchmarkClose": 83598.26,
+   "growthValue": 967.97,
+   "coreValue": 518.26,
    "daytradeValue": 0.0
   }
  ],
@@ -835,6 +846,10 @@
   {
    "date": "2026-10-11",
    "rank": 42
+  },
+  {
+   "date": "2026-10-12",
+   "rank": 43
   }
  ]
 }
