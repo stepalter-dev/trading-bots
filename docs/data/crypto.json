@@ -3,13 +3,13 @@
   "cash": 1644.0305366187904,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad crypto risk-off continues (BTC -1.44% today, most alts -4% to -11%, Coinglass reporting ~$688M in liquidations market-wide) with no fresh, dated catalyst found for any held position. Web searches on LTC, AAVE, AVAX, SOL and XLM turned up no October 2026 news specific to today - only stale summer/Q2-Q3 items (AAVE V3 market closures Aug 1, Stellar RWA/DTCC news from July-Aug, AVAX ETF flow data) that are already priced in. LTC (61.17 vs stop 62) and AAVE (156.54 vs stop 160) are both already trading at/below their recorded stops, so the referee's automatic stop-sell should close those two positions at the start of this session. Holding SOL, XLM and AVAX unchanged with existing plans; growth/core balance stays within the 35-65% band and no new swing buy clears the trend+catalyst+asymmetric-odds bar in this undifferentiated risk-off tape. Stop-loss exits: LTC-USD, AAVE-USD.",
-  "lastUpdated": "2026-10-13T02:12:09Z",
+  "lastRunNotes": "Across-the-board +2-8% crypto rally today (BTC +2.79%) but web searches on SOL, XLM, AVAX and momentum leaders NEAR/UNI turned up no fresh, dated, asset-specific catalyst for Oct 13 - it reads as a broad market-wide bounce, not a reason to add risk. No held position is at/below stop or at target, and all three (SOL growth, XLM core, AVAX core/growth) already have recorded plans, so holding with no new trades this session. Growth/core split among swings is ~66.5%/33.5%, slightly outside the 35-65% band, but nudging it isn't a genuine catalyst so leaving it alone.",
+  "lastUpdated": "2026-10-13T08:15:32Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 105.61,
+    "lastPrice": 108.62,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.191074,
+    "lastPrice": 0.194616,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.259,
+    "lastPrice": 10.452,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -63,7 +63,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 82531.14
+   "lastPrice": 83992.23
   },
   "cashFreed": "2026-10-03"
  },
@@ -290,13 +290,13 @@
   },
   {
    "date": "2026-10-13",
-   "nav": 6783.86,
+   "nav": 6880.49,
    "cash": 1644.03,
-   "positionsValue": 5139.83,
-   "benchmarkNav": 6868.44,
-   "benchmarkClose": 82531.14,
-   "growthValue": 648.39,
-   "coreValue": 328.77,
+   "positionsValue": 5236.46,
+   "benchmarkNav": 6990.04,
+   "benchmarkClose": 83992.23,
+   "growthValue": 665.23,
+   "coreValue": 334.87,
    "daytradeValue": 0.0
   }
  ],
@@ -722,7 +722,12 @@
    "exitReason": "stop"
   }
  ],
- "lessons": [],
+ "lessons": [
+  "All 5 closed trades so far have exited via stop-loss, none hit target - before buying, check that the stop is wide enough to survive normal crypto volatility over the stated horizon, not just tight enough to pass the ref",
+  "Core-bucket (defensive) positions have a 0% win rate across 2 closed trades (avg -15.63%) vs growth's 33% - a 'defensive' label doesn't mean the position is less volatile, size and stop it like any other crypto swing.",
+  "A specific, volume-confirmed catalyst can still lose if a broad market risk-off follows shortly after entry - weigh the prevailing market direction (BTC trend) alongside any single-asset catalyst, not just the catalyst i",
+  "Sample is still small (5 closed trades) - keep recording observations but don't overcorrect; these are early signals, not proven rules yet."
+ ],
  "journal": [
   {
    "id": "2026-10-08-UNI7083-USD-ftngrq",
@@ -803,7 +808,10 @@
    "prob": null,
    "rr": null,
    "exitReason": "stop",
-   "review": null
+   "review": {
+    "verdict": "flawed",
+    "lesson": "The Coinbase collateral catalyst was real and volume-confirmed, but the stop was only ~5% below entry on a core/defensive position held through an already-flagged market-wide risk-off window - too tight to survive normal"
+   }
   },
   {
    "id": "2026-10-13-AAVE-USD-hohjm4",
@@ -821,7 +829,10 @@
    "prob": 0.38,
    "rr": 2.27,
    "exitReason": "stop",
-   "review": null
+   "review": {
+    "verdict": "unlucky",
+    "lesson": "The V4 deposits/buyback catalyst was substantive and fundamentals-driven with a November reassessment horizon, but it got stopped out in just 10 days during a broad alt selloff - the thesis wasn't disproven, the market j"
+   }
   }
  ],
  "coinbaseRank": [
@@ -899,7 +910,7 @@
   },
   {
    "date": "2026-10-13",
-   "rank": 50
+   "rank": 46
   }
  ]
 }
