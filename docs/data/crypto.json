@@ -3,13 +3,13 @@
   "cash": 1644.0305366187904,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked SOL, AVAX, XLM (all held) plus momentum leaders NEAR and UNI for a dated Oct 13 catalyst. Found none specific to today: SOL/XLM/AVAX have no fresh news, NEAR's rally is a two-week-old ETF/intents story now cooling (day% slightly negative), and UNI's CME futures listing (Oct 19) is a real catalyst but double-edged (precedent of pre-listing selloffs, record exchange reserves, no volume confirmation on today's bounce). No held position is at stop or target, and all three already carry recorded plans. Holding with no trades; growth/core swing split stays ~66.6%/33.4% (above the 35-65 band) but that alone isn't a catalyst to rebalance.",
-  "lastUpdated": "2026-10-13T14:24:56Z",
+  "lastRunNotes": "Checked held positions (SOL, XLM, AVAX) and momentum leaders NEAR and UNI for a dated Oct 13 catalyst; found none. Today's broad ~1.5-3% gain across almost the whole watchlist looks like generic market-wide risk-on, not an asset-specific trigger. UNI's CME futures listing (Oct 19) is still the only real catalyst in view but lacks volume confirmation (vol_x 1.14) and carries selloff precedent risk, so not actionable yet. No held position is at stop or target, all already have recorded plans. Holding with no trades.",
+  "lastUpdated": "2026-10-13T20:12:46Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 108.14,
+    "lastPrice": 107.36,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.192763,
+    "lastPrice": 0.192157,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.371,
+    "lastPrice": 10.266,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -63,7 +63,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 83625.19
+   "lastPrice": 83220.78
   },
   "cashFreed": "2026-10-03"
  },
@@ -290,13 +290,13 @@
   },
   {
    "date": "2026-10-13",
-   "nav": 6855.27,
+   "nav": 6828.56,
    "cash": 1644.03,
-   "positionsValue": 5211.24,
-   "benchmarkNav": 6959.49,
-   "benchmarkClose": 83625.19,
-   "growthValue": 661.71,
-   "coreValue": 331.68,
+   "positionsValue": 5184.53,
+   "benchmarkNav": 6925.83,
+   "benchmarkClose": 83220.78,
+   "growthValue": 656.44,
+   "coreValue": 330.64,
    "daytradeValue": 0.0
   }
  ],
@@ -910,7 +910,7 @@
   },
   {
    "date": "2026-10-13",
-   "rank": 44
+   "rank": 50
   }
  ]
 }
