@@ -3,13 +3,13 @@
   "cash": 1058.123512657653,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, dated catalysts today for held names or watchlist movers: iPhone Duo preorders open Oct 16 (already known/priced), GOOGL's DOJ/states Chrome appeal remains in briefing at the D.C. Circuit with no ruling, and META's Muse AI rally is old news (Wells Fargo's $1,000 PT and the download surge are from early October) with the next real catalyst being Q3 earnings Oct 28. CRM's 5d move and insider buy couldn't be tied to any dated October news, and AMD's momentum reflects the year-old OpenAI deal, not a new trigger, with the stock pulling back -8.94% over 5 days. Holding everything; growth/core split stays within band (GOOGL+META growth ~15.4% of NAV, AAPL core ~10.1% of NAV), no trades this session.",
-  "lastUpdated": "2026-10-13T14:12:17Z",
+  "lastRunNotes": "No new dated catalysts since last session: iPhone Duo preorders open Oct 16 (still 3 days out, already priced in), GOOGL's DOJ/states Chrome appeal has no new D.C. Circuit ruling, and META's Muse AI coverage is all from September/early October with the real catalyst being Q3 earnings Oct 28. AMD's pullback looks macro/valuation-driven with no specific trigger, and CRM's insider-buy signal couldn't be confirmed or tied to dated news. Holding everything; growth/core balance stays as-is with AAPL/GOOGL/META all retaining their existing plans.",
+  "lastUpdated": "2026-10-13T16:13:02Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 345.67,
+    "lastPrice": 344.64,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 353.88,
+    "lastPrice": 355.98,
     "shares": 0.883627,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 762.74,
+    "lastPrice": 761.245,
     "shares": 1.060353,
     "plan": {
      "target": 880.0,
@@ -62,7 +62,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 777.67
+   "lastPrice": 776.87
   },
   "cashFreed": "2026-10-05"
  },
@@ -285,13 +285,13 @@
   },
   {
    "date": "2026-10-13",
-   "nav": 7281.43,
+   "nav": 7275.02,
    "cash": 1058.12,
-   "positionsValue": 6223.3,
-   "benchmarkNav": 7180.08,
-   "benchmarkClose": 777.67,
-   "growthValue": 1121.47,
-   "coreValue": 733.06,
+   "positionsValue": 6216.89,
+   "benchmarkNav": 7172.69,
+   "benchmarkClose": 776.87,
+   "growthValue": 1121.74,
+   "coreValue": 730.88,
    "daytradeValue": 0.0
   }
  ],
