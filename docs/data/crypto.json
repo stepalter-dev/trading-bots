@@ -1,15 +1,15 @@
 {
  "state": {
-  "cash": 1221.852708168771,
+  "cash": 1644.0305366187904,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad crypto risk-off continues (BTC -0.93%, most alts -2% to -6%) with no fresh, dated catalyst for any held position or watchlist name; web searches on LTC and AAVE V4/DAO turned up nothing newer than already-priced-in news. LTC is sitting just above its $62 stop (now 62.79) but hasn't breached it, and AAVE remains inside its 14-day minimum hold with no new governance news since Oct 3. Holding across the board: growth/core balance stays within the 35-65% band and no position hit target or stop.",
-  "lastUpdated": "2026-10-12T20:13:25Z",
+  "lastRunNotes": "Broad crypto risk-off continues (BTC -1.44% today, most alts -4% to -11%, Coinglass reporting ~$688M in liquidations market-wide) with no fresh, dated catalyst found for any held position. Web searches on LTC, AAVE, AVAX, SOL and XLM turned up no October 2026 news specific to today - only stale summer/Q2-Q3 items (AAVE V3 market closures Aug 1, Stellar RWA/DTCC news from July-Aug, AVAX ETF flow data) that are already priced in. LTC (61.17 vs stop 62) and AAVE (156.54 vs stop 160) are both already trading at/below their recorded stops, so the referee's automatic stop-sell should close those two positions at the start of this session. Holding SOL, XLM and AVAX unchanged with existing plans; growth/core balance stays within the 35-65% band and no new swing buy clears the trend+catalyst+asymmetric-odds bar in this undifferentiated risk-off tape. Stop-loss exits: LTC-USD, AAVE-USD.",
+  "lastUpdated": "2026-10-13T02:12:09Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 108.55,
+    "lastPrice": 105.61,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.197099,
+    "lastPrice": 0.191074,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.545,
+    "lastPrice": 10.259,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -50,37 +50,6 @@
      "evPct": -1.99,
      "entryRef": 10.203,
      "setLater": true
-    }
-   },
-   "LTC-USD": {
-    "shares": 2.66000498,
-    "avgCost": 71.87902181675821,
-    "lastPrice": 62.801,
-    "bucket": "core",
-    "openedDate": "2026-09-24",
-    "plan": {
-     "target": 85.0,
-     "stop": 62.0,
-     "prob": 0.45,
-     "rr": 1.5,
-     "evPct": 1.59,
-     "entryRef": 71.217,
-     "setLater": true
-    }
-   },
-   "AAVE-USD": {
-    "shares": 1.662057,
-    "avgCost": 180.4979446562001,
-    "lastPrice": 161.5,
-    "bucket": "growth",
-    "openedDate": "2026-10-03",
-    "plan": {
-     "target": 225.0,
-     "stop": 160.0,
-     "prob": 0.38,
-     "rr": 2.27,
-     "evPct": 1.98,
-     "entryRef": 179.85
     }
    }
   },
@@ -94,7 +63,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 82903.8
+   "lastPrice": 82531.14
   },
   "cashFreed": "2026-10-03"
  },
@@ -317,6 +286,17 @@
    "benchmarkClose": 82903.8,
    "growthValue": 934.87,
    "coreValue": 506.19,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-13",
+   "nav": 6783.86,
+   "cash": 1644.03,
+   "positionsValue": 5139.83,
+   "benchmarkNav": 6868.44,
+   "benchmarkClose": 82531.14,
+   "growthValue": 648.39,
+   "coreValue": 328.77,
    "daytradeValue": 0.0
   }
  ],
@@ -710,6 +690,36 @@
    "realizedPnL": 8.93,
    "realizedPnLPct": 5.31,
    "exitReason": "stop"
+  },
+  {
+   "id": "2026-10-13-LTC-USD-awhfue",
+   "ticker": "LTC-USD",
+   "action": "sell",
+   "shares": 2.66000498,
+   "price": 61.163775,
+   "refPrice": 61.225,
+   "fee": 0.423,
+   "date": "2026-10-13T02:12:09Z",
+   "bucket": "core",
+   "rationale": "Stop hit: price 61.225 is at/below the planned stop 62 - the thesis was proven wrong, exiting per plan.",
+   "realizedPnL": -28.93,
+   "realizedPnLPct": -15.13,
+   "exitReason": "stop"
+  },
+  {
+   "id": "2026-10-13-AAVE-USD-hohjm4",
+   "ticker": "AAVE-USD",
+   "action": "sell",
+   "shares": 1.662057,
+   "price": 156.78306,
+   "refPrice": 156.94,
+   "fee": 0.6775,
+   "date": "2026-10-13T02:12:09Z",
+   "bucket": "growth",
+   "rationale": "Stop hit: price 156.94 is at/below the planned stop 160 - the thesis was proven wrong, exiting per plan.",
+   "realizedPnL": -40.09,
+   "realizedPnLPct": -13.36,
+   "exitReason": "stop"
   }
  ],
  "lessons": [],
@@ -776,6 +786,42 @@
     "verdict": "sound",
     "lesson": "Catalyst was concrete and already live (Hyperliquid perps/spot, Ondo integration), not a future date; stop discipline still locked in a gain despite broad weakness."
    }
+  },
+  {
+   "id": "2026-10-13-LTC-USD-awhfue",
+   "date": "2026-10-13T02:12:09Z",
+   "ticker": "LTC-USD",
+   "bucket": "core",
+   "entryPrice": 72.0676,
+   "exitPrice": 61.163775,
+   "pnl": -28.93,
+   "pnlPct": -15.13,
+   "daysHeld": 19,
+   "whyBought": "Fresh, specific catalyst (Coinbase fixed-rate loans accepting LTC as collateral, launched Sept 23) confirmed by real unusual volume (vol_x 4.38, ~$1B on-chain movement, ~3x normal spot volume) rather than pure rally beta.",
+   "horizon": "Reassess if LTC fails to hold above ~$65 support or if Coinbase loan-collateral usage data fades by mid-October.",
+   "whySold": "Stop hit: price 61.225 is at/below the planned stop 62 - the thesis was proven wrong, exiting per plan.",
+   "prob": null,
+   "rr": null,
+   "exitReason": "stop",
+   "review": null
+  },
+  {
+   "id": "2026-10-13-AAVE-USD-hohjm4",
+   "date": "2026-10-13T02:12:09Z",
+   "ticker": "AAVE-USD",
+   "bucket": "growth",
+   "entryPrice": 180.9592,
+   "exitPrice": 156.78306,
+   "pnl": -40.09,
+   "pnlPct": -13.36,
+   "daysHeld": 10,
+   "whyBought": "Aave V4 has crossed $1B in deposits and expanded to Arc/Base with tokenized-stock collateral, backed by a new $50M annual DAO buyback and an Oct 3 governance proposal to form a Cayman Foundation holding the protocol's brand/IP - real institutional-legitimacy catalysts, not just a short squeeze. Upsi",
+   "horizon": "Reassess by early November on V4 deposit growth and the DAO Cayman Foundation vote outcome, or sooner if price fails to hold the ~$165 pullback-support zone.",
+   "whySold": "Stop hit: price 156.94 is at/below the planned stop 160 - the thesis was proven wrong, exiting per plan.",
+   "prob": 0.38,
+   "rr": 2.27,
+   "exitReason": "stop",
+   "review": null
   }
  ],
  "coinbaseRank": [
@@ -850,6 +896,10 @@
   {
    "date": "2026-10-12",
    "rank": 47
+  },
+  {
+   "date": "2026-10-13",
+   "rank": 50
   }
  ]
 }
