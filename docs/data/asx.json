@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, dated catalysts found today: CBA news is pre-October (card fee reset took effect Oct 1, FY26 results from August); PME has nothing newer than its August FY26 results; Telstra's AGM (Oct 13) only shows routine board-election items (new director, two re-elections, one retirement) with no reported market-moving outcome. Momentum leaders among UP-trend names (BHP, WDS, STO, WOW, MQG) show continued commodity/turnaround-driven rallies but no new specific news hook since the last session, so chasing them now would just be buying stale momentum. All three held positions remain within their existing plans (no stop or target hit), so holding across the board. Active sleeve stays ~35% core (CBA+TLS) / growth (PME), within the 35-65% band.",
-  "lastUpdated": "2026-10-14T00:13:59Z",
+  "lastRunNotes": "No fresh, dated catalysts found for CBA, PME or TLS (all news is pre-October: FY26 results in Aug, Telstra AGM Oct 13 had only routine board items, no reported market-moving outcome). Today's broad bank selloff (CBA -2.7%, WBC/NAB/ANZ down 1.8-2.3%) looks like sector-wide weakness with no company-specific news found, so not a catalyst to act on. Energy names (STO/WDS) have no new news beyond the already-stale merger-talks collapse story. Held positions already have plans in place; growth/core split (PME growth vs CBA+TLS core) remains within the 35-65% band. Holding, no trades this session.",
+  "lastUpdated": "2026-10-14T01:12:17Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 151.51,
+    "lastPrice": 150.24,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 161.075,
+    "lastPrice": 161.57,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.66,
+    "lastPrice": 4.67,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.01
+   "lastPrice": 77.83
   },
   "cashFreed": "2026-10-05"
  },
@@ -267,13 +267,13 @@
   },
   {
    "date": "2026-10-14",
-   "nav": 9806.67,
+   "nav": 9789.34,
    "cash": 1470.49,
-   "positionsValue": 8336.18,
-   "benchmarkNav": 9884.7,
-   "benchmarkClose": 78.01,
-   "growthValue": 904.4,
-   "coreValue": 1548.67,
+   "positionsValue": 8318.86,
+   "benchmarkNav": 9861.89,
+   "benchmarkClose": 77.83,
+   "growthValue": 907.18,
+   "coreValue": 1542.14,
    "daytradeValue": 0.0
   }
  ],
