@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, dated catalysts today for CBA, PME or TLS: TLS's AGM (Oct 13) and CBA/PME news are all routine or stale (FY26 results, Sept outage review, Aug CBA results) with nothing new. Mining and WOW rallies have no specific news hook found. All three held positions still sit within their existing plans (none hit stop or target), so holding across the board. Active sleeve stays ~35% core (CBA+TLS) / growth (PME), consistent with the 35-65% band.",
-  "lastUpdated": "2026-10-13T04:12:14Z",
+  "lastRunNotes": "No fresh, dated catalysts found today: CBA news is pre-October (card fee reset took effect Oct 1, FY26 results from August); PME has nothing newer than its August FY26 results; Telstra's AGM (Oct 13) only shows routine board-election items (new director, two re-elections, one retirement) with no reported market-moving outcome. Momentum leaders among UP-trend names (BHP, WDS, STO, WOW, MQG) show continued commodity/turnaround-driven rallies but no new specific news hook since the last session, so chasing them now would just be buying stale momentum. All three held positions remain within their existing plans (no stop or target hit), so holding across the board. Active sleeve stays ~35% core (CBA+TLS) / growth (PME), within the 35-65% band.",
+  "lastUpdated": "2026-10-14T00:13:59Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 153.495,
+    "lastPrice": 151.51,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 165.69,
+    "lastPrice": 161.075,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.62,
+    "lastPrice": 4.66,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.42
+   "lastPrice": 78.01
   },
   "cashFreed": "2026-10-05"
  },
@@ -263,6 +263,17 @@
    "benchmarkClose": 78.42,
    "growthValue": 930.31,
    "coreValue": 1555.67,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-14",
+   "nav": 9806.67,
+   "cash": 1470.49,
+   "positionsValue": 8336.18,
+   "benchmarkNav": 9884.7,
+   "benchmarkClose": 78.01,
+   "growthValue": 904.4,
+   "coreValue": 1548.67,
    "daytradeValue": 0.0
   }
  ],
