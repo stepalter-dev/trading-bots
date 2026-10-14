@@ -3,13 +3,13 @@
   "cash": 1644.0305366187904,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Searched for fresh catalysts on NEAR (biggest 5d mover, momentum rank 2/18) and UNI (CME futures launch Oct 19) but found nothing new and dated to today: NEAR's rally traces to a short squeeze/AI-rotation narrative and an unverified single-source ETF claim from late September, and UNI's CME listing risk is already priced with analysts flagging selloff precedent (ADA/LINK) rather than a bullish setup. Held SOL/XLM/AVAX are all between their stops and targets with existing plans, and no new specific, confirmed catalyst justifies a swing trade today, so holding with no trades. Growth/core balance stays as-is: SOL+AVAX (growth) ~656.78 and XLM (core) ~326.74 of the active sleeve, well within the 35-65% band.",
-  "lastUpdated": "2026-10-14T02:12:20Z",
+  "lastRunNotes": "Checked SOL, XLM and AVAX for fresh, dated catalysts and found nothing specific to today: SOL coverage was mostly late-Sept/early-Oct Fiserv stablecoin and ETF-flow items already priced in, XLM had no October news at all (most recent dated item is from August), and the AVAX/Aave V4 RWA story turned out to date to mid-July, not a new catalyst. BTC is up modestly (+0.98%) with no major market-moving headline today. All three held positions sit between their stop and target with existing plans, so holding with no trades. Growth/core balance stays roughly as-is (SOL+AVAX growth ~9.6% of NAV, XLM core ~4.8% of NAV).",
+  "lastUpdated": "2026-10-14T08:13:40Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 107.45,
+    "lastPrice": 108.17,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "XLM-USD": {
     "avgCost": 0.201511,
     "bucket": "core",
-    "lastPrice": 0.190044,
+    "lastPrice": 0.19134,
     "shares": 1720.66652545,
     "plan": {
      "target": 0.25,
@@ -39,7 +39,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.303,
+    "lastPrice": 10.29,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -63,7 +63,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 83269.49
+   "lastPrice": 83862.15
   },
   "cashFreed": "2026-10-03"
  },
@@ -301,13 +301,13 @@
   },
   {
    "date": "2026-10-14",
-   "nav": 6828.4,
+   "nav": 6863.57,
    "cash": 1644.03,
-   "positionsValue": 5184.37,
-   "benchmarkNav": 6929.88,
-   "benchmarkClose": 83269.49,
-   "growthValue": 657.46,
-   "coreValue": 327.0,
+   "positionsValue": 5219.54,
+   "benchmarkNav": 6979.2,
+   "benchmarkClose": 83862.15,
+   "growthValue": 660.51,
+   "coreValue": 329.23,
    "daytradeValue": 0.0
   }
  ],
@@ -925,7 +925,7 @@
   },
   {
    "date": "2026-10-14",
-   "rank": 54
+   "rank": 48
   }
  ]
 }
