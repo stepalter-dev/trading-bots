@@ -1,15 +1,15 @@
 {
  "state": {
-  "cash": 1644.0305366187904,
+  "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked SOL, XLM and AVAX for fresh, dated catalysts and found nothing specific to today: SOL coverage was mostly late-Sept/early-Oct Fiserv stablecoin and ETF-flow items already priced in, XLM had no October news at all (most recent dated item is from August), and the AVAX/Aave V4 RWA story turned out to date to mid-July, not a new catalyst. BTC is up modestly (+0.98%) with no major market-moving headline today. All three held positions sit between their stop and target with existing plans, so holding with no trades. Growth/core balance stays roughly as-is (SOL+AVAX growth ~9.6% of NAV, XLM core ~4.8% of NAV).",
-  "lastUpdated": "2026-10-14T08:13:40Z",
+  "lastRunNotes": "Searched for fresh catalysts on held SOL, XLM and AVAX plus general crypto market news; found nothing dated to today beyond generic, already-priced-in or stale stories (no October headline on any of the three, no specific driver for BTC's -1.4% day beyond broad risk-off). All three positions already have plans within their stop/target range, so holding with no trades. Growth/core balance unchanged (SOL+AVAX growth ~9.4% of NAV, XLM core ~4.7%). Stop-loss exits: XLM-USD.",
+  "lastUpdated": "2026-10-14T14:22:41Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 108.17,
+    "lastPrice": 104.14,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -21,25 +21,10 @@
      "setLater": true
     }
    },
-   "XLM-USD": {
-    "avgCost": 0.201511,
-    "bucket": "core",
-    "lastPrice": 0.19134,
-    "shares": 1720.66652545,
-    "plan": {
-     "target": 0.25,
-     "stop": 0.185,
-     "prob": 0.45,
-     "rr": 1.02,
-     "evPct": -1.38,
-     "entryRef": 0.217248,
-     "setLater": true
-    }
-   },
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.29,
+    "lastPrice": 9.84,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -63,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 83862.15
+   "lastPrice": 81910.89
   },
   "cashFreed": "2026-10-03"
  },
@@ -301,13 +286,13 @@
   },
   {
    "date": "2026-10-14",
-   "nav": 6863.57,
-   "cash": 1644.03,
-   "positionsValue": 5219.54,
-   "benchmarkNav": 6979.2,
-   "benchmarkClose": 83862.15,
-   "growthValue": 660.51,
-   "coreValue": 329.23,
+   "nav": 6723.94,
+   "cash": 1957.76,
+   "positionsValue": 4766.18,
+   "benchmarkNav": 6816.81,
+   "benchmarkClose": 81910.89,
+   "growthValue": 634.79,
+   "coreValue": 0.0,
    "daytradeValue": 0.0
   }
  ],
@@ -731,6 +716,21 @@
    "realizedPnL": -40.09,
    "realizedPnLPct": -13.36,
    "exitReason": "stop"
+  },
+  {
+   "id": "2026-10-14-XLM-USD-jb6zel",
+   "ticker": "XLM-USD",
+   "action": "sell",
+   "shares": 1720.66652545,
+   "price": 0.182807,
+   "refPrice": 0.18299,
+   "fee": 0.8178,
+   "date": "2026-10-14T14:22:41Z",
+   "bucket": "core",
+   "rationale": "Stop hit: price 0.18299 is at/below the planned stop 0.185 - the thesis was proven wrong, exiting per plan.",
+   "realizedPnL": -33.0,
+   "realizedPnLPct": -9.52,
+   "exitReason": "stop"
   }
  ],
  "lessons": [
@@ -844,6 +844,24 @@
     "verdict": "unlucky",
     "lesson": "The V4 deposits/buyback catalyst was substantive and fundamentals-driven with a November reassessment horizon, but it got stopped out in just 10 days during a broad alt selloff - the thesis wasn't disproven, the market j"
    }
+  },
+  {
+   "id": "2026-10-14-XLM-USD-jb6zel",
+   "date": "2026-10-14T14:22:41Z",
+   "ticker": "XLM-USD",
+   "bucket": "core",
+   "entryPrice": 0.202,
+   "exitPrice": 0.182807,
+   "pnl": -33.0,
+   "pnlPct": -9.52,
+   "daysHeld": null,
+   "whyBought": "",
+   "horizon": "",
+   "whySold": "Stop hit: price 0.18299 is at/below the planned stop 0.185 - the thesis was proven wrong, exiting per plan.",
+   "prob": null,
+   "rr": null,
+   "exitReason": "stop",
+   "review": null
   }
  ],
  "coinbaseRank": [
@@ -925,7 +943,7 @@
   },
   {
    "date": "2026-10-14",
-   "rank": 48
+   "rank": 47
   }
  ]
 }
