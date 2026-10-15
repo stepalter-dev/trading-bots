@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off day: BTC -1.55%, essentially every watchlist name red, no single-asset news found for held SOL or AVAX dated today, and TRX's relative strength (only positive mom12_1, elevated volume) has no confirmed same-day catalyst either - just a vague undated reverse-merger rumor, so not actionable. Both held positions (SOL growth, AVAX growth) remain above their stops with existing plans, no change warranted. Holding with zero trades; active sleeve is now growth-only (~9.4% of NAV) after today's XLM stop-out left core empty, but forcing a core buy without a real catalyst would violate the 'trade only on a catalyst' rule, so leaving the growth/core skew as-is for now.",
-  "lastUpdated": "2026-10-14T20:12:23Z",
+  "lastRunNotes": "Broad market-wide risk-off continues (total crypto mcap -2.74%, ~$688M in liquidations, ETF outflows); every watchlist name is red with no single-asset catalyst found for held SOL or AVAX, nor for ATOM's sharp 5d drop or NEAR's improved momentum rank. Both held positions (SOL growth -9.5%, AVAX growth -3.1%) remain above their stops with existing plans in place, so no change warranted. Active sleeve stays growth-only (~9.4% of NAV); holding with zero trades rather than forcing a core buy without a real catalyst.",
+  "lastUpdated": "2026-10-15T02:12:08Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 104.11,
+    "lastPrice": 103.71,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.893,
+    "lastPrice": 9.829,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81786.95
+   "lastPrice": 81496.07
   },
   "cashFreed": "2026-10-03"
  },
@@ -292,6 +292,17 @@
    "benchmarkNav": 6806.5,
    "benchmarkClose": 81786.95,
    "growthValue": 635.54,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-15",
+   "nav": 6700.89,
+   "cash": 1957.76,
+   "positionsValue": 4743.12,
+   "benchmarkNav": 6782.29,
+   "benchmarkClose": 81496.07,
+   "growthValue": 632.66,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -947,6 +958,10 @@
   {
    "date": "2026-10-14",
    "rank": 52
+  },
+  {
+   "date": "2026-10-15",
+   "rank": 54
   }
  ]
 }
