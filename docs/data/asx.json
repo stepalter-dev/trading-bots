@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, stock-specific catalysts today: BHP/RIO's ~4.7% drop and WOW's rally/STO-WDS momentum all look like macro moves or continuations of news already priced in weeks ago (iron ore/commodity swings, Woolworths turnaround story, Santos/Woodside LNG project updates from July-Sept), not new triggers. Telstra's Oct 13 AGM outcome still can't be confirmed via search. CBA, PME and TLS theses remain intact between stop and target, so holding. Growth/core split (PME growth 36.6% vs CBA+TLS core 63.4% of active sleeve) stays within the 35-65% band.",
-  "lastUpdated": "2026-10-15T03:11:44Z",
+  "lastRunNotes": "No new specific catalysts found today: BHP/RIO's ~4-5% drop is a continuation of the known iron-ore sell-off below US$100/t (already public since September), WOW's rally continues its already-priced FY26 turnaround narrative, and the broad +2-3% gain across CBA/WBC/NAB/ANZ/WOW/COL looks like a sector-wide move, not stock-specific news. Telstra's Oct 13 AGM outcome still isn't confirmed via search. CBA, PME and TLS all remain between stop and target with theses intact, so holding all three; growth/core split (PME 36.6% vs CBA+TLS 63.4%) stays within the 35-65% band.",
+  "lastUpdated": "2026-10-15T04:12:13Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 156.08,
+    "lastPrice": 155.3,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 164.57,
+    "lastPrice": 164.32,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.82,
+    "lastPrice": 4.835,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.95
+   "lastPrice": 77.85
   },
   "cashFreed": "2026-10-05"
  },
@@ -278,13 +278,13 @@
   },
   {
    "date": "2026-10-15",
-   "nav": 9871.04,
+   "nav": 9859.25,
    "cash": 1470.49,
-   "positionsValue": 8400.55,
-   "benchmarkNav": 9877.09,
-   "benchmarkClose": 77.95,
-   "growthValue": 924.02,
-   "coreValue": 1597.94,
+   "positionsValue": 8388.76,
+   "benchmarkNav": 9864.42,
+   "benchmarkClose": 77.85,
+   "growthValue": 922.62,
+   "coreValue": 1595.09,
    "daytradeValue": 0.0
   }
  ],
