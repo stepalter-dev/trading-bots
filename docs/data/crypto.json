@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad crypto risk-off from the Oct 9 deleveraging wave (BTC down from ~$86.5k to ~$81k, high correlation to Nasdaq-100) is still the dominant driver; found no fresh single-asset catalyst today for held SOL (-10.1%, above its $98 stop) or AVAX (-4.2%, above its $8 stop). Chainlink's Fulcrum/CCIP 2.0 news is 2+ weeks old and price data on it is stale/conflicting, and no other watchlist name shows a confirmed catalyst with volume strong enough to clear trading costs. Both held positions already have plans, so no trades this session; active sleeve stays growth-only (~9.4% of NAV).",
-  "lastUpdated": "2026-10-15T14:19:33Z",
+  "lastRunNotes": "NEAR's +10% day move has no verifiable dated catalyst - research found only stale AI-narrative/rotation-driven spikes with explicit analyst notes that prior similar NEAR pops had 'no protocol-specific announcement behind it', so treating it as noise rather than a tradeable catalyst. Checked held SOL and AVAX: no SOL-specific bad news (stale-positive Fiserv stablecoin launch on Solana, ETF inflows intact), so the -8% looks like broad macro risk-off, not a thesis break; AVAX has no update since the Sept 22 Aave RWA Hub news, nothing confirming TVL growth or decline. Both held positions stay above their stops with existing plans, so holding both with no changes; growth sleeve remains ~9.6% of NAV, no trades this session.",
+  "lastUpdated": "2026-10-15T20:14:39Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 103.33,
+    "lastPrice": 105.75,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.753,
+    "lastPrice": 10.037,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81224.67
+   "lastPrice": 82228.84
   },
   "cashFreed": "2026-10-03"
  },
@@ -297,12 +297,12 @@
   },
   {
    "date": "2026-10-15",
-   "nav": 6684.22,
+   "nav": 6750.53,
    "cash": 1957.76,
-   "positionsValue": 4726.45,
-   "benchmarkNav": 6759.71,
-   "benchmarkClose": 81224.67,
-   "growthValue": 629.68,
+   "positionsValue": 4792.77,
+   "benchmarkNav": 6843.28,
+   "benchmarkClose": 82228.84,
+   "growthValue": 645.35,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -961,7 +961,7 @@
   },
   {
    "date": "2026-10-15",
-   "rank": 44
+   "rank": 47
   }
  ]
 }
