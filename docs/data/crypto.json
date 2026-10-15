@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad crypto risk-off continues (macro deleveraging wave from Oct 9, high correlation to Nasdaq-100); found no specific single-asset catalyst today for held SOL (-10.4%, still above its $98 stop) or AVAX (-5.6%, still above its $8 stop), and no watchlist name shows a confirmed news catalyst or unusual volume strong enough to clear trading costs. Both held positions already have plans in place, so no changes made. Active sleeve stays growth-only (~9.4% of NAV) with zero trades this session.",
-  "lastUpdated": "2026-10-15T08:13:53Z",
+  "lastRunNotes": "Broad crypto risk-off from the Oct 9 deleveraging wave (BTC down from ~$86.5k to ~$81k, high correlation to Nasdaq-100) is still the dominant driver; found no fresh single-asset catalyst today for held SOL (-10.1%, above its $98 stop) or AVAX (-4.2%, above its $8 stop). Chainlink's Fulcrum/CCIP 2.0 news is 2+ weeks old and price data on it is stale/conflicting, and no other watchlist name shows a confirmed catalyst with volume strong enough to clear trading costs. Both held positions already have plans, so no trades this session; active sleeve stays growth-only (~9.4% of NAV).",
+  "lastUpdated": "2026-10-15T14:19:33Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 102.8,
+    "lastPrice": 103.33,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.6,
+    "lastPrice": 9.753,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81188.9
+   "lastPrice": 81224.67
   },
   "cashFreed": "2026-10-03"
  },
@@ -297,12 +297,12 @@
   },
   {
    "date": "2026-10-15",
-   "nav": 6677.48,
+   "nav": 6684.22,
    "cash": 1957.76,
-   "positionsValue": 4719.72,
-   "benchmarkNav": 6756.73,
-   "benchmarkClose": 81188.9,
-   "growthValue": 624.75,
+   "positionsValue": 4726.45,
+   "benchmarkNav": 6759.71,
+   "benchmarkClose": 81224.67,
+   "growthValue": 629.68,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -961,7 +961,7 @@
   },
   {
    "date": "2026-10-15",
-   "rank": 45
+   "rank": 44
   }
  ]
 }
