@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked today's biggest movers (NEAR +8.8%, AAVE +3.1%, UNI +3.6%) and both held positions via web search. NEAR's Bitwise ETF (NRR) has drawn steady inflows since its Sept 29 launch, but today's spike isn't tied to any new dated news and NEAR is flat over 5 days (+0.2%), so it reads as noise/short-covering rather than a fresh catalyst, consistent with last session's take on prior NEAR pops. SOL's drawdown is confirmed macro/risk-off: Bitcoin, Ether and Solana ETFs all saw net outflows this week, not a SOL-specific issue, so its thesis holds; AVAX has no RWA Hub TVL update since the Sept 22 news, so its 4-6 week reassessment window stands too. Holding with no new trades; cash remains well above the 5% minimum at 29% of NAV.",
-  "lastUpdated": "2026-10-16T02:13:08Z",
+  "lastRunNotes": "Reviewed today's watchlist (broad 5-10% weekly declines across nearly every alt, mom12_1 negative for most) and researched the two held names plus the top momentum/volume candidates (NEAR, TRX, AAVE). No fresh, dated catalyst turned up anywhere: SOL's drawdown is still macro/risk-off (its real catalyst, the Alpenglow upgrade, lands Oct 21 and just supports the existing thesis); AVAX has no new RWA Hub/TVL update since Sept 22; NEAR's ETF inflows are decelerating ($58M to $13M weekly) plus a $3.8M NEAR Intents exploit and an analyst 30-40% correction call make it unattractive despite top momentum rank; TRX and AAVE had nothing dated this week. No unusual volume (vol_x all under 1.4x). Active sleeve is still 100% growth / 0% core versus the 35-65% band, but that alone isn't a catalyst, so holding rather than forcing a core buy or trimming the losers early (both are past minimum hold and still above stop).",
+  "lastUpdated": "2026-10-16T08:13:43Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 105.31,
+    "lastPrice": 106.2,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.993,
+    "lastPrice": 10.12,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 82037.13
+   "lastPrice": 82151.11
   },
   "cashFreed": "2026-10-03"
  },
@@ -308,12 +308,12 @@
   },
   {
    "date": "2026-10-16",
-   "nav": 6738.14,
+   "nav": 6750.03,
    "cash": 1957.76,
-   "positionsValue": 4780.38,
-   "benchmarkNav": 6827.33,
-   "benchmarkClose": 82037.13,
-   "growthValue": 642.63,
+   "positionsValue": 4792.26,
+   "benchmarkNav": 6836.82,
+   "benchmarkClose": 82151.11,
+   "growthValue": 648.76,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -976,7 +976,7 @@
   },
   {
    "date": "2026-10-16",
-   "rank": 51
+   "rank": 43
   }
  ]
 }
