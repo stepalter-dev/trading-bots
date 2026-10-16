@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "NEAR's +10% day move has no verifiable dated catalyst - research found only stale AI-narrative/rotation-driven spikes with explicit analyst notes that prior similar NEAR pops had 'no protocol-specific announcement behind it', so treating it as noise rather than a tradeable catalyst. Checked held SOL and AVAX: no SOL-specific bad news (stale-positive Fiserv stablecoin launch on Solana, ETF inflows intact), so the -8% looks like broad macro risk-off, not a thesis break; AVAX has no update since the Sept 22 Aave RWA Hub news, nothing confirming TVL growth or decline. Both held positions stay above their stops with existing plans, so holding both with no changes; growth sleeve remains ~9.6% of NAV, no trades this session.",
-  "lastUpdated": "2026-10-15T20:14:39Z",
+  "lastRunNotes": "Checked today's biggest movers (NEAR +8.8%, AAVE +3.1%, UNI +3.6%) and both held positions via web search. NEAR's Bitwise ETF (NRR) has drawn steady inflows since its Sept 29 launch, but today's spike isn't tied to any new dated news and NEAR is flat over 5 days (+0.2%), so it reads as noise/short-covering rather than a fresh catalyst, consistent with last session's take on prior NEAR pops. SOL's drawdown is confirmed macro/risk-off: Bitcoin, Ether and Solana ETFs all saw net outflows this week, not a SOL-specific issue, so its thesis holds; AVAX has no RWA Hub TVL update since the Sept 22 news, so its 4-6 week reassessment window stands too. Holding with no new trades; cash remains well above the 5% minimum at 29% of NAV.",
+  "lastUpdated": "2026-10-16T02:13:08Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 105.75,
+    "lastPrice": 105.31,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.037,
+    "lastPrice": 9.993,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 82228.84
+   "lastPrice": 82037.13
   },
   "cashFreed": "2026-10-03"
  },
@@ -303,6 +303,17 @@
    "benchmarkNav": 6843.28,
    "benchmarkClose": 82228.84,
    "growthValue": 645.35,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-16",
+   "nav": 6738.14,
+   "cash": 1957.76,
+   "positionsValue": 4780.38,
+   "benchmarkNav": 6827.33,
+   "benchmarkClose": 82037.13,
+   "growthValue": 642.63,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -962,6 +973,10 @@
   {
    "date": "2026-10-15",
    "rank": 47
+  },
+  {
+   "date": "2026-10-16",
+   "rank": 51
   }
  ]
 }
