@@ -12,21 +12,21 @@
   },
   "asx": {
    "prices": {
-    "CBA.AX": 156.15,
-    "PME.AX": 163.58,
-    "TLS.AX": 4.79,
-    "STW.AX": 77.95
+    "CBA.AX": 155.5,
+    "PME.AX": 169.55,
+    "TLS.AX": 4.755,
+    "STW.AX": 78.64
    },
    "benchmark": "STW.AX"
   },
   "crypto": {
    "prices": {
-    "SOL-USD": 105.89,
-    "AVAX-USD": 10.027,
-    "BTC-USD": 82296.99
+    "SOL-USD": 105.33,
+    "AVAX-USD": 10.036,
+    "BTC-USD": 82224.78
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-10-15T22:19:41Z"
+ "updatedAt": "2026-10-16T00:33:46Z"
 }
