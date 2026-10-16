@@ -3,13 +3,13 @@
   "cash": 646.628367657653,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off day (SPY -0.59%, chip names down hard) with no fresh company-specific catalysts: iPhone Duo preorders just opened today with zero sales data yet (Apple reportedly raised supplier orders 30% but that's a prior report, not new), Meta's Muse Wonder launch was Oct 12 and already reflected in the recent META rally, GOOGL/META have nothing new ahead of GOOGL's Oct 27 earnings, and the semiconductor pullback (AMD/INTC/NVDA/AVGO) looks like broad sector profit-taking with no specific negative news found. Cash buffer is also thin (9% of NAV, only ~$289 of room above the 5% floor), so no new swing buy clears the cost/edge bar today. Active sleeve is already balanced (growth ~48.6% / core ~51.4% of swing value, inside the 35-65 band) and all four held positions already carry plans, so holding everything unchanged.",
-  "lastUpdated": "2026-10-16T16:12:30Z",
+  "lastRunNotes": "Today's selloff (SPY -1.15%) looks macro-driven, not stock-specific: hot wholesale inflation data plus lingering AI-capex/financing worries (Oct 8 report of OpenAI's revenue run-rate missing expectations, Oct 12 Broadcom/Intel CEO comments on capital-access constraints) hit chips and mega-cap tech broadly, including held GOOGL and META, with no company-specific bad news found for either. GOOGL's trend also flipped DOWN today, ruling out any new buy there regardless. Growth/core split of the swing book stays balanced (~48% growth / ~52% core), cash buffer is thin (~$291 above the 5% floor), and all four held positions already carry plans, so holding across the board with no trades this session.",
+  "lastUpdated": "2026-10-16T18:12:24Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 343.91,
+    "lastPrice": 342.6,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 343.525,
+    "lastPrice": 340.97,
     "shares": 0.883627,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "META": {
     "avgCost": 665.6,
     "bucket": "growth",
-    "lastPrice": 719.99,
+    "lastPrice": 707.02,
     "shares": 1.060353,
     "plan": {
      "target": 880.0,
@@ -54,7 +54,7 @@
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 401.322,
+    "lastPrice": 401.99,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -77,7 +77,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 767.21
+   "lastPrice": 763.17
   },
   "cashFreed": "2026-10-05"
  },
@@ -333,13 +333,13 @@
   },
   {
    "date": "2026-10-16",
-   "nav": 7154.28,
+   "nav": 7113.46,
    "cash": 646.63,
-   "positionsValue": 6507.65,
-   "benchmarkNav": 7083.5,
-   "benchmarkClose": 767.21,
-   "growthValue": 1066.99,
-   "coreValue": 1130.65,
+   "positionsValue": 6466.83,
+   "benchmarkNav": 7046.2,
+   "benchmarkClose": 763.17,
+   "growthValue": 1050.98,
+   "coreValue": 1128.54,
    "daytradeValue": 0.0
   }
  ],
