@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Researched the two held positions and the top momentum/volume watchlist names (SOL, AVAX, TRX; NEAR already ruled out last session). Confirmed Solana's Alpenglow mainnet upgrade is still on track for Oct 21 (5 days out) - a real, dated catalyst that supports holding SOL through the event rather than selling into the current risk-off drawdown; its stop at $98 hasn't been hit. AVAX has no new RWA Hub/TVL news since Sept 22, and its own 4-6 week reassessment window (opened Sept 24, 22 days in) hasn't elapsed yet. TRX had the only positive 5-day move on the watchlist, but the one story I found (a Tron/SRM reverse-merger report) is undated and unverified, so it doesn't clear the bar for a specific, dated catalyst. Broad alt market remains in a multi-week risk-off drawdown (negative mom12_1 almost everywhere); holding both positions, no new trades, both held names already have plans so no plan updates needed.",
-  "lastUpdated": "2026-10-16T14:13:11Z",
+  "lastRunNotes": "Broad risk-off continues across the whole watchlist (BTC dominance holding near 59-60%, nearly every altcoin down 4-14% over 5 days) and no candidate had a confirmed, dated catalyst strong enough to justify fighting that tape. Held SOL's Alpenglow mainnet catalyst (Votor activation) is still on track for ~Oct 21 per multiple outlets and its $98 stop hasn't been hit, so continuing to hold through the event as planned. AVAX's Sept 22 RWA Hub/Helicon catalyst has no new news and its 4-6 week reassessment window (22 days in) hasn't elapsed, so no action. NEAR, TRX and UNI7083 were the only names with positive mom12_1, but NEAR's rally has reversed hard (-14.6% 5d) alongside an Oct 1 hack headline, and TRX's/UNI's only recent news is stale (mid-August) - not worth chasing given the standing lesson about weighing broad market direction over a single-asset story. Holding; no trades this session. Growth/core unchanged at SOL 7.0% + AVAX 2.5% of NAV, both growth, well within the 35-65% band and no core exposure.",
+  "lastUpdated": "2026-10-16T20:12:46Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 105.67,
+    "lastPrice": 103.52,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.289,
+    "lastPrice": 10.0,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81952.41
+   "lastPrice": 81540.08
   },
   "cashFreed": "2026-10-03"
  },
@@ -308,12 +308,12 @@
   },
   {
    "date": "2026-10-16",
-   "nav": 6740.4,
+   "nav": 6705.08,
    "cash": 1957.76,
-   "positionsValue": 4782.64,
-   "benchmarkNav": 6820.28,
-   "benchmarkClose": 81952.41,
-   "growthValue": 649.16,
+   "positionsValue": 4747.31,
+   "benchmarkNav": 6785.96,
+   "benchmarkClose": 81540.08,
+   "growthValue": 634.63,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -976,7 +976,7 @@
   },
   {
    "date": "2026-10-16",
-   "rank": 41
+   "rank": 49
   }
  ]
 }
