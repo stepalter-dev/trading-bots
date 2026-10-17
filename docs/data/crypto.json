@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Confirmed SOL's Alpenglow/Votor consensus switch is scheduled for Oct 21 ~15:00 UTC (4 days out, multiple sources agree) and its $98 stop hasn't been hit, so continuing to hold through the event per the existing plan rather than selling early or adding risk ahead of it. AVAX has no new RWA Hub/Helicon news and is only 23 of the required 28-42 days into its reassessment window, so no action there either. Checked momentum leaders NEAR, TRX and UNI7083 (all recently-exited names) for a fresh catalyst to re-enter on, but found nothing dated to this window beyond already-priced-in news (NEAR's ETF/Venice AI integration, a Dec-2025 Uniswap fee-switch vote) - not enough to justify fighting the broad risk-off tape (BTC -2.6% 5d, most alts -5% to -11%). No trades this session; both active positions are growth-bucket (0% core), which is outside the 35-65% band, but with no genuine core catalyst found either, forcing a rebalance now would just add churn costs.",
-  "lastUpdated": "2026-10-17T02:12:13Z",
+  "lastRunNotes": "No fresh catalyst: SOL's Alpenglow/Votor mainnet activation is confirmed for Oct 21 15:00 UTC but hasn't happened yet and the $98 stop hasn't been hit, so continuing to hold through the event per the existing plan. AVAX still has no new RWA Hub/Helicon news and is only 23 of 28-42 days into its reassessment window. No watchlist ticker shows elevated volume (all vol_x well under 1.5x) and the Coinbase app-rank signal actually slipped (36->50), i.e. cooling retail attention, not a buy signal, so no new growth or core swing trades this session. Sleeve is 100% growth / 0% core versus the 35-65% band, but the rules call for rebalancing only on a genuine catalyst, not just to hit a ratio, and none was found today.",
+  "lastUpdated": "2026-10-17T08:11:54Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 104.68,
+    "lastPrice": 104.89,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.974,
+    "lastPrice": 10.013,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81545.86
+   "lastPrice": 81608.03
   },
   "cashFreed": "2026-10-03"
  },
@@ -319,12 +319,12 @@
   },
   {
    "date": "2026-10-17",
-   "nav": 6710.19,
+   "nav": 6714.93,
    "cash": 1957.76,
-   "positionsValue": 4752.43,
-   "benchmarkNav": 6786.44,
-   "benchmarkClose": 81545.86,
-   "growthValue": 639.46,
+   "positionsValue": 4757.16,
+   "benchmarkNav": 6791.61,
+   "benchmarkClose": 81608.03,
+   "growthValue": 641.06,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -991,7 +991,7 @@
   },
   {
    "date": "2026-10-17",
-   "rank": 52
+   "rank": 50
   }
  ]
 }
