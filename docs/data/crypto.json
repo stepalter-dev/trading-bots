@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off continues across the whole watchlist (BTC dominance holding near 59-60%, nearly every altcoin down 4-14% over 5 days) and no candidate had a confirmed, dated catalyst strong enough to justify fighting that tape. Held SOL's Alpenglow mainnet catalyst (Votor activation) is still on track for ~Oct 21 per multiple outlets and its $98 stop hasn't been hit, so continuing to hold through the event as planned. AVAX's Sept 22 RWA Hub/Helicon catalyst has no new news and its 4-6 week reassessment window (22 days in) hasn't elapsed, so no action. NEAR, TRX and UNI7083 were the only names with positive mom12_1, but NEAR's rally has reversed hard (-14.6% 5d) alongside an Oct 1 hack headline, and TRX's/UNI's only recent news is stale (mid-August) - not worth chasing given the standing lesson about weighing broad market direction over a single-asset story. Holding; no trades this session. Growth/core unchanged at SOL 7.0% + AVAX 2.5% of NAV, both growth, well within the 35-65% band and no core exposure.",
-  "lastUpdated": "2026-10-16T20:12:46Z",
+  "lastRunNotes": "Confirmed SOL's Alpenglow/Votor consensus switch is scheduled for Oct 21 ~15:00 UTC (4 days out, multiple sources agree) and its $98 stop hasn't been hit, so continuing to hold through the event per the existing plan rather than selling early or adding risk ahead of it. AVAX has no new RWA Hub/Helicon news and is only 23 of the required 28-42 days into its reassessment window, so no action there either. Checked momentum leaders NEAR, TRX and UNI7083 (all recently-exited names) for a fresh catalyst to re-enter on, but found nothing dated to this window beyond already-priced-in news (NEAR's ETF/Venice AI integration, a Dec-2025 Uniswap fee-switch vote) - not enough to justify fighting the broad risk-off tape (BTC -2.6% 5d, most alts -5% to -11%). No trades this session; both active positions are growth-bucket (0% core), which is outside the 35-65% band, but with no genuine core catalyst found either, forcing a rebalance now would just add churn costs.",
+  "lastUpdated": "2026-10-17T02:12:13Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 103.52,
+    "lastPrice": 104.68,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 10.0,
+    "lastPrice": 9.974,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81540.08
+   "lastPrice": 81545.86
   },
   "cashFreed": "2026-10-03"
  },
@@ -314,6 +314,17 @@
    "benchmarkNav": 6785.96,
    "benchmarkClose": 81540.08,
    "growthValue": 634.63,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-17",
+   "nav": 6710.19,
+   "cash": 1957.76,
+   "positionsValue": 4752.43,
+   "benchmarkNav": 6786.44,
+   "benchmarkClose": 81545.86,
+   "growthValue": 639.46,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -977,6 +988,10 @@
   {
    "date": "2026-10-16",
    "rank": 49
+  },
+  {
+   "date": "2026-10-17",
+   "rank": 52
   }
  ]
 }
