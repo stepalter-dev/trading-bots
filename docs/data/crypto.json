@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh catalyst anywhere: SOL's Alpenglow/Votor mainnet switch is still confirmed for Oct 21 ~15:00 UTC (unchanged from last check, 4 days out) with the $98 stop not hit, so continuing to hold through the event. AVAX still has no new RWA Hub/Helicon news and is only 23 of 28-42 days into its reassessment window. Broad market is soft (BTC -0.16%, most alts down on the day/week) with no watchlist ticker showing elevated volume and Coinbase app rank continuing to slip (36->48), i.e. cooling retail attention, not a buy signal - no new growth or core swing trades this session.",
-  "lastUpdated": "2026-10-17T14:12:14Z",
+  "lastRunNotes": "No fresh, volume-confirmed catalyst found anywhere on the watchlist this session. SOL's Alpenglow/Votor mainnet switch is still confirmed for Oct 21 ~15:00 UTC (3-4 days out), price $103.92 well above the $98 stop, so continuing to hold through the event. AVAX has no new RWA Hub/Helicon news since September and is only 23 of 28-42 days into its reassessment window, so holding unchanged. NEAR and UNI7083 show the strongest trailing 12-1m momentum on the list, but both are down today, 5d momentum is weak-to-negative, and vol_x is below 0.5x (no volume confirmation) amid a broader altcoin risk-off mood tied to a hot US CPI print reviving rate-hike fears, so no fresh catalyst to act on. No new swing trades; active sleeve stays 100% growth (SOL+AVAX), no core positions, well within cash/position limits.",
+  "lastUpdated": "2026-10-17T20:12:12Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 103.85,
+    "lastPrice": 104.0,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.851,
+    "lastPrice": 9.891,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81381.73
+   "lastPrice": 81514.74
   },
   "cashFreed": "2026-10-03"
  },
@@ -319,12 +319,12 @@
   },
   {
    "date": "2026-10-17",
-   "nav": 6696.12,
+   "nav": 6704.17,
    "cash": 1957.76,
-   "positionsValue": 4738.36,
-   "benchmarkNav": 6772.78,
-   "benchmarkClose": 81381.73,
-   "growthValue": 633.66,
+   "positionsValue": 4746.41,
+   "benchmarkNav": 6783.85,
+   "benchmarkClose": 81514.74,
+   "growthValue": 635.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -991,7 +991,7 @@
   },
   {
    "date": "2026-10-17",
-   "rank": 48
+   "rank": 50
   }
  ]
 }
