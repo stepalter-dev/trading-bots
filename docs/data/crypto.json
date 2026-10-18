@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, volume-confirmed catalyst on the watchlist this session. SOL's Alpenglow/Votor mainnet switch remains confirmed for Oct 21 ~15:00 UTC (3 days out); price $103.18 is still comfortably above the $98 stop, so continuing to hold through the event unchanged. AVAX has no new Helicon/RWA Hub news since September; holding unchanged with its existing plan. NEAR and UNI top the momentum rankings but their rallies reflect already-known catalysts (NEAR Intents/Bitwise ETF; general DeFi strength) and both show below-average volume (vol_x ~0.5-0.6), so the move looks priced in rather than a fresh signal, with NEAR also carrying an unresolved Oct 1 ~$3.8M security-incident overhang. Active sleeve remains 100% growth (SOL+AVAX, ~9.4% of NAV), no core swing - holding, no trades this session.",
-  "lastUpdated": "2026-10-18T08:12:24Z",
+  "lastRunNotes": "No fresh, volume-confirmed catalyst this session. SOL's Alpenglow/Votor mainnet switch is confirmed for Oct 21 ~15:00 UTC (3 days out) and remains fully anticipated/priced in (SIMD-0326 passed over a year ago); holding through it unchanged, price $102.40 still above the $98 stop. AVAX has no new Helicon/RWA Hub developments since September; holding unchanged. The rest of the watchlist is drifting down 4-9% over 5 days but on below-average volume (vol_x 0.3-0.8 across the board) with no specific news behind it, so it reads as broad quiet risk-off rather than a tradeable signal. Active sleeve stays growth-only (SOL+AVAX, ~9.4% of NAV) with no core exposure, but no genuine catalyst justifies forcing a rebalance.",
+  "lastUpdated": "2026-10-18T14:12:14Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 103.11,
+    "lastPrice": 102.33,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.777,
+    "lastPrice": 9.582,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81561.11
+   "lastPrice": 81153.32
   },
   "cashFreed": "2026-10-03"
  },
@@ -330,12 +330,12 @@
   },
   {
    "date": "2026-10-18",
-   "nav": 6700.59,
+   "nav": 6673.26,
    "cash": 1957.76,
-   "positionsValue": 4742.82,
-   "benchmarkNav": 6787.71,
-   "benchmarkClose": 81561.11,
-   "growthValue": 629.08,
+   "positionsValue": 4715.49,
+   "benchmarkNav": 6753.77,
+   "benchmarkClose": 81153.32,
+   "growthValue": 622.32,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
