@@ -1,6 +1,6 @@
 {
  "state": {
-  "cash": 9545.0,
+  "cash": 9392.0,
   "startingCash": 10000.0,
   "holdings": {
    "yc-lyon": {
@@ -26,7 +26,7 @@
     "thesis": "Trains proprietary foundation models directly on a customer's own transaction/event data (28B transactions for one fintech, plus a major insurer pilot), beating rules-based baselines 4x on premium-card conversion. Small team but real enterprise traction is a strong early signal in a crowded vertical-AI space.",
     "pRaise12m": 0.55,
     "pAlive12m": 0.85,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "yc-herdr": {
     "id": "yc-herdr",
@@ -51,7 +51,7 @@
     "thesis": "Open agent runtime with genuine bottom-up adoption (25k GitHub stars, 340k downloads, 500+ community plugins) and already closed a $6M seed led by Bessemer with a strong angel syndicate. Infra bet on agent fleets becoming standard dev workflow; main risk is monetizing an OSS-first project against well-funded competitors.",
     "pRaise12m": 0.45,
     "pAlive12m": 0.88,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "yc-useforward": {
     "id": "yc-useforward",
@@ -76,7 +76,7 @@
     "thesis": "Agentic matching between borrowers and private-credit funds, built by founders with direct deal-diligence experience ($1B+) and a 5-person team already shipping. Real workflow pain point in an underdigitized market, but conservative buyers and long enterprise sales cycles are a risk.",
     "pRaise12m": 0.35,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "hn-49833867": {
     "id": "hn-49833867",
@@ -101,7 +101,7 @@
     "thesis": "Open-source IDE (YC W26) that lets coding agents draw architecture/sequence diagrams of their own changes for review - a timely wedge as teams struggle to review AI-generated code. Strong Show HN reception (415 points) and built on VS Code/CodeOSS for fast distribution, though it competes for attention in a busy devtools category.",
     "pRaise12m": 0.4,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "yc-agent-relay": {
     "id": "yc-agent-relay",
@@ -126,7 +126,7 @@
     "thesis": "Messaging/infra layer for coordinating fleets of coding agents, already open-source with real GitHub adoption and a public enterprise partnership (Coder) covered by GlobeNewswire. Agent-orchestration infra is a hot, well-funded category and this team already has a distribution channel through Coder.",
     "pRaise12m": 0.45,
     "pAlive12m": 0.85,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "yc-rystic": {
     "id": "yc-rystic",
@@ -151,7 +151,7 @@
     "thesis": "Local, stateful simulators of third-party APIs (Stripe, GitHub, Slack, Kalshi, etc.) for testing and training agents without hitting production services. Narrow but real pain point for every team building agents; named integrations suggest actual usage rather than a toy demo.",
     "pRaise12m": 0.3,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "yc-talos-us": {
     "id": "yc-talos-us",
@@ -176,7 +176,7 @@
     "thesis": "Predictive maintenance hardware/software for large power transformers, a capital-intensive but high-value market (grid operators pay dearly to avoid unplanned outages). Hardware/enterprise sales cycles are slower, which tempers near-term funding odds, but the problem is real and durable.",
     "pRaise12m": 0.25,
     "pAlive12m": 0.7,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "yc-veltha": {
     "id": "yc-veltha",
@@ -201,7 +201,7 @@
     "thesis": "AI-native TPA for workers' comp claims, founded by two ex-Palantir engineers with deployment experience at large institutions. Regulated-insurance niche has real budget and the team pedigree suggests it can navigate the compliance-heavy sales cycle.",
     "pRaise12m": 0.4,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "yc-hopper": {
     "id": "yc-hopper",
@@ -226,7 +226,7 @@
     "thesis": "Trains speech models on a customer's own production call data for fast, specialized voice inference. Multiple open senior full-stack/voice-infra roles across job boards suggest real funded hiring and early customer traction.",
     "pRaise12m": 0.35,
     "pAlive12m": 0.7,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "yc-tilion": {
     "id": "yc-tilion",
@@ -251,7 +251,7 @@
     "thesis": "Recompiled Chromium ('Fortress') for undetectable agent browsing, with a shipped PyPI package and MCP server already in beta use. Crowded space (Kernel, Browserbase, Browser Use) keeps odds modest, but agent browser infra is a real and growing need.",
     "pRaise12m": 0.25,
     "pAlive12m": 0.55,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "yc-tire-swing": {
     "id": "yc-tire-swing",
@@ -276,7 +276,7 @@
     "thesis": "AI eligibility/compliance automation for affordable-housing operators (LIHTC, Section 8 recertification), positioned as a drop-in replacement for compliance consultants. Niche but sticky government-adjacent recurring revenue with a cybersecurity-background CEO.",
     "pRaise12m": 0.3,
     "pAlive12m": 0.65,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
    },
    "yc-ufoai": {
     "id": "yc-ufoai",
@@ -301,7 +301,132 @@
     "thesis": "Open-source agent platform reachable via Slack/iMessage/terminal, positioned as team-wide agent infrastructure. Two-person team in an already crowded 'agent OS' category makes this the most speculative of this week's picks.",
     "pRaise12m": 0.2,
     "pAlive12m": 0.5,
-    "lastChecked": "2026-10-12"
+    "lastChecked": "2026-10-19"
+   },
+   "yc-keres": {
+    "id": "yc-keres",
+    "name": "Keres",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/keres",
+    "website": "https://www.keresaero.com/",
+    "oneLiner": "Kill the drone, keep the jet. Reusable unmanned interceptors.",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/keres.json",
+    "teamSizeAtEntry": 3,
+    "investedDate": "2026-10-19",
+    "tranches": [
+     {
+      "amount": 40.0,
+      "valuation": 18000000.0,
+      "date": "2026-10-19"
+     }
+    ],
+    "entryValuation": 18000000.0,
+    "markValuation": 18000000.0,
+    "status": "active",
+    "thesis": "Reusable, jet-class drone/cruise-missile interceptor aimed at the fast-growing counter-UAS market, positioned as a cheaper alternative to million-dollar missiles (cf. Anduril Roadrunner, Army Coyote). Already shows ~$125K raised pre-YC and a 3-person team; defense-tech capital is flowing freely in 2026, giving it a credible shot at a priced seed round.",
+    "pRaise12m": 0.35,
+    "pAlive12m": 0.8,
+    "lastChecked": "2026-10-19"
+   },
+   "yc-grep-ai": {
+    "id": "yc-grep-ai",
+    "name": "Grep AI",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/grep-ai",
+    "website": "https://grep.ai",
+    "oneLiner": "Self-improving agents that automate tedious operational work",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/grep-ai.json",
+    "teamSizeAtEntry": 6,
+    "investedDate": "2026-10-19",
+    "tranches": [
+     {
+      "amount": 35.0,
+      "valuation": 25000000.0,
+      "date": "2026-10-19"
+     }
+    ],
+    "entryValuation": 25000000.0,
+    "markValuation": 25000000.0,
+    "status": "active",
+    "thesis": "Builds 'self-improving' agents that convert repetitive ops work into code and save frontier-model reasoning for exceptions, with a named live customer (IG, a UK brokerage, using it for compliance-alert review). A 6-person team and a concrete enterprise logo at this stage is unusually strong traction for a YC F26 candidate, de-risking the next raise.",
+    "pRaise12m": 0.45,
+    "pAlive12m": 0.85,
+    "lastChecked": "2026-10-19"
+   },
+   "yc-orca-aerospace": {
+    "id": "yc-orca-aerospace",
+    "name": "Orca Aerospace",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/orca-aerospace",
+    "website": "https://orcaaerospace.com/",
+    "oneLiner": "AI spacecraft operators that lives onboard the vehicle",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/orca-aerospace.json",
+    "teamSizeAtEntry": 5,
+    "investedDate": "2026-10-19",
+    "tranches": [
+     {
+      "amount": 30.0,
+      "valuation": 18000000.0,
+      "date": "2026-10-19"
+     }
+    ],
+    "entryValuation": 18000000.0,
+    "markValuation": 18000000.0,
+    "status": "active",
+    "thesis": "Onboard AI 'operators' that let satellites make mission decisions autonomously instead of relying on ground control, sold to spacecraft manufacturers/operators. Good timing as satellite constellations scale and ground-ops costs become the bottleneck; 5-person team is relatively large for this stage, suggesting real buildout already underway.",
+    "pRaise12m": 0.25,
+    "pAlive12m": 0.75,
+    "lastChecked": "2026-10-19"
+   },
+   "yc-archangel-health": {
+    "id": "yc-archangel-health",
+    "name": "Archangel Health",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/archangel-health",
+    "website": "https://www.archangelhealth.ai/",
+    "oneLiner": "Infra to make AI safe enough to practice medicine",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/archangel-health.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-10-19",
+    "tranches": [
+     {
+      "amount": 28.0,
+      "valuation": 15000000.0,
+      "date": "2026-10-19"
+     }
+    ],
+    "entryValuation": 15000000.0,
+    "markValuation": 15000000.0,
+    "status": "active",
+    "thesis": "Sources and de-identifies physician-graded clinical data to license to medical-AI developers, and helps health systems post-train models on their own data under HIPAA. Addresses the real scarcity of high-quality labeled clinical data for medical AI, but as a 2-person team it needs to land data-licensing customers quickly to prove the model.",
+    "pRaise12m": 0.3,
+    "pAlive12m": 0.7,
+    "lastChecked": "2026-10-19"
+   },
+   "yc-deploy": {
+    "id": "yc-deploy",
+    "name": "Deploy",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/deploy",
+    "website": "https://deployrobotics.co/",
+    "oneLiner": "The generalist robot deployment company.",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/deploy.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-10-19",
+    "tranches": [
+     {
+      "amount": 20.0,
+      "valuation": 15000000.0,
+      "date": "2026-10-19"
+     }
+    ],
+    "entryValuation": 15000000.0,
+    "markValuation": 15000000.0,
+    "status": "active",
+    "thesis": "Robotics-as-a-service deployment layer that lets customers pay for robot labor as an opex line rather than buying hardware, hardware-agnostic across robot makers. Timely wedge (robotics deployment is genuinely underserved) but thin team of two and a capital-intensive services model make this the most speculative pick this week; sized as the smallest cheque.",
+    "pRaise12m": 0.2,
+    "pAlive12m": 0.6,
+    "lastChecked": "2026-10-19"
    }
   },
   "seen": [
@@ -329,6 +454,14 @@
    "hn-50024055",
    "hn-50024499",
    "hn-50038634",
+   "hn-50052251",
+   "hn-50074909",
+   "hn-50077020",
+   "hn-50092470",
+   "hn-50102247",
+   "hn-50118688",
+   "hn-50127979",
+   "hn-50137950",
    "ph-1203994",
    "ph-1238671",
    "ph-1249438",
@@ -353,22 +486,41 @@
    "ph-1273845",
    "ph-1275171",
    "ph-1275794",
+   "ph-1276034",
+   "ph-1276094",
+   "ph-1278100",
+   "ph-1278287",
+   "ph-1281580",
+   "ph-1282872",
+   "ph-1282905",
+   "ph-1283357",
    "yc-agent-relay",
    "yc-antimattr",
+   "yc-archangel-health",
    "yc-aviern",
    "yc-capveon",
    "yc-cyclon",
    "yc-deepmark",
+   "yc-deploy",
+   "yc-dydema",
+   "yc-grep-ai",
    "yc-habu",
    "yc-herdr",
    "yc-hopper",
    "yc-hue",
+   "yc-ignition-benefits",
+   "yc-inflection-space-systems",
+   "yc-keres",
+   "yc-lantern-ai",
    "yc-linklane",
    "yc-lyon",
    "yc-munito-ai",
+   "yc-neomatter",
    "yc-open-actuation",
    "yc-openhack",
+   "yc-orca-aerospace",
    "yc-pendulum-robotics",
+   "yc-petrichor",
    "yc-petrichor-bio",
    "yc-ploid",
    "yc-ratlog",
@@ -388,10 +540,11 @@
    "yc-ufoai",
    "yc-useforward",
    "yc-veltha",
-   "yc-vexo"
+   "yc-vexo",
+   "yc-vyra"
   ],
-  "lastUpdated": "2026-10-12T00:13:32Z",
-  "lastRunNotes": "Checked all 7 holdings (Lyon, herdr, Forward, Whiteboard, Agent Relay, Rystic, Talos) for news since 2026-10-05; found no verified raises, shutdowns, or acquisitions for any, just a weak 'joining YC' aggregator post for herdr that isn't a new funding event. Researched the 28 new candidates and backed 5 from the YC Fall 2026 list, favoring teams with real signal over hype: Veltha (ex-Palantir founders, enterprise insurtech niche with press coverage), Hopper (aggressively hiring senior voice-infra engineers, suggesting funded traction), Tilion (shipped product with real downloads in a crowded browser-infra-for-agents space), Tire Swing (proven affordable-housing compliance niche, though batch label is ambiguous in press), and UFO.ai (open-source agent platform, earliest-stage and most speculative of the five). Show HN and Product Hunt candidates this week looked like novelty/hobby projects without durable business theses, so skipped them."
+  "lastUpdated": "2026-10-19T00:13:01Z",
+  "lastRunNotes": "Checked all 12 holdings for news; nothing beyond the original YC/Show HN coverage turned up for any of them, so no updates and all are marked checked. Researched ~12 of this week's 28 candidates (web search on product, team, traction, funding). Backed five from the CANDIDATES list: Keres (reusable drone/cruise-missile interceptor, already shows $125K raised pre-YC, strong hard-tech thesis in a hot counter-UAS market), Grep AI (self-improving ops agents with a named enterprise customer, IG, claiming real automation hours saved), Orca Aerospace (onboard autonomous satellite operators, timely given the growing constellation market), Archangel Health (physician-graded clinical data licensing infra for medical AI, HIPAA-compliant data marketplace), and Deploy (robotics-as-a-service deployment layer, smallest/most speculative of the five, team of two). Skipped several candidates (Neomatter, Petrichor, Dydema, Bee Frontier/Eclipse) for lack of verifiable information or, in Bee's case, because it's an Amazon hardware product, not an independent investable startup."
  },
  "nav_history": [
   {
@@ -414,6 +567,13 @@
    "cash": 9545.0,
    "holdingsValue": 455.0,
    "deployed": 455.0
+  },
+  {
+   "date": "2026-10-19",
+   "nav": 10000.0,
+   "cash": 9392.0,
+   "holdingsValue": 608.0,
+   "deployed": 608.0
   }
  ],
  "deals": [
@@ -572,6 +732,71 @@
    "pAlive12m": 0.5,
    "thesis": "Open-source agent platform reachable via Slack/iMessage/terminal, positioned as team-wide agent infrastructure. Two-person team in an already crowded 'agent OS' category makes this the most speculative of this week's picks.",
    "url": "https://www.ycombinator.com/companies/ufoai"
+  },
+  {
+   "type": "invest",
+   "id": "yc-keres",
+   "name": "Keres",
+   "source": "YC Fall 2026",
+   "date": "2026-10-19T00:13:01Z",
+   "amount": 40.0,
+   "valuation": 18000000.0,
+   "pRaise12m": 0.35,
+   "pAlive12m": 0.8,
+   "thesis": "Reusable, jet-class drone/cruise-missile interceptor aimed at the fast-growing counter-UAS market, positioned as a cheaper alternative to million-dollar missiles (cf. Anduril Roadrunner, Army Coyote). Already shows ~$125K raised pre-YC and a 3-person team; defense-tech capital is flowing freely in 2026, giving it a credible shot at a priced seed round.",
+   "url": "https://www.ycombinator.com/companies/keres"
+  },
+  {
+   "type": "invest",
+   "id": "yc-grep-ai",
+   "name": "Grep AI",
+   "source": "YC Fall 2026",
+   "date": "2026-10-19T00:13:01Z",
+   "amount": 35.0,
+   "valuation": 25000000.0,
+   "pRaise12m": 0.45,
+   "pAlive12m": 0.85,
+   "thesis": "Builds 'self-improving' agents that convert repetitive ops work into code and save frontier-model reasoning for exceptions, with a named live customer (IG, a UK brokerage, using it for compliance-alert review). A 6-person team and a concrete enterprise logo at this stage is unusually strong traction for a YC F26 candidate, de-risking the next raise.",
+   "url": "https://www.ycombinator.com/companies/grep-ai"
+  },
+  {
+   "type": "invest",
+   "id": "yc-orca-aerospace",
+   "name": "Orca Aerospace",
+   "source": "YC Fall 2026",
+   "date": "2026-10-19T00:13:01Z",
+   "amount": 30.0,
+   "valuation": 18000000.0,
+   "pRaise12m": 0.25,
+   "pAlive12m": 0.75,
+   "thesis": "Onboard AI 'operators' that let satellites make mission decisions autonomously instead of relying on ground control, sold to spacecraft manufacturers/operators. Good timing as satellite constellations scale and ground-ops costs become the bottleneck; 5-person team is relatively large for this stage, suggesting real buildout already underway.",
+   "url": "https://www.ycombinator.com/companies/orca-aerospace"
+  },
+  {
+   "type": "invest",
+   "id": "yc-archangel-health",
+   "name": "Archangel Health",
+   "source": "YC Fall 2026",
+   "date": "2026-10-19T00:13:01Z",
+   "amount": 28.0,
+   "valuation": 15000000.0,
+   "pRaise12m": 0.3,
+   "pAlive12m": 0.7,
+   "thesis": "Sources and de-identifies physician-graded clinical data to license to medical-AI developers, and helps health systems post-train models on their own data under HIPAA. Addresses the real scarcity of high-quality labeled clinical data for medical AI, but as a 2-person team it needs to land data-licensing customers quickly to prove the model.",
+   "url": "https://www.ycombinator.com/companies/archangel-health"
+  },
+  {
+   "type": "invest",
+   "id": "yc-deploy",
+   "name": "Deploy",
+   "source": "YC Fall 2026",
+   "date": "2026-10-19T00:13:01Z",
+   "amount": 20.0,
+   "valuation": 15000000.0,
+   "pRaise12m": 0.2,
+   "pAlive12m": 0.6,
+   "thesis": "Robotics-as-a-service deployment layer that lets customers pay for robot labor as an opex line rather than buying hardware, hardware-agnostic across robot makers. Timely wedge (robotics deployment is genuinely underserved) but thin team of two and a capital-intensive services model make this the most speculative pick this week; sized as the smallest cheque.",
+   "url": "https://www.ycombinator.com/companies/deploy"
   }
  ],
  "forecasts": [
@@ -765,6 +990,86 @@
    "prob": 0.5,
    "made": "2026-10-12",
    "due": "2027-10-12",
+   "outcome": null
+  },
+  {
+   "id": "yc-keres",
+   "event": "raise_12m",
+   "prob": 0.35,
+   "made": "2026-10-19",
+   "due": "2027-10-19",
+   "outcome": null
+  },
+  {
+   "id": "yc-keres",
+   "event": "alive_12m",
+   "prob": 0.8,
+   "made": "2026-10-19",
+   "due": "2027-10-19",
+   "outcome": null
+  },
+  {
+   "id": "yc-grep-ai",
+   "event": "raise_12m",
+   "prob": 0.45,
+   "made": "2026-10-19",
+   "due": "2027-10-19",
+   "outcome": null
+  },
+  {
+   "id": "yc-grep-ai",
+   "event": "alive_12m",
+   "prob": 0.85,
+   "made": "2026-10-19",
+   "due": "2027-10-19",
+   "outcome": null
+  },
+  {
+   "id": "yc-orca-aerospace",
+   "event": "raise_12m",
+   "prob": 0.25,
+   "made": "2026-10-19",
+   "due": "2027-10-19",
+   "outcome": null
+  },
+  {
+   "id": "yc-orca-aerospace",
+   "event": "alive_12m",
+   "prob": 0.75,
+   "made": "2026-10-19",
+   "due": "2027-10-19",
+   "outcome": null
+  },
+  {
+   "id": "yc-archangel-health",
+   "event": "raise_12m",
+   "prob": 0.3,
+   "made": "2026-10-19",
+   "due": "2027-10-19",
+   "outcome": null
+  },
+  {
+   "id": "yc-archangel-health",
+   "event": "alive_12m",
+   "prob": 0.7,
+   "made": "2026-10-19",
+   "due": "2027-10-19",
+   "outcome": null
+  },
+  {
+   "id": "yc-deploy",
+   "event": "raise_12m",
+   "prob": 0.2,
+   "made": "2026-10-19",
+   "due": "2027-10-19",
+   "outcome": null
+  },
+  {
+   "id": "yc-deploy",
+   "event": "alive_12m",
+   "prob": 0.6,
+   "made": "2026-10-19",
+   "due": "2027-10-19",
    "outcome": null
   }
  ]
