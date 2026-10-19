@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked SOL's Alpenglow mainnet upgrade (confirmed for Oct 21, two days out) and AVAX's RWA Hub/DeFi TVL thesis; neither has fresh volume-confirmed news and SOL's vol_x (0.96) is unremarkable for an upgrade this well-telegraphed, so no action on either held position - both already have target/stop/prob plans in place. Scanned today's movers (ATOM +3.3% on vol_x 0.46, NEAR's big prior rally with no new catalyst and below-average volume, UNI7083's CME-futures story still stale) and found no fresh, volume-confirmed catalyst clearing the cost hurdle. Holding: growth sleeve (SOL+AVAX) stays at ~9.4% of NAV, well under any rebalancing need, cash remains above the 5% floor.",
-  "lastUpdated": "2026-10-19T14:12:48Z",
+  "lastRunNotes": "Checked NEAR (strong 12mo momentum, ETF/Intents growth, but no fresh news and vol_x 0.77 below average), UNI7083 (CME futures launch is today but this was already flagged as stale/priced-in last session, price has been falling since the Sept 22 announcement, vol_x only 0.82), SOL's Alpenglow upgrade (confirmed Oct 21, well-telegraphed, vol_x 1.03 unremarkable) and AVAX (no new October news found). No name on the watchlist shows a fresh, volume-confirmed catalyst clearing the ~0.72% round-trip cost hurdle, so holding with no new trades. Growth sleeve (SOL+AVAX) stays at ~9.4% of NAV; both held positions already have target/stop/prob plans in place from prior sessions.",
+  "lastUpdated": "2026-10-19T20:11:58Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 103.65,
+    "lastPrice": 104.17,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.588,
+    "lastPrice": 9.539,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81841.12
+   "lastPrice": 81855.61
   },
   "cashFreed": "2026-10-03"
  },
@@ -341,12 +341,12 @@
   },
   {
    "date": "2026-10-19",
-   "nav": 6714.03,
+   "nav": 6716.3,
    "cash": 1957.76,
-   "positionsValue": 4756.26,
-   "benchmarkNav": 6811.0,
-   "benchmarkClose": 81841.12,
-   "growthValue": 628.4,
+   "positionsValue": 4758.54,
+   "benchmarkNav": 6812.21,
+   "benchmarkClose": 81855.61,
+   "growthValue": 629.95,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1021,7 +1021,7 @@
   },
   {
    "date": "2026-10-19",
-   "rank": 36
+   "rank": 35
   }
  ]
 }
