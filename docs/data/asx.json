@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and today's movers (NXT +3.6% on low vol_x 1.03, CPU, banks, energy) for fresh dated catalysts; found none - CBA card-fee reform and Telstra AGM are already known/priced, PME/NXT coverage is stale. Growth/core split stays ~38%/62%, inside band. Holding unchanged, no new trades this session.",
-  "lastUpdated": "2026-10-19T01:11:59Z",
+  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and today's biggest movers (NXT +3.6% trend DOWN, WDS +2.5%, STO +2.3%) for fresh dated catalysts; found none - Telstra's AGM and outage review, CBA's card-fee reform, and PME's FY26 results are all already known/priced, and WDS/STO volume is below average (vol_x <1) rather than a signal. Growth/core split stays ~38%/62% of active sleeve, inside the 35-65% band. Holding unchanged, no new trades this session.",
+  "lastUpdated": "2026-10-19T03:11:52Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 155.26,
+    "lastPrice": 154.995,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 172.81,
+    "lastPrice": 178.55,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.765,
+    "lastPrice": 4.755,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.82
+   "lastPrice": 78.8
   },
   "cashFreed": "2026-10-05"
  },
@@ -300,13 +300,13 @@
   },
   {
    "date": "2026-10-19",
-   "nav": 9970.61,
+   "nav": 9998.38,
    "cash": 1470.49,
-   "positionsValue": 8500.13,
-   "benchmarkNav": 9987.33,
-   "benchmarkClose": 78.82,
-   "growthValue": 970.29,
-   "coreValue": 1585.64,
+   "positionsValue": 8527.9,
+   "benchmarkNav": 9984.8,
+   "benchmarkClose": 78.8,
+   "growthValue": 1002.51,
+   "coreValue": 1582.69,
    "daytradeValue": 0.0
   }
  ],
