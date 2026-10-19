@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, dated, company-specific catalyst found for CBA, PME, or TLS, nor for today's biggest watchlist movers (PME, BHP, WiseTech/Xero coverage was stale or generic, no verifiable Oct 16 news). BHP's copper/iron-ore story is structural, not a today-dated catalyst, and its volume isn't unusual (vol_x 0.98). WTC/XRO/REA/CAR are trend-DOWN and unbuyable regardless of moves. All three holdings remain between stop and target with theses intact; growth/core split stays within band (PME ~38% growth vs CBA+TLS ~62% core of active sleeve). Holding unchanged, no new trades this session.",
-  "lastUpdated": "2026-10-16T04:11:58Z",
+  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and today's biggest watchlist movers (bank sector, WDS, STO, CPU) for fresh dated catalysts; found none - bank gains and energy strength look sector-wide/macro, not stock-specific news, and PME/TLS coverage is stale (FY26 results and AGM already priced in). Growth/core split within active sleeve stays near 38%/62%, inside band. Holding unchanged, no new trades this session.",
+  "lastUpdated": "2026-10-19T00:13:32Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 155.17,
+    "lastPrice": 156.53,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 174.8,
+    "lastPrice": 172.34,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.74,
+    "lastPrice": 4.76,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.74
+   "lastPrice": 79.02
   },
   "cashFreed": "2026-10-05"
  },
@@ -296,6 +296,17 @@
    "benchmarkClose": 78.74,
    "growthValue": 981.46,
    "coreValue": 1581.8,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-19",
+   "nav": 9990.24,
+   "cash": 1470.49,
+   "positionsValue": 8519.76,
+   "benchmarkNav": 10012.67,
+   "benchmarkClose": 79.02,
+   "growthValue": 967.65,
+   "coreValue": 1592.83,
    "daytradeValue": 0.0
   }
  ],
