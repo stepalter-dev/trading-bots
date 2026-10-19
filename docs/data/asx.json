@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and today's biggest movers (NXT +3.6% trend DOWN, WDS +2.5%, STO +2.3%) for fresh dated catalysts; found none - Telstra's AGM and outage review, CBA's card-fee reform, and PME's FY26 results are all already known/priced, and WDS/STO volume is below average (vol_x <1) rather than a signal. Growth/core split stays ~38%/62% of active sleeve, inside the 35-65% band. Holding unchanged, no new trades this session.",
-  "lastUpdated": "2026-10-19T03:11:52Z",
+  "lastRunNotes": "Reviewed held positions (CBA, PME, TLS; all held 31 days, sellable) and the watchlist's strongest momentum/uptrend names (WDS, STO, BHP, WOW, QBE, CPU, TNE) for fresh dated catalysts. Found none: PME's gain reflects already-priced August FY26 results, CBA's NSW contract thesis is unchanged, TLS's Oct 13 AGM produced no notable new information, and WDS/STO/BHP/WOW news was either stale (STO's takeover bid collapsed back in August) or absent. All today's volumes are below average (vol_x 0.2-0.8x), so no unusual-volume signal either. Growth/core split stays ~38%/62% of the active sleeve, within the 35-65% band. Holding unchanged, no new trades this session.",
+  "lastUpdated": "2026-10-19T04:12:39Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 154.995,
+    "lastPrice": 155.25,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 178.55,
+    "lastPrice": 177.28,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.755,
+    "lastPrice": 4.74,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.8
+   "lastPrice": 78.85
   },
   "cashFreed": "2026-10-05"
  },
@@ -300,13 +300,13 @@
   },
   {
    "date": "2026-10-19",
-   "nav": 9998.38,
+   "nav": 9994.63,
    "cash": 1470.49,
-   "positionsValue": 8527.9,
-   "benchmarkNav": 9984.8,
-   "benchmarkClose": 78.8,
-   "growthValue": 1002.51,
-   "coreValue": 1582.69,
+   "positionsValue": 8524.14,
+   "benchmarkNav": 9991.14,
+   "benchmarkClose": 78.85,
+   "growthValue": 995.38,
+   "coreValue": 1582.29,
    "daytradeValue": 0.0
   }
  ],
