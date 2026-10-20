@@ -21,12 +21,12 @@
   },
   "crypto": {
    "prices": {
-    "SOL-USD": 104.23,
-    "AVAX-USD": 9.481,
-    "BTC-USD": 81438.61
+    "SOL-USD": 104.36,
+    "AVAX-USD": 9.465,
+    "BTC-USD": 81496.2
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-10-20T07:33:03Z"
+ "updatedAt": "2026-10-20T13:00:01Z"
 }
