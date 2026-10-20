@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No volume-confirmed catalyst anywhere: every watchlist vol_x is still below 1.1x and BTC is only down 0.66% today, consistent with an ordinary drawdown rather than a specific event. SOL's Alpenglow upgrade goes live tomorrow (Oct 21, ~14:50 UTC) but it's long-telegraphed and vol_x is only 0.91, so it's priced in, not a fresh signal. AVAX has no new October news since the Helicon/RWA Hub story already reflected in the current plan. Held SOL (7.0% NAV) and AVAX (2.3% NAV) are both above their stops with existing plans, so holding with no new trades; growth-only active sleeve stays within band since core has no positions.",
-  "lastUpdated": "2026-10-20T08:15:34Z",
+  "lastRunNotes": "No volume-confirmed catalyst: every watchlist vol_x is still near or below 1.0x, and today's broad +1-4% move across nearly all names tracks BTC's +1.36% day rather than any asset-specific news. SOL's Alpenglow upgrade (tomorrow, Oct 21) is long-telegraphed and already priced in (vol_x 0.85); AVAX has no new October news beyond the existing Helicon/RWA Hub thesis; NEAR has strong momentum (rank 1/18) but only a stale Oct 1 security-incident headline, not a fresh trigger, so momentum alone isn't a catalyst. Holding both SOL (7.2% NAV) and AVAX (2.4% NAV), both above their stops with existing plans; growth-only active sleeve stays within band. No new trades this session.",
+  "lastUpdated": "2026-10-20T14:17:26Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 103.96,
+    "lastPrice": 107.61,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.461,
+    "lastPrice": 9.77,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81311.32
+   "lastPrice": 82939.27
   },
   "cashFreed": "2026-10-03"
  },
@@ -352,12 +352,12 @@
   },
   {
    "date": "2026-10-20",
-   "nav": 6686.61,
+   "nav": 6790.37,
    "cash": 1957.76,
-   "positionsValue": 4728.84,
-   "benchmarkNav": 6766.91,
-   "benchmarkClose": 81311.32,
-   "growthValue": 627.7,
+   "positionsValue": 4832.61,
+   "benchmarkNav": 6902.39,
+   "benchmarkClose": 82939.27,
+   "growthValue": 649.36,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -800,10 +800,11 @@
   }
  ],
  "lessons": [
-  "All 5 closed trades so far have exited via stop-loss, none hit target - before buying, check that the stop is wide enough to survive normal crypto volatility over the stated horizon, not just tight enough to pass the ref",
-  "Core-bucket (defensive) positions have a 0% win rate across 2 closed trades (avg -15.63%) vs growth's 33% - a 'defensive' label doesn't mean the position is less volatile, size and stop it like any other crypto swing.",
+  "All closed trades so far have exited via stop-loss, none hit target - before buying, check that the stop is wide enough to survive normal crypto volatility over the stated horizon, not just tight enough to pass the refer",
+  "Core-bucket (defensive) positions have a 0% win rate across 3 closed trades - a 'defensive' label doesn't mean the position is less volatile; size and stop it like any other crypto swing.",
   "A specific, volume-confirmed catalyst can still lose if a broad market risk-off follows shortly after entry - weigh the prevailing market direction (BTC trend) alongside any single-asset catalyst, not just the catalyst i",
-  "Sample is still small (5 closed trades) - keep recording observations but don't overcorrect; these are early signals, not proven rules yet."
+  "Sample is still small (6 closed trades) - keep recording observations but don't overcorrect; these are early signals, not proven rules yet.",
+  "A broad day where nearly every watchlist name moves 1-4% in the same direction with vol_x near 1.0x is market-wide beta (tracking BTC), not an asset-specific catalyst - don't mistake it for one."
  ],
  "journal": [
   {
