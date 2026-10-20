@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions (CBA, PME, TLS, all held 32 days and sellable) plus today's trend-up momentum leaders (WDS, WOW, BHP, STO, QBE, MQG) for a fresh, dated catalyst. Found none: CBA's Oct 1 card-fee reform is a known, already-priced regulatory headwind; PME and TLS have no news since their August results/AGM; WDS has a quarterly report due Oct 21 (tomorrow) but that's an upcoming event, not yet a catalyst to trade on; BHP/STO/WOW coverage is still August-reporting-season news already reflected in price, and no watchlist name shows unusual volume (vol_x all well below 1.5x). Holding everything; growth/core split unchanged at roughly even weight within band.",
-  "lastUpdated": "2026-10-20T03:12:08Z",
+  "lastRunNotes": "Checked held positions (CBA, PME, TLS, all held 32 days, sellable, none at target or stop) and today's trend-up momentum leaders (WDS, BHP, STO, WOW, QBE, CBA). Found no fresh, dated catalyst: all news is stale FY26 results/AGM/outage coverage already priced in weeks ago, STO's Oct 15 quarterly and WDS's upcoming update have no reported details yet, and no watchlist name shows unusual volume (vol_x all well below 1.5x). Holding everything; growth/core balance unchanged (PME growth ~10.1% NAV, CBA+TLS core ~15.9% NAV).",
+  "lastUpdated": "2026-10-20T04:11:53Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 152.79,
+    "lastPrice": 154.38,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 179.175,
+    "lastPrice": 179.55,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.735,
+    "lastPrice": 4.75,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.29
+   "lastPrice": 78.57
   },
   "cashFreed": "2026-10-05"
  },
@@ -311,13 +311,13 @@
   },
   {
    "date": "2026-10-20",
-   "nav": 9947.18,
+   "nav": 9982.2,
    "cash": 1470.49,
-   "positionsValue": 8476.69,
-   "benchmarkNav": 9920.19,
-   "benchmarkClose": 78.29,
-   "growthValue": 1006.02,
-   "coreValue": 1566.44,
+   "positionsValue": 8511.71,
+   "benchmarkNav": 9955.67,
+   "benchmarkClose": 78.57,
+   "growthValue": 1008.13,
+   "coreValue": 1578.23,
    "daytradeValue": 0.0
   }
  ],
