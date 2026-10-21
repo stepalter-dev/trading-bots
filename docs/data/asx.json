@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh dated catalysts: WDS.AX's Q3 report is scheduled for today but still unreleased in search results, so its strong momentum isn't actionable yet; CBA (AGM address), PME (no Oct news beyond Aug FY26 results), and TLS (buyback/AGM, outage review) news is all weeks-stale and already priced in. No watchlist name showed unusual volume besides NXT.AX (DOWN trend, excluded, not held). All held positions already have plans. Holding; growth/core balance unchanged (PME growth ~10.2% NAV, CBA+TLS core ~15.9% NAV).",
-  "lastUpdated": "2026-10-21T01:12:15Z",
+  "lastRunNotes": "Researched held positions (CBA, PME, TLS) and the biggest watchlist mover (NXT.AX, -38.6% on 5.3x volume) plus WDS's scheduled Q3 report; found no fresh, specific October catalysts beyond already-priced-in news (CBA credit-card fee reform, Telstra outage review/AGM, Pro Medicus August results). NXT is in a confirmed downtrend (no new buys) and isn't held, so its crash isn't actionable even with unusual volume. WDS's Q3 report is due today but not yet released in search results. All three held positions already have plans and remain within their stop/target bands. Holding; growth/core balance unchanged (PME growth ~10.3% NAV, CBA+TLS core ~15.9% NAV).",
+  "lastUpdated": "2026-10-21T03:12:08Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 156.07,
+    "lastPrice": 156.16,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 182.3,
+    "lastPrice": 184.52,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.815,
+    "lastPrice": 4.805,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.75
+   "lastPrice": 78.72
   },
   "cashFreed": "2026-10-05"
  },
@@ -322,13 +322,13 @@
   },
   {
    "date": "2026-10-21",
-   "nav": 10030.2,
+   "nav": 10039.64,
    "cash": 1470.49,
-   "positionsValue": 8559.71,
-   "benchmarkNav": 9978.47,
-   "benchmarkClose": 78.75,
-   "growthValue": 1023.57,
-   "coreValue": 1597.22,
+   "positionsValue": 8569.15,
+   "benchmarkNav": 9974.67,
+   "benchmarkClose": 78.72,
+   "growthValue": 1036.03,
+   "coreValue": 1596.46,
    "daytradeValue": 0.0
   }
  ],
