@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions (CBA, PME, TLS, all held 32 days, sellable, none at target or stop) and today's trend-up momentum leaders (WDS, BHP, STO, WOW, QBE, CBA). Found no fresh, dated catalyst: all news is stale FY26 results/AGM/outage coverage already priced in weeks ago, STO's Oct 15 quarterly and WDS's upcoming update have no reported details yet, and no watchlist name shows unusual volume (vol_x all well below 1.5x). Holding everything; growth/core balance unchanged (PME growth ~10.1% NAV, CBA+TLS core ~15.9% NAV).",
-  "lastUpdated": "2026-10-20T04:11:53Z",
+  "lastRunNotes": "No fresh dated catalysts: WDS's Q3 report is due today but unreleased, NXT.AX's huge -43% drop is on a DOWN-trend name not held (and trend filter blocks buying it anyway), and all news on CBA/PME/TLS (NSW contract, FY26 results, outage review/AGM) is weeks-stale and already priced in. No watchlist name shows unusual volume aside from NXT (DOWN trend, excluded). Held positions: none at target or stop, all already have plans. Holding; growth/core balance unchanged (PME growth ~10.2% NAV, CBA+TLS core ~15.9% NAV).",
+  "lastUpdated": "2026-10-21T00:12:39Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 154.38,
+    "lastPrice": 156.17,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 179.55,
+    "lastPrice": 183.19,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.75,
+    "lastPrice": 4.81,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.57
+   "lastPrice": 78.9
   },
   "cashFreed": "2026-10-05"
  },
@@ -318,6 +318,17 @@
    "benchmarkClose": 78.57,
    "growthValue": 1008.13,
    "coreValue": 1578.23,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-21",
+   "nav": 10046.47,
+   "cash": 1470.49,
+   "positionsValue": 8575.98,
+   "benchmarkNav": 9997.48,
+   "benchmarkClose": 78.9,
+   "growthValue": 1028.57,
+   "coreValue": 1597.18,
    "daytradeValue": 0.0
   }
  ],
