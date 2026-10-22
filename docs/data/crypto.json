@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off day again: BTC -2.80% and nearly every watchlist name down 2-5% with vol_x mostly 0.9-1.2x (market-wide beta per standing lesson 5), not an asset-specific catalyst. Web searches found no new dated catalyst for SOL or AVAX today (SOL's Alpenglow upgrade activated Oct 21 is already known/priced in); NEAR looks extended after an 83%+ four-week rally with no fresh trigger today, so not chasing it. Both held positions (SOL, AVAX) remain above their stops and within existing horizons, so holding both unchanged; growth/core balance unaffected since no trades were made.",
-  "lastUpdated": "2026-10-22T14:25:30Z",
+  "lastRunNotes": "Another broad risk-off day: BTC -3.21% and nearly every watchlist name down 2-6% with vol_x near 0.7-1.3x, consistent with market-wide beta (standing lesson 5) rather than an asset-specific catalyst. Web searches found no dated news for SOL or AVAX today, and no catalyst strong enough to justify a new swing buy given the trend-filter and R:R requirements on today's down names. Both held positions (SOL, AVAX) remain above their stops and within existing horizons, so holding both unchanged; growth/core balance unaffected since no trades were made (still 100% growth, 0% core among active positions, which argues for a core add on a real catalyst rather than a risk-off day).",
+  "lastUpdated": "2026-10-22T20:12:30Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 104.86,
+    "lastPrice": 103.38,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.22,
+    "lastPrice": 9.101,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81692.16
+   "lastPrice": 81314.19
   },
   "cashFreed": "2026-10-03"
  },
@@ -374,12 +374,12 @@
   },
   {
    "date": "2026-10-22",
-   "nav": 6705.9,
+   "nav": 6678.16,
    "cash": 1957.76,
-   "positionsValue": 4748.14,
-   "benchmarkNav": 6798.59,
-   "benchmarkClose": 81692.16,
-   "growthValue": 627.79,
+   "positionsValue": 4720.4,
+   "benchmarkNav": 6767.13,
+   "benchmarkClose": 81314.19,
+   "growthValue": 619.11,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
