@@ -3,13 +3,13 @@
   "cash": 591.6808417842783,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad tech-led selloff today (SPY -1.1%, QQQ -2.2%, XLK -2.8%) hit META -6%, AMD -6.9%, INTC -5.8%, AVGO -3.7%, NVDA -3.7%, GOOGL -2.1%; web search found no confirmed, dated fresh catalyst behind today's specific moves, just generic AI-capex jitters consistent with recent months. Held theses unchanged: GOOGL and AMZN both reassess at their Oct 27-29 earnings (not yet happened), AAPL/UNH theses intact with no new news. Cash is thin (~8% of NAV, only ~$237 investable after the 5% buffer), too little to clear round-trip costs with real edge. Holding everything; growth/core split stays well within the 35-65% band.",
-  "lastUpdated": "2026-10-22T16:14:09Z",
+  "lastRunNotes": "Broad tech-led selloff again today (SPY -1.37%, QQQ -2.85%, XLK -3.33%; AMD -7.68%, INTC -7.51%, META -7.48%) but no specific dated catalyst found for any of it - AMD doesn't report until Nov 3, and this reads as continued generic AI-capex risk-off, same pattern as last session. Apple news is genuinely positive (iPhone Duo pre-orders sold out, production raised ~30%, retail launch Oct 23) which reinforces the held AAPL thesis, so not selling despite it being sellable. GOOGL/AMZN/UNH stay put through their minimum-hold windows into Oct 27/29 earnings. Cash is thin (~$238 investable after the 5% buffer), not enough to clear round-trip costs with real edge, so holding everything with growth/core split unchanged.",
+  "lastUpdated": "2026-10-22T18:13:08Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 345.185,
+    "lastPrice": 346.625,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 327.46,
+    "lastPrice": 324.47,
     "shares": 0.883627,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 425.27,
+    "lastPrice": 424.31,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -54,7 +54,7 @@
    "AMZN": {
     "shares": 3,
     "avgCost": 263.41981083333326,
-    "lastPrice": 252.78,
+    "lastPrice": 250.115,
     "bucket": "growth",
     "openedDate": "2026-10-19",
     "plan": {
@@ -77,7 +77,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 764.92
+   "lastPrice": 762.97
   },
   "cashFreed": "2026-10-05"
  },
@@ -377,13 +377,13 @@
   },
   {
    "date": "2026-10-22",
-   "nav": 7093.82,
+   "nav": 7074.32,
    "cash": 591.68,
-   "positionsValue": 6502.14,
-   "benchmarkNav": 7062.35,
-   "benchmarkClose": 764.92,
-   "growthValue": 1047.69,
-   "coreValue": 1157.31,
+   "positionsValue": 6482.64,
+   "benchmarkNav": 7044.35,
+   "benchmarkClose": 762.97,
+   "growthValue": 1037.06,
+   "coreValue": 1159.4,
    "daytradeValue": 0.0
   }
  ],
