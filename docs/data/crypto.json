@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No dated, confirmed catalyst found today for SOL, AVAX, or NEAR (top momentum name); search results were stale (Sept/early-Oct) or undated, consistent with another quiet/beta day per standing lesson 5. SOL (-7.5%, growth, 7.1% NAV) is above its $98 stop with its existing plan unchanged. AVAX (-6.7%, growth, 2.3% NAV, 28 days held) stays within its 4-6 week RWA Hub/Helicon reassessment horizon with no new news. Holding both positions as-is; no new swing trades proposed.",
-  "lastUpdated": "2026-10-22T02:11:55Z",
+  "lastRunNotes": "Broad risk-off day: BTC -2.31% and nearly every watchlist name down 2-5% with vol_x near 1.0-1.4x, matching standing lesson 5 (market-wide beta, not asset-specific catalysts). Web searches turned up no dated, confirmed news for SOL or AVAX today. Both held positions remain above their stops and within their existing horizons/plans, so holding both as-is; growth/core balance unaffected since no trades were made.",
+  "lastUpdated": "2026-10-22T08:13:42Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 106.08,
+    "lastPrice": 103.89,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.48,
+    "lastPrice": 9.19,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 83331.81
+   "lastPrice": 82081.92
   },
   "cashFreed": "2026-10-03"
  },
@@ -374,12 +374,12 @@
   },
   {
    "date": "2026-10-22",
-   "nav": 6798.44,
+   "nav": 6720.67,
    "cash": 1957.76,
-   "positionsValue": 4840.67,
-   "benchmarkNav": 6935.05,
-   "benchmarkClose": 83331.81,
-   "growthValue": 637.62,
+   "positionsValue": 4762.91,
+   "benchmarkNav": 6831.03,
+   "benchmarkClose": 82081.92,
+   "growthValue": 622.9,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1067,7 +1067,7 @@
   },
   {
    "date": "2026-10-22",
-   "rank": 39
+   "rank": 32
   }
  ]
 }
