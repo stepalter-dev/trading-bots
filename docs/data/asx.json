@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held positions (CBA, PME, TLS) and the day's biggest watchlist movers (NXT.AX -40.7% on 5.6x volume, WDS Q3 report window) plus BHP/STO for fresh catalysts. Found nothing new and specific beyond already-priced-in items: CBA's Oct AGM outcome wasn't found, PME/TLS have no new news since their existing plans were set, NXT is in a confirmed downtrend and unheld so its crash isn't actionable, and WDS/BHP/STO searches turned up only stale or unverifiable Q3 figures, not a dated October catalyst. Holding; growth/core balance stays at ~10.2%/15.9% of NAV (PME growth vs CBA+TLS core), all three positions remain within their existing stop/target bands with no change needed to their plans.",
-  "lastUpdated": "2026-10-21T04:12:22Z",
+  "lastRunNotes": "Checked held positions (CBA AGM Oct 14 - no surprises beyond routine hardship-payment stats; PME continued momentum but no fresh dated catalyst behind today's +1.7%/11% monthly move; TLS AGM saw shareholder anger and $1.3M exec bonus cuts over the July outage plus a GDP-impact report, but price is flat and this is already-known fallout, not a new actionable trigger) and the day's big movers (NXT -36% over 5 days remains unexplained by any dated news and its trend is DOWN so unbuyable anyway; WDS -3.6% today has no confirmed catalyst and isn't held; REA's AGM was Oct 8, too stale to explain today's +2.8% move). No position is at target or stop. Holding all three positions unchanged; growth/core split stays ~10.5% PME (growth) vs ~15.9% CBA+TLS (core), within the 35-65% band.",
+  "lastUpdated": "2026-10-22T00:12:44Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 156.26,
+    "lastPrice": 156.245,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 182.64,
+    "lastPrice": 187.98,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.805,
+    "lastPrice": 4.835,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.71
+   "lastPrice": 78.5
   },
   "cashFreed": "2026-10-05"
  },
@@ -329,6 +329,17 @@
    "benchmarkClose": 78.71,
    "growthValue": 1025.48,
    "coreValue": 1597.08,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-22",
+   "nav": 10046.95,
+   "cash": 1470.49,
+   "positionsValue": 8576.46,
+   "benchmarkNav": 9946.79,
+   "benchmarkClose": 78.5,
+   "growthValue": 1055.46,
+   "coreValue": 1600.93,
    "daytradeValue": 0.0
   }
  ],
