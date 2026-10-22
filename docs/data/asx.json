@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked for fresh catalysts on held positions (CBA, PME, TLS) and today's big movers (WES -2.5%, WDS -3.3%, FMG -4.3%). Telstra's AGM (Oct 13) and ongoing buy-back are already known/priced in with no new news; CBA and PME have no October-specific announcements. FMG's drop ties to its Q1 FY27 production update due today, but FMG is DOWN-trend and not held, so not actionable. No volumes are unusual (vol_x <1.5x) and no held position hit its target or stop. Holding across the board; growth/core split stays near 53%/47% of the active sleeve, within the 35-65% band.",
-  "lastUpdated": "2026-10-22T03:12:06Z",
+  "lastRunNotes": "No fresh, specific catalysts: CBA's Oct 14 AGM address was routine (no new guidance), PME and TLS have no October news beyond what's already priced in, and today's miner weakness (BHP/FMG/RIO/MIN/WES down on commodity softness) is all in downtrend names we don't hold and can't buy. WDS fell despite an uptrend with no identifiable news, so no catalyst to act on. Holding across the board; growth/core split stays at ~40%/60% of the active sleeve, within the 35-65% band.",
+  "lastUpdated": "2026-10-22T04:12:23Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 157.25,
+    "lastPrice": 157.39,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 193.17,
+    "lastPrice": 193.85,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.86,
+    "lastPrice": 4.88,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.57
+   "lastPrice": 78.59
   },
   "cashFreed": "2026-10-05"
  },
@@ -333,13 +333,13 @@
   },
   {
    "date": "2026-10-22",
-   "nav": 10090.86,
+   "nav": 10099.68,
    "cash": 1470.49,
-   "positionsValue": 8620.38,
-   "benchmarkNav": 9955.66,
-   "benchmarkClose": 78.57,
-   "growthValue": 1084.6,
-   "coreValue": 1610.43,
+   "positionsValue": 8629.2,
+   "benchmarkNav": 9958.19,
+   "benchmarkClose": 78.59,
+   "growthValue": 1088.42,
+   "coreValue": 1613.92,
    "daytradeValue": 0.0
   }
  ],
