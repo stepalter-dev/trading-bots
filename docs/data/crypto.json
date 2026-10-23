@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held SOL and AVAX plus top-momentum/volume candidates (NEAR, UNI, DOT/ATOM revisited) and core names for a fresh catalyst; found none today. NEAR's ETF-launch/Intents-volume story is real but weeks old and already priced in (price has pulled back from $5.85 on Oct 12 to $4.88 now on light volume, vol_x 0.64) so buying it now would be chasing stale news into a pullback, not a fresh catalyst. AVAX has no news update on the RWA Hub TVL thesis since purchase; SOL has no new news either way. No core name showed unusual volume or a dated catalyst, so the 100% growth / 0% core active-swing split stays unbalanced but untouched per the no-catalyst rule. Holding everything unchanged; Coinbase app-rank climb (#49->#24) is a mild late-rally caution flag, not a trade signal.",
-  "lastUpdated": "2026-10-23T14:16:36Z",
+  "lastRunNotes": "Checked held SOL (-9.8%, no recorded horizon) and AVAX (-11.0%, 29 days held, RWA Hub TVL horizon due in 4-6 weeks) for a fresh catalyst via web search; found no dated Oct 2026 news on either, so AVAX's thesis is unchanged and its reassessment window hasn't elapsed. Scanned the rest of the watchlist for unusual volume or momentum (ATOM vol_x 1.24, BNB +1.5%/+2.7% 5d) but moves were small with vol_x near 1.0x across the board, matching a flat, directionless day (BTC -0.09%) rather than an asset-specific catalyst. No genuine catalyst found anywhere, so holding with no new trades; active sleeve stays at ~9.2% of NAV (all growth: SOL+AVAX), 0% core, well under the 35% target but no reason to force a buy.",
+  "lastUpdated": "2026-10-23T20:12:37Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 103.95,
+    "lastPrice": 103.49,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.086,
+    "lastPrice": 9.041,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81254.28
+   "lastPrice": 81243.48
   },
   "cashFreed": "2026-10-03"
  },
@@ -385,12 +385,12 @@
   },
   {
    "date": "2026-10-23",
-   "nav": 6677.48,
+   "nav": 6674.1,
    "cash": 1957.76,
-   "positionsValue": 4719.71,
-   "benchmarkNav": 6762.14,
-   "benchmarkClose": 81254.28,
-   "growthValue": 621.45,
+   "positionsValue": 4716.34,
+   "benchmarkNav": 6761.24,
+   "benchmarkClose": 81243.48,
+   "growthValue": 618.62,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1082,7 +1082,7 @@
   },
   {
    "date": "2026-10-23",
-   "rank": 24
+   "rank": 27
   }
  ]
 }
