@@ -3,13 +3,13 @@
   "cash": 591.6808417842783,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, verifiable catalyst today: GOOGL/AMZN earnings (Oct 27/29) and AMD earnings (Nov 3) are known and already priced into existing plans, and today's watchlist movers (AMD, INTC, XLE/XOM, LLY) all show sub-1.0x volume with no confirmed news behind the moves, so passing rather than chasing. GOOGL is sitting just 0.6% above its $320 stop into earnings but the stop is automatic, so no manual action needed. All four held positions (AAPL, GOOGL, UNH, AMZN) already have plans and UNH/AMZN remain inside minimum-hold windows. Growth/core split stays ~47%/53%, within band; holding across the board.",
-  "lastUpdated": "2026-10-23T18:14:10Z",
+  "lastRunNotes": "No fresh, verifiable catalyst today: META's -9% 5d drop and TSLA's Wikipedia attention spike have no confirmed news this week behind them, AMD's move was a modest 1.8% single-day gain on an analyst reaffirmation (not a trend break), and PEP's insider buying is 9 days old and PEP is trend-DOWN (no new buys allowed) anyway. All four held positions (AAPL, GOOGL, UNH, AMZN) already have plans and UNH/AMZN remain inside minimum-hold windows; GOOGL/AMZN earnings (Oct 27/29) are known and already priced into existing plans. Growth/core split stays within band; holding across the board.",
+  "lastUpdated": "2026-10-23T19:11:34Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 346.35,
+    "lastPrice": 346.74,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 322.14,
+    "lastPrice": 322.045,
     "shares": 0.883627,
     "plan": {
      "target": 370.0,
@@ -54,7 +54,7 @@
    "AMZN": {
     "shares": 3,
     "avgCost": 263.41981083333326,
-    "lastPrice": 248.71,
+    "lastPrice": 248.695,
     "bucket": "growth",
     "openedDate": "2026-10-19",
     "plan": {
@@ -388,13 +388,13 @@
   },
   {
    "date": "2026-10-23",
-   "nav": 7047.83,
+   "nav": 7048.53,
    "cash": 591.68,
-   "positionsValue": 6456.15,
+   "positionsValue": 6456.85,
    "benchmarkNav": 7023.58,
    "benchmarkClose": 760.72,
-   "growthValue": 1030.78,
-   "coreValue": 1151.83,
+   "growthValue": 1030.65,
+   "coreValue": 1152.65,
    "daytradeValue": 0.0
   }
  ],
