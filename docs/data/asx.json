@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, stock-specific catalysts found: CBA's Oct 14 AGM was routine, TLS's Oct 13 AGM and ongoing buy-back are already priced in and Macquarie reiterated Hold on Oct 18, and PME has no October news beyond the already-known (Feb 2026) Trinity contract ramp-up; its price (194.52) is close to but hasn't reached the 195 target. Today's energy/miner weakness (STO, WDS, BHP, RIO, FMG down) looks like broad commodity-sector softness rather than a specific catalyst, and those with UP trend (STO, WDS) have no identifiable company news to justify a buy. Holding across the board; growth/core split stays at ~40%/60% of the active sleeve, within the 35-65% band.",
-  "lastUpdated": "2026-10-23T00:13:18Z",
+  "lastRunNotes": "No fresh, stock-specific catalysts since last session: CBA's card-fee/Yello changes (effective Oct 1) are already priced in, Telstra's buy-back/AGM/Macquarie Hold (Oct 18) are all known, and PME has no October news and sits just under its A$195 target (193.78). Commodity names (BHP/RIO/FMG/STO/WDS) are broadly soft but mostly trend-DOWN so ineligible anyway, and WOW's next catalyst (Q1 F27 sales) isn't until Oct 28. Holding across the board; growth/core split unchanged (~40%/60% of the active sleeve, within band).",
+  "lastUpdated": "2026-10-23T01:12:25Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 159.88,
+    "lastPrice": 161.29,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 194.71,
+    "lastPrice": 194.6,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.915,
+    "lastPrice": 4.955,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.25
+   "lastPrice": 78.39
   },
   "cashFreed": "2026-10-05"
  },
@@ -344,13 +344,13 @@
   },
   {
    "date": "2026-10-23",
-   "nav": 10098.85,
+   "nav": 10122.76,
    "cash": 1470.49,
-   "positionsValue": 8628.37,
-   "benchmarkNav": 9915.11,
-   "benchmarkClose": 78.25,
-   "growthValue": 1093.25,
-   "coreValue": 1633.9,
+   "positionsValue": 8652.28,
+   "benchmarkNav": 9932.85,
+   "benchmarkClose": 78.39,
+   "growthValue": 1092.63,
+   "coreValue": 1647.87,
    "daytradeValue": 0.0
   }
  ],
