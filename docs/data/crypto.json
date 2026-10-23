@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Another broad risk-off day: BTC -3.2% and nearly every watchlist name down 2-6% with vol_x mostly 0.7-1.2x, matching standing lesson 5 (market-wide beta, not an asset-specific catalyst). Web searches turned up no dated news for SOL or AVAX today, and no catalyst anywhere on the watchlist strong enough to clear the R:R/trend-filter bar for a new swing buy. Both held positions (SOL, AVAX) remain above their stops and within existing horizons/plans, so holding both unchanged; growth/core balance unaffected (still 100% growth, 0% core among active positions, cash ~29% of NAV).",
-  "lastUpdated": "2026-10-23T02:11:36Z",
+  "lastRunNotes": "DOT (+6.7%/day, +6.1%/5d) and ATOM (+5.4%/day, +6.9%/5d) stood out vs BTC's +0.31%, but a handful of targeted searches turned up no dated, asset-specific catalyst for either -- DOT's momentum rank is dead last (18/18) and vol_x only 1.04x, ATOM's vol_x 1.23x is only mildly elevated, so both read as altcoin beta/rotation rather than real news. No fresh news found on held SOL or AVAX either, positive or negative, so their existing theses and plans stand unchanged. Holding both positions; growth/core balance stays 100% growth / 0% core among active swings, cash still ~29% of NAV.",
+  "lastUpdated": "2026-10-23T08:12:46Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 103.99,
+    "lastPrice": 104.46,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.179,
+    "lastPrice": 9.267,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81293.8
+   "lastPrice": 81592.43
   },
   "cashFreed": "2026-10-03"
  },
@@ -385,12 +385,12 @@
   },
   {
    "date": "2026-10-23",
-   "nav": 6681.19,
+   "nav": 6699.84,
    "cash": 1957.76,
-   "positionsValue": 4723.43,
-   "benchmarkNav": 6765.43,
-   "benchmarkClose": 81293.8,
-   "growthValue": 623.17,
+   "positionsValue": 4742.08,
+   "benchmarkNav": 6790.28,
+   "benchmarkClose": 81592.43,
+   "growthValue": 626.76,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1082,7 +1082,7 @@
   },
   {
    "date": "2026-10-23",
-   "rank": 28
+   "rank": 25
   }
  ]
 }
