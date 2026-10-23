@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "DOT (+6.7%/day, +6.1%/5d) and ATOM (+5.4%/day, +6.9%/5d) stood out vs BTC's +0.31%, but a handful of targeted searches turned up no dated, asset-specific catalyst for either -- DOT's momentum rank is dead last (18/18) and vol_x only 1.04x, ATOM's vol_x 1.23x is only mildly elevated, so both read as altcoin beta/rotation rather than real news. No fresh news found on held SOL or AVAX either, positive or negative, so their existing theses and plans stand unchanged. Holding both positions; growth/core balance stays 100% growth / 0% core among active swings, cash still ~29% of NAV.",
-  "lastUpdated": "2026-10-23T08:12:46Z",
+  "lastRunNotes": "Checked held SOL and AVAX plus top-momentum/volume candidates (NEAR, UNI, DOT/ATOM revisited) and core names for a fresh catalyst; found none today. NEAR's ETF-launch/Intents-volume story is real but weeks old and already priced in (price has pulled back from $5.85 on Oct 12 to $4.88 now on light volume, vol_x 0.64) so buying it now would be chasing stale news into a pullback, not a fresh catalyst. AVAX has no news update on the RWA Hub TVL thesis since purchase; SOL has no new news either way. No core name showed unusual volume or a dated catalyst, so the 100% growth / 0% core active-swing split stays unbalanced but untouched per the no-catalyst rule. Holding everything unchanged; Coinbase app-rank climb (#49->#24) is a mild late-rally caution flag, not a trade signal.",
+  "lastUpdated": "2026-10-23T14:16:36Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 104.46,
+    "lastPrice": 103.95,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 9.267,
+    "lastPrice": 9.086,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 81592.43
+   "lastPrice": 81254.28
   },
   "cashFreed": "2026-10-03"
  },
@@ -385,12 +385,12 @@
   },
   {
    "date": "2026-10-23",
-   "nav": 6699.84,
+   "nav": 6677.48,
    "cash": 1957.76,
-   "positionsValue": 4742.08,
-   "benchmarkNav": 6790.28,
-   "benchmarkClose": 81592.43,
-   "growthValue": 626.76,
+   "positionsValue": 4719.71,
+   "benchmarkNav": 6762.14,
+   "benchmarkClose": 81254.28,
+   "growthValue": 621.45,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1082,7 +1082,7 @@
   },
   {
    "date": "2026-10-23",
-   "rank": 25
+   "rank": 24
   }
  ]
 }
