@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, ticker-specific catalysts today: the bank rally (CBA/NAB/WBC/WES all up ~2%+) traces to ongoing RBA November-meeting rate speculation already known for weeks, not new news, and PME is flat (+0.03%) with no October announcement, still just under its A$195 target. Commodity names (BHP/RIO/FMG/STO/WDS/PLS/MIN) sold off today but remain trend-DOWN and ineligible for new buys regardless. Holding across the board; growth/core split in the active sleeve stays ~40%/60%, within band, all three held positions already have current plans.",
-  "lastUpdated": "2026-10-23T03:12:16Z",
+  "lastRunNotes": "No fresh, ticker-specific catalysts today. The bank rally (CBA/NAB/WBC/ANZ up 1-3%) still traces to known RBA rate speculation, not new news. PME has no new announcement since its August FY26 results and sits just under its A$195 target (194.33, +0.3% away) - not yet flagged TARGET REACHED, so the existing plan stands. Telstra's recent news is routine (AGM, buyback, bond raise) with no new catalyst; Santos and Woolworths also have nothing new (Woolworths' next sales update isn't until Oct 28). Holding across the board; growth/core split in the active sleeve stays ~40%/60%, within band, and all three held positions already have current plans.",
+  "lastUpdated": "2026-10-23T04:12:17Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 161.12,
+    "lastPrice": 161.61,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 193.33,
+    "lastPrice": 193.96,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.94,
+    "lastPrice": 4.92,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.34
+   "lastPrice": 78.48
   },
   "cashFreed": "2026-10-05"
  },
@@ -344,13 +344,13 @@
   },
   {
    "date": "2026-10-23",
-   "nav": 10108.84,
+   "nav": 10123.33,
    "cash": 1470.49,
-   "positionsValue": 8638.35,
-   "benchmarkNav": 9926.51,
-   "benchmarkClose": 78.34,
-   "growthValue": 1085.5,
-   "coreValue": 1644.85,
+   "positionsValue": 8652.84,
+   "benchmarkNav": 9944.25,
+   "benchmarkClose": 78.48,
+   "growthValue": 1089.04,
+   "coreValue": 1645.25,
    "daytradeValue": 0.0
   }
  ],
