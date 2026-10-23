@@ -3,13 +3,13 @@
   "cash": 1470.4870268211173,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, stock-specific catalysts since last session: CBA's card-fee/Yello changes (effective Oct 1) are already priced in, Telstra's buy-back/AGM/Macquarie Hold (Oct 18) are all known, and PME has no October news and sits just under its A$195 target (193.78). Commodity names (BHP/RIO/FMG/STO/WDS) are broadly soft but mostly trend-DOWN so ineligible anyway, and WOW's next catalyst (Q1 F27 sales) isn't until Oct 28. Holding across the board; growth/core split unchanged (~40%/60% of the active sleeve, within band).",
-  "lastUpdated": "2026-10-23T01:12:25Z",
+  "lastRunNotes": "No fresh, ticker-specific catalysts today: the bank rally (CBA/NAB/WBC/WES all up ~2%+) traces to ongoing RBA November-meeting rate speculation already known for weeks, not new news, and PME is flat (+0.03%) with no October announcement, still just under its A$195 target. Commodity names (BHP/RIO/FMG/STO/WDS/PLS/MIN) sold off today but remain trend-DOWN and ineligible for new buys regardless. Holding across the board; growth/core split in the active sleeve stays ~40%/60%, within band, all three held positions already have current plans.",
+  "lastUpdated": "2026-10-23T03:12:16Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 161.29,
+    "lastPrice": 161.12,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "PME.AX": {
     "avgCost": 169.06,
     "bucket": "growth",
-    "lastPrice": 194.6,
+    "lastPrice": 193.33,
     "shares": 5.614753,
     "plan": {
      "target": 195.0,
@@ -39,7 +39,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.955,
+    "lastPrice": 4.94,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +62,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.39
+   "lastPrice": 78.34
   },
   "cashFreed": "2026-10-05"
  },
@@ -344,13 +344,13 @@
   },
   {
    "date": "2026-10-23",
-   "nav": 10122.76,
+   "nav": 10108.84,
    "cash": 1470.49,
-   "positionsValue": 8652.28,
-   "benchmarkNav": 9932.85,
-   "benchmarkClose": 78.39,
-   "growthValue": 1092.63,
-   "coreValue": 1647.87,
+   "positionsValue": 8638.35,
+   "benchmarkNav": 9926.51,
+   "benchmarkClose": 78.34,
+   "growthValue": 1085.5,
+   "coreValue": 1644.85,
    "daytradeValue": 0.0
   }
  ],
