@@ -3,13 +3,13 @@
   "cash": 591.6808417842783,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No specific dated catalyst found today for AAPL, GOOGL, AMZN, or the broader market - this is a continuation of the generic AI-capex risk-off selloff seen last session (SPY -1.44%, broad tech down). AAPL shows relative strength (+0.78% today) with its iPhone Duo thesis intact, so holding despite being sellable. GOOGL's trend flipped DOWN and price sits just 0.9% above its $320 stop heading into Oct 27 earnings, but no new catalyst justifies a forced sell - the automatic stop will handle a breach. AMZN and UNH remain inside mandatory hold windows. Growth/core balance stays roughly as-is with no new trades; cash is thin (~$238 investable) and best preserved for a genuine catalyst.",
-  "lastUpdated": "2026-10-22T19:12:35Z",
+  "lastRunNotes": "No new dated catalyst strong enough to justify a swing trade this session. AAPL's iPhone Duo became available in stores today (Oct 23) with reports of tight supply due to production constraints - a demand signal, not a reason to sell, and no fresh negative news emerged; AAPL stays held with its existing plan. GOOGL's trend flipped DOWN and sits close to its $320 stop heading into Oct 27-28 earnings, but the only new development is Google's Oct 20 D.C. Circuit filing defending the antitrust ruling - no court decision yet, so this is a continuation of known risk, not a new catalyst; letting the automatic stop handle a breach rather than pre-empting it. Chip-sector news this week (TD Cowen reaffirming AMD, JPMorgan upgrading INTC to Neutral after the Kiryat Gat incident) was incremental, not catalyst-grade, and both AMD and INTC report earnings within the next 1-2 weeks, so initiating fresh swing buys ahead of binary earnings events isn't justified. No qualifying news found for NVDA, XLE, XOM, or LLY this week. UNH and AMZN remain inside mandatory hold windows. Growth/core split within the active sleeve is roughly 47%/53%, inside the 35-65% band. Holding across the board.",
+  "lastUpdated": "2026-10-23T14:20:55Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 346.97,
+    "lastPrice": 347.74,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "GOOGL": {
     "avgCost": 342.87,
     "bucket": "growth",
-    "lastPrice": 322.94,
+    "lastPrice": 323.56,
     "shares": 0.883627,
     "plan": {
      "target": 370.0,
@@ -39,7 +39,7 @@
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 425.56,
+    "lastPrice": 421.61,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -54,7 +54,7 @@
    "AMZN": {
     "shares": 3,
     "avgCost": 263.41981083333326,
-    "lastPrice": 248.64,
+    "lastPrice": 247.99,
     "bucket": "growth",
     "openedDate": "2026-10-19",
     "plan": {
@@ -77,7 +77,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 762.175
+   "lastPrice": 759.26
   },
   "cashFreed": "2026-10-05"
  },
@@ -384,6 +384,17 @@
    "benchmarkClose": 762.175,
    "growthValue": 1031.28,
    "coreValue": 1161.38,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-23",
+   "nav": 7045.96,
+   "cash": 591.68,
+   "positionsValue": 6454.28,
+   "benchmarkNav": 7010.1,
+   "benchmarkClose": 759.26,
+   "growthValue": 1029.88,
+   "coreValue": 1159.06,
    "daytradeValue": 0.0
   }
  ],
