@@ -1,6 +1,6 @@
 {
  "state": {
-  "cash": 9392.0,
+  "cash": 9238.0,
   "startingCash": 10000.0,
   "holdings": {
    "yc-lyon": {
@@ -26,7 +26,7 @@
     "thesis": "Trains proprietary foundation models directly on a customer's own transaction/event data (28B transactions for one fintech, plus a major insurer pilot), beating rules-based baselines 4x on premium-card conversion. Small team but real enterprise traction is a strong early signal in a crowded vertical-AI space.",
     "pRaise12m": 0.55,
     "pAlive12m": 0.85,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-herdr": {
     "id": "yc-herdr",
@@ -51,7 +51,7 @@
     "thesis": "Open agent runtime with genuine bottom-up adoption (25k GitHub stars, 340k downloads, 500+ community plugins) and already closed a $6M seed led by Bessemer with a strong angel syndicate. Infra bet on agent fleets becoming standard dev workflow; main risk is monetizing an OSS-first project against well-funded competitors.",
     "pRaise12m": 0.45,
     "pAlive12m": 0.88,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-useforward": {
     "id": "yc-useforward",
@@ -76,7 +76,7 @@
     "thesis": "Agentic matching between borrowers and private-credit funds, built by founders with direct deal-diligence experience ($1B+) and a 5-person team already shipping. Real workflow pain point in an underdigitized market, but conservative buyers and long enterprise sales cycles are a risk.",
     "pRaise12m": 0.35,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "hn-49833867": {
     "id": "hn-49833867",
@@ -101,7 +101,7 @@
     "thesis": "Open-source IDE (YC W26) that lets coding agents draw architecture/sequence diagrams of their own changes for review - a timely wedge as teams struggle to review AI-generated code. Strong Show HN reception (415 points) and built on VS Code/CodeOSS for fast distribution, though it competes for attention in a busy devtools category.",
     "pRaise12m": 0.4,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-agent-relay": {
     "id": "yc-agent-relay",
@@ -126,7 +126,7 @@
     "thesis": "Messaging/infra layer for coordinating fleets of coding agents, already open-source with real GitHub adoption and a public enterprise partnership (Coder) covered by GlobeNewswire. Agent-orchestration infra is a hot, well-funded category and this team already has a distribution channel through Coder.",
     "pRaise12m": 0.45,
     "pAlive12m": 0.85,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-rystic": {
     "id": "yc-rystic",
@@ -151,7 +151,7 @@
     "thesis": "Local, stateful simulators of third-party APIs (Stripe, GitHub, Slack, Kalshi, etc.) for testing and training agents without hitting production services. Narrow but real pain point for every team building agents; named integrations suggest actual usage rather than a toy demo.",
     "pRaise12m": 0.3,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-talos-us": {
     "id": "yc-talos-us",
@@ -176,7 +176,7 @@
     "thesis": "Predictive maintenance hardware/software for large power transformers, a capital-intensive but high-value market (grid operators pay dearly to avoid unplanned outages). Hardware/enterprise sales cycles are slower, which tempers near-term funding odds, but the problem is real and durable.",
     "pRaise12m": 0.25,
     "pAlive12m": 0.7,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-veltha": {
     "id": "yc-veltha",
@@ -201,7 +201,7 @@
     "thesis": "AI-native TPA for workers' comp claims, founded by two ex-Palantir engineers with deployment experience at large institutions. Regulated-insurance niche has real budget and the team pedigree suggests it can navigate the compliance-heavy sales cycle.",
     "pRaise12m": 0.4,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-hopper": {
     "id": "yc-hopper",
@@ -226,7 +226,7 @@
     "thesis": "Trains speech models on a customer's own production call data for fast, specialized voice inference. Multiple open senior full-stack/voice-infra roles across job boards suggest real funded hiring and early customer traction.",
     "pRaise12m": 0.35,
     "pAlive12m": 0.7,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-tilion": {
     "id": "yc-tilion",
@@ -251,7 +251,7 @@
     "thesis": "Recompiled Chromium ('Fortress') for undetectable agent browsing, with a shipped PyPI package and MCP server already in beta use. Crowded space (Kernel, Browserbase, Browser Use) keeps odds modest, but agent browser infra is a real and growing need.",
     "pRaise12m": 0.25,
     "pAlive12m": 0.55,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-tire-swing": {
     "id": "yc-tire-swing",
@@ -276,7 +276,7 @@
     "thesis": "AI eligibility/compliance automation for affordable-housing operators (LIHTC, Section 8 recertification), positioned as a drop-in replacement for compliance consultants. Niche but sticky government-adjacent recurring revenue with a cybersecurity-background CEO.",
     "pRaise12m": 0.3,
     "pAlive12m": 0.65,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-ufoai": {
     "id": "yc-ufoai",
@@ -301,7 +301,7 @@
     "thesis": "Open-source agent platform reachable via Slack/iMessage/terminal, positioned as team-wide agent infrastructure. Two-person team in an already crowded 'agent OS' category makes this the most speculative of this week's picks.",
     "pRaise12m": 0.2,
     "pAlive12m": 0.5,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-keres": {
     "id": "yc-keres",
@@ -326,7 +326,7 @@
     "thesis": "Reusable, jet-class drone/cruise-missile interceptor aimed at the fast-growing counter-UAS market, positioned as a cheaper alternative to million-dollar missiles (cf. Anduril Roadrunner, Army Coyote). Already shows ~$125K raised pre-YC and a 3-person team; defense-tech capital is flowing freely in 2026, giving it a credible shot at a priced seed round.",
     "pRaise12m": 0.35,
     "pAlive12m": 0.8,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-grep-ai": {
     "id": "yc-grep-ai",
@@ -351,7 +351,7 @@
     "thesis": "Builds 'self-improving' agents that convert repetitive ops work into code and save frontier-model reasoning for exceptions, with a named live customer (IG, a UK brokerage, using it for compliance-alert review). A 6-person team and a concrete enterprise logo at this stage is unusually strong traction for a YC F26 candidate, de-risking the next raise.",
     "pRaise12m": 0.45,
     "pAlive12m": 0.85,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-orca-aerospace": {
     "id": "yc-orca-aerospace",
@@ -376,7 +376,7 @@
     "thesis": "Onboard AI 'operators' that let satellites make mission decisions autonomously instead of relying on ground control, sold to spacecraft manufacturers/operators. Good timing as satellite constellations scale and ground-ops costs become the bottleneck; 5-person team is relatively large for this stage, suggesting real buildout already underway.",
     "pRaise12m": 0.25,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-archangel-health": {
     "id": "yc-archangel-health",
@@ -401,7 +401,7 @@
     "thesis": "Sources and de-identifies physician-graded clinical data to license to medical-AI developers, and helps health systems post-train models on their own data under HIPAA. Addresses the real scarcity of high-quality labeled clinical data for medical AI, but as a 2-person team it needs to land data-licensing customers quickly to prove the model.",
     "pRaise12m": 0.3,
     "pAlive12m": 0.7,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
    },
    "yc-deploy": {
     "id": "yc-deploy",
@@ -426,7 +426,132 @@
     "thesis": "Robotics-as-a-service deployment layer that lets customers pay for robot labor as an opex line rather than buying hardware, hardware-agnostic across robot makers. Timely wedge (robotics deployment is genuinely underserved) but thin team of two and a capital-intensive services model make this the most speculative pick this week; sized as the smallest cheque.",
     "pRaise12m": 0.2,
     "pAlive12m": 0.6,
-    "lastChecked": "2026-10-19"
+    "lastChecked": "2026-10-26"
+   },
+   "yc-boat": {
+    "id": "yc-boat",
+    "name": "Boat",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/boat",
+    "website": "https://boat.dev",
+    "oneLiner": "The best cloud VMs for billions of agents",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/boat.json",
+    "teamSizeAtEntry": 3,
+    "investedDate": "2026-10-26",
+    "tranches": [
+     {
+      "amount": 35.0,
+      "valuation": 15000000.0,
+      "date": "2026-10-26"
+     }
+    ],
+    "entryValuation": 15000000.0,
+    "markValuation": 15000000.0,
+    "status": "active",
+    "thesis": "Cloud VMs purpose-built for AI coding agents (Claude Code, Codex, OpenCode) with disk-level forking and a CLI/SDK -- rides the same agent-sandbox wave as E2B/Daytona. Infra picks-and-shovels plays in this space have been raising quickly; team of 3, real product with published pricing.",
+    "pRaise12m": 0.4,
+    "pAlive12m": 0.8,
+    "lastChecked": "2026-10-26"
+   },
+   "yc-sona8": {
+    "id": "yc-sona8",
+    "name": "Sona8",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/sona8",
+    "website": "https://sona8.com",
+    "oneLiner": "Voice agents survey employees to map, improve & automate workflows",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/sona8.json",
+    "teamSizeAtEntry": 5,
+    "investedDate": "2026-10-26",
+    "tranches": [
+     {
+      "amount": 32.0,
+      "valuation": 18000000.0,
+      "date": "2026-10-26"
+     }
+    ],
+    "entryValuation": 18000000.0,
+    "markValuation": 18000000.0,
+    "status": "active",
+    "thesis": "AI voice agents interview employees to map workflows for consulting/PE/transformation teams; already has a named pilot (several hundred interviews at a professional services firm) and MIT Sandbox backing. Team of 4 (founders + founding engineer) is more de-risked than typical solo YC teams.",
+    "pRaise12m": 0.4,
+    "pAlive12m": 0.82,
+    "lastChecked": "2026-10-26"
+   },
+   "yc-openseo": {
+    "id": "yc-openseo",
+    "name": "OpenSEO",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/openseo",
+    "website": "https://openseo.so/",
+    "oneLiner": "Open source alternative to Semrush and Ahrefs",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/openseo.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-10-26",
+    "tranches": [
+     {
+      "amount": 28.0,
+      "valuation": 14000000.0,
+      "date": "2026-10-26"
+     }
+    ],
+    "entryValuation": 14000000.0,
+    "markValuation": 14000000.0,
+    "status": "active",
+    "thesis": "Open-source Semrush/Ahrefs alternative (MIT licensed, self-host or $10/mo) with an MCP server for agent-driven SEO workflows. Real GitHub traction claimed and a clean open-core monetization path, though data is a thin layer over DataForSEO so differentiation risk is real.",
+    "pRaise12m": 0.3,
+    "pAlive12m": 0.75,
+    "lastChecked": "2026-10-26"
+   },
+   "yc-sintropix": {
+    "id": "yc-sintropix",
+    "name": "Sintropix",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/sintropix",
+    "website": "https://sintropix.com/",
+    "oneLiner": "Autonomous accounting platform for global companies",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/sintropix.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-10-26",
+    "tranches": [
+     {
+      "amount": 30.0,
+      "valuation": 15000000.0,
+      "date": "2026-10-26"
+     }
+    ],
+    "entryValuation": 15000000.0,
+    "markValuation": 15000000.0,
+    "status": "active",
+    "thesis": "AI-native ERP/autonomous accounting platform for LatAm SMBs with an AI assistant (Erwin) for financial Q&A; founders report 10 paying clients across Chile, Mexico, Brazil and the US, which is unusually concrete traction for this stage.",
+    "pRaise12m": 0.35,
+    "pAlive12m": 0.8,
+    "lastChecked": "2026-10-26"
+   },
+   "yc-quivly-ai": {
+    "id": "yc-quivly-ai",
+    "name": "Quivly AI",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/quivly-ai",
+    "website": "https://www.quivly.ai/",
+    "oneLiner": "AI agents that run onboarding, adoption, and renewals",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/quivly-ai.json",
+    "teamSizeAtEntry": 4,
+    "investedDate": "2026-10-26",
+    "tranches": [
+     {
+      "amount": 29.0,
+      "valuation": 16000000.0,
+      "date": "2026-10-26"
+     }
+    ],
+    "entryValuation": 16000000.0,
+    "markValuation": 16000000.0,
+    "status": "active",
+    "thesis": "Post-sales AI agents handling onboarding, usage-drop detection and renewal prep for usage-based B2B companies; launched Oct 8 2026 with working Slack/web/MCP integrations and a differentiated 'Radar' expansion-detection feature. Crowded post-sales-AI category is the main risk.",
+    "pRaise12m": 0.3,
+    "pAlive12m": 0.75,
+    "lastChecked": "2026-10-26"
    }
   },
   "seen": [
@@ -462,6 +587,14 @@
    "hn-50118688",
    "hn-50127979",
    "hn-50137950",
+   "hn-50151928",
+   "hn-50167286",
+   "hn-50170593",
+   "hn-50180257",
+   "hn-50195488",
+   "hn-50214373",
+   "hn-50224916",
+   "hn-50232312",
    "ph-1203994",
    "ph-1238671",
    "ph-1249438",
@@ -494,48 +627,68 @@
    "ph-1282872",
    "ph-1282905",
    "ph-1283357",
+   "ph-1284558",
+   "ph-1285452",
+   "ph-1286064",
+   "ph-1287264",
+   "ph-1289061",
+   "ph-1290875",
+   "ph-1291438",
+   "ph-1291620",
    "yc-agent-relay",
    "yc-antimattr",
    "yc-archangel-health",
    "yc-aviern",
+   "yc-boat",
    "yc-capveon",
    "yc-cyclon",
    "yc-deepmark",
    "yc-deploy",
    "yc-dydema",
+   "yc-fire-wallet",
    "yc-grep-ai",
    "yc-habu",
    "yc-herdr",
    "yc-hopper",
    "yc-hue",
+   "yc-hundred",
    "yc-ignition-benefits",
    "yc-inflection-space-systems",
    "yc-keres",
    "yc-lantern-ai",
    "yc-linklane",
    "yc-lyon",
+   "yc-melty-gg",
    "yc-munito-ai",
    "yc-neomatter",
    "yc-open-actuation",
    "yc-openhack",
+   "yc-openseo",
    "yc-orca-aerospace",
+   "yc-particularity",
    "yc-pendulum-robotics",
    "yc-petrichor",
    "yc-petrichor-bio",
    "yc-ploid",
+   "yc-quivly-ai",
    "yc-ratlog",
+   "yc-rhem-labs",
    "yc-rivereditor",
    "yc-rote",
    "yc-rystic",
    "yc-saccade",
    "yc-sentient-os",
    "yc-sinter-systems",
+   "yc-sintropix",
+   "yc-sona8",
    "yc-streamline-systems",
    "yc-superradiant",
    "yc-talos-us",
    "yc-the-agentic-data-co",
    "yc-tilion",
+   "yc-tilo",
    "yc-tire-swing",
+   "yc-trylatent",
    "yc-twentyfour26",
    "yc-ufoai",
    "yc-useforward",
@@ -543,8 +696,8 @@
    "yc-vexo",
    "yc-vyra"
   ],
-  "lastUpdated": "2026-10-19T00:13:01Z",
-  "lastRunNotes": "Checked all 12 holdings for news; nothing beyond the original YC/Show HN coverage turned up for any of them, so no updates and all are marked checked. Researched ~12 of this week's 28 candidates (web search on product, team, traction, funding). Backed five from the CANDIDATES list: Keres (reusable drone/cruise-missile interceptor, already shows $125K raised pre-YC, strong hard-tech thesis in a hot counter-UAS market), Grep AI (self-improving ops agents with a named enterprise customer, IG, claiming real automation hours saved), Orca Aerospace (onboard autonomous satellite operators, timely given the growing constellation market), Archangel Health (physician-graded clinical data licensing infra for medical AI, HIPAA-compliant data marketplace), and Deploy (robotics-as-a-service deployment layer, smallest/most speculative of the five, team of two). Skipped several candidates (Neomatter, Petrichor, Dydema, Bee Frontier/Eclipse) for lack of verifiable information or, in Bee's case, because it's an Amazon hardware product, not an independent investable startup."
+  "lastUpdated": "2026-10-26T00:14:52Z",
+  "lastRunNotes": "Checked all 16 existing holdings via web search; found no verified raises, shutdowns or acquisitions for any of them (all still pre-Demo-Day, Dec 2 2026), so everything goes to 'checked'. From the 28 new candidates, backed 5 YC Fall 2026 companies with the clearest early signal: agent-infrastructure (Boat), enterprise traction with named pilot customers (Sona8, Sintropix with 10 paying clients across 4 countries), open-source devtool momentum (OpenSEO), and a just-launched B2B post-sales product with real integrations (Quivly AI). Passed on hardware inspection (Hundred, slower sales cycle) and several candidates (Tilo, Particularity, Rystic-style names) with no verifiable public footprint at all."
  },
  "nav_history": [
   {
@@ -574,6 +727,13 @@
    "cash": 9392.0,
    "holdingsValue": 608.0,
    "deployed": 608.0
+  },
+  {
+   "date": "2026-10-26",
+   "nav": 10000.0,
+   "cash": 9238.0,
+   "holdingsValue": 762.0,
+   "deployed": 762.0
   }
  ],
  "deals": [
@@ -797,6 +957,71 @@
    "pAlive12m": 0.6,
    "thesis": "Robotics-as-a-service deployment layer that lets customers pay for robot labor as an opex line rather than buying hardware, hardware-agnostic across robot makers. Timely wedge (robotics deployment is genuinely underserved) but thin team of two and a capital-intensive services model make this the most speculative pick this week; sized as the smallest cheque.",
    "url": "https://www.ycombinator.com/companies/deploy"
+  },
+  {
+   "type": "invest",
+   "id": "yc-boat",
+   "name": "Boat",
+   "source": "YC Fall 2026",
+   "date": "2026-10-26T00:14:52Z",
+   "amount": 35.0,
+   "valuation": 15000000.0,
+   "pRaise12m": 0.4,
+   "pAlive12m": 0.8,
+   "thesis": "Cloud VMs purpose-built for AI coding agents (Claude Code, Codex, OpenCode) with disk-level forking and a CLI/SDK -- rides the same agent-sandbox wave as E2B/Daytona. Infra picks-and-shovels plays in this space have been raising quickly; team of 3, real product with published pricing.",
+   "url": "https://www.ycombinator.com/companies/boat"
+  },
+  {
+   "type": "invest",
+   "id": "yc-sona8",
+   "name": "Sona8",
+   "source": "YC Fall 2026",
+   "date": "2026-10-26T00:14:52Z",
+   "amount": 32.0,
+   "valuation": 18000000.0,
+   "pRaise12m": 0.4,
+   "pAlive12m": 0.82,
+   "thesis": "AI voice agents interview employees to map workflows for consulting/PE/transformation teams; already has a named pilot (several hundred interviews at a professional services firm) and MIT Sandbox backing. Team of 4 (founders + founding engineer) is more de-risked than typical solo YC teams.",
+   "url": "https://www.ycombinator.com/companies/sona8"
+  },
+  {
+   "type": "invest",
+   "id": "yc-openseo",
+   "name": "OpenSEO",
+   "source": "YC Fall 2026",
+   "date": "2026-10-26T00:14:52Z",
+   "amount": 28.0,
+   "valuation": 14000000.0,
+   "pRaise12m": 0.3,
+   "pAlive12m": 0.75,
+   "thesis": "Open-source Semrush/Ahrefs alternative (MIT licensed, self-host or $10/mo) with an MCP server for agent-driven SEO workflows. Real GitHub traction claimed and a clean open-core monetization path, though data is a thin layer over DataForSEO so differentiation risk is real.",
+   "url": "https://www.ycombinator.com/companies/openseo"
+  },
+  {
+   "type": "invest",
+   "id": "yc-sintropix",
+   "name": "Sintropix",
+   "source": "YC Fall 2026",
+   "date": "2026-10-26T00:14:52Z",
+   "amount": 30.0,
+   "valuation": 15000000.0,
+   "pRaise12m": 0.35,
+   "pAlive12m": 0.8,
+   "thesis": "AI-native ERP/autonomous accounting platform for LatAm SMBs with an AI assistant (Erwin) for financial Q&A; founders report 10 paying clients across Chile, Mexico, Brazil and the US, which is unusually concrete traction for this stage.",
+   "url": "https://www.ycombinator.com/companies/sintropix"
+  },
+  {
+   "type": "invest",
+   "id": "yc-quivly-ai",
+   "name": "Quivly AI",
+   "source": "YC Fall 2026",
+   "date": "2026-10-26T00:14:52Z",
+   "amount": 29.0,
+   "valuation": 16000000.0,
+   "pRaise12m": 0.3,
+   "pAlive12m": 0.75,
+   "thesis": "Post-sales AI agents handling onboarding, usage-drop detection and renewal prep for usage-based B2B companies; launched Oct 8 2026 with working Slack/web/MCP integrations and a differentiated 'Radar' expansion-detection feature. Crowded post-sales-AI category is the main risk.",
+   "url": "https://www.ycombinator.com/companies/quivly-ai"
   }
  ],
  "forecasts": [
@@ -1070,6 +1295,86 @@
    "prob": 0.6,
    "made": "2026-10-19",
    "due": "2027-10-19",
+   "outcome": null
+  },
+  {
+   "id": "yc-boat",
+   "event": "raise_12m",
+   "prob": 0.4,
+   "made": "2026-10-26",
+   "due": "2027-10-26",
+   "outcome": null
+  },
+  {
+   "id": "yc-boat",
+   "event": "alive_12m",
+   "prob": 0.8,
+   "made": "2026-10-26",
+   "due": "2027-10-26",
+   "outcome": null
+  },
+  {
+   "id": "yc-sona8",
+   "event": "raise_12m",
+   "prob": 0.4,
+   "made": "2026-10-26",
+   "due": "2027-10-26",
+   "outcome": null
+  },
+  {
+   "id": "yc-sona8",
+   "event": "alive_12m",
+   "prob": 0.82,
+   "made": "2026-10-26",
+   "due": "2027-10-26",
+   "outcome": null
+  },
+  {
+   "id": "yc-openseo",
+   "event": "raise_12m",
+   "prob": 0.3,
+   "made": "2026-10-26",
+   "due": "2027-10-26",
+   "outcome": null
+  },
+  {
+   "id": "yc-openseo",
+   "event": "alive_12m",
+   "prob": 0.75,
+   "made": "2026-10-26",
+   "due": "2027-10-26",
+   "outcome": null
+  },
+  {
+   "id": "yc-sintropix",
+   "event": "raise_12m",
+   "prob": 0.35,
+   "made": "2026-10-26",
+   "due": "2027-10-26",
+   "outcome": null
+  },
+  {
+   "id": "yc-sintropix",
+   "event": "alive_12m",
+   "prob": 0.8,
+   "made": "2026-10-26",
+   "due": "2027-10-26",
+   "outcome": null
+  },
+  {
+   "id": "yc-quivly-ai",
+   "event": "raise_12m",
+   "prob": 0.3,
+   "made": "2026-10-26",
+   "due": "2027-10-26",
+   "outcome": null
+  },
+  {
+   "id": "yc-quivly-ai",
+   "event": "alive_12m",
+   "prob": 0.75,
+   "made": "2026-10-26",
+   "due": "2027-10-26",
    "outcome": null
   }
  ]
