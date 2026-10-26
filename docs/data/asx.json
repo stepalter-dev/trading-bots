@@ -1,15 +1,15 @@
 {
  "state": {
-  "cash": 1470.4870268211173,
+  "cash": 2580.5362868596853,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, ticker-specific catalysts today. The bank rally (CBA/NAB/WBC/ANZ up 1-3%) still traces to known RBA rate speculation, not new news. PME has no new announcement since its August FY26 results and sits just under its A$195 target (194.33, +0.3% away) - not yet flagged TARGET REACHED, so the existing plan stands. Telstra's recent news is routine (AGM, buyback, bond raise) with no new catalyst; Santos and Woolworths also have nothing new (Woolworths' next sales update isn't until Oct 28). Holding across the board; growth/core split in the active sleeve stays ~40%/60%, within band, and all three held positions already have current plans.",
-  "lastUpdated": "2026-10-23T04:12:17Z",
+  "lastRunNotes": "Broad macro risk-off today (rate/yield worries), not stock-specific - benchmark -0.36%, most watchlist names red. No fresh ticker-specific catalysts found for CBA, TLS or new growth candidates (CPU/REA/WOW momentum leaders have no new news); NXT's -40% plunge (Oct 21 power outage/earnings downgrade at its Melbourne site) explains the Wikipedia attention spike but it's DOWN-trend and un-buyable anyway. PME hit its A$195 target with no new catalyst to justify a higher one, so taking profit there (+17.9%). Holding CBA and TLS unchanged (NSW contract and outage-resolution theses intact, no new info). This temporarily pushes the active sleeve to 0% growth / 100% core, outside the usual band, but forcing a growth buy without a real catalyst would be worse than waiting.",
+  "lastUpdated": "2026-10-26T01:13:02Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 161.61,
+    "lastPrice": 161.94,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -21,25 +21,10 @@
      "setLater": true
     }
    },
-   "PME.AX": {
-    "avgCost": 169.06,
-    "bucket": "growth",
-    "lastPrice": 193.96,
-    "shares": 5.614753,
-    "plan": {
-     "target": 195.0,
-     "stop": 145.0,
-     "prob": 0.5,
-     "rr": 1.96,
-     "evPct": 5.02,
-     "entryRef": 161.88,
-     "setLater": true
-    }
-   },
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.92,
+    "lastPrice": 4.885,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -62,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.48
+   "lastPrice": 78.24
   },
   "cashFreed": "2026-10-05"
  },
@@ -352,6 +337,17 @@
    "growthValue": 1089.04,
    "coreValue": 1645.25,
    "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-26",
+   "nav": 10123.68,
+   "cash": 2580.54,
+   "positionsValue": 7543.14,
+   "benchmarkNav": 9913.84,
+   "benchmarkClose": 78.24,
+   "growthValue": 0.0,
+   "coreValue": 1642.68,
+   "daytradeValue": 0.0
   }
  ],
  "trades": [
@@ -493,8 +489,41 @@
    "realizedPnL": -5.94,
    "realizedPnLPct": -2.3,
    "exitReason": "rebalance"
+  },
+  {
+   "id": "2026-10-26-PME.AX-ygzsi8",
+   "ticker": "PME.AX",
+   "action": "sell",
+   "shares": 5.614753,
+   "price": 198.770856,
+   "refPrice": 198.93,
+   "fee": 6.0,
+   "date": "2026-10-26T01:13:02Z",
+   "bucket": "growth",
+   "rationale": "Target reached (A$195) with no new catalyst since the August FY26 results to justify a higher target; locking in +17.9% gain rather than letting a position without a fresh thesis ride.",
+   "realizedPnL": 160.82,
+   "realizedPnLPct": 16.94
   }
  ],
  "lessons": [],
- "journal": []
+ "journal": [
+  {
+   "id": "2026-10-26-PME.AX-ygzsi8",
+   "date": "2026-10-26T01:13:02Z",
+   "ticker": "PME.AX",
+   "bucket": "growth",
+   "entryPrice": 169.9768,
+   "exitPrice": 198.770856,
+   "pnl": 160.82,
+   "pnlPct": 16.94,
+   "daysHeld": 38,
+   "whyBought": "Record-breaking FY26 results drove a +2.9% gain today; strong North American radiology SaaS growth momentum continues.",
+   "horizon": "Hold through FY27 half-year results (~Feb 2027); reassess if North American revenue growth decelerates below ~20% YoY or price breaks below A$150 support.",
+   "whySold": "Target reached (A$195) with no new catalyst since the August FY26 results to justify a higher target; locking in +17.9% gain rather than letting a position without a fresh thesis ride.",
+   "prob": null,
+   "rr": null,
+   "exitReason": null,
+   "review": null
+  }
+ ]
 }
