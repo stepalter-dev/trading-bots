@@ -3,13 +3,13 @@
   "cash": 2580.5362868596853,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad macro risk-off today (rate/yield worries), not stock-specific - benchmark -0.36%, most watchlist names red. No fresh ticker-specific catalysts found for CBA, TLS or new growth candidates (CPU/REA/WOW momentum leaders have no new news); NXT's -40% plunge (Oct 21 power outage/earnings downgrade at its Melbourne site) explains the Wikipedia attention spike but it's DOWN-trend and un-buyable anyway. PME hit its A$195 target with no new catalyst to justify a higher one, so taking profit there (+17.9%). Holding CBA and TLS unchanged (NSW contract and outage-resolution theses intact, no new info). This temporarily pushes the active sleeve to 0% growth / 100% core, outside the usual band, but forcing a growth buy without a real catalyst would be worse than waiting.",
-  "lastUpdated": "2026-10-26T01:13:02Z",
+  "lastRunNotes": "Checked held CBA (NSW contract thesis intact, no new news, now within 0.7% of target) and TLS (AGM/buy-back continuing, Macquarie kept Hold, outage review has no new development). Investigated the NAB/ANZ/WBC Wikipedia attention spike - no fresh news found, looks like routine AGM-season attention rather than a catalyst. Checked UP-trend growth/momentum leaders REA (Oct AGM update + ACCC pricing probe + Investor Day, all known/non-actionable), STO/WDS (Woodside-Santos merger talks already collapsed, old news priced into momentum), WOW and CPU (no new catalyst, FY26 results already stale). No real, fresh, actionable catalyst anywhere today, so holding everything unchanged with existing plans. Growth sleeve is 0% of NAV after last session's PME profit-take; core is ~16% of NAV via CBA+TLS - well within limits, but no UP-trend growth name has a credible catalyst to deploy into right now.",
+  "lastUpdated": "2026-10-26T04:12:25Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 161.94,
+    "lastPrice": 163.77,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -24,7 +24,7 @@
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.885,
+    "lastPrice": 4.915,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -47,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.24
+   "lastPrice": 78.67
   },
   "cashFreed": "2026-10-05"
  },
@@ -340,13 +340,13 @@
   },
   {
    "date": "2026-10-26",
-   "nav": 10123.68,
+   "nav": 10171.35,
    "cash": 2580.54,
-   "positionsValue": 7543.14,
-   "benchmarkNav": 9913.84,
-   "benchmarkClose": 78.24,
+   "positionsValue": 7590.82,
+   "benchmarkNav": 9968.33,
+   "benchmarkClose": 78.67,
    "growthValue": 0.0,
-   "coreValue": 1642.68,
+   "coreValue": 1657.93,
    "daytradeValue": 0.0
   }
  ],
@@ -523,7 +523,10 @@
    "prob": null,
    "rr": null,
    "exitReason": null,
-   "review": null
+   "review": {
+    "verdict": "sound",
+    "lesson": "Taking profit at a pre-set target once the thesis has played out and no new catalyst justifies a higher target is sound capital discipline, even with no replacement idea in hand."
+   }
   }
  ]
 }
