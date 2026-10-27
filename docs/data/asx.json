@@ -3,13 +3,13 @@
   "cash": 2580.5362868596853,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held CBA (NSW contract thesis intact, no new news, now within 0.7% of target) and TLS (AGM/buy-back continuing, Macquarie kept Hold, outage review has no new development). Investigated the NAB/ANZ/WBC Wikipedia attention spike - no fresh news found, looks like routine AGM-season attention rather than a catalyst. Checked UP-trend growth/momentum leaders REA (Oct AGM update + ACCC pricing probe + Investor Day, all known/non-actionable), STO/WDS (Woodside-Santos merger talks already collapsed, old news priced into momentum), WOW and CPU (no new catalyst, FY26 results already stale). No real, fresh, actionable catalyst anywhere today, so holding everything unchanged with existing plans. Growth sleeve is 0% of NAV after last session's PME profit-take; core is ~16% of NAV via CBA+TLS - well within limits, but no UP-trend growth name has a credible catalyst to deploy into right now.",
-  "lastUpdated": "2026-10-26T04:12:25Z",
+  "lastRunNotes": "No new catalysts found: CBA's AGM address (14 Oct) was routine with no new NSW-contract news, and TLS had no fresh developments beyond its already-priced AGM/buyback. NXT's Wikipedia spike and -37.85% 5d move trace to a 21 Oct guidance cut/power-delay crash (old news, trend still DOWN, no buy allowed anyway). WOW, STO/WDS and bank AGM attention also showed nothing new and actionable. Holding both core positions (CBA near its 165 target, TLS mid-thesis) with growth bucket empty after yesterday's PME exit; no trade clears the cost hurdle without a real catalyst.",
+  "lastUpdated": "2026-10-27T00:14:09Z",
   "positions": {
    "CBA.AX": {
     "avgCost": 151.78,
     "bucket": "core",
-    "lastPrice": 163.77,
+    "lastPrice": 161.79,
     "shares": 6.176228,
     "plan": {
      "target": 165.0,
@@ -47,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.67
+   "lastPrice": 78.56
   },
   "cashFreed": "2026-10-05"
  },
@@ -347,6 +347,17 @@
    "benchmarkClose": 78.67,
    "growthValue": 0.0,
    "coreValue": 1657.93,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-27",
+   "nav": 10150.83,
+   "cash": 2580.54,
+   "positionsValue": 7570.29,
+   "benchmarkNav": 9954.39,
+   "benchmarkClose": 78.56,
+   "growthValue": 0.0,
+   "coreValue": 1645.7,
    "daytradeValue": 0.0
   }
  ],
