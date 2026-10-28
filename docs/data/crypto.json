@@ -3,13 +3,13 @@
   "cash": 1957.7626393433939,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked SOL, AVAX (both held), plus top-momentum trend-UP names NEAR, LINK, UNI for a fresh dated catalyst. Found nothing specific to today (Oct 25): SOL's Alpenglow upgrade is already-known Oct 21 news; AVAX's RWA/Helicon thesis is unchanged with no new developments; NEAR's run-up is stale ETF-driven news now cooling, and LINK's Fulcrum/CCIP 2.0 launches are late-September, already priced in. Today's broad red board with vol_x mostly below 1x matches standing lesson #5 (market-wide risk-off beta, not asset-specific). No swing trades this session; held SOL and AVAX unchanged, both already have plans on file so no new plan entries needed. Growth/core balance unaffected (both held positions are growth).",
-  "lastUpdated": "2026-10-25T20:12:45Z",
+  "lastRunNotes": "Checked held SOL and AVAX (both still above their stops, existing plans unchanged) plus today's standout movers/momentum names: LTC (+4.25% day), BCH (-2.49% day, vol_x 1.63), AAVE (+2.61% day), NEAR and LINK. Found no fresh, asset-specific catalyst dated today: the LTC 'ETF boosts LTC' headline turned out to be a stale Oct 28 2025 article, AAVE's governance proposal to retire low-use V3 markets is a cost-cutting move not a growth catalyst, and LINK's Fulcrum launch / NEAR's intents growth are already-priced late-September news, consistent with the prior session's findings. With BTC +0.69% and nearly every watchlist name up 1-4% on middling vol_x (~1.0-1.3x), this reads as broad market-wide beta per standing lesson #5, not a specific setup worth a swing trade. Holding both SOL (growth) and AVAX (growth) unchanged with existing plans; no new trades this session.",
+  "lastUpdated": "2026-10-28T20:13:49Z",
   "positions": {
    "SOL-USD": {
     "avgCost": 114.78,
     "bucket": "growth",
-    "lastPrice": 101.62,
+    "lastPrice": 102.72,
     "shares": 4.5309593,
     "plan": {
      "target": 140.0,
@@ -24,7 +24,7 @@
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 8.936,
+    "lastPrice": 9.012,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -48,7 +48,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 80445.86
+   "lastPrice": 81258.12
   },
   "cashFreed": "2026-10-03"
  },
@@ -413,6 +413,17 @@
    "benchmarkNav": 6694.86,
    "benchmarkClose": 80445.86,
    "growthValue": 608.41,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-28",
+   "nav": 6670.87,
+   "cash": 1957.76,
+   "positionsValue": 4713.11,
+   "benchmarkNav": 6762.46,
+   "benchmarkClose": 81258.12,
+   "growthValue": 614.65,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1113,6 +1124,10 @@
   {
    "date": "2026-10-25",
    "rank": 39
+  },
+  {
+   "date": "2026-10-28",
+   "rank": 38
   }
  ]
 }
