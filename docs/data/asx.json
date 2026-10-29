@@ -3,13 +3,13 @@
   "cash": 3595.822575402309,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh catalysts: CBA's 14 Oct AGM was routine with no new NSW-contract news, so with CBA at its A$165 target and the original catalyst fully priced in, taking profit rather than inventing a higher target. TLS's AGM backed the board/CEO equity grants but added nothing beyond the already-priced buyback/dividend, so holding its existing plan unchanged. Growth-bucket candidates with an UP trend (PME, CPU, ALL, TNE) and the attention-spiking banks (ANZ, WBC, RIO, XRO) turned up no specific news catalyst today, so no new buys; growth stays empty pending a real trigger.",
-  "lastUpdated": "2026-10-29T03:12:29Z",
+  "lastRunNotes": "No specific catalyst found for TLS (unchanged, price 4.905 vs target 5.2/stop 4.4, keep existing plan) or for any UP-trend watchlist candidate (PME/CPU/ALL/TNE growth; CBA/NAB/ANZ/MQG/WOW/COL/STO/WDS/SUN/QBE/IAG/ORG core) despite today's broad bank rally and WES/WOW moves - no confirmed news peg, so treated as noise rather than a tradeable trigger. PLS and WES had the biggest drops but are DOWN-trend and barred from new buys anyway. Holding: active sleeve stays at just TLS (6.3% of NAV, core), no new trades this session.",
+  "lastUpdated": "2026-10-29T04:12:38Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.91,
+    "lastPrice": 4.905,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -347,13 +347,13 @@
   },
   {
    "date": "2026-10-29",
-   "nav": 10227.29,
+   "nav": 10226.64,
    "cash": 3595.82,
-   "positionsValue": 6631.47,
+   "positionsValue": 6630.81,
    "benchmarkNav": 10057.03,
    "benchmarkClose": 79.37,
    "growthValue": 0.0,
-   "coreValue": 645.79,
+   "coreValue": 645.13,
    "daytradeValue": 0.0
   }
  ],
@@ -565,7 +565,10 @@
    "prob": null,
    "rr": null,
    "exitReason": null,
-   "review": null
+   "review": {
+    "verdict": "sound",
+    "lesson": "Bought on a concrete durable catalyst (NSW banking contract), sold at the pre-set target once the AGM confirmed no fresh upside catalyst, instead of inventing a higher target to keep riding it."
+   }
   }
  ]
 }
