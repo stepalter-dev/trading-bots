@@ -1,30 +1,15 @@
 {
  "state": {
-  "cash": 2580.5362868596853,
+  "cash": 3595.822575402309,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No new catalysts found: CBA's AGM address (14 Oct) was routine with no new NSW-contract news, and TLS had no fresh developments beyond its already-priced AGM/buyback. NXT's Wikipedia spike and -37.85% 5d move trace to a 21 Oct guidance cut/power-delay crash (old news, trend still DOWN, no buy allowed anyway). WOW, STO/WDS and bank AGM attention also showed nothing new and actionable. Holding both core positions (CBA near its 165 target, TLS mid-thesis) with growth bucket empty after yesterday's PME exit; no trade clears the cost hurdle without a real catalyst.",
-  "lastUpdated": "2026-10-27T00:14:09Z",
+  "lastRunNotes": "No fresh catalysts: CBA's 14 Oct AGM was routine with no new NSW-contract news, so with CBA at its A$165 target and the original catalyst fully priced in, taking profit rather than inventing a higher target. TLS's AGM backed the board/CEO equity grants but added nothing beyond the already-priced buyback/dividend, so holding its existing plan unchanged. Growth-bucket candidates with an UP trend (PME, CPU, ALL, TNE) and the attention-spiking banks (ANZ, WBC, RIO, XRO) turned up no specific news catalyst today, so no new buys; growth stays empty pending a real trigger.",
+  "lastUpdated": "2026-10-29T03:12:29Z",
   "positions": {
-   "CBA.AX": {
-    "avgCost": 151.78,
-    "bucket": "core",
-    "lastPrice": 161.79,
-    "shares": 6.176228,
-    "plan": {
-     "target": 165.0,
-     "stop": 138.0,
-     "prob": 0.55,
-     "rr": 1.12,
-     "evPct": 1.39,
-     "entryRef": 150.75,
-     "setLater": true
-    }
-   },
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.915,
+    "lastPrice": 4.91,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -47,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.56
+   "lastPrice": 79.37
   },
   "cashFreed": "2026-10-05"
  },
@@ -359,6 +344,17 @@
    "growthValue": 0.0,
    "coreValue": 1645.7,
    "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-29",
+   "nav": 10227.29,
+   "cash": 3595.82,
+   "positionsValue": 6631.47,
+   "benchmarkNav": 10057.03,
+   "benchmarkClose": 79.37,
+   "growthValue": 0.0,
+   "coreValue": 645.79,
+   "daytradeValue": 0.0
   }
  ],
  "trades": [
@@ -514,6 +510,20 @@
    "rationale": "Target reached (A$195) with no new catalyst since the August FY26 results to justify a higher target; locking in +17.9% gain rather than letting a position without a fresh thesis ride.",
    "realizedPnL": 160.82,
    "realizedPnLPct": 16.94
+  },
+  {
+   "id": "2026-10-29-CBA.AX-mxtncc",
+   "ticker": "CBA.AX",
+   "action": "sell",
+   "shares": 6.176228,
+   "price": 165.357608,
+   "refPrice": 165.49,
+   "fee": 6.0,
+   "date": "2026-10-29T03:12:29Z",
+   "bucket": "core",
+   "rationale": "Target A$165 reached (now A$165.52); NSW-contract catalyst is fully priced in and the 14 Oct AGM was routine with no new information to justify a higher target, so taking the +9.1% profit rather than holding without a fresh thesis.",
+   "realizedPnL": 77.86,
+   "realizedPnLPct": 8.31
   }
  ],
  "lessons": [],
@@ -538,6 +548,24 @@
     "verdict": "sound",
     "lesson": "Taking profit at a pre-set target once the thesis has played out and no new catalyst justifies a higher target is sound capital discipline, even with no replacement idea in hand."
    }
+  },
+  {
+   "id": "2026-10-29-CBA.AX-mxtncc",
+   "date": "2026-10-29T03:12:29Z",
+   "ticker": "CBA.AX",
+   "bucket": "core",
+   "entryPrice": 152.6707,
+   "exitPrice": 165.357608,
+   "pnl": 77.86,
+   "pnlPct": 8.31,
+   "daysHeld": 41,
+   "whyBought": "Won NSW state government banking services contract (liquidity management, transaction banking, FX, transit payments) — durable revenue catalyst for defensive core bank holding.",
+   "horizon": "Hold through next quarterly update; reassess if NSW contract synergies fail to show in FY27 guidance or valuation stretches materially above sector average P/E.",
+   "whySold": "Target A$165 reached (now A$165.52); NSW-contract catalyst is fully priced in and the 14 Oct AGM was routine with no new information to justify a higher target, so taking the +9.1% profit rather than holding without a fresh thesis.",
+   "prob": null,
+   "rr": null,
+   "exitReason": null,
+   "review": null
   }
  ]
 }
