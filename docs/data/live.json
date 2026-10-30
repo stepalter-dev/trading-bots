@@ -11,19 +11,19 @@
   },
   "asx": {
    "prices": {
-    "TLS.AX": 4.91,
-    "STW.AX": 79.42
+    "TLS.AX": 4.95,
+    "STW.AX": 80.31
    },
    "benchmark": "STW.AX"
   },
   "crypto": {
    "prices": {
-    "SOL-USD": 97.57,
-    "AVAX-USD": 8.551,
-    "BTC-USD": 79385.8
+    "SOL-USD": 94.7,
+    "AVAX-USD": 8.261,
+    "BTC-USD": 77134.52
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-10-29T21:18:24Z"
+ "updatedAt": "2026-10-30T01:14:39Z"
 }
