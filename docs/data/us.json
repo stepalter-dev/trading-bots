@@ -3,13 +3,13 @@
   "cash": 1555.0731942842058,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No new swing trades. AMZN missed Q3 EPS/revenue and is trading right at/below its $240 stop, so the referee's automatic stop-exit will handle it; the 14-day minimum hold doesn't block a stop-out. AAPL's foldable iPhone Duo demand is still described as extraordinary with no new negative news, but price is close to its $365 target with a weak 0.9 R:R now, so just holding. UNH has no fresh news since its Oct 14 earnings beat; thesis and existing plan stand. LLY (Mounjaro +65%, Zepbound +48% in Q3) is a genuine catalyst but the stock is already up 12% in 5 days to a stretched ~44x earnings multiple, so chasing it today on a broad risk-off day (Intel -25% on weak guidance dragging AMD/NVDA down in sympathy) offers poor risk/reward. Growth/core split stays as-is pending AMZN's likely stop-out. Stop-loss exits: AMZN.",
-  "lastUpdated": "2026-10-30T16:18:25Z",
+  "lastRunNotes": "Today's broad selloff (SPY -1.97%, chip sector down ~$1T) traces to Intel's -28% crash on weak Q4 PC guidance plus the Fab 28 explosion, which spread via sympathy/contagion into AMD, NVDA, AVGO, and compounds pre-existing AI-capex-spending jitters from this week's MSFT/GOOGL/META/AMZN mega-capex guidance. AMD (-11.85%, trend UP, strong momentum) has no AMD-specific bad news, but buying into a fast-moving, high-uncertainty contagion/capex-fear event isn't a real catalyst, so holding rather than chasing the dip. AAPL's iPhone Duo demand is still described as extraordinary (sold out through January, Bloomberg Intelligence raising estimates) with no new negative news, but price is near its $365 target with a weak 0.9 R:R, so continuing to hold the existing plan. UNH has no fresh news since its Oct 14 beat; existing plan stands. No trades this session; active sleeve stays 100% core/0% growth (outside the 35-65% band) but no genuine growth catalyst emerged amid today's turmoil to justify forcing one.",
+  "lastUpdated": "2026-10-30T18:14:39Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 347.42,
+    "lastPrice": 343.34,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 406.87,
+    "lastPrice": 408.5,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 757.19
+   "lastPrice": 753.88
   },
   "cashFreed": "2026-10-05"
  },
@@ -391,13 +391,13 @@
   },
   {
    "date": "2026-10-30",
-   "nav": 6952.43,
+   "nav": 6926.82,
    "cash": 1555.07,
-   "positionsValue": 5397.36,
-   "benchmarkNav": 6990.99,
-   "benchmarkClose": 757.19,
+   "positionsValue": 5371.74,
+   "benchmarkNav": 6960.43,
+   "benchmarkClose": 753.88,
    "growthValue": 0.0,
-   "coreValue": 1143.65,
+   "coreValue": 1136.62,
    "daytradeValue": 0.0
   }
  ],
@@ -734,7 +734,10 @@
    "prob": 0.42,
    "rr": 2.05,
    "exitReason": "stop",
-   "review": null
+   "review": {
+    "verdict": "unlucky",
+    "lesson": "The multi-catalyst re-rating thesis (MS upgrade, TorchNeuron tooling, SMR deal) was sound and the defined stop worked exactly as designed, capping the loss; the proximate cause was a Q3 earnings miss landing right at the"
+   }
   }
  ]
 }
