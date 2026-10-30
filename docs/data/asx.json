@@ -3,13 +3,13 @@
   "cash": 3595.822575402309,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No specific catalyst found for TLS (unchanged, price 4.905 vs target 5.2/stop 4.4, keep existing plan) or for any UP-trend watchlist candidate (PME/CPU/ALL/TNE growth; CBA/NAB/ANZ/MQG/WOW/COL/STO/WDS/SUN/QBE/IAG/ORG core) despite today's broad bank rally and WES/WOW moves - no confirmed news peg, so treated as noise rather than a tradeable trigger. PLS and WES had the biggest drops but are DOWN-trend and barred from new buys anyway. Holding: active sleeve stays at just TLS (6.3% of NAV, core), no new trades this session.",
-  "lastUpdated": "2026-10-29T04:12:38Z",
+  "lastRunNotes": "Checked the big movers and all UP-trend watchlist names for a real catalyst: Coles (COL) missed Q1 FY27 sales estimates (A$11,209m vs ~A$11.29bn forecast) and fell ~8-11%, explaining today's volume spike, but COL is DOWN-trend and barred from new buys, and we don't hold it, so it's not actionable. No dated October 2026 catalyst found for TLS, ALL, CPU, WOW, STO/WDS, or the bank names - AGM/buyback/bond items for TLS and reaffirmed guidance for CPU are not catalysts for a new move. Active sleeve stays at just TLS (6.3% of NAV, core); its plan (target 5.2, stop 4.4, 55%) is unchanged and not at stop or target. Holding, no trades this session.",
+  "lastUpdated": "2026-10-30T03:13:01Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 4.905,
+    "lastPrice": 4.955,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 79.37
+   "lastPrice": 79.85
   },
   "cashFreed": "2026-10-05"
  },
@@ -354,6 +354,17 @@
    "benchmarkClose": 79.37,
    "growthValue": 0.0,
    "coreValue": 645.13,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-10-30",
+   "nav": 10269.41,
+   "cash": 3595.82,
+   "positionsValue": 6673.59,
+   "benchmarkNav": 10117.85,
+   "benchmarkClose": 79.85,
+   "growthValue": 0.0,
+   "coreValue": 651.71,
    "daytradeValue": 0.0
   }
  ],
