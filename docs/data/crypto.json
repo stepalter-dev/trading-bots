@@ -3,13 +3,13 @@
   "cash": 2393.291881370723,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked AVAX (RWA Hub/DeFi TVL thesis unchanged since Sept, no new dated news, horizon not due) and searched big-momentum/signal names LTC (Wikipedia attention 1.7x) and NEAR (top momentum rank, 116% mom12_1): the 'LTC spot ETF on Nasdaq' headlines are recycled Oct-2025 news misdated in search results, not a real catalyst this week, and NEAR's main story was a $3.8M Intents exploit from Oct 1 that's already resolved and stale. No fresh, specific, dated catalyst found for any watchlist name today, so holding with no trades; active sleeve stays just AVAX (growth, 2.3% of NAV, existing plan unchanged) with cash at 37% of NAV, well above the floor.",
-  "lastUpdated": "2026-11-01T08:12:42Z",
+  "lastRunNotes": "Found the real story behind the BNB Wikipedia spike: a ~$6.3B hack hit Binance on Oct 29-30 (North Korea/TraderTraitor per FBI/Chainalysis), BNB fell ~8-9% then partially recovered to 714.88 (+1.75% today) as Binance resumed withdrawals with 90% coverage - already priced in and not a fresh buy case given elevated platform risk. No new dated catalyst for AVAX's RWA Hub thesis (Hub is live but deposit figures are small/conflicting, $15-20M) or any other watchlist name; AAVE's bounce lacks volume confirmation (vol_x 0.83). Holding with no trades: active sleeve stays just AVAX (growth, 2.2% of NAV), whose stop ($8) hasn't been hit and horizon review found nothing to change the plan.",
+  "lastUpdated": "2026-11-01T14:15:29Z",
   "positions": {
    "AVAX-USD": {
     "shares": 16.55898431,
     "avgCost": 10.161,
-    "lastPrice": 8.821,
+    "lastPrice": 8.745,
     "bucket": "growth",
     "openedDate": "2026-09-24",
     "plan": {
@@ -33,7 +33,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 77777.77
+   "lastPrice": 77868.48
   },
   "cashFreed": "2026-10-03"
  },
@@ -436,12 +436,12 @@
   },
   {
    "date": "2026-11-01",
-   "nav": 6462.28,
+   "nav": 6465.59,
    "cash": 2393.29,
-   "positionsValue": 4068.98,
-   "benchmarkNav": 6472.82,
-   "benchmarkClose": 77777.77,
-   "growthValue": 146.07,
+   "positionsValue": 4072.3,
+   "benchmarkNav": 6480.37,
+   "benchmarkClose": 77868.48,
+   "growthValue": 144.81,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1193,7 +1193,7 @@
   },
   {
    "date": "2026-11-01",
-   "rank": 45
+   "rank": 43
   }
  ]
 }
