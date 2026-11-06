@@ -2,10 +2,10 @@
  "markets": {
   "us": {
    "prices": {
-    "AAPL": 344.17,
-    "UNH": 395.72,
-    "AMD": 404.4,
-    "SPY": 733.0
+    "AAPL": 340.56,
+    "UNH": 392.32,
+    "AMD": 443.79,
+    "SPY": 737.01
    },
    "benchmark": "SPY"
   },
@@ -18,10 +18,10 @@
   },
   "crypto": {
    "prices": {
-    "BTC-USD": 75631.27
+    "BTC-USD": 75641.36
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-11-06T06:42:35Z"
+ "updatedAt": "2026-11-06T14:38:19Z"
 }
