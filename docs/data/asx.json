@@ -3,13 +3,13 @@
   "cash": 3595.822575402309,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked TLS (held, +4.8%, sellable at 49 days), plus today's movers CPU, MQG (earnings day), QBE and the broader market (broad iron-ore/bank-led ASX 200 decline of -0.94%). Could not confirm any dated, specific news for today's session via search (results were stale or inconclusive, including an unverified Citi CPU upgrade and MQG's scheduled Nov 6 earnings, whose actual outcome I could not confirm). Without a confirmed concrete catalyst, held with no trades; active sleeve stays 100% core (TLS only, ~6.5% of NAV), outside the 35-65% band, but that imbalance alone is not a reason to force a growth buy.",
-  "lastUpdated": "2026-11-06T03:12:34Z",
+  "lastRunNotes": "Checked today's biggest movers (MQG -4.16% on elevated volume, BHP/RIO/FMG down on apparent iron-ore weakness, CPU's rumored Citi upgrade) and held position TLS; web search returned only stale or unconfirmed results for all of them, with no dated, specific catalyst for today (2026-11-06) I could verify. TLS is sellable (49 days held, +5.5%) but hasn't hit its 5.2 target or 4.4 stop and has no reversal signal, so holding it under its existing plan. No new swing buys: nothing on the UP-trend watchlist has a confirmed catalyst today. Active sleeve stays 100% core (TLS only), outside the 35-65% band, but that imbalance alone isn't a reason to force a growth trade.",
+  "lastUpdated": "2026-11-06T04:11:51Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.065,
+    "lastPrice": 5.1,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 80.28
+   "lastPrice": 80.35
   },
   "cashFreed": "2026-10-05"
  },
@@ -391,13 +391,13 @@
   },
   {
    "date": "2026-11-06",
-   "nav": 10316.31,
+   "nav": 10326.19,
    "cash": 3595.82,
-   "positionsValue": 6720.48,
-   "benchmarkNav": 10172.33,
-   "benchmarkClose": 80.28,
+   "positionsValue": 6730.37,
+   "benchmarkNav": 10181.2,
+   "benchmarkClose": 80.35,
    "growthValue": 0.0,
-   "coreValue": 666.18,
+   "coreValue": 670.78,
    "daytradeValue": 0.0
   }
  ],
