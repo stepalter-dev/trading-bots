@@ -2,9 +2,9 @@
  "markets": {
   "us": {
    "prices": {
-    "AAPL": 350.69,
-    "UNH": 397.62,
-    "SPY": 752.69
+    "AAPL": 347.74,
+    "UNH": 403.235,
+    "SPY": 746.01
    },
    "benchmark": "SPY"
   },
@@ -17,11 +17,11 @@
   },
   "crypto": {
    "prices": {
-    "AVAX-USD": 8.331,
-    "BTC-USD": 74212.84
+    "AVAX-USD": 8.261,
+    "BTC-USD": 73251.25
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-11-10T10:28:42Z"
+ "updatedAt": "2026-11-10T18:08:06Z"
 }
