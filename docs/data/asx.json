@@ -3,13 +3,13 @@
   "cash": 3595.822575402309,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked today's big movers (ANZ -4.39%, MQG -2.68%/-3.63% 5d, BHP/RIO iron-ore names) and the CPU Citi-upgrade rumor flagged last session; all web searches returned only stale, undated, or conflicting coverage with no confirmed catalyst dated 2026-11-09. Held TLS.AX (sellable at 52 days, +5.0%) has no reversal signal and hasn't hit its 5.2 target or 4.4 stop, so holding under its existing plan. No new swing buys: nothing on the UP-trend watchlist has a specific, dated catalyst today. Active sleeve remains 100% core (TLS only), outside the 35-65% band, but no genuine catalyst justifies forcing a rebalance.",
-  "lastUpdated": "2026-11-09T01:15:35Z",
+  "lastRunNotes": "Checked today's signals (FMG/GMG/COL elevated Wikipedia attention, NXT's 5d +77% spike, CPU's prior Citi-upgrade rumor, BHP/RIO iron-ore moves) via web search; all coverage returned was stale, undated, or conflicting with no catalyst confirmed for 2026-11-10. FMG, NXT, RIO, COL are DOWN-trend (no new buys allowed) regardless. Held TLS.AX (core, sellable at 53 days, +4.1%) has no reversal signal and hasn't hit its 5.2 target or 4.4 stop, so holding under its existing plan. No new swing buys this session. Active sleeve stays 100% core (TLS only), outside the 35-65% growth/core band, but no genuine dated catalyst justifies forcing a growth buy just to rebalance.",
+  "lastUpdated": "2026-11-10T00:13:10Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.07,
+    "lastPrice": 5.035,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 80.31
+   "lastPrice": 81.68
   },
   "cashFreed": "2026-10-05"
  },
@@ -409,6 +409,17 @@
    "benchmarkClose": 80.31,
    "growthValue": 0.0,
    "coreValue": 666.83,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-10",
+   "nav": 10417.94,
+   "cash": 3595.82,
+   "positionsValue": 6822.12,
+   "benchmarkNav": 10349.72,
+   "benchmarkClose": 81.68,
+   "growthValue": 0.0,
+   "coreValue": 662.23,
    "daytradeValue": 0.0
   }
  ],
