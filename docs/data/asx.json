@@ -3,13 +3,13 @@
   "cash": 3595.822575402309,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked the biggest movers and held position for a dated catalyst: TLS (held, +4.9%, below its 5.2 target) has no fresh news since the Sep Barrenjoey upgrade/outage resolution, so the existing plan stands and it's not at target or stop. WTC bounced +11% over 5 days but remains deep in a momentum downtrend (rank 30/31) with an unresolved ASIC/ACCC investigation overhang and its only dated catalyst (AGM) still 16 days out - a bounce without news, so skipped. BHP/STO both have strong 12-month momentum but no new November-dated catalyst (BHP's CMRG iron-ore talks are unresolved and its copper site update is 'late November' but undated; Santos's Q3 beat and Papua LNG FID are already known/not yet decided). GMG's attention spike was already traced last session to a stale, catalyst-free Q1 update. No qualifying catalyst found anywhere on the watchlist, so holding this session with growth/core balance unchanged (TLS is the only active-sleeve position, in core).",
-  "lastUpdated": "2026-11-11T01:17:30Z",
+  "lastRunNotes": "Checked the names with the strongest signals: GMG's Nov 9 Ackland JV stake (with Digital Realty) in NEXTDC is a real, dated catalyst reinforcing GMG's data-centre thesis, but it's a passive minority stake, GMG's own momentum is weak (rank 23/31), today's volume is below average (0.26x, no conviction), and some analyst commentary has been cutting GMG targets - too ambiguous to act on. BHP, STO and WOW all show strong 12-month momentum but no fresh November catalyst (STO's Papua LNG FID is still pending for Q4, BHP's China/Baowu stake story is unresolved, WOW's rally is already priced in from Aug/Sep results). Held TLS core position (+4.4%, below its A$5.2 target, no new news since the Sep upgrade) stays on its existing plan. Holding this session; growth/core balance unchanged since no active swing exposure beyond TLS.",
+  "lastUpdated": "2026-11-11T04:13:08Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.08,
+    "lastPrice": 5.055,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 81.76
+   "lastPrice": 81.83
   },
   "cashFreed": "2026-10-05"
  },
@@ -424,13 +424,13 @@
   },
   {
    "date": "2026-11-11",
-   "nav": 10429.89,
+   "nav": 10431.88,
    "cash": 3595.82,
-   "positionsValue": 6834.07,
-   "benchmarkNav": 10359.86,
-   "benchmarkClose": 81.76,
+   "positionsValue": 6836.06,
+   "benchmarkNav": 10368.73,
+   "benchmarkClose": 81.83,
    "growthValue": 0.0,
-   "coreValue": 668.15,
+   "coreValue": 664.86,
    "daytradeValue": 0.0
   }
  ],
