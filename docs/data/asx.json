@@ -3,13 +3,13 @@
   "cash": 3595.822575402309,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked today's signals (FMG/GMG/COL elevated Wikipedia attention, NXT's 5d +77% spike, CPU's prior Citi-upgrade rumor, BHP/RIO iron-ore moves) via web search; all coverage returned was stale, undated, or conflicting with no catalyst confirmed for 2026-11-10. FMG, NXT, RIO, COL are DOWN-trend (no new buys allowed) regardless. Held TLS.AX (core, sellable at 53 days, +4.1%) has no reversal signal and hasn't hit its 5.2 target or 4.4 stop, so holding under its existing plan. No new swing buys this session. Active sleeve stays 100% core (TLS only), outside the 35-65% growth/core band, but no genuine dated catalyst justifies forcing a growth buy just to rebalance.",
-  "lastUpdated": "2026-11-10T00:13:10Z",
+  "lastRunNotes": "Checked the Wikipedia-attention names and today's big movers: FMG and COL are DOWN-trend (no new buys allowed) and COL's attention spike traces to its already-known Oct 30 sales-miss. GMG's Nov 4 Q1 update was called 'light on new info' with no fresh catalyst. WOW's Q1 FY27 beat (released Oct 28) is already ~2 weeks stale and likely priced into its 5d move; its next real catalyst is the Nov 18 investor day, which hasn't happened yet, so buying now would be chasing momentum without a dated trigger. BHP/RIO iron-ore news is mixed (China steel-export-control concerns vs a resolved Rio-CMRG deal) with nothing specific to today. Found no confirmed Nov 2026 Citi upgrade for CPU. No fresh, specific catalyst anywhere on the watchlist, so no new swing buys this session. TLS.AX (core, sellable, +5.3%) has no reversal news and hasn't hit its 5.2 target or 4.4 stop, so holding under its existing plan. Active sleeve stays concentrated in TLS alone (core, ~6% of NAV), well outside the 35-65% growth/core band and under-deployed vs. the ~35% sleeve target, but that is not a reason to force a trade without a catalyst.",
+  "lastUpdated": "2026-11-11T00:13:24Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.035,
+    "lastPrice": 5.1,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 81.68
+   "lastPrice": 81.55
   },
   "cashFreed": "2026-10-05"
  },
@@ -420,6 +420,17 @@
    "benchmarkClose": 81.68,
    "growthValue": 0.0,
    "coreValue": 662.23,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-11",
+   "nav": 10416.69,
+   "cash": 3595.82,
+   "positionsValue": 6820.86,
+   "benchmarkNav": 10333.25,
+   "benchmarkClose": 81.55,
+   "growthValue": 0.0,
+   "coreValue": 670.78,
    "daytradeValue": 0.0
   }
  ],
