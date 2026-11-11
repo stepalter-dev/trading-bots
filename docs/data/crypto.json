@@ -3,13 +3,13 @@
   "cash": 1784.3174954368956,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Researched the UP-trend growth/core names (AVAX, LINK, NEAR, UNI7083, AAVE, BTC, BNB). Most moved only 1-6% today on near-1.0x volume, consistent with broad market beta, except AVAX which jumped +11% on 1.46x volume after a WSJ report that NYSE picked Avalanche as the exclusive blockchain to settle trades on its planned tokenized-stock venue - a specific, dated, volume-confirmed catalyst. Opening one growth swing position in AVAX sized moderately given the deal is not yet finalized and AVAX is still in a longer downtrend testing resistance near $9. No confirmed catalyst for LINK/NEAR/UNI/AAVE today so staying out of those; no held positions to review.",
-  "lastUpdated": "2026-11-09T14:20:21Z",
+  "lastRunNotes": "AVAX's catalyst (NYSE picking Avalanche's tech for its tokenized-stock clearing venue, confirmed Nov 9) is already priced into the position; price is now $8.52, between the $7.50 stop and $11.50 target, only 2 of 14 minimum hold days in, so no action. Checked other UP-trend names for a fresh, dated catalyst: NEAR is actually in a broader selloff (ETF outflows, a yield-cut vote) despite one green day with no specific news behind it; LINK (Swift/DTCC tokenization work) and AAVE (Avon acquisition, Nov 6) are slow-moving infrastructure items already stale and not volume-confirmed moves; UNI7083 and BNB show no November-dated catalyst and UNI7083 is falling. No position clears the bar for a new swing buy today, so holding. Active sleeve is 100% growth (AVAX) / 0% core beyond the anchor, skewed outside the 35-65% band, but no core catalyst justifies forcing a rebalance trade.",
+  "lastUpdated": "2026-11-11T14:16:49Z",
   "positions": {
    "AVAX-USD": {
     "shares": 85.1627,
     "avgCost": 8.806612462879874,
-    "lastPrice": 8.775,
+    "lastPrice": 8.532,
     "bucket": "growth",
     "openedDate": "2026-11-09",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 74532.95
+   "lastPrice": 73633.78
   },
   "cashFreed": "2026-10-03"
  },
@@ -529,6 +529,17 @@
    "benchmarkNav": 6202.77,
    "benchmarkClose": 74532.95,
    "growthValue": 747.3,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-11",
+   "nav": 6224.83,
+   "cash": 1784.32,
+   "positionsValue": 4440.51,
+   "benchmarkNav": 6127.94,
+   "benchmarkClose": 73633.78,
+   "growthValue": 726.61,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1370,6 +1381,10 @@
   {
    "date": "2026-11-09",
    "rank": 45
+  },
+  {
+   "date": "2026-11-11",
+   "rank": 47
   }
  ]
 }
