@@ -3,13 +3,13 @@
   "cash": 1500.772999284206,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh catalyst for AAPL (iPhone Duo news is all pre-launch, already priced in) or UNH (Medicare Advantage/DOJ overhang is known, stop still 5.3% away, plan intact) so both are held unchanged. Buying AMD (growth): it beat Q3 earnings Nov 3 (EPS $2.09 vs $1.95 est, data center revenue ~$8.5B, strong Q4 guide of $17B), announced a fresh $2.5-5B Anthropic investment on Nov 10, and is up 9.2% today / 15% over 5 days with trend UP and the strongest momentum rank (2/31) on the watchlist - a real, concrete catalyst chain rather than stale news. This moves the active sleeve from 100% core / 0% growth toward the growth/core band. Referee adjusted/rejected: BUY AMD: trimmed to the remaining 30-day turnover allowance; BUY AMD: nothing affordable within caps (cap 12%, cash buffer 5%)",
-  "lastUpdated": "2026-11-11T19:15:14Z",
+  "lastRunNotes": "No fresh, specific catalyst found for either held position: AAPL's iPhone Duo/Citi upgrade thesis is already priced in (searches for Nov 11-12 AAPL news turned up nothing new), and UNH's Medicare Advantage/DOJ overhang and turnaround plan are known, with its stop still a comfortable 5.7% away. On the watchlist, INTC has a genuine insider-buy signal (CEO's $9.7M open-market purchase) but trend is DOWN, so new buys are blocked by the trend filter; NVDA's drop and AMD's momentum spike are index/sector-wide moves already reflected in recent closed trades, not fresh single-name catalysts. Holding both positions unchanged; active sleeve stays 100% core / 0% growth, which is outside the 35-65% band but not worth forcing a trade without a real catalyst.",
+  "lastUpdated": "2026-11-12T15:15:16Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 354.78,
+    "lastPrice": 357.315,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 399.254,
+    "lastPrice": 401.62,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 760.46
+   "lastPrice": 756.55
   },
   "cashFreed": "2026-10-05"
  },
@@ -453,6 +453,17 @@
    "benchmarkClose": 760.46,
    "growthValue": 0.0,
    "coreValue": 1151.64,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-12",
+   "nav": 6910.27,
+   "cash": 1500.77,
+   "positionsValue": 5409.5,
+   "benchmarkNav": 6985.08,
+   "benchmarkClose": 756.55,
+   "growthValue": 0.0,
+   "coreValue": 1159.38,
    "daytradeValue": 0.0
   }
  ],
