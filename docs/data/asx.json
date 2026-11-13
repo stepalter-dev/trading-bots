@@ -3,13 +3,13 @@
   "cash": 3595.822575402309,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked TLS (no new November news beyond the already-priced outage review; still below the A$5.2 target, plan intact), Santos Papua LNG (FID still pending for Q4, no fresh decision), BHP/Baowu Jimblebar stake talk (stale from September, already priced in) and Woolworths (no fresh news, just YTD commentary). No specific, new catalyst cleared the bar for a swing trade today, so holding across the board; growth/core balance unchanged with TLS as the only active-sleeve position.",
-  "lastUpdated": "2026-11-13T01:12:07Z",
+  "lastRunNotes": "Checked the session's big movers and held position: TLS (Morningstar's fair-value hike to A$5.40 is from Dec 2025, already stale/priced in; no fresh news, still below the A$5.2 target with a weak 1.1 R:R, so holding), BHP (Baowu Jimblebar stake talk is still from September with no update since), Macquarie (strong 1H27 results and CEO transition are from Nov 6, already reflected in the price near record highs and recent ex-dividend drop; not a fresh buy catalyst), Woolworths (Investor Day is Nov 18, hasn't happened yet) and Santos (Papua LNG FID still just 'on track for Q4', no decision taken). No specific, new catalyst cleared the bar for a swing trade today, so holding across the board; growth/core balance unchanged with TLS as the only active-sleeve position.",
+  "lastUpdated": "2026-11-13T03:12:06Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.085,
+    "lastPrice": 5.105,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 81.25
+   "lastPrice": 81.41
   },
   "cashFreed": "2026-10-05"
  },
@@ -435,13 +435,13 @@
   },
   {
    "date": "2026-11-13",
-   "nav": 10392.09,
+   "nav": 10406.79,
    "cash": 3595.82,
-   "positionsValue": 6796.27,
-   "benchmarkNav": 10295.24,
-   "benchmarkClose": 81.25,
+   "positionsValue": 6810.96,
+   "benchmarkNav": 10315.51,
+   "benchmarkClose": 81.41,
    "growthValue": 0.0,
-   "coreValue": 668.81,
+   "coreValue": 671.44,
    "daytradeValue": 0.0
   }
  ],
