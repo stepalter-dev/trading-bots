@@ -3,13 +3,13 @@
   "cash": 1500.772999284206,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, specific catalyst for AAPL or UNH since last session; Apple news is quiet (no Nov 11-12 developments beyond the already-priced-in Duo/Citi thesis) and UNH's turnaround plan/DOJ overhang are unchanged. AMD's momentum is real but it's whipsawed hard this week (earnings pop, election-driven chip selloff, rebound) with NVDA earnings on 11/17 a swing factor - chasing it now looks like late momentum-buying, not a fresh catalyst, so passed. NVDA/GOOGL/META/AVGO/ADBE/ORCL/NFLX/PEP/INTC are trend-DOWN (buys blocked); INTC's insider-buy signal remains interesting but untradeable under the trend filter. Holding both positions unchanged; active sleeve is 100% core (0% growth), outside the 35-65% band, but forcing a growth buy without a real catalyst would violate the no-catalyst-no-trade rule, so leaving it as-is.",
-  "lastUpdated": "2026-11-12T17:13:46Z",
+  "lastRunNotes": "Broad risk-off day (SPY -1.11%) with a sector-wide semiconductor selloff (AMD -9.5%, INTC -6.1%, AVGO -6.1%, NVDA -3.8%) driven by AI-capex/demand worries rather than a stock-specific catalyst, and most growth names remain trend-DOWN so no new buys are eligible. No fresh, specific news on AAPL (Duo/Citi thesis already priced, insider sales are routine 10b5-1) or UNH (Nov 10 UBS turnaround-plan commentary was already known) to justify changing or exiting either plan. Holding both positions with existing plans; growth/core balance stays at 0%/100% of the active sleeve with no trades this session.",
+  "lastUpdated": "2026-11-13T15:28:21Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 356.94,
+    "lastPrice": 357.72,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 404.915,
+    "lastPrice": 402.095,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 760.878
+   "lastPrice": 748.86
   },
   "cashFreed": "2026-10-05"
  },
@@ -464,6 +464,17 @@
    "benchmarkClose": 760.878,
    "growthValue": 0.0,
    "coreValue": 1161.88,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-13",
+   "nav": 6868.41,
+   "cash": 1500.77,
+   "positionsValue": 5367.63,
+   "benchmarkNav": 6914.08,
+   "benchmarkClose": 748.86,
+   "growthValue": 0.0,
+   "coreValue": 1160.71,
    "daytradeValue": 0.0
   }
  ],
