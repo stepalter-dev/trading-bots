@@ -3,13 +3,13 @@
   "cash": 1500.772999284206,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off day (SPY -1.11%) with a sector-wide semiconductor selloff (AMD -9.5%, INTC -6.1%, AVGO -6.1%, NVDA -3.8%) driven by AI-capex/demand worries rather than a stock-specific catalyst, and most growth names remain trend-DOWN so no new buys are eligible. No fresh, specific news on AAPL (Duo/Citi thesis already priced, insider sales are routine 10b5-1) or UNH (Nov 10 UBS turnaround-plan commentary was already known) to justify changing or exiting either plan. Holding both positions with existing plans; growth/core balance stays at 0%/100% of the active sleeve with no trades this session.",
-  "lastUpdated": "2026-11-13T15:28:21Z",
+  "lastRunNotes": "Broad risk-off session: Nvidia CEO Jensen Huang's abrupt resignation (scandal-related, effective Nov 11) triggered a rotation into AMD/AVGO as 'replacement winners,' which fully reversed today (AMD -10.4%) as NVDA stabilized under interim CEO Kress - a sector rotation unwind, not an AMD-specific catalyst, so not a basis for a swing buy. Most growth names remain trend-DOWN; the UP names (AMZN, META, TSLA, CRM) showed no fresh stock-specific catalyst beyond the ongoing market-wide AI-capex/valuation correction. No new news on AAPL (Duo/Citi thesis already priced; near but not at its $365 target) or UNH (plan intact) to justify changing either plan. Holding both positions, no trades; growth/core balance stays 0%/100% of the active sleeve.",
+  "lastUpdated": "2026-11-13T17:14:41Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 357.72,
+    "lastPrice": 358.43,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 402.095,
+    "lastPrice": 401.35,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 748.86
+   "lastPrice": 751.32
   },
   "cashFreed": "2026-10-05"
  },
@@ -468,13 +468,13 @@
   },
   {
    "date": "2026-11-13",
-   "nav": 6868.41,
+   "nav": 6882.99,
    "cash": 1500.77,
-   "positionsValue": 5367.63,
-   "benchmarkNav": 6914.08,
-   "benchmarkClose": 748.86,
+   "positionsValue": 5382.21,
+   "benchmarkNav": 6936.79,
+   "benchmarkClose": 751.32,
    "growthValue": 0.0,
-   "coreValue": 1160.71,
+   "coreValue": 1161.47,
    "daytradeValue": 0.0
   }
  ],
