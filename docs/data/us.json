@@ -3,13 +3,13 @@
   "cash": 1500.772999284206,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off session: Nvidia CEO Jensen Huang's abrupt resignation (scandal-related, effective Nov 11) triggered a rotation into AMD/AVGO as 'replacement winners,' which fully reversed today (AMD -10.4%) as NVDA stabilized under interim CEO Kress - a sector rotation unwind, not an AMD-specific catalyst, so not a basis for a swing buy. Most growth names remain trend-DOWN; the UP names (AMZN, META, TSLA, CRM) showed no fresh stock-specific catalyst beyond the ongoing market-wide AI-capex/valuation correction. No new news on AAPL (Duo/Citi thesis already priced; near but not at its $365 target) or UNH (plan intact) to justify changing either plan. Holding both positions, no trades; growth/core balance stays 0%/100% of the active sleeve.",
-  "lastUpdated": "2026-11-13T17:14:41Z",
+  "lastRunNotes": "Broad risk-off session (SPY -0.52%) with semis selling off hard again (AMD -9.19%, AVGO -4.98%, INTC -3.23%, NVDA -2.36%) on continuing AI-capex-spend worries, not a fresh stock-specific catalyst -- all are trend-DOWN except AMD anyway, and AMD was already whipsawed by a failed rotation trade this month, so no new buys there. Checked AAPL (Duo/Citi thesis unchanged, no new news, +1.9% from target, held with existing plan), UNH (no fresh November-specific news beyond known turnaround plan, plan intact), META (up today but only a general AI-overhang rebound, no specific catalyst) and TSLA (robotaxi pop already priced in days ago, pulling back today with the market, weak momentum rank). No ticker had a concrete, fresh catalyst clearing the reward:risk/EV bar, so holding with zero trades this session. Active sleeve is currently 100% core (AAPL+UNH, ~16.9% of NAV) and 0% growth versus the 35-65% target band, but forcing a growth buy without a catalyst just to rebalance would violate the trade-on-catalyst rule, so left as-is pending a real growth catalyst.",
+  "lastUpdated": "2026-11-13T19:14:45Z",
   "positions": {
    "AAPL": {
     "avgCost": 333.08,
     "bucket": "core",
-    "lastPrice": 358.43,
+    "lastPrice": 358.11,
     "shares": 2.120705,
     "plan": {
      "target": 365.0,
@@ -24,7 +24,7 @@
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 401.35,
+    "lastPrice": 403.95,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 751.32
+   "lastPrice": 753.0
   },
   "cashFreed": "2026-10-05"
  },
@@ -468,13 +468,13 @@
   },
   {
    "date": "2026-11-13",
-   "nav": 6882.99,
+   "nav": 6894.34,
    "cash": 1500.77,
-   "positionsValue": 5382.21,
-   "benchmarkNav": 6936.79,
-   "benchmarkClose": 751.32,
+   "positionsValue": 5393.57,
+   "benchmarkNav": 6952.3,
+   "benchmarkClose": 753.0,
    "growthValue": 0.0,
-   "coreValue": 1161.47,
+   "coreValue": 1163.4,
    "daytradeValue": 0.0
   }
  ],
