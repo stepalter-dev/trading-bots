@@ -3,13 +3,13 @@
   "cash": 1784.3174954368956,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off day: BTC -4.44% and nearly every watchlist name down 1-6% on unremarkable volume (vol_x <1.2x everywhere), i.e. market-wide beta, not asset-specific catalysts (lesson 5). Only AVAX, NEAR, UNI7083, AAVE are trend-UP, but AVAX is already near its 12% NAV cap and unchanged on its existing NYSE/Avalanche plan (held 4/14 days, price $8.30 vs stop $7.50/target $11.50 - no action needed). NEAR has fresh bearish news (House of Stake issuance-cut vote passed, NEAR AI data-exposure incident, hacked funds laundered through NEAR) reinforcing the prior session's pass. AAVE's drop looks like generic risk-off with no dated Nov-13 catalyst found; UNI7083 has no confirmed November catalyst despite the UNIfication burn proposal. No unusual volume or confirmed catalyst on any eligible name, so holding with no trades this session. Active sleeve stays 100% growth (AVAX) vs 0% core, outside the 35-65% band, but no genuine catalyst justifies forcing a core buy today.",
-  "lastUpdated": "2026-11-13T02:12:17Z",
+  "lastRunNotes": "Broad continuation of the Nov 3-9 risk-off (tech/AI stock selloff, ETF outflows, leveraged liquidations) hit crypto again today: BTC -3.76%, nearly every watchlist name down 1-4% with no single name showing an outsized vol_x spike - market-wide beta per lesson 5, not a fresh catalyst. AVAX (held, trend-UP) is actually showing relative strength (-0.78% vs BTC -3.76%); NYSE/Avalanche deal is confirmed but platform isn't live and today brought no new news, so no action - stop/target plan unchanged, still well within its 14-day minimum hold. Checked the other trend-UP names: NEAR has only stale/negative news (issuance cut, AI data breach, hacked funds laundered through it) despite today's +3.05% bounce, confirming the prior pass; UNI7083 and AAVE are down hard on 5-day momentum (-14.1% and -12.0%) with no specific catalyst found, just broad DeFi TVL outflows. No buys meet the catalyst+asymmetric-odds bar today; holding across the board with growth/core balance unchanged (AVAX only active swing position).",
+  "lastUpdated": "2026-11-13T08:13:24Z",
   "positions": {
    "AVAX-USD": {
     "shares": 85.1627,
     "avgCost": 8.806612462879874,
-    "lastPrice": 8.3,
+    "lastPrice": 8.277,
     "bucket": "growth",
     "openedDate": "2026-11-09",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 70656.07
+   "lastPrice": 68661.07
   },
   "cashFreed": "2026-10-03"
  },
@@ -556,12 +556,12 @@
   },
   {
    "date": "2026-11-13",
-   "nav": 6054.88,
+   "nav": 5952.3,
    "cash": 1784.32,
-   "positionsValue": 4270.57,
-   "benchmarkNav": 5880.12,
-   "benchmarkClose": 70656.07,
-   "growthValue": 706.85,
+   "positionsValue": 4167.99,
+   "benchmarkNav": 5714.09,
+   "benchmarkClose": 68661.07,
+   "growthValue": 704.89,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1414,7 +1414,7 @@
   },
   {
    "date": "2026-11-13",
-   "rank": 47
+   "rank": 35
   }
  ]
 }
