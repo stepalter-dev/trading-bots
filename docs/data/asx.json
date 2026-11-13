@@ -3,13 +3,13 @@
   "cash": 3595.822575402309,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked the names with the strongest signals: GMG's Nov 9 Ackland JV stake (with Digital Realty) in NEXTDC is a real, dated catalyst reinforcing GMG's data-centre thesis, but it's a passive minority stake, GMG's own momentum is weak (rank 23/31), today's volume is below average (0.26x, no conviction), and some analyst commentary has been cutting GMG targets - too ambiguous to act on. BHP, STO and WOW all show strong 12-month momentum but no fresh November catalyst (STO's Papua LNG FID is still pending for Q4, BHP's China/Baowu stake story is unresolved, WOW's rally is already priced in from Aug/Sep results). Held TLS core position (+4.4%, below its A$5.2 target, no new news since the Sep upgrade) stays on its existing plan. Holding this session; growth/core balance unchanged since no active swing exposure beyond TLS.",
-  "lastUpdated": "2026-11-11T04:13:08Z",
+  "lastRunNotes": "Checked the week's biggest movers and signals: MQG's 1H27 result and CEO handover landed Nov 6 (profit +50%) but is now a week old and already priced in, with the stock flat/slightly down since; Santos's Papua LNG FID is still pending for Q4 with no fresh decision; BHP's Baowu stake talk and QBE's Australia Pacific leadership reshuffle are not price catalysts; Telstra has no new November news beyond the already-known outage review, so holding the existing TLS core position (currently +2% from target, plan intact). No genuine new catalyst cleared the bar for a swing trade, so holding across the board. Active sleeve stays 100% core (TLS) / 0% growth, which is outside the usual band, but forcing a growth buy without a real trigger would just add cost for no edge.",
+  "lastUpdated": "2026-11-13T00:12:36Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.055,
+    "lastPrice": 5.1,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 81.83
+   "lastPrice": 81.49
   },
   "cashFreed": "2026-10-05"
  },
@@ -431,6 +431,17 @@
    "benchmarkClose": 81.83,
    "growthValue": 0.0,
    "coreValue": 664.86,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-13",
+   "nav": 10412.16,
+   "cash": 3595.82,
+   "positionsValue": 6816.34,
+   "benchmarkNav": 10325.65,
+   "benchmarkClose": 81.49,
+   "growthValue": 0.0,
+   "coreValue": 670.78,
    "daytradeValue": 0.0
   }
  ],
