@@ -17,11 +17,10 @@
   },
   "crypto": {
    "prices": {
-    "AVAX-USD": 7.501,
-    "BTC-USD": 65373.64
+    "BTC-USD": 64538.26
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-11-14T16:53:27Z"
+ "updatedAt": "2026-11-14T21:06:19Z"
 }
