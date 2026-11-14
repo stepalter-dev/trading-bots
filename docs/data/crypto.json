@@ -3,13 +3,13 @@
   "cash": 1784.3174954368956,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off continues: BTC -3.24% and nearly every watchlist name down 1-4% with vol_x near 1.0-1.3x, i.e. market-wide beta per lesson 5, not an asset-specific catalyst. Checked NEAR (top momentum rank, trend UP): no fresh bullish catalyst today - its recent news is a Nov 3 issuance-cut vote that dropped it 7% and a Nov 9-10 security incident, both already priced in and net-negative, not buy triggers. Re-checked AVAX/NYSE: no new news since the confirmed Nov 9 deal; held position is still within its 14-day lock, above its stop, below target, plan unchanged. Holding with no new trades; growth/core split unaffected (single AVAX growth position, no core swings open).",
-  "lastUpdated": "2026-11-13T20:12:18Z",
+  "lastRunNotes": "Broad risk-off day: BTC -4.43%, every watchlist name down 2-6% with vol_x mostly 0.8-1.7x and tech stocks also selling off - market-wide beta per lesson 5, not an asset-specific catalyst. Checked the only trend-UP growth names eligible for new buys (NEAR, UNI7083, AAVE): NEAR's issuance-cut vote and AI security incident are stale and already priced in; AAVE's Avon acquisition (Nov 6) is already old news with no fresh move; UNI7083 is falling on large-holder selling with no new catalyst, a falling knife despite its 200-day trend tag. No genuine trigger for a new swing buy. Held AVAX-USD stays within its 14-day lock (5 of 14 days elapsed), above its $7.5 stop and below its $11.5 target with no AVAX/NYSE news since Nov 9 - plan unchanged. Holding with no trades; growth/core balance unaffected since the only active position is growth-bucket AVAX.",
+  "lastUpdated": "2026-11-14T02:12:19Z",
   "positions": {
    "AVAX-USD": {
     "shares": 85.1627,
     "avgCost": 8.806612462879874,
-    "lastPrice": 8.424,
+    "lastPrice": 8.144,
     "bucket": "growth",
     "openedDate": "2026-11-09",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 69003.45
+   "lastPrice": 68154.18
   },
   "cashFreed": "2026-10-03"
  },
@@ -562,6 +562,17 @@
    "benchmarkNav": 5742.58,
    "benchmarkClose": 69003.45,
    "growthValue": 717.41,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-14",
+   "nav": 5915.41,
+   "cash": 1784.32,
+   "positionsValue": 4131.09,
+   "benchmarkNav": 5671.9,
+   "benchmarkClose": 68154.18,
+   "growthValue": 693.57,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1415,6 +1426,10 @@
   {
    "date": "2026-11-13",
    "rank": 41
+  },
+  {
+   "date": "2026-11-14",
+   "rank": 46
   }
  ]
 }
