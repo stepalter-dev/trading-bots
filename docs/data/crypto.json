@@ -1,27 +1,11 @@
 {
  "state": {
-  "cash": 1784.3174954368956,
+  "cash": 2413.2727019044955,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad crypto risk-off continues (BTC -2.64% today, most watchlist DOWN-trend with vol_x ~1.0x) - market beta, not an asset-specific catalyst. The only trend-UP growth names, NEAR and UNI7083, are still falling on stale catalysts (NEAR's upgrades/Intents news and Uniswap's fee-burn proposal are over a week old) with no fresh trigger, so no new buys. Held AVAX-USD is above its $7.5 stop and within its 14-day minimum hold (9 days left); its NYSE/Avalanche catalyst is 5 days old and already priced in with no new development, so keeping the existing plan unchanged. Growth/core balance: 100% growth (AVAX only) in the active sleeve, but no rebalance trade is justified without a genuine catalyst.",
-  "lastUpdated": "2026-11-14T14:12:04Z",
-  "positions": {
-   "AVAX-USD": {
-    "shares": 85.1627,
-    "avgCost": 8.806612462879874,
-    "lastPrice": 7.836,
-    "bucket": "growth",
-    "openedDate": "2026-11-09",
-    "plan": {
-     "target": 11.5,
-     "stop": 7.5,
-     "prob": 0.35,
-     "rr": 2.14,
-     "evPct": 0.71,
-     "entryRef": 8.775
-    }
-   }
-  },
+  "lastRunNotes": "Broad market-wide crypto risk-off continues (BTC -3.82% today, nearly every watchlist name DOWN-trend with vol_x near 1.0-1.3x) - this is beta, not an asset-specific catalyst. The only trend-UP growth name, NEAR, is also down sharply today (-10.29%) with no fresh catalyst (the issuance-cut news is 10+ days old and already priced in), so no new buys. Held AVAX-USD is within its 14-day minimum hold (9 days left) with its NYSE/Avalanche catalyst now priced in and no new development; price is at/near its $7.5 stop, which the referee enforces automatically, so no manual action taken. No trades this session; growth/core balance unchanged at 100% growth. Stop-loss exits: AVAX-USD.",
+  "lastUpdated": "2026-11-14T20:11:52Z",
+  "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
    "factor": 0.15495258,
@@ -32,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 66386.78
+   "lastPrice": 65602.38
   },
   "cashFreed": "2026-10-03"
  },
@@ -567,12 +551,12 @@
   },
   {
    "date": "2026-11-14",
-   "nav": 5800.04,
-   "cash": 1784.32,
-   "positionsValue": 4015.72,
-   "benchmarkNav": 5524.82,
-   "benchmarkClose": 66386.78,
-   "growthValue": 667.33,
+   "nav": 5722.09,
+   "cash": 2413.27,
+   "positionsValue": 3308.82,
+   "benchmarkNav": 5459.54,
+   "benchmarkClose": 65602.38,
+   "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1063,6 +1047,21 @@
     "entryRef": 8.775
    },
    "sentimentSummary": "Aggregated social trackers show elevated bullish sentiment (roughly 70-90% positive), but that mostly reflects reaction to the news itself rather than independent conviction."
+  },
+  {
+   "id": "2026-11-14-AVAX-USD-nu5ggb",
+   "ticker": "AVAX-USD",
+   "action": "sell",
+   "shares": 85.1627,
+   "price": 7.404588,
+   "refPrice": 7.412,
+   "fee": 1.6395,
+   "date": "2026-11-14T20:11:52Z",
+   "bucket": "growth",
+   "rationale": "Stop hit: price 7.412 is at/below the planned stop 7.5 - the thesis was proven wrong, exiting per plan.",
+   "realizedPnL": -121.04,
+   "realizedPnLPct": -16.14,
+   "exitReason": "stop"
   }
  ],
  "lessons": [
@@ -1240,6 +1239,24 @@
     "verdict": "unlucky",
     "lesson": "The entry had a real, specific, dated catalyst (Helicon lockup-reduction upgrade plus Aave V4 RWA Hub deployment) and a defined reassessment horizon; the exit was disciplined -- sold proactively on failed confirmation ra"
    }
+  },
+  {
+   "id": "2026-11-14-AVAX-USD-nu5ggb",
+   "date": "2026-11-14T20:11:52Z",
+   "ticker": "AVAX-USD",
+   "bucket": "growth",
+   "entryPrice": 8.8297,
+   "exitPrice": 7.404588,
+   "pnl": -121.04,
+   "pnlPct": -16.14,
+   "daysHeld": 5,
+   "whyBought": "WSJ reported NYSE chose Avalanche as the exclusive blockchain to settle trades on its planned tokenized US stock venue; AVAX is up ~11% today on 1.46x volume, a genuine and volume-confirmed catalyst versus the rest of the tape's generic 1-6% beta moves. Actual token demand depends on an undisclosed ",
+   "horizon": "Reassess within 4-6 weeks: take profit or raise the plan if AVAX clears the $9-10 resistance zone with continued volume; cut losses if it falls back below the pre-news ~$7.50-8 base or if the NYSE/Avalanche deal stalls or is denied regulatory approval.",
+   "whySold": "Stop hit: price 7.412 is at/below the planned stop 7.5 - the thesis was proven wrong, exiting per plan.",
+   "prob": 0.35,
+   "rr": 2.14,
+   "exitReason": "stop",
+   "review": null
   }
  ],
  "coinbaseRank": [
@@ -1429,7 +1446,7 @@
   },
   {
    "date": "2026-11-14",
-   "rank": 42
+   "rank": 46
   }
  ]
 }
