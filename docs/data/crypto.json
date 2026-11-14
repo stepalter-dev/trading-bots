@@ -3,13 +3,13 @@
   "cash": 1784.3174954368956,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off day: BTC -4.43%, every watchlist name down 2-6% with vol_x mostly 0.8-1.7x and tech stocks also selling off - market-wide beta per lesson 5, not an asset-specific catalyst. Checked the only trend-UP growth names eligible for new buys (NEAR, UNI7083, AAVE): NEAR's issuance-cut vote and AI security incident are stale and already priced in; AAVE's Avon acquisition (Nov 6) is already old news with no fresh move; UNI7083 is falling on large-holder selling with no new catalyst, a falling knife despite its 200-day trend tag. No genuine trigger for a new swing buy. Held AVAX-USD stays within its 14-day lock (5 of 14 days elapsed), above its $7.5 stop and below its $11.5 target with no AVAX/NYSE news since Nov 9 - plan unchanged. Holding with no trades; growth/core balance unaffected since the only active position is growth-bucket AVAX.",
-  "lastUpdated": "2026-11-14T02:12:19Z",
+  "lastRunNotes": "Broad crypto-wide risk-off continues (BTC -1.49% today, -10.62% over 5 days; most watchlist names down 2-4% with vol_x near 1.0x) - market beta per lesson 5, not an asset-specific catalyst. The only trend-UP growth names eligible for new buys, NEAR and UNI7083, both rallied on now-stale catalysts (NEAR's privacy/AI/scaling upgrades and Intents volume are from last week; Uniswap's UNIfication fee-burn proposal is from Nov 10) and are now falling with no fresh trigger - UNI7083 is down -20.89% over 5 days on continued large-holder selling, a falling knife despite its trend tag. Held AVAX-USD's NYSE/Avalanche settlement thesis remains intact (no denial or regulatory setback found) but is itself now stale and priced in; price is 8.044, above its $7.50 stop and well below its $11.5 target, within the mandatory 14-day hold (9 days remaining), so no action. Holding across the board this session.",
+  "lastUpdated": "2026-11-14T08:11:48Z",
   "positions": {
    "AVAX-USD": {
     "shares": 85.1627,
     "avgCost": 8.806612462879874,
-    "lastPrice": 8.144,
+    "lastPrice": 8.04,
     "bucket": "growth",
     "openedDate": "2026-11-09",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 68154.18
+   "lastPrice": 67160.54
   },
   "cashFreed": "2026-10-03"
  },
@@ -567,12 +567,12 @@
   },
   {
    "date": "2026-11-14",
-   "nav": 5915.41,
+   "nav": 5856.44,
    "cash": 1784.32,
-   "positionsValue": 4131.09,
-   "benchmarkNav": 5671.9,
-   "benchmarkClose": 68154.18,
-   "growthValue": 693.57,
+   "positionsValue": 4072.12,
+   "benchmarkNav": 5589.21,
+   "benchmarkClose": 67160.54,
+   "growthValue": 684.71,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1429,7 +1429,7 @@
   },
   {
    "date": "2026-11-14",
-   "rank": 46
+   "rank": 42
   }
  ]
 }
