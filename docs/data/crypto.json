@@ -3,8 +3,8 @@
   "cash": 2413.2727019044955,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad market-wide crypto risk-off continues (BTC -3.82% today, nearly every watchlist name DOWN-trend with vol_x near 1.0-1.3x) - this is beta, not an asset-specific catalyst. The only trend-UP growth name, NEAR, is also down sharply today (-10.29%) with no fresh catalyst (the issuance-cut news is 10+ days old and already priced in), so no new buys. Held AVAX-USD is within its 14-day minimum hold (9 days left) with its NYSE/Avalanche catalyst now priced in and no new development; price is at/near its $7.5 stop, which the referee enforces automatically, so no manual action taken. No trades this session; growth/core balance unchanged at 100% growth. Stop-loss exits: AVAX-USD.",
-  "lastUpdated": "2026-11-14T20:11:52Z",
+  "lastRunNotes": "Broad market-wide crypto risk-off (BTC -6.84%, nearly every watchlist name down 7-15% in sync) - this is beta, not an asset-specific catalyst, so no new buys. The only trend-UP name, NEAR, is down ~11% today too with no fresh catalyst (the Nov 3 issuance-cut news is already priced in). Currently fully in cash with no held positions, so no sells or plans needed either. Holding.",
+  "lastUpdated": "2026-11-15T02:11:36Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 65602.38
+   "lastPrice": 63698.61
   },
   "cashFreed": "2026-10-03"
  },
@@ -556,6 +556,17 @@
    "positionsValue": 3308.82,
    "benchmarkNav": 5459.54,
    "benchmarkClose": 65602.38,
+   "growthValue": 0.0,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-15",
+   "nav": 5626.07,
+   "cash": 2413.27,
+   "positionsValue": 3212.8,
+   "benchmarkNav": 5301.11,
+   "benchmarkClose": 63698.61,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1256,7 +1267,10 @@
    "prob": 0.35,
    "rr": 2.14,
    "exitReason": "stop",
-   "review": null
+   "review": {
+    "verdict": "unlucky",
+    "lesson": "Entry had a genuine, volume-confirmed catalyst (NYSE/Avalanche deal) and a reasonably sized stop, but a broad market-wide risk-off hit within days and triggered the stop before the thesis could play out - consistent with"
+   }
   }
  ],
  "coinbaseRank": [
@@ -1447,6 +1461,10 @@
   {
    "date": "2026-11-14",
    "rank": 46
+  },
+  {
+   "date": "2026-11-15",
+   "rank": 47
   }
  ]
 }
