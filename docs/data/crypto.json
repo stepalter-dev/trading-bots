@@ -3,8 +3,8 @@
   "cash": 2413.2727019044955,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad market-wide crypto risk-off (BTC -6.84%, nearly every watchlist name down 7-15% in sync) - this is beta, not an asset-specific catalyst, so no new buys. The only trend-UP name, NEAR, is down ~11% today too with no fresh catalyst (the Nov 3 issuance-cut news is already priced in). Currently fully in cash with no held positions, so no sells or plans needed either. Holding.",
-  "lastUpdated": "2026-11-15T02:11:36Z",
+  "lastRunNotes": "Market-wide risk-off continues: BTC and nearly every watchlist name are down 8-25% over 5 days, driven by macro (Fed rate-hike pricing for Dec 9, ETF outflows, forced long liquidations) rather than any asset-specific news. The two trend-UP names, NEAR and UNI, show no fresh bullish catalyst - NEAR's Nov 3 issuance-cut is already priced in and it's sliding with the broad market; UNI is down ~25% over 5 days on reported whale selling with no new catalyst, so its UP trend status looks like a trailing-momentum artifact rather than current strength. Fully in cash with no held positions, so no sells or plans needed. Holding.",
+  "lastUpdated": "2026-11-15T08:11:55Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 63698.61
+   "lastPrice": 63901.59
   },
   "cashFreed": "2026-10-03"
  },
@@ -562,11 +562,11 @@
   },
   {
    "date": "2026-11-15",
-   "nav": 5626.07,
+   "nav": 5636.31,
    "cash": 2413.27,
-   "positionsValue": 3212.8,
-   "benchmarkNav": 5301.11,
-   "benchmarkClose": 63698.61,
+   "positionsValue": 3223.04,
+   "benchmarkNav": 5318.0,
+   "benchmarkClose": 63901.59,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1464,7 +1464,7 @@
   },
   {
    "date": "2026-11-15",
-   "rank": 47
+   "rank": 43
   }
  ]
 }
