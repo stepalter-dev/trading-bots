@@ -3,13 +3,13 @@
   "cash": 3595.822575402309,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, specific catalysts found: BHP's Baowu/Jimblebar stake talk is still from September with no new development (and BHP is trend-DOWN anyway), Santos' Q3 record production/guidance trim is already priced in from Oct 22, Woolworths and Computershare have strong momentum but no new news to explain further upside, and Telstra's Barrenjoey upgrade/outage clearance remain September-old with price already 1.3% from target on a weak 1.1 R:R. Holding across the board; growth/core balance unchanged (single small core TLS position, well within the 35-65% band).",
-  "lastUpdated": "2026-11-16T00:11:58Z",
+  "lastRunNotes": "Checked the names with real momentum/movement: Macquarie's 1H27 result (Nov 6, +50% profit, smooth CEO handover to Greg Ward) is already 10 days old and the stock has drifted lower since (-2.2% 5d) despite the headline beat, so it's priced in with no clear fresh edge. Woolworths' Q1 FY27 sales beat is also from Oct 28 and already reflected in its momentum rank; its Investor Day isn't until Nov 18. QBE and Computershare news is leadership/AGM noise, not a price catalyst. Telstra's outage-clearance/upgrade catalyst is September-old, price is only 1.4% from target with a weak 1.1 R:R, so holding per the existing plan. No fresh, specific catalyst found anywhere on the watchlist today, so no trades; growth/core balance unchanged (single small core TLS position, well within the 35-65% band).",
+  "lastUpdated": "2026-11-16T01:12:21Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.135,
+    "lastPrice": 5.125,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 81.09
+   "lastPrice": 81.28
   },
   "cashFreed": "2026-10-05"
  },
@@ -446,13 +446,13 @@
   },
   {
    "date": "2026-11-16",
-   "nav": 10386.6,
+   "nav": 10399.61,
    "cash": 3595.82,
-   "positionsValue": 6790.78,
-   "benchmarkNav": 10274.97,
-   "benchmarkClose": 81.09,
+   "positionsValue": 6803.79,
+   "benchmarkNav": 10299.05,
+   "benchmarkClose": 81.28,
    "growthValue": 0.0,
-   "coreValue": 675.38,
+   "coreValue": 674.07,
    "daytradeValue": 0.0
   }
  ],
