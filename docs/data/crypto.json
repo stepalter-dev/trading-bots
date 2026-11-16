@@ -3,8 +3,8 @@
   "cash": 2413.2727019044955,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Market-wide crypto rout continues: BTC fell from ~$74k (Nov 10-11) to $64.6k today, and nearly every watchlist name is down 4-17% over 5 days on near-1.0x volume, confirming broad risk-off rather than any asset-specific move. Only NEAR and UNI7083 are technically trend-UP, but neither has a fresh catalyst: NEAR's issuance-cut vote is from Nov 2 and already priced in (plus a minor $430k hack report with no market impact), and UNI's slide to a post-September low is driven by whale selling (~$7.3M sold by one address) and broad altcoin weakness, not UNI-specific news. Holding 100% cash in the active sleeve again; no positions held, so no plans needed.",
-  "lastUpdated": "2026-11-16T08:17:06Z",
+  "lastRunNotes": "Broad crypto risk-off persists: BTC down from ~$74k to $64.4k over the past week, and every watchlist name except NEAR and UNI7083 is trend-DOWN (no new buys allowed). NEAR has no fresh catalyst beyond its already-priced-in issuance vote; UNI7083 is sliding to a post-September low on whale selling and broad altcoin weakness, which is bearish, not a buy signal. AVAX's Wikipedia attention spike traces to a muted NYSE tokenization partnership headline (+4% one day) but AVAX remains trend-DOWN so it's not tradeable anyway. No held positions and no genuine asset-specific catalyst found, so holding 100% cash in the active sleeve again this session.",
+  "lastUpdated": "2026-11-16T14:17:25Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 64657.8
+   "lastPrice": 64382.16
   },
   "cashFreed": "2026-10-03"
  },
@@ -573,11 +573,11 @@
   },
   {
    "date": "2026-11-16",
-   "nav": 5674.45,
+   "nav": 5660.55,
    "cash": 2413.27,
-   "positionsValue": 3261.18,
-   "benchmarkNav": 5380.94,
-   "benchmarkClose": 64657.8,
+   "positionsValue": 3247.28,
+   "benchmarkNav": 5358.0,
+   "benchmarkClose": 64382.16,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
