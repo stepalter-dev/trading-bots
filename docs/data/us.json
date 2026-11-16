@@ -1,30 +1,15 @@
 {
  "state": {
-  "cash": 1500.772999284206,
+  "cash": 2250.233186731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Holding today. The broad-market drop was a continuation of the AI-capex-doubt chip selloff (AMD -8.7%, AVGO -5.0%, NVDA -1.8%, INTC -2.8%), not a fresh stock-specific catalyst, and AMD/AVGO/NVDA/INTC are all trend-DOWN or already flagged against re-entry (AMD's failed rotation this month). No new news found on AAPL (Duo thesis/Citi target unchanged, still 2.3% below target) or UNH (no post-Nov-3-earnings catalyst); both keep their existing plans. META's bounce and TSLA both lack a specific catalyst. Growth/core balance is unaffected since no trades were made; active sleeve remains AAPL (core) + UNH (core), both within existing plans.",
-  "lastUpdated": "2026-11-13T20:13:02Z",
+  "lastRunNotes": "Broad market fell again (SPY -1.27%) as the AI-capex-doubt chip selloff continued; nearly every growth name on the watchlist is trend-DOWN with no fresh stock-specific catalyst, and AMD (trend-UP, strong momentum, Wikipedia spike) had no new news to explain today's -4.3% move beyond the broad selloff, plus a past AMD rotation this month was a loss, so no new buy there. Selling AAPL: new reports of iPhone Duo durability complaints (cracked inner screens near the hinge) and near-zero US pickup/weak retail-skewed supply undercut the strong-demand thesis the position was built on, right as it sits only 3.1% from its $365 target with an already sub-1.0 reward:risk -locking in the +6.3% gain rather than waiting on a weakening catalyst. UNH keeps its existing plan unchanged; the Medicare Advantage/DOJ-overhang headlines found look stale against today's actual +1.1% move. After this sell the active sleeve is UNH-only (100% core, 0% growth), a one-sided barbell with no fix proposed since there's no genuine growth catalyst today.",
+  "lastUpdated": "2026-11-16T15:17:14Z",
   "positions": {
-   "AAPL": {
-    "avgCost": 333.08,
-    "bucket": "core",
-    "lastPrice": 356.91,
-    "shares": 2.120705,
-    "plan": {
-     "target": 365.0,
-     "stop": 300.0,
-     "prob": 0.4,
-     "rr": 0.86,
-     "evPct": -2.65,
-     "entryRef": 334.86,
-     "setLater": true
-    }
-   },
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 407.91,
+    "lastPrice": 412.62,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -47,7 +32,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 753.55
+   "lastPrice": 744.61
   },
   "cashFreed": "2026-10-05"
  },
@@ -476,6 +461,17 @@
    "growthValue": 0.0,
    "coreValue": 1164.81,
    "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-16",
+   "nav": 6845.9,
+   "cash": 2250.23,
+   "positionsValue": 4595.66,
+   "benchmarkNav": 6874.84,
+   "benchmarkClose": 744.61,
+   "growthValue": 0.0,
+   "coreValue": 412.62,
+   "daytradeValue": 0.0
   }
  ],
  "trades": [
@@ -768,6 +764,20 @@
    "realizedPnL": -54.3,
    "realizedPnLPct": -10.92,
    "exitReason": "stop"
+  },
+  {
+   "id": "2026-11-16-AAPL-dskqev",
+   "ticker": "AAPL",
+   "action": "sell",
+   "shares": 2.120705,
+   "price": 353.872975,
+   "refPrice": 354.05,
+   "fee": 1.0,
+   "date": "2026-11-16T15:17:14Z",
+   "bucket": "core",
+   "rationale": "Duo launch-demand thesis is weakening (durability complaints, near-zero US pickup, retail-skewed supply) while the position is already near its $365 target with a sub-1.0 reward:risk; taking the +6.3% gain rather than risking a reversal on a softening catalyst.",
+   "realizedPnL": 43.1,
+   "realizedPnLPct": 6.1
   }
  ],
  "lessons": [],
@@ -873,6 +883,24 @@
     "verdict": "flawed",
     "lesson": "Entry ignored its own warning sign (muted reaction to a beat vs a much bigger premarket pop, on an already extremely extended momentum name) and bought right as a broad AI/chip selloff was starting; don't chase post-earn"
    }
+  },
+  {
+   "id": "2026-11-16-AAPL-dskqev",
+   "date": "2026-11-16T15:17:14Z",
+   "ticker": "AAPL",
+   "bucket": "core",
+   "entryPrice": 333.5278,
+   "exitPrice": 353.872975,
+   "pnl": 43.1,
+   "pnlPct": 6.1,
+   "daysHeld": 62,
+   "whyBought": "Apple unveiled the $1,999 foldable iPhone Duo, its biggest hardware redesign in years; Citi reiterated Buy with a $365 target and called it Apple's most significant new hardware category since the Watch/AirPods.",
+   "horizon": "Medium-term (~2-4 months) — through the iPhone Duo launch cycle and holiday-quarter earnings",
+   "whySold": "Duo launch-demand thesis is weakening (durability complaints, near-zero US pickup, retail-skewed supply) while the position is already near its $365 target with a sub-1.0 reward:risk; taking the +6.3% gain rather than risking a reversal on a softening catalyst.",
+   "prob": null,
+   "rr": null,
+   "exitReason": null,
+   "review": null
   }
  ]
 }
