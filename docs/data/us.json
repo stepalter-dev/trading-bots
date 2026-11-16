@@ -3,13 +3,13 @@
   "cash": 2250.233186731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad market selloff (SPY -1.76%) with the AI-chip rout continuing; almost every growth name is trend-DOWN and blocked from new buys. The few trend-UP growth names (AMZN, ADBE, CRM, AMD) have no confirmed, dated catalyst today - ADBE and AMD both carry fresh insider-selling red flags (outgoing CEO selling ADBE, two AMD insiders selling $14.4M) rather than a buy signal. No core name turned up a name-specific catalyst either, just broad-market weakness. Holding UNH (core, SELLABLE) - some concerning Medicare Advantage margin/DOJ chatter surfaced but it's not a dated single-day catalyst, and the existing plan (target $480, stop $378, prob 45%) still stands. No trades this session; active sleeve stays in cash/UNH.",
-  "lastUpdated": "2026-11-16T19:12:29Z",
+  "lastRunNotes": "Broad market selloff continues today (SPY -1.99%), with the AI-chip rout still dragging most growth names trend-DOWN and blocked from new buys. The few trend-UP growth names (AMZN, CRM, AMD) have no fresh, dated, name-specific catalyst today - just broad macro weakness - and AMD still carries the same insider-selling red flag noted last session rather than a buy signal. No core name surfaced a specific catalyst either. Holding UNH (core, SELLABLE) unchanged: price 409.94 is between its existing stop (378) and target (480), so the current plan stands with no new trade.",
+  "lastUpdated": "2026-11-16T20:12:54Z",
   "positions": {
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 409.82,
+    "lastPrice": 409.905,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 741.12
+   "lastPrice": 739.155
   },
   "cashFreed": "2026-10-05"
  },
@@ -464,13 +464,13 @@
   },
   {
    "date": "2026-11-16",
-   "nav": 6823.49,
+   "nav": 6812.54,
    "cash": 2250.23,
-   "positionsValue": 4573.26,
-   "benchmarkNav": 6842.62,
-   "benchmarkClose": 741.12,
+   "positionsValue": 4562.3,
+   "benchmarkNav": 6824.48,
+   "benchmarkClose": 739.155,
    "growthValue": 0.0,
-   "coreValue": 409.82,
+   "coreValue": 409.9,
    "daytradeValue": 0.0
   }
  ],
