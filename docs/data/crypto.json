@@ -3,8 +3,8 @@
   "cash": 2413.2727019044955,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Fully in cash with no held positions. Only NEAR and UNI are trend-UP and eligible, but found no fresh asset-specific catalyst this week: NEAR's issuance-cut news is from Nov 3 and already reflected in price, and UNI's Nov 11 drop to a post-September low was attributed by reporting to broad altcoin weakness and large-holder selling, not a NEAR/UNI-specific event. BTC itself has kept sliding (from a ~$73.7k trough on Nov 9 to ~$64.7k now), confirming this is market-wide risk-off rather than a stock-pickable move. No growth/core positions to balance; holding with no trades.",
-  "lastUpdated": "2026-11-15T20:11:53Z",
+  "lastRunNotes": "Only NEAR and UNI are trend-UP and eligible, but neither has a fresh asset-specific catalyst this week: NEAR's issuance-cut news is from Nov 3 and already priced in, with nothing new since (ecosystem/roadmap items are routine, not catalysts), and UNI's Nov 11 drop to a post-September low was driven by broad altcoin weakness and liquidations, not UNI-specific news. Today's board-wide +1-8% day moves on near-1.0x volume after a brutal -4% to -23% five-day slide across almost every name confirm this is a market-wide bounce/risk-off cycle, not a stock-pickable move. No held positions to review or balance; holding with no trades again this session.",
+  "lastUpdated": "2026-11-16T02:11:17Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 64748.57
+   "lastPrice": 64852.46
   },
   "cashFreed": "2026-10-03"
  },
@@ -567,6 +567,17 @@
    "positionsValue": 3265.76,
    "benchmarkNav": 5388.49,
    "benchmarkClose": 64748.57,
+   "growthValue": 0.0,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-16",
+   "nav": 5684.27,
+   "cash": 2413.27,
+   "positionsValue": 3271.0,
+   "benchmarkNav": 5397.14,
+   "benchmarkClose": 64852.46,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1465,6 +1476,10 @@
   {
    "date": "2026-11-15",
    "rank": 44
+  },
+  {
+   "date": "2026-11-16",
+   "rank": 45
   }
  ]
 }
