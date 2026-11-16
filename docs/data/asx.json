@@ -1,15 +1,15 @@
 {
  "state": {
-  "cash": 3595.822575402309,
+  "cash": 2458.4882314023093,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked the names with real momentum/movement: Macquarie's 1H27 result (Nov 6, +50% profit, smooth CEO handover to Greg Ward) is already 10 days old and the stock has drifted lower since (-2.2% 5d) despite the headline beat, so it's priced in with no clear fresh edge. Woolworths' Q1 FY27 sales beat is also from Oct 28 and already reflected in its momentum rank; its Investor Day isn't until Nov 18. QBE and Computershare news is leadership/AGM noise, not a price catalyst. Telstra's outage-clearance/upgrade catalyst is September-old, price is only 1.4% from target with a weak 1.1 R:R, so holding per the existing plan. No fresh, specific catalyst found anywhere on the watchlist today, so no trades; growth/core balance unchanged (single small core TLS position, well within the 35-65% band).",
-  "lastUpdated": "2026-11-16T01:12:21Z",
+  "lastRunNotes": "Only fresh, specific catalyst this session was Xero's HY27 result (Nov 12): revenue +46% to A$1.7b, raised FY27 guidance, and a new A$1b buyback, which explains today's +5% move and the +14.5% 5-day rally off 12-month lows; trend is UP and there was zero growth-sleeve exposure, so bought XRO with a stop below the pre-result range. TLS and WiseTech had no new news this session (TLS catalyst is still September-old and only 1% from target, so held unchanged with its existing plan); growth/core now roughly 64/36 of the active sleeve.",
+  "lastUpdated": "2026-11-16T03:12:27Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.125,
+    "lastPrice": 5.15,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -19,6 +19,21 @@
      "evPct": 1.15,
      "entryRef": 4.785,
      "setLater": true
+    }
+   },
+   "XRO.AX": {
+    "shares": 14,
+    "avgCost": 81.23816742857142,
+    "lastPrice": 80.745,
+    "bucket": "growth",
+    "openedDate": "2026-11-16",
+    "plan": {
+     "target": 112.0,
+     "stop": 68.0,
+     "prob": 0.45,
+     "rr": 2.45,
+     "evPct": 7.58,
+     "entryRef": 80.745
     }
    }
   },
@@ -32,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 81.28
+   "lastPrice": 81.31
   },
   "cashFreed": "2026-10-05"
  },
@@ -446,13 +461,13 @@
   },
   {
    "date": "2026-11-16",
-   "nav": 10399.61,
-   "cash": 3595.82,
-   "positionsValue": 6803.79,
-   "benchmarkNav": 10299.05,
-   "benchmarkClose": 81.28,
-   "growthValue": 0.0,
-   "coreValue": 674.07,
+   "nav": 10398.26,
+   "cash": 2458.49,
+   "positionsValue": 7939.77,
+   "benchmarkNav": 10302.85,
+   "benchmarkClose": 81.31,
+   "growthValue": 1130.43,
+   "coreValue": 677.36,
    "daytradeValue": 0.0
   }
  ],
@@ -623,6 +638,28 @@
    "rationale": "Target A$165 reached (now A$165.52); NSW-contract catalyst is fully priced in and the 14 Oct AGM was routine with no new information to justify a higher target, so taking the +9.1% profit rather than holding without a fresh thesis.",
    "realizedPnL": 77.86,
    "realizedPnLPct": 8.31
+  },
+  {
+   "id": "2026-11-16-XRO.AX-u6r7tq",
+   "ticker": "XRO.AX",
+   "action": "buy",
+   "shares": 14,
+   "price": 80.809596,
+   "refPrice": 80.745,
+   "fee": 6.0,
+   "date": "2026-11-16T03:12:27Z",
+   "bucket": "growth",
+   "rationale": "HY27 result (Nov 12) beat with 46% revenue growth, raised FY27 guidance and a new A$1b buyback; stock is up 5% today and 14.5% over 5 days re-rating off 12-month lows, trend now UP, and analyst consensus (Buy, targets well above current price) leaves room to the upside even after accounting for ongoing Melio-integration and margin concerns.",
+   "horizon": "Reassess by mid-Dec if the post-result rally stalls or gives back more than half its gains without new news; otherwise hold toward target as FY27 guidance plays out.",
+   "plan": {
+    "target": 112.0,
+    "stop": 68.0,
+    "prob": 0.45,
+    "rr": 2.45,
+    "evPct": 7.58,
+    "entryRef": 80.745
+   },
+   "sentimentSummary": "Commentary is mixed: bulls point to the guidance raise and buyback, bears still flag Melio losses and a brutal YTD decline, so sentiment is cautiously improving rather than euphoric."
   }
  ],
  "lessons": [],
