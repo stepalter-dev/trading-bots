@@ -3,8 +3,8 @@
   "cash": 2413.2727019044955,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad crypto risk-off persists: BTC down from ~$74k to $64.4k over the past week, and every watchlist name except NEAR and UNI7083 is trend-DOWN (no new buys allowed). NEAR has no fresh catalyst beyond its already-priced-in issuance vote; UNI7083 is sliding to a post-September low on whale selling and broad altcoin weakness, which is bearish, not a buy signal. AVAX's Wikipedia attention spike traces to a muted NYSE tokenization partnership headline (+4% one day) but AVAX remains trend-DOWN so it's not tradeable anyway. No held positions and no genuine asset-specific catalyst found, so holding 100% cash in the active sleeve again this session.",
-  "lastUpdated": "2026-11-16T14:17:25Z",
+  "lastRunNotes": "Fully in cash with no held positions; every watchlist name except NEAR and UNI7083 is trend-DOWN and barred from new buys. Checked both trend-UP names for a fresh catalyst: NEAR's momentum is driven by a stale Nov 3 issuance vote plus ongoing ETF outflows, and UNI7083's slide to a post-September low is an old 2025 timelock-unlock whale sale, not new news. Broad market is continued macro/regulatory risk-off (Fed, ETF outflows, Oct Binance breach), not an asset-specific signal. No genuine catalyst found, so holding with 0 trades.",
+  "lastUpdated": "2026-11-16T20:12:50Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 64382.16
+   "lastPrice": 65016.41
   },
   "cashFreed": "2026-10-03"
  },
@@ -573,11 +573,11 @@
   },
   {
    "date": "2026-11-16",
-   "nav": 5660.55,
+   "nav": 5692.54,
    "cash": 2413.27,
-   "positionsValue": 3247.28,
-   "benchmarkNav": 5358.0,
-   "benchmarkClose": 64382.16,
+   "positionsValue": 3279.27,
+   "benchmarkNav": 5410.78,
+   "benchmarkClose": 65016.41,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1479,7 +1479,7 @@
   },
   {
    "date": "2026-11-16",
-   "rank": 45
+   "rank": 46
   }
  ]
 }
