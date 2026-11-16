@@ -1,6 +1,6 @@
 {
  "state": {
-  "cash": 8938.0,
+  "cash": 8788.0,
   "startingCash": 10000.0,
   "holdings": {
    "yc-lyon": {
@@ -777,15 +777,147 @@
     "pRaise12m": 0.3,
     "pAlive12m": 0.8,
     "lastChecked": "2026-11-09"
+   },
+   "yc-covera": {
+    "id": "yc-covera",
+    "name": "Covera",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/covera",
+    "website": "https://www.covera-agents.com/?utm_source=ycombinator&utm_medium=company_profile&utm_campaign=yc_f26",
+    "oneLiner": "Covera gets insurance brokers to quote first and win more business.",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/covera.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-11-16",
+    "tranches": [
+     {
+      "amount": 40.0,
+      "valuation": 18000000.0,
+      "date": "2026-11-16"
+     }
+    ],
+    "entryValuation": 18000000.0,
+    "markValuation": 18000000.0,
+    "status": "active",
+    "thesis": "AI-native ops layer for independent P&C insurance agencies (quoting, carrier comparison, claims, collections) with human-in-the-loop review. Small team (2) but a clear, unsexy workflow wedge with real distribution precedent in insurtech.",
+    "pRaise12m": 0.35,
+    "pAlive12m": 0.78,
+    "lastChecked": "2026-11-16"
+   },
+   "yc-reconero": {
+    "id": "yc-reconero",
+    "name": "Reconero",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/reconero",
+    "website": "https://reconero.com",
+    "oneLiner": "Reconero helps police officers automate their workflows with AI",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/reconero.json",
+    "teamSizeAtEntry": 2,
+    "investedDate": "2026-11-16",
+    "tranches": [
+     {
+      "amount": 35.0,
+      "valuation": 20000000.0,
+      "date": "2026-11-16"
+     }
+    ],
+    "entryValuation": 20000000.0,
+    "markValuation": 20000000.0,
+    "status": "active",
+    "thesis": "Links AI-written police reports back to the underlying bodycam/video footage so officers can verify each line, addressing a known failure mode of pure report-generation tools. Public-safety sales cycles are slow but sticky once deployed; comparable to Axon/Code Four demand.",
+    "pRaise12m": 0.3,
+    "pAlive12m": 0.72,
+    "lastChecked": "2026-11-16"
+   },
+   "yc-constor": {
+    "id": "yc-constor",
+    "name": "Constor",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/constor",
+    "website": "https://constor.ai",
+    "oneLiner": "AI native OS for the construction industry",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/constor.json",
+    "teamSizeAtEntry": 3,
+    "investedDate": "2026-11-16",
+    "tranches": [
+     {
+      "amount": 30.0,
+      "valuation": 16000000.0,
+      "date": "2026-11-16"
+     }
+    ],
+    "entryValuation": 16000000.0,
+    "markValuation": 16000000.0,
+    "status": "active",
+    "thesis": "Automates quantity take-offs for construction bids, a high-friction manual process gating how many tenders a contractor can respond to. Construction tech is underserved by software and this is a narrow, well-scoped wedge rather than a vague 'AI OS' claim.",
+    "pRaise12m": 0.32,
+    "pAlive12m": 0.75,
+    "lastChecked": "2026-11-16"
+   },
+   "yc-canos": {
+    "id": "yc-canos",
+    "name": "Canos",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/canos",
+    "website": "https://www.canos.ai",
+    "oneLiner": "AI-powered blood test to detect cancer in dogs (and cats soon).",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/canos.json",
+    "teamSizeAtEntry": 0,
+    "investedDate": "2026-11-16",
+    "tranches": [
+     {
+      "amount": 25.0,
+      "valuation": 15000000.0,
+      "date": "2026-11-16"
+     }
+    ],
+    "entryValuation": 15000000.0,
+    "markValuation": 15000000.0,
+    "status": "active",
+    "thesis": "Blood-based molecular monitoring for cancer relapse/treatment tracking in dogs, from an Oxford-spinout founder. Veterinary diagnostics has recent comps raising pre-seed (Wonderdog, SpotItEarly) but Canos carries more regulatory/assay-validation risk than pure software.",
+    "pRaise12m": 0.25,
+    "pAlive12m": 0.65,
+    "lastChecked": "2026-11-16"
+   },
+   "yc-altair-health": {
+    "id": "yc-altair-health",
+    "name": "Altair Health",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/altair-health",
+    "website": "https://www.altair-health.com",
+    "oneLiner": "Stripe for medical billing",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/altair-health.json",
+    "teamSizeAtEntry": 4,
+    "investedDate": "2026-11-16",
+    "tranches": [
+     {
+      "amount": 20.0,
+      "valuation": 15000000.0,
+      "date": "2026-11-16"
+     }
+    ],
+    "entryValuation": 15000000.0,
+    "markValuation": 15000000.0,
+    "status": "active",
+    "thesis": "AI medical billing/revenue-cycle automation for provider practices, pitched as 'Stripe for medical billing.' Hot sub-sector right now (Candid Health, Quill Bills, Taiga are active comps) which helps fundraising odds but also means crowded competition for this small cheque.",
+    "pRaise12m": 0.28,
+    "pAlive12m": 0.68,
+    "lastChecked": "2026-11-16"
    }
   },
   "seen": [
+   "gh-amosblomqvist/learnharness",
+   "gh-anefzaoui/misterdownloadmanager",
    "gh-ccch1mneyyy/dsh-go",
    "gh-ebony-vinyl/dsh-our-free-model",
    "gh-gathin23/cleanyourtv",
    "gh-google-research/harness2",
+   "gh-heydamir/unslop",
+   "gh-horizon-rust/horizon",
+   "gh-jakeschincariol/replica-skill",
    "gh-knifelemon/filee",
    "gh-niko1221/strata",
+   "gh-pengchujin/aerial-tv",
+   "gh-seedds/nxnative",
    "gh-storytold/craft-anything",
    "gh-storytold/filmcraft",
    "gh-storytold/lightcraft",
@@ -796,6 +928,7 @@
    "gh-wheresryan22/anatomy",
    "gh-yetone/magpie",
    "gh-zagitta/gpu-unlock",
+   "gh-zortos293/lichii",
    "hn-49783133",
    "hn-49800574",
    "hn-49801329",
@@ -852,6 +985,14 @@
    "hn-50368208",
    "hn-50369895",
    "hn-50406292",
+   "hn-50428907",
+   "hn-50441518",
+   "hn-50443812",
+   "hn-50454625",
+   "hn-50457230",
+   "hn-50470488",
+   "hn-50487228",
+   "hn-50497589",
    "ph-1203994",
    "ph-1238671",
    "ph-1249438",
@@ -905,21 +1046,35 @@
    "ph-1302640",
    "ph-1302760",
    "ph-1306739",
+   "ph-1307385",
+   "ph-1307607",
+   "ph-1307742",
    "ph-1307776",
    "ph-1307870",
    "ph-1307984",
+   "ph-1308240",
+   "ph-1313926",
+   "ph-1314362",
+   "ph-1314673",
+   "ph-1316260",
+   "yc-adalat-ai",
    "yc-agent-relay",
+   "yc-altair-health",
    "yc-antimattr",
    "yc-anywhere",
    "yc-archangel-health",
    "yc-asakana",
    "yc-aviern",
+   "yc-axiomat",
    "yc-blinka",
    "yc-boat",
    "yc-boxesdev",
+   "yc-canos",
    "yc-capveon",
    "yc-cesara",
+   "yc-constor",
    "yc-conus",
+   "yc-covera",
    "yc-cyclon",
    "yc-deepmark",
    "yc-deploy",
@@ -930,6 +1085,7 @@
    "yc-grep-ai",
    "yc-habu",
    "yc-herdr",
+   "yc-hillstar",
    "yc-hopper",
    "yc-hue",
    "yc-hundred",
@@ -940,9 +1096,12 @@
    "yc-lantern-ai",
    "yc-linklane",
    "yc-liquid-energy",
+   "yc-lucebox",
    "yc-lyon",
    "yc-melty-gg",
+   "yc-metalcraft",
    "yc-munito-ai",
+   "yc-native",
    "yc-neomatter",
    "yc-open-actuation",
    "yc-openhack",
@@ -959,6 +1118,8 @@
    "yc-quivly-ai",
    "yc-ratlog",
    "yc-ravenphone",
+   "yc-reconero",
+   "yc-reific",
    "yc-rhem-labs",
    "yc-rivereditor",
    "yc-rote",
@@ -993,8 +1154,8 @@
    "yc-voyager",
    "yc-vyra"
   ],
-  "lastUpdated": "2026-11-09T00:14:45Z",
-  "lastRunNotes": "Researched ~10 of this week's 36 YC Fall 2026 candidates via company sites and web search; skipped the Show HN/Product Hunt novelty projects and the storytold/*craft GitHub repos (suspiciously round star counts on repos created within the last 2 months, no independent company evidence, treated as likely fake-star farming rather than investable companies). Backed four B2B enterprise-SaaS picks with real founder-market fit and verifiable product depth: Telamont (construction contract/drawing risk AI, enterprise integrations, validated by a comparable company's $10M seed in the same niche), Organizely (AI ERP for manufacturers, founders ran a factory for 6 years, has a named customer case study), Cesara (healthcare revenue-cycle AI with notable health-system CIO endorsements, SOC2/HIPAA), and Simantic (embedded firmware simulation for AI coding agents, smaller niche so smaller cheque). Checked all 27 existing holdings for news; found no independently verifiable raises, shutdowns, or acquisitions for any of them (several aggregator sites like Dealroom/VCBacked/RoundFunded show unverified 'reconstructed' profiles, which don't meet the evidence-URL bar) -- consistent with YC Fall 2026 demo day not yet having happened. No follow-ons this week."
+  "lastUpdated": "2026-11-16T00:13:08Z",
+  "lastRunNotes": "Reviewed the 36 new candidates; no holdings were due for a news check this week (all last checked 2026-11-09, inside the 21-day window), so no updates/followons. Skipped the hobby Show HN/GitHub/Product Hunt entries (open-source side projects, not fundable companies) and Adalat AI (confirmed nonprofit, no equity to price) and HillStar (couldn't find enough independent confirmation to size a cheque confidently). Backed five YC Fall 2026 vertical-AI startups with small, real teams and sizable incumbent-light markets: insurance brokerage ops, police report/video workflows, construction takeoffs, veterinary cancer diagnostics, and medical billing."
  },
  "nav_history": [
   {
@@ -1045,6 +1206,13 @@
    "cash": 8938.0,
    "holdingsValue": 1062.0,
    "deployed": 1062.0
+  },
+  {
+   "date": "2026-11-16",
+   "nav": 10000.0,
+   "cash": 8788.0,
+   "holdingsValue": 1212.0,
+   "deployed": 1212.0
   }
  ],
  "deals": [
@@ -1450,6 +1618,71 @@
    "pAlive12m": 0.8,
    "thesis": "Runs real firmware on virtual microcontrollers for CI/CD and AI coding agents, plus an AI code reviewer that tests firmware PRs in the simulator. Rides the coding-agent infrastructure wave, but the embedded/firmware niche is smaller than the other picks, so sized as the smallest cheque.",
    "url": "https://www.ycombinator.com/companies/simantic"
+  },
+  {
+   "type": "invest",
+   "id": "yc-covera",
+   "name": "Covera",
+   "source": "YC Fall 2026",
+   "date": "2026-11-16T00:13:08Z",
+   "amount": 40.0,
+   "valuation": 18000000.0,
+   "pRaise12m": 0.35,
+   "pAlive12m": 0.78,
+   "thesis": "AI-native ops layer for independent P&C insurance agencies (quoting, carrier comparison, claims, collections) with human-in-the-loop review. Small team (2) but a clear, unsexy workflow wedge with real distribution precedent in insurtech.",
+   "url": "https://www.ycombinator.com/companies/covera"
+  },
+  {
+   "type": "invest",
+   "id": "yc-reconero",
+   "name": "Reconero",
+   "source": "YC Fall 2026",
+   "date": "2026-11-16T00:13:08Z",
+   "amount": 35.0,
+   "valuation": 20000000.0,
+   "pRaise12m": 0.3,
+   "pAlive12m": 0.72,
+   "thesis": "Links AI-written police reports back to the underlying bodycam/video footage so officers can verify each line, addressing a known failure mode of pure report-generation tools. Public-safety sales cycles are slow but sticky once deployed; comparable to Axon/Code Four demand.",
+   "url": "https://www.ycombinator.com/companies/reconero"
+  },
+  {
+   "type": "invest",
+   "id": "yc-constor",
+   "name": "Constor",
+   "source": "YC Fall 2026",
+   "date": "2026-11-16T00:13:08Z",
+   "amount": 30.0,
+   "valuation": 16000000.0,
+   "pRaise12m": 0.32,
+   "pAlive12m": 0.75,
+   "thesis": "Automates quantity take-offs for construction bids, a high-friction manual process gating how many tenders a contractor can respond to. Construction tech is underserved by software and this is a narrow, well-scoped wedge rather than a vague 'AI OS' claim.",
+   "url": "https://www.ycombinator.com/companies/constor"
+  },
+  {
+   "type": "invest",
+   "id": "yc-canos",
+   "name": "Canos",
+   "source": "YC Fall 2026",
+   "date": "2026-11-16T00:13:08Z",
+   "amount": 25.0,
+   "valuation": 15000000.0,
+   "pRaise12m": 0.25,
+   "pAlive12m": 0.65,
+   "thesis": "Blood-based molecular monitoring for cancer relapse/treatment tracking in dogs, from an Oxford-spinout founder. Veterinary diagnostics has recent comps raising pre-seed (Wonderdog, SpotItEarly) but Canos carries more regulatory/assay-validation risk than pure software.",
+   "url": "https://www.ycombinator.com/companies/canos"
+  },
+  {
+   "type": "invest",
+   "id": "yc-altair-health",
+   "name": "Altair Health",
+   "source": "YC Fall 2026",
+   "date": "2026-11-16T00:13:08Z",
+   "amount": 20.0,
+   "valuation": 15000000.0,
+   "pRaise12m": 0.28,
+   "pAlive12m": 0.68,
+   "thesis": "AI medical billing/revenue-cycle automation for provider practices, pitched as 'Stripe for medical billing.' Hot sub-sector right now (Candid Health, Quill Bills, Taiga are active comps) which helps fundraising odds but also means crowded competition for this small cheque.",
+   "url": "https://www.ycombinator.com/companies/altair-health"
   }
  ],
  "forecasts": [
@@ -1947,6 +2180,86 @@
    "prob": 0.8,
    "made": "2026-11-09",
    "due": "2027-11-09",
+   "outcome": null
+  },
+  {
+   "id": "yc-covera",
+   "event": "raise_12m",
+   "prob": 0.35,
+   "made": "2026-11-16",
+   "due": "2027-11-16",
+   "outcome": null
+  },
+  {
+   "id": "yc-covera",
+   "event": "alive_12m",
+   "prob": 0.78,
+   "made": "2026-11-16",
+   "due": "2027-11-16",
+   "outcome": null
+  },
+  {
+   "id": "yc-reconero",
+   "event": "raise_12m",
+   "prob": 0.3,
+   "made": "2026-11-16",
+   "due": "2027-11-16",
+   "outcome": null
+  },
+  {
+   "id": "yc-reconero",
+   "event": "alive_12m",
+   "prob": 0.72,
+   "made": "2026-11-16",
+   "due": "2027-11-16",
+   "outcome": null
+  },
+  {
+   "id": "yc-constor",
+   "event": "raise_12m",
+   "prob": 0.32,
+   "made": "2026-11-16",
+   "due": "2027-11-16",
+   "outcome": null
+  },
+  {
+   "id": "yc-constor",
+   "event": "alive_12m",
+   "prob": 0.75,
+   "made": "2026-11-16",
+   "due": "2027-11-16",
+   "outcome": null
+  },
+  {
+   "id": "yc-canos",
+   "event": "raise_12m",
+   "prob": 0.25,
+   "made": "2026-11-16",
+   "due": "2027-11-16",
+   "outcome": null
+  },
+  {
+   "id": "yc-canos",
+   "event": "alive_12m",
+   "prob": 0.65,
+   "made": "2026-11-16",
+   "due": "2027-11-16",
+   "outcome": null
+  },
+  {
+   "id": "yc-altair-health",
+   "event": "raise_12m",
+   "prob": 0.28,
+   "made": "2026-11-16",
+   "due": "2027-11-16",
+   "outcome": null
+  },
+  {
+   "id": "yc-altair-health",
+   "event": "alive_12m",
+   "prob": 0.68,
+   "made": "2026-11-16",
+   "due": "2027-11-16",
    "outcome": null
   }
  ]
