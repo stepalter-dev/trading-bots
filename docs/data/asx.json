@@ -3,8 +3,8 @@
   "cash": 2458.4882314023093,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Only fresh, specific catalyst this session was Xero's HY27 result (Nov 12): revenue +46% to A$1.7b, raised FY27 guidance, and a new A$1b buyback, which explains today's +5% move and the +14.5% 5-day rally off 12-month lows; trend is UP and there was zero growth-sleeve exposure, so bought XRO with a stop below the pre-result range. TLS and WiseTech had no new news this session (TLS catalyst is still September-old and only 1% from target, so held unchanged with its existing plan); growth/core now roughly 64/36 of the active sleeve.",
-  "lastUpdated": "2026-11-16T03:12:27Z",
+  "lastRunNotes": "No fresh, specific catalyst found this session: TLS's catalyst (Sept Barrenjoey upgrade/outage resolution) is stale and TLS is only 0.9% from target so left unchanged with its existing plan; XRO was bought last session and is inside its 14-day minimum hold with no new news since the Nov 12 result. Checked top-momentum/mover names (WOW, STO, BHP, QBE) but found no specific today-news, just old reporting-season or long-term momentum, not a fresh trigger. Growth/core split unchanged at roughly 62/38 of the active sleeve; holding this session.",
+  "lastUpdated": "2026-11-16T04:12:04Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
@@ -24,7 +24,7 @@
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 80.745,
+    "lastPrice": 79.715,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 81.31
+   "lastPrice": 81.29
   },
   "cashFreed": "2026-10-05"
  },
@@ -461,12 +461,12 @@
   },
   {
    "date": "2026-11-16",
-   "nav": 10398.26,
+   "nav": 10382.33,
    "cash": 2458.49,
-   "positionsValue": 7939.77,
-   "benchmarkNav": 10302.85,
-   "benchmarkClose": 81.31,
-   "growthValue": 1130.43,
+   "positionsValue": 7923.84,
+   "benchmarkNav": 10300.32,
+   "benchmarkClose": 81.29,
+   "growthValue": 1116.01,
    "coreValue": 677.36,
    "daytradeValue": 0.0
   }
