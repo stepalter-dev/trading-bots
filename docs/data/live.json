@@ -10,17 +10,18 @@
   },
   "asx": {
    "prices": {
-    "TLS.AX": 5.13,
-    "STW.AX": 81.13
+    "TLS.AX": 5.15,
+    "XRO.AX": 80.56,
+    "STW.AX": 81.15
    },
    "benchmark": "STW.AX"
   },
   "crypto": {
    "prices": {
-    "BTC-USD": 64969.44
+    "BTC-USD": 64703.3
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-11-16T00:15:58Z"
+ "updatedAt": "2026-11-16T07:01:55Z"
 }
