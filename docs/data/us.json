@@ -3,13 +3,13 @@
   "cash": 2250.233186731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad market selloff continues today (SPY -1.99%), with the AI-chip rout still dragging most growth names trend-DOWN and blocked from new buys. The few trend-UP growth names (AMZN, CRM, AMD) have no fresh, dated, name-specific catalyst today - just broad macro weakness - and AMD still carries the same insider-selling red flag noted last session rather than a buy signal. No core name surfaced a specific catalyst either. Holding UNH (core, SELLABLE) unchanged: price 409.94 is between its existing stop (378) and target (480), so the current plan stands with no new trade.",
-  "lastUpdated": "2026-11-16T20:12:54Z",
+  "lastRunNotes": "Broad selloff continues (SPY -0.33%) with no fresh, dated, name-specific catalysts found. CRM's -7.24% drop today and AMD's UP trend both lack new news beyond already-known, recurring concerns (Agentforce growth questions, prior insider-selling flag), so no new growth buys. UNH (core, SELLABLE, 33 days held) fell further on resurfacing Medicare Advantage margin/DOJ-overhang fears, but this is a known recurring risk rather than a new catalyst, and price (392.11) remains above its $378 stop and below the $480 target, so the existing plan stands unchanged. No trades this session; active sleeve remains 100% core (UNH) with no growth exposure.",
+  "lastUpdated": "2026-11-17T15:15:28Z",
   "positions": {
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 409.905,
+    "lastPrice": 392.235,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 739.155
+   "lastPrice": 737.485
   },
   "cashFreed": "2026-10-05"
  },
@@ -471,6 +471,17 @@
    "benchmarkClose": 739.155,
    "growthValue": 0.0,
    "coreValue": 409.9,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-17",
+   "nav": 6785.48,
+   "cash": 2250.23,
+   "positionsValue": 4535.25,
+   "benchmarkNav": 6809.06,
+   "benchmarkClose": 737.485,
+   "growthValue": 0.0,
+   "coreValue": 392.24,
    "daytradeValue": 0.0
   }
  ],
