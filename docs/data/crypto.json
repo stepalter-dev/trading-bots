@@ -3,8 +3,8 @@
   "cash": 2413.2727019044955,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked the three trend-UP names for a fresh catalyst: NEAR's issuance-cut vote and ETF outflows are the same stale story as last session plus a minor AI-unit data exposure (no funds affected) already priced in; UNI7083's slide is large-holder selling into weak altcoin breadth, not new information; AAVE has no dated news since September. BTC itself has slid from ~$74k (Nov 10) to $64.5k now, confirming this is a continued market-wide risk-off, not an asset-specific signal, same pattern as the prior session. No genuine catalyst found and no held positions needing a plan, so holding with 0 trades.",
-  "lastUpdated": "2026-11-17T08:12:12Z",
+  "lastRunNotes": "Checked the three trend-UP names again for a fresh catalyst: AAVE's Avon acquisition (Nov 6) is a minor long-term product move already a week old and not large enough to explain today's bounce; UNI remains in the same large-holder-selling, weak-altcoin-breadth slide as last session with no new news; NEAR has no dated news for today beyond a generically 'less cheerful week' per aggregators. Today's uniform small gains across most of the watchlist alongside a flat BTC look like a market-wide bounce within the ongoing risk-off (BTC still near $65k vs $74k on Nov 10), not an asset-specific signal, matching lesson 5. No genuine catalyst found, no held positions (fully in cash), so holding with 0 trades.",
+  "lastUpdated": "2026-11-17T14:15:28Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 64512.09
+   "lastPrice": 64919.63
   },
   "cashFreed": "2026-10-03"
  },
@@ -584,11 +584,11 @@
   },
   {
    "date": "2026-11-17",
-   "nav": 5667.1,
+   "nav": 5687.66,
    "cash": 2413.27,
-   "positionsValue": 3253.83,
-   "benchmarkNav": 5368.81,
-   "benchmarkClose": 64512.09,
+   "positionsValue": 3274.39,
+   "benchmarkNav": 5402.73,
+   "benchmarkClose": 64919.63,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1494,7 +1494,7 @@
   },
   {
    "date": "2026-11-17",
-   "rank": 48
+   "rank": 47
   }
  ]
 }
