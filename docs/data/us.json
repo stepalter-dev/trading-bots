@@ -3,13 +3,13 @@
   "cash": 2250.233186731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad selloff continues (SPY -0.33%) with no fresh, dated, name-specific catalysts found. CRM's -7.24% drop today and AMD's UP trend both lack new news beyond already-known, recurring concerns (Agentforce growth questions, prior insider-selling flag), so no new growth buys. UNH (core, SELLABLE, 33 days held) fell further on resurfacing Medicare Advantage margin/DOJ-overhang fears, but this is a known recurring risk rather than a new catalyst, and price (392.11) remains above its $378 stop and below the $480 target, so the existing plan stands unchanged. No trades this session; active sleeve remains 100% core (UNH) with no growth exposure.",
-  "lastUpdated": "2026-11-17T15:15:28Z",
+  "lastRunNotes": "Broad market selloff (SPY -1.08%) hit nearly every watchlist name with no fresh, dated, name-specific catalysts. CRM's -9.84% drop has no new news (Q3 FY27 earnings aren't until Dec 2) and trend is DOWN anyway; AMD's Wikipedia attention spike and -2.93% move trace back to already-priced-in Nov 3 earnings/Nov 10 EPYC launch, not a new catalyst, so no repeat of the recent AMD round-trip loss. INTC has a notable $9.7M insider buy but trend is DOWN (no new buys allowed). UNH (core, SELLABLE at 33 days) continues sliding on the same known Medicare Advantage/DOJ overhang already priced into the existing plan; still above its $378 stop and below the $480 target, so no change. No trades this session; active sleeve unchanged (core-only, no growth exposure currently).",
+  "lastUpdated": "2026-11-17T17:13:15Z",
   "positions": {
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 392.235,
+    "lastPrice": 398.295,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 737.485
+   "lastPrice": 732.19
   },
   "cashFreed": "2026-10-05"
  },
@@ -475,13 +475,13 @@
   },
   {
    "date": "2026-11-17",
-   "nav": 6785.48,
+   "nav": 6761.8,
    "cash": 2250.23,
-   "positionsValue": 4535.25,
-   "benchmarkNav": 6809.06,
-   "benchmarkClose": 737.485,
+   "positionsValue": 4511.57,
+   "benchmarkNav": 6760.17,
+   "benchmarkClose": 732.19,
    "growthValue": 0.0,
-   "coreValue": 392.24,
+   "coreValue": 398.3,
    "daytradeValue": 0.0
   }
  ],
