@@ -3,13 +3,13 @@
   "cash": 2458.4882314023093,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Today's -1.66% STW move looks like broad market risk-off (miners, banks and growth names all down together) rather than a stock-specific catalyst; REA's Q1 FY27 results and board change are already a week-plus old and don't explain today's -3% move. No fresh, dated catalyst found for TLS (still 0.9% short of its A$5.20 target, thesis unchanged) or any watchlist name, and XRO remains inside its mandatory 14-day hold with no post-result follow-up. Growth/core split stays at roughly 63/37 on the active sleeve; holding this session with no trades.",
-  "lastUpdated": "2026-11-17T01:11:45Z",
+  "lastRunNotes": "Broad risk-off session again (STW -1.65%, miners/banks/growth all down together); no fresh dated catalyst found for TLS (still ~1.1% short of its A$5.20 target, thesis unchanged), XRO (still inside mandatory 14-day hold, no post-result follow-up news), or REA (today's -4.39% looks like continued tech-sector rotation/risk-off, not new news - its Oct listings data is already over a week old). Growth/core split on the active sleeve stays near 63/37. Holding with no trades this session.",
+  "lastUpdated": "2026-11-17T03:11:46Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.155,
+    "lastPrice": 5.15,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -24,7 +24,7 @@
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 81.2,
+    "lastPrice": 81.045,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -472,13 +472,13 @@
   },
   {
    "date": "2026-11-17",
-   "nav": 10292.17,
+   "nav": 10289.34,
    "cash": 2458.49,
-   "positionsValue": 7833.68,
+   "positionsValue": 7830.85,
    "benchmarkNav": 10112.79,
    "benchmarkClose": 79.81,
-   "growthValue": 1136.8,
-   "coreValue": 678.01,
+   "growthValue": 1134.63,
+   "coreValue": 677.36,
    "daytradeValue": 0.0
   }
  ],
