@@ -3,13 +3,13 @@
   "cash": 2458.4882314023093,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, specific catalyst found this session: TLS's catalyst (Sept Barrenjoey upgrade/outage resolution) is stale and TLS is only 0.9% from target so left unchanged with its existing plan; XRO was bought last session and is inside its 14-day minimum hold with no new news since the Nov 12 result. Checked top-momentum/mover names (WOW, STO, BHP, QBE) but found no specific today-news, just old reporting-season or long-term momentum, not a fresh trigger. Growth/core split unchanged at roughly 62/38 of the active sleeve; holding this session.",
-  "lastUpdated": "2026-11-16T04:12:04Z",
+  "lastRunNotes": "No fresh, dated catalyst found for any watchlist name today despite a broad -1.22% market down day (RBA/macro-risk-off, no specific company trigger confirmed for BHP/FMG/MIN/PLS/MQG/NAB weakness). TLS's Barrenjoey-upgrade thesis is stale and it's still 0.9% short of its A$5.20 target with no new news, so left unchanged with its existing plan rather than selling early without a trigger. XRO remains inside its mandatory 14-day hold with no post-result (Nov 12) analyst follow-up found. Growth/core split on the active sleeve unchanged at roughly 63/37; holding this session with no trades.",
+  "lastUpdated": "2026-11-17T00:12:28Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.15,
+    "lastPrice": 5.155,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -24,7 +24,7 @@
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 79.715,
+    "lastPrice": 80.99,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 81.29
+   "lastPrice": 80.16
   },
   "cashFreed": "2026-10-05"
  },
@@ -468,6 +468,17 @@
    "benchmarkClose": 81.29,
    "growthValue": 1116.01,
    "coreValue": 677.36,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-17",
+   "nav": 10315.62,
+   "cash": 2458.49,
+   "positionsValue": 7857.13,
+   "benchmarkNav": 10157.14,
+   "benchmarkClose": 80.16,
+   "growthValue": 1133.86,
+   "coreValue": 678.01,
    "daytradeValue": 0.0
   }
  ],
