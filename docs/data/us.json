@@ -3,13 +3,13 @@
   "cash": 2250.233186731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off day (SPY -1.20%) dragged nearly every watchlist name down with no fresh, dated, name-specific catalysts. UNH's -4.76% drop traces to the same already-known Medicare Advantage/DOJ overhang (no new developments found this week); its thesis and plan (target $480, stop $378, 45%) are unchanged and the stop wasn't hit, so holding rather than selling into the dip. CRM's -8.4% has no new news (earnings not until Dec 2) and trend is DOWN anyway. AMD (trend UP, momentum rank 2/31) only has stale Nov 9-13 catalysts already priced in, and this account just took a round-trip loss chasing it on Nov 4-6, so no repeat without a fresh trigger. INTC's insider buy is moot since trend is DOWN. No trades this session; active sleeve remains just the single UNH core position (5.8% of NAV).",
-  "lastUpdated": "2026-11-17T19:13:46Z",
+  "lastRunNotes": "Broad risk-off day (SPY -1.45%) pulled nearly every watchlist name down together with no fresh, dated, name-specific catalysts; most eligible UP-trend names (AAPL, MSFT, AMD, XOM, KO, etc.) have no new news beyond stale/known items. UNH's plan (target $480, stop $378, 45%) is unchanged: no new negative news beyond the already-known Medicare Advantage/DOJ overhang, stop not hit, target far away, so holding rather than selling into the dip. AMD (UP, momentum rank 2) shows only insider sales (less meaningful, likely scheduled) and this account already took a round-trip loss chasing it recently with no fresh catalyst now. INTC has a genuine CEO insider buy signal but is trend-DOWN, so no new buy is allowed. Holding everything; active sleeve stays 100% core (UNH) with no growth exposure, which is fine given no qualifying growth-side buy signal today.",
+  "lastUpdated": "2026-11-17T20:12:29Z",
   "positions": {
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 392.55,
+    "lastPrice": 388.29,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 731.674
+   "lastPrice": 729.57
   },
   "cashFreed": "2026-10-05"
  },
@@ -475,13 +475,13 @@
   },
   {
    "date": "2026-11-17",
-   "nav": 6753.16,
+   "nav": 6737.08,
    "cash": 2250.23,
-   "positionsValue": 4502.92,
-   "benchmarkNav": 6755.41,
-   "benchmarkClose": 731.674,
+   "positionsValue": 4486.84,
+   "benchmarkNav": 6735.98,
+   "benchmarkClose": 729.57,
    "growthValue": 0.0,
-   "coreValue": 392.55,
+   "coreValue": 388.29,
    "daytradeValue": 0.0
   }
  ],
