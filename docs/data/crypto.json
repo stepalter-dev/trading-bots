@@ -3,8 +3,8 @@
   "cash": 2413.2727019044955,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Fully in cash; checked the two trend-UP names (NEAR, UNI7083) for a fresh catalyst and found none - NEAR's issuance-cut vote (Nov 3) and ETF outflows are stale, and UNI7083's slide is forced selling/altcoin weakness, not new info (its fee-switch/burn news is older and already played out). AVAX got a real NYSE tokenized-securities headline but remains trend-DOWN and barred from new buys. Today's broad 1-3% decline across nearly every name with vol_x near 1.0x looks like market-wide beta tracking BTC, not an asset-specific signal. No genuine catalyst, so holding with 0 trades.",
-  "lastUpdated": "2026-11-17T02:12:01Z",
+  "lastRunNotes": "Checked the three trend-UP names for a fresh catalyst: NEAR's issuance-cut vote and ETF outflows are the same stale story as last session plus a minor AI-unit data exposure (no funds affected) already priced in; UNI7083's slide is large-holder selling into weak altcoin breadth, not new information; AAVE has no dated news since September. BTC itself has slid from ~$74k (Nov 10) to $64.5k now, confirming this is a continued market-wide risk-off, not an asset-specific signal, same pattern as the prior session. No genuine catalyst found and no held positions needing a plan, so holding with 0 trades.",
+  "lastUpdated": "2026-11-17T08:12:12Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 64733.19
+   "lastPrice": 64512.09
   },
   "cashFreed": "2026-10-03"
  },
@@ -584,11 +584,11 @@
   },
   {
    "date": "2026-11-17",
-   "nav": 5678.25,
+   "nav": 5667.1,
    "cash": 2413.27,
-   "positionsValue": 3264.98,
-   "benchmarkNav": 5387.21,
-   "benchmarkClose": 64733.19,
+   "positionsValue": 3253.83,
+   "benchmarkNav": 5368.81,
+   "benchmarkClose": 64512.09,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
