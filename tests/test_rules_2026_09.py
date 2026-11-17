@@ -138,3 +138,28 @@ def test_free_cash_once_trims_active_to_25pct_and_only_once():
     assert all(t["exitReason"] == "rebalance" for t in trades) and s["cashFreed"] == "2026-10-03"
     assert engine.free_cash_once(s, US, prices, "t", "2026-10-04") == ([], [])
     assert engine.rebalance_anchor(s, US, prices, "t", "2026-10-04") == ([], [])  # anchor still in band: cash is not swept
+
+
+CRYPTO_NC = {**MARKETS["crypto"], "costs": None}
+BELOW = lambda price: {"ok": True, "price": price, "ma200": price * 1.2, "above_ma200": False}
+
+
+def test_crypto_anchor_drops_to_30pct_in_a_downtrend_and_returns_in_an_uptrend():
+    assert engine.anchor_target(CRYPTO_NC, BELOW(100)) == 0.30 and engine.anchor_target(CRYPTO_NC, UP(100)) == 0.60
+    assert engine.anchor_target(US, BELOW(100)) == 0.60  # only crypto has the downtrend rule
+    s = {"cash": 4200.0, "startingCash": 10000.0, "positions": {},
+         "anchor": {"ticker": "BTC-USD", "shares": 0.1, "avgCost": 70000, "lastPrice": 58000}}  # 5800 of 10000
+    trades, _ = engine.rebalance_anchor(s, CRYPTO_NC, {"BTC-USD": BELOW(58000)}, "t", "d")
+    assert trades[0]["action"] == "sell" and "below its 200-day average" in trades[0]["rationale"]
+    assert abs(engine.anchor_value(s) / engine.nav_of(s) - 0.30) < 0.001
+    trades, _ = engine.rebalance_anchor(s, CRYPTO_NC, {"BTC-USD": UP(58000)}, "t", "d")
+    assert trades[0]["action"] == "buy" and abs(engine.anchor_value(s) / engine.nav_of(s) - 0.60) < 0.001
+
+
+def test_freed_cash_is_not_spent_beyond_the_35pct_active_limit():
+    s = {"cash": 6700.0, "startingCash": 10000.0,
+         "positions": {"SOL-USD": {"shares": 30, "avgCost": 100, "lastPrice": 100, "bucket": "growth"}},  # 3000 active
+         "anchor": {"ticker": "BTC-USD", "shares": 0.005, "avgCost": 60000, "lastPrice": 60000}}  # 300
+    d = {"action": "buy", "ticker": "LINK-USD", "usd": 1200, "target": 30, "stop": 18, "prob": 50}
+    ex, rej = engine.apply_decisions(s, CRYPTO_NC, {"LINK-USD": UP(20)}, [d], "2026-11-18T02:00:00Z", "2026-11-18", False)
+    assert ex and abs(ex[0]["shares"] * 20 - 500) < 0.01 and "35%-of-NAV limit" in rej[0]

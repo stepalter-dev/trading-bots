@@ -17,7 +17,10 @@ SWING_POSITION_CAP = 0.12     # of NAV (the active sleeve is ~35-40% of NAV)
 DAYTRADE_POSITION_CAP = 0.10
 MIN_CASH_FRACTION = 0.05
 ANCHOR_TARGET = 0.60          # core-satellite: 60% of NAV held in the market's benchmark
+# A market can set "anchor_downtrend" (e.g. crypto, from 2026-11-18): the anchor target drops to that share
+# while the benchmark trades below its 200-day average, and returns to ANCHOR_TARGET when it recovers.
 ANCHOR_BAND = 0.05            # rebalance only when the anchor drifts outside 55-65%
+ACTIVE_MAX = 0.35             # the bot's own positions never exceed 35% of NAV (cash freed by a smaller anchor stays cash)
 MIN_HOLD_DAYS = 14            # swing positions are held at least 2 weeks (stop or target excepted)
 TURNOVER_CAP = 0.30           # new swing buys per rolling 30 days, as a share of NAV
 TREND_FILTER = True           # new swing buys only when the price is above its 200-day average
@@ -115,8 +118,16 @@ def free_cash_once(state, cfg, prices, now_iso, date_local):
     return trades, ([f"One-time trim: active positions cut to {CASH_FIX_TARGET:.0%} of NAV to free cash for new buys."] if trades else [])
 
 
+def anchor_target(cfg, bench_quote):
+    """60% normally; the market's downtrend target while its benchmark is below the 200-day average."""
+    low = cfg.get("anchor_downtrend")
+    if low is not None and (bench_quote or {}).get("above_ma200") is False:
+        return low
+    return ANCHOR_TARGET
+
+
 def rebalance_anchor(state, cfg, prices, now_iso, date_local):
-    """Keep ANCHOR_TARGET of NAV in the benchmark (fractional units). Buys it with spare cash and,
+    """Keep the anchor target (see anchor_target) of NAV in the benchmark (fractional units). Buys it with spare cash and,
     when cash is short, trims the active positions pro rata; sells it down when it has grown too big.
     Returns (trades, notes). Referee-initiated trades carry exitReason "rebalance"."""
     bench = cfg["benchmark"]
@@ -124,15 +135,17 @@ def rebalance_anchor(state, cfg, prices, now_iso, date_local):
     if not r.get("ok"):
         return [], ["Anchor not rebalanced: no benchmark price this session."]
     quote = r["price"]
+    target = anchor_target(cfg, r)
+    trend_note = "" if target == ANCHOR_TARGET else f" (reduced: {bench} is below its 200-day average)"
     a = state.get("anchor")
     if a:
         a["lastPrice"] = quote
     nav = nav_of(state)
     share = anchor_value(state) / nav if nav else 0
-    if ANCHOR_TARGET - ANCHOR_BAND <= share <= ANCHOR_TARGET + ANCHOR_BAND:
+    if target - ANCHOR_BAND <= share <= target + ANCHOR_BAND:
         return [], []
     trades, notes = [], []
-    want = ANCHOR_TARGET * nav - anchor_value(state)
+    want = target * nav - anchor_value(state)
     held = state["positions"].get(bench)
     if want > 0 and held and held.get("bucket") != "daytrade":
         # an active position in the benchmark itself moves into the anchor at no cost (no sell-then-rebuy)
@@ -147,7 +160,7 @@ def rebalance_anchor(state, cfg, prices, now_iso, date_local):
         if held["shares"] <= 1e-9:
             del state["positions"][bench]
         notes.append(f"Moved {units:g} {bench} from the active sleeve into the index anchor (no trade needed).")
-        want = ANCHOR_TARGET * nav - anchor_value(state)
+        want = target * nav - anchor_value(state)
     if want > 1:
         spare = state["cash"] - MIN_CASH_FRACTION * nav
         short = want - max(spare, 0)
@@ -188,7 +201,7 @@ def rebalance_anchor(state, cfg, prices, now_iso, date_local):
             state["anchor"] = {"ticker": bench, "shares": units, "avgCost": cost / units, "lastPrice": quote}
         trades.append({"id": _trade_id(date_local, bench), "ticker": bench, "action": "buy", "shares": units, "price": round(fill, 6),
                        "refPrice": quote, "fee": fee, "date": now_iso, "bucket": "anchor",
-                       "rationale": f"Rebalance: topped the index anchor up to {ANCHOR_TARGET:.0%} of NAV (core-satellite rule).",
+                       "rationale": f"Rebalance: topped the index anchor up to {target:.0%} of NAV (core-satellite rule){trend_note}.",
                        "horizon": "Permanent core holding"})
     elif want < -1:
         units = min(a["shares"], round(-want / quote, 6))
@@ -200,7 +213,7 @@ def rebalance_anchor(state, cfg, prices, now_iso, date_local):
         a["shares"] = round(a["shares"] - units, 8)
         trades.append({"id": _trade_id(date_local, bench), "ticker": bench, "action": "sell", "shares": units, "price": round(fill, 6),
                        "refPrice": quote, "fee": fee, "date": now_iso, "bucket": "anchor", "exitReason": "rebalance",
-                       "rationale": f"Rebalance: trimmed the index anchor back to {ANCHOR_TARGET:.0%} of NAV (core-satellite rule).",
+                       "rationale": f"Rebalance: trimmed the index anchor back to {target:.0%} of NAV (core-satellite rule){trend_note}.",
                        "realizedPnL": round(pnl, 2), "realizedPnLPct": round(pnl / (a["avgCost"] * units) * 100, 2) if units else 0})
     return trades, notes
 
@@ -364,6 +377,14 @@ def apply_decisions(state, cfg, prices, decisions, now_iso, date_local, is_last,
         except (TypeError, ValueError):
             usd = 0.0
         if bucket != "daytrade":
+            active_now = sum(p["shares"] * p.get("lastPrice", p["avgCost"]) for t2, p in state["positions"].items() if p.get("bucket") != "daytrade")
+            sleeve_room = ACTIVE_MAX * nav - active_now
+            if sleeve_room < usd:
+                if sleeve_room <= 0:
+                    rejected.append(f"BUY {ticker}: active positions already at the {ACTIVE_MAX:.0%}-of-NAV limit")
+                    continue
+                rejected.append(f"BUY {ticker}: trimmed to the {ACTIVE_MAX:.0%}-of-NAV limit for active positions")
+                usd = sleeve_room
             room = TURNOVER_CAP * nav - recent_swing_buys((history or []) + executed, date_local)
             if room < usd:
                 if room <= 0:

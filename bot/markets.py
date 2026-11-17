@@ -57,6 +57,7 @@ MARKETS = {
         "currency": "$",
         "benchmark": "BTC-USD",
         "benchmark_name": "Bitcoin (BTC)",
+        "anchor_downtrend": 0.30,  # 2026-11-18: hold 30% (not 60%) in Bitcoin while it is below its 200-day average
         "slots": [2, 8, 14, 20],
         "last_slot": 20,
         "weekdays_only": False,

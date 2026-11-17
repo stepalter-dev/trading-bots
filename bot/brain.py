@@ -100,7 +100,11 @@ def build_context(state, cfg, prices, trades, nav, bench, slot, is_last, now_loc
     a = state.get("anchor")
     if a:
         av = a["shares"] * a.get("lastPrice", a["avgCost"])
-        lines.append(f"INDEX ANCHOR (managed by the referee, do not trade): {a['ticker']} {a['shares']:.4f} units, value {av:,.2f} ({av / nav * 100:.0f}% of NAV, target 60%)")
+        from .engine import anchor_target
+
+        tgt = anchor_target(cfg, prices.get(cfg["benchmark"]))
+        why = "" if tgt >= 0.6 else f" - reduced because {cfg['benchmark']} is below its 200-day average; the referee sells the excess and the cash stays in the fund"
+        lines.append(f"INDEX ANCHOR (managed by the referee, do not trade): {a['ticker']} {a['shares']:.4f} units, value {av:,.2f} ({av / nav * 100:.0f}% of NAV, target {tgt:.0%}{why})")
     else:
         lines.append("INDEX ANCHOR: not set up yet - the referee buys it (60% of NAV) when this session is applied, trimming active positions pro rata if cash is short. Leave room for that.")
     lines.append("")
