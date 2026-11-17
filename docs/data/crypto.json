@@ -1,10 +1,10 @@
 {
  "state": {
-  "cash": 2413.2727019044955,
+  "cash": 3932.4495837109453,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked the three trend-UP names again for a fresh catalyst: AAVE's Avon acquisition (Nov 6) is a minor long-term product move already a week old and not large enough to explain today's bounce; UNI remains in the same large-holder-selling, weak-altcoin-breadth slide as last session with no new news; NEAR has no dated news for today beyond a generically 'less cheerful week' per aggregators. Today's uniform small gains across most of the watchlist alongside a flat BTC look like a market-wide bounce within the ongoing risk-off (BTC still near $65k vs $74k on Nov 10), not an asset-specific signal, matching lesson 5. No genuine catalyst found, no held positions (fully in cash), so holding with 0 trades.",
-  "lastUpdated": "2026-11-17T14:15:28Z",
+  "lastRunNotes": "Checked the two trend-UP names (NEAR, UNI) for a fresh catalyst: NEAR's latest coverage (Nov 15) only describes a vague 'less cheerful week' with no specific news for today, and UNI is in a continuing large-holder-selling slide to its lowest level since September with no bullish catalyst. Today's small, broadly uniform moves across the watchlist with vol_x near 1.0x alongside BTC -1.83% look like continued market-wide risk-off beta rather than an asset-specific signal, consistent with standing lesson 5. No held positions and no specific, volume-confirmed catalyst clears the bar for a new swing buy, so holding 100% cash in the active sleeve this session.",
+  "lastUpdated": "2026-11-17T20:12:13Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -14,9 +14,9 @@
   },
   "anchor": {
    "ticker": "BTC-USD",
-   "shares": 0.05043752,
+   "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 64919.63
+   "lastPrice": 63689.45
   },
   "cashFreed": "2026-10-03"
  },
@@ -584,11 +584,11 @@
   },
   {
    "date": "2026-11-17",
-   "nav": 5687.66,
-   "cash": 2413.27,
-   "positionsValue": 3274.39,
-   "benchmarkNav": 5402.73,
-   "benchmarkClose": 64919.63,
+   "nav": 5620.13,
+   "cash": 3932.45,
+   "positionsValue": 1687.68,
+   "benchmarkNav": 5300.35,
+   "benchmarkClose": 63689.45,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1095,6 +1095,21 @@
    "realizedPnL": -121.04,
    "realizedPnLPct": -16.14,
    "exitReason": "stop"
+  },
+  {
+   "id": "2026-11-17-BTC-USD-vzn86y",
+   "ticker": "BTC-USD",
+   "action": "sell",
+   "shares": 0.023939,
+   "price": 63625.76055,
+   "refPrice": 63689.45,
+   "fee": 3.9602,
+   "date": "2026-11-17T20:12:13Z",
+   "bucket": "anchor",
+   "exitReason": "rebalance",
+   "rationale": "Rebalance: trimmed the index anchor back to 30% of NAV (core-satellite rule) (reduced: BTC-USD is below its 200-day average).",
+   "realizedPnL": -502.42,
+   "realizedPnLPct": -24.85
   }
  ],
  "lessons": [
@@ -1494,7 +1509,7 @@
   },
   {
    "date": "2026-11-17",
-   "rank": 47
+   "rank": 50
   }
  ]
 }
