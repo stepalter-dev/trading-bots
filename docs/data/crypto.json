@@ -3,8 +3,8 @@
   "cash": 2413.2727019044955,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Fully in cash with no held positions; every watchlist name except NEAR and UNI7083 is trend-DOWN and barred from new buys. Checked both trend-UP names for a fresh catalyst: NEAR's momentum is driven by a stale Nov 3 issuance vote plus ongoing ETF outflows, and UNI7083's slide to a post-September low is an old 2025 timelock-unlock whale sale, not new news. Broad market is continued macro/regulatory risk-off (Fed, ETF outflows, Oct Binance breach), not an asset-specific signal. No genuine catalyst found, so holding with 0 trades.",
-  "lastUpdated": "2026-11-16T20:12:50Z",
+  "lastRunNotes": "Fully in cash; checked the two trend-UP names (NEAR, UNI7083) for a fresh catalyst and found none - NEAR's issuance-cut vote (Nov 3) and ETF outflows are stale, and UNI7083's slide is forced selling/altcoin weakness, not new info (its fee-switch/burn news is older and already played out). AVAX got a real NYSE tokenized-securities headline but remains trend-DOWN and barred from new buys. Today's broad 1-3% decline across nearly every name with vol_x near 1.0x looks like market-wide beta tracking BTC, not an asset-specific signal. No genuine catalyst, so holding with 0 trades.",
+  "lastUpdated": "2026-11-17T02:12:01Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.05043752,
    "avgCost": 84447.72255577098,
-   "lastPrice": 65016.41
+   "lastPrice": 64733.19
   },
   "cashFreed": "2026-10-03"
  },
@@ -578,6 +578,17 @@
    "positionsValue": 3279.27,
    "benchmarkNav": 5410.78,
    "benchmarkClose": 65016.41,
+   "growthValue": 0.0,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-17",
+   "nav": 5678.25,
+   "cash": 2413.27,
+   "positionsValue": 3264.98,
+   "benchmarkNav": 5387.21,
+   "benchmarkClose": 64733.19,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1480,6 +1491,10 @@
   {
    "date": "2026-11-16",
    "rank": 46
+  },
+  {
+   "date": "2026-11-17",
+   "rank": 48
   }
  ]
 }
