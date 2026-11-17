@@ -3,8 +3,8 @@
   "cash": 2458.4882314023093,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, dated catalyst found for any watchlist name today despite a broad -1.22% market down day (RBA/macro-risk-off, no specific company trigger confirmed for BHP/FMG/MIN/PLS/MQG/NAB weakness). TLS's Barrenjoey-upgrade thesis is stale and it's still 0.9% short of its A$5.20 target with no new news, so left unchanged with its existing plan rather than selling early without a trigger. XRO remains inside its mandatory 14-day hold with no post-result (Nov 12) analyst follow-up found. Growth/core split on the active sleeve unchanged at roughly 63/37; holding this session with no trades.",
-  "lastUpdated": "2026-11-17T00:12:28Z",
+  "lastRunNotes": "Today's -1.66% STW move looks like broad market risk-off (miners, banks and growth names all down together) rather than a stock-specific catalyst; REA's Q1 FY27 results and board change are already a week-plus old and don't explain today's -3% move. No fresh, dated catalyst found for TLS (still 0.9% short of its A$5.20 target, thesis unchanged) or any watchlist name, and XRO remains inside its mandatory 14-day hold with no post-result follow-up. Growth/core split stays at roughly 63/37 on the active sleeve; holding this session with no trades.",
+  "lastUpdated": "2026-11-17T01:11:45Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
@@ -24,7 +24,7 @@
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 80.99,
+    "lastPrice": 81.2,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 80.16
+   "lastPrice": 79.81
   },
   "cashFreed": "2026-10-05"
  },
@@ -472,12 +472,12 @@
   },
   {
    "date": "2026-11-17",
-   "nav": 10315.62,
+   "nav": 10292.17,
    "cash": 2458.49,
-   "positionsValue": 7857.13,
-   "benchmarkNav": 10157.14,
-   "benchmarkClose": 80.16,
-   "growthValue": 1133.86,
+   "positionsValue": 7833.68,
+   "benchmarkNav": 10112.79,
+   "benchmarkClose": 79.81,
+   "growthValue": 1136.8,
    "coreValue": 678.01,
    "daytradeValue": 0.0
   }
