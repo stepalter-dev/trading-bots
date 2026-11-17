@@ -3,13 +3,13 @@
   "cash": 2250.233186731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad market selloff (SPY -1.08%) hit nearly every watchlist name with no fresh, dated, name-specific catalysts. CRM's -9.84% drop has no new news (Q3 FY27 earnings aren't until Dec 2) and trend is DOWN anyway; AMD's Wikipedia attention spike and -2.93% move trace back to already-priced-in Nov 3 earnings/Nov 10 EPYC launch, not a new catalyst, so no repeat of the recent AMD round-trip loss. INTC has a notable $9.7M insider buy but trend is DOWN (no new buys allowed). UNH (core, SELLABLE at 33 days) continues sliding on the same known Medicare Advantage/DOJ overhang already priced into the existing plan; still above its $378 stop and below the $480 target, so no change. No trades this session; active sleeve unchanged (core-only, no growth exposure currently).",
-  "lastUpdated": "2026-11-17T17:13:15Z",
+  "lastRunNotes": "Broad risk-off day (SPY -1.20%) dragged nearly every watchlist name down with no fresh, dated, name-specific catalysts. UNH's -4.76% drop traces to the same already-known Medicare Advantage/DOJ overhang (no new developments found this week); its thesis and plan (target $480, stop $378, 45%) are unchanged and the stop wasn't hit, so holding rather than selling into the dip. CRM's -8.4% has no new news (earnings not until Dec 2) and trend is DOWN anyway. AMD (trend UP, momentum rank 2/31) only has stale Nov 9-13 catalysts already priced in, and this account just took a round-trip loss chasing it on Nov 4-6, so no repeat without a fresh trigger. INTC's insider buy is moot since trend is DOWN. No trades this session; active sleeve remains just the single UNH core position (5.8% of NAV).",
+  "lastUpdated": "2026-11-17T19:13:46Z",
   "positions": {
    "UNH": {
     "shares": 1,
     "avgCost": 411.495145,
-    "lastPrice": 398.295,
+    "lastPrice": 392.55,
     "bucket": "core",
     "openedDate": "2026-10-15",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 732.19
+   "lastPrice": 731.674
   },
   "cashFreed": "2026-10-05"
  },
@@ -475,13 +475,13 @@
   },
   {
    "date": "2026-11-17",
-   "nav": 6761.8,
+   "nav": 6753.16,
    "cash": 2250.23,
-   "positionsValue": 4511.57,
-   "benchmarkNav": 6760.17,
-   "benchmarkClose": 732.19,
+   "positionsValue": 4502.92,
+   "benchmarkNav": 6755.41,
+   "benchmarkClose": 731.674,
    "growthValue": 0.0,
-   "coreValue": 398.3,
+   "coreValue": 392.55,
    "daytradeValue": 0.0
   }
  ],
