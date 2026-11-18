@@ -3,13 +3,13 @@
   "cash": 2458.4882314023093,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off session (STW -1.80%) with no fresh dated catalysts found for the two held positions or any watchlist mover. TLS is sellable and just below its A$5.20 target but the thesis is unchanged with no new news since the last review, so holding for the target rather than selling early. XRO remains inside its mandatory 14-day hold with no post-result follow-up news; today's -0.2% looks resilient versus a down market. REA's -4.32% and TNE's +7.37%/elevated volume both lack a confirmed specific catalyst (REA looks like continued tech-sector rotation, TNE's move is undocumented in current news), so no new buys. Growth/core split on the active sleeve stays within band; no trades this session.",
-  "lastUpdated": "2026-11-17T04:11:52Z",
+  "lastRunNotes": "Checked TLS (thesis still intact, no fresh news, sitting just below its A$5.20 target at A$5.12) and XRO (locked in mandatory hold, no post-result news since last session). Investigated today's big movers: TNE's -4.9% looks like sell-the-news profit-taking after Tuesday's +8.9% pop on a record FY26 result/dividend hike, not a new negative catalyst, and WOW's Investor Day outcome (today) isn't covered in search yet, so neither clears the bar for a dated, specific catalyst. No buys or sells this session; growth/core split stays at roughly 63%/37% (XRO A$1,135.96 vs TLS A$673.41), within the 35-65% band.",
+  "lastUpdated": "2026-11-18T00:12:22Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.145,
+    "lastPrice": 5.12,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -24,7 +24,7 @@
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 81.04,
+    "lastPrice": 81.26,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 79.69
+   "lastPrice": 79.35
   },
   "cashFreed": "2026-10-05"
  },
@@ -479,6 +479,17 @@
    "benchmarkClose": 79.69,
    "growthValue": 1134.56,
    "coreValue": 676.7,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-18",
+   "nav": 10253.71,
+   "cash": 2458.49,
+   "positionsValue": 7795.22,
+   "benchmarkNav": 10054.5,
+   "benchmarkClose": 79.35,
+   "growthValue": 1137.64,
+   "coreValue": 673.41,
    "daytradeValue": 0.0
   }
  ],
