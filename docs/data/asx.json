@@ -3,13 +3,13 @@
   "cash": 2458.4882314023093,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No genuine fresh catalyst today: TLS target-cut chatter (Jarden $4.60, Bell Potter $4.80) is stale from Aug/Sep, with price now above both and plan still intact near target. TNE's -5.86% and PME's -3.55%/-6.18% drops have no dated news explaining them - looks like noise/valuation pressure, not a catalyst. WOW/STO momentum traces to already-priced Aug/Oct results. Holding TLS (core) and XRO (growth, locked) unchanged; growth/core balance within band.",
-  "lastUpdated": "2026-11-18T03:12:36Z",
+  "lastRunNotes": "No dated, verifiable catalyst today: web searches on TNE, PME, TLS and XRO returned inconsistent/stale results that didn't even match the briefing's actual prices, so no new swing buys. TLS (core) is near its target (5.135 vs 5.2) but not flagged TARGET REACHED and plan is intact, so holding rather than forcing an exit. XRO (growth) is still in its 14-day lock with its post-earnings plan unchanged. Growth/core balance stays within band with no trades.",
+  "lastUpdated": "2026-11-18T04:12:25Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.15,
+    "lastPrice": 5.135,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -24,7 +24,7 @@
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 80.33,
+    "lastPrice": 80.35,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 79.3
+   "lastPrice": 79.19
   },
   "cashFreed": "2026-10-05"
  },
@@ -483,13 +483,13 @@
   },
   {
    "date": "2026-11-18",
-   "nav": 10240.87,
+   "nav": 10230.88,
    "cash": 2458.49,
-   "positionsValue": 7782.38,
-   "benchmarkNav": 10048.16,
-   "benchmarkClose": 79.3,
-   "growthValue": 1124.62,
-   "coreValue": 677.36,
+   "positionsValue": 7772.39,
+   "benchmarkNav": 10034.22,
+   "benchmarkClose": 79.19,
+   "growthValue": 1124.9,
+   "coreValue": 675.38,
    "daytradeValue": 0.0
   }
  ],
