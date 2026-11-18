@@ -3,8 +3,8 @@
   "cash": 3932.4495837109453,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked the two trend-UP names (NEAR, UNI) for a fresh catalyst: NEAR's latest coverage (Nov 15) only describes a vague 'less cheerful week' with no specific news for today, and UNI is in a continuing large-holder-selling slide to its lowest level since September with no bullish catalyst. Today's small, broadly uniform moves across the watchlist with vol_x near 1.0x alongside BTC -1.83% look like continued market-wide risk-off beta rather than an asset-specific signal, consistent with standing lesson 5. No held positions and no specific, volume-confirmed catalyst clears the bar for a new swing buy, so holding 100% cash in the active sleeve this session.",
-  "lastUpdated": "2026-11-17T20:12:13Z",
+  "lastRunNotes": "Checked the three trend-UP names for a fresh, volume-confirmed catalyst: NEAR has no news dated today (last coverage Nov 15 was vague, 'less cheerful week'); UNI is still sliding on large-holder selling from Nov 11 with no bullish turn; AAVE has an unapproved Nov 12 reserve-factor governance proposal and continues a multi-week decline, with no fresh catalyst. All three show vol_x near or below 1.0x (no unusual volume). Today's broad small declines across the watchlist alongside BTC -0.55% look like continued market-wide risk-off beta (standing lesson 5), not an asset-specific signal. No held positions and no name clears the bar for a new swing buy, so holding fully in cash this session.",
+  "lastUpdated": "2026-11-18T08:12:47Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 63689.45
+   "lastPrice": 64517.82
   },
   "cashFreed": "2026-10-03"
  },
@@ -589,6 +589,17 @@
    "positionsValue": 1687.68,
    "benchmarkNav": 5300.35,
    "benchmarkClose": 63689.45,
+   "growthValue": 0.0,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-18",
+   "nav": 5642.08,
+   "cash": 3932.45,
+   "positionsValue": 1709.63,
+   "benchmarkNav": 5369.29,
+   "benchmarkClose": 64517.82,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1510,6 +1521,10 @@
   {
    "date": "2026-11-17",
    "rank": 50
+  },
+  {
+   "date": "2026-11-18",
+   "rank": 48
   }
  ]
 }
