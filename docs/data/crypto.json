@@ -3,8 +3,8 @@
   "cash": 3932.4495837109453,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Only NEAR and UNI are trend-UP and eligible for new buys; web search found no fresh, dated catalyst for either (NEAR's last coverage was a vague Nov 15 'less cheerful week' note, UNI's most recent dated news is from mid-2026). Today's broad ~1-3% decline across nearly every watchlist name, all with vol_x below 1.0, mirrors BTC's -1.64% move and reads as market-wide risk-off beta per standing lesson 5, not an asset-specific signal. No held positions and no genuine catalyst, so holding fully in cash this session.",
-  "lastUpdated": "2026-11-18T14:15:15Z",
+  "lastRunNotes": "Broad-based ~2-4% decline across nearly every watchlist name with vol_x below 1.0, mirroring BTC's -3.40% move amid a week-long market-wide selloff (ETF outflows, hot CPI, rate/geopolitical worries) rather than any single-asset catalyst. NEAR and UNI remain the only trend-UP names eligible for new buys, but NEAR's recent news is stale/negative (issuance-cut governance vote, an AI-unit security incident, continued price slide to ~$3.12) and UNI's recent coverage is similarly stale with no fresh dated catalyst and below-average volume. No held positions exist to review or plan for. Staying fully in cash this session, consistent with standing lesson 5 on market-wide beta.",
+  "lastUpdated": "2026-11-18T20:11:52Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 63864.56
+   "lastPrice": 62687.74
   },
   "cashFreed": "2026-10-03"
  },
@@ -595,11 +595,11 @@
   },
   {
    "date": "2026-11-18",
-   "nav": 5624.77,
+   "nav": 5593.58,
    "cash": 3932.45,
-   "positionsValue": 1692.32,
-   "benchmarkNav": 5314.92,
-   "benchmarkClose": 63864.56,
+   "positionsValue": 1661.13,
+   "benchmarkNav": 5216.98,
+   "benchmarkClose": 62687.74,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1524,7 +1524,7 @@
   },
   {
    "date": "2026-11-18",
-   "rank": 42
+   "rank": 20
   }
  ]
 }
