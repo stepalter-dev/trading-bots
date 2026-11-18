@@ -3,13 +3,13 @@
   "cash": 2458.4882314023093,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No genuine fresh catalyst found today: ALL/CPU results already priced in from Nov 12 and muted since (ALL 'fully priced' per Jarden, CPU flat), WTC/QBE/STO/WOW had only stale or non-market-moving news (leadership changes, old Q3 updates, no confirmed WOW investor day), and TNE's -6% looks like continued sell-the-news with no new negative catalyst. Held TLS (core) and XRO (growth, locked hold) both still have intact plans and no new information changes them, though Bell Potter/Jarden TLS target cuts to $4.60-4.80 (below current $5.10) are a mild watch item for next review. Holding this session; growth/core split stays ~63%/37% (XRO vs TLS), within the 35-65% band, and cash stays elevated pending a real catalyst.",
-  "lastUpdated": "2026-11-18T01:12:37Z",
+  "lastRunNotes": "No genuine fresh catalyst today: TLS target-cut chatter (Jarden $4.60, Bell Potter $4.80) is stale from Aug/Sep, with price now above both and plan still intact near target. TNE's -5.86% and PME's -3.55%/-6.18% drops have no dated news explaining them - looks like noise/valuation pressure, not a catalyst. WOW/STO momentum traces to already-priced Aug/Oct results. Holding TLS (core) and XRO (growth, locked) unchanged; growth/core balance within band.",
+  "lastUpdated": "2026-11-18T03:12:36Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.1,
+    "lastPrice": 5.15,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -24,7 +24,7 @@
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 81.3,
+    "lastPrice": 80.33,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 79.34
+   "lastPrice": 79.3
   },
   "cashFreed": "2026-10-05"
  },
@@ -483,13 +483,13 @@
   },
   {
    "date": "2026-11-18",
-   "nav": 10250.89,
+   "nav": 10240.87,
    "cash": 2458.49,
-   "positionsValue": 7792.4,
-   "benchmarkNav": 10053.23,
-   "benchmarkClose": 79.34,
-   "growthValue": 1138.2,
-   "coreValue": 670.78,
+   "positionsValue": 7782.38,
+   "benchmarkNav": 10048.16,
+   "benchmarkClose": 79.3,
+   "growthValue": 1124.62,
+   "coreValue": 677.36,
    "daytradeValue": 0.0
   }
  ],
