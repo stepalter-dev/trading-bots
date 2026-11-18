@@ -2,8 +2,7 @@
  "markets": {
   "us": {
    "prices": {
-    "UNH": 389.68,
-    "SPY": 732.44
+    "SPY": 729.959
    },
    "benchmark": "SPY"
   },
@@ -17,10 +16,10 @@
   },
   "crypto": {
    "prices": {
-    "BTC-USD": 64849.45
+    "BTC-USD": 62776.11
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-11-18T07:56:58Z"
+ "updatedAt": "2026-11-18T17:02:05Z"
 }
