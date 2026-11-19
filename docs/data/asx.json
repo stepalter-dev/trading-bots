@@ -3,13 +3,13 @@
   "cash": 2458.4882314023093,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No dated, verifiable catalyst today: web searches on TNE, PME, TLS and XRO returned inconsistent/stale results that didn't even match the briefing's actual prices, so no new swing buys. TLS (core) is near its target (5.135 vs 5.2) but not flagged TARGET REACHED and plan is intact, so holding rather than forcing an exit. XRO (growth) is still in its 14-day lock with its post-earnings plan unchanged. Growth/core balance stays within band with no trades.",
-  "lastUpdated": "2026-11-18T04:12:25Z",
+  "lastRunNotes": "Broad ASX weakness today (STW -1.09%) hit miners/energy hardest (BHP -3.17%, RIO -2.01%, STO -2.54%, WDS -1.85%), but these are either DOWN-trend (no new buys) or, for STO, driven by stale news (2026 guidance cut, failed ADNOC takeover) already known rather than a fresh catalyst. No dated, verifiable new catalyst found for TLS or XRO either. TLS is close to its 5.2 target but not flagged TARGET REACHED, so holding rather than forcing an exit. XRO remains inside its 14-day lock (11 days left) with its post-earnings plan unchanged. Growth/core balance unchanged, no trades this session.",
+  "lastUpdated": "2026-11-19T00:12:28Z",
   "positions": {
    "TLS.AX": {
     "avgCost": 4.835,
     "bucket": "core",
-    "lastPrice": 5.135,
+    "lastPrice": 5.155,
     "shares": 131.525577,
     "plan": {
      "target": 5.2,
@@ -24,7 +24,7 @@
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 80.35,
+    "lastPrice": 78.445,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -47,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 79.19
+   "lastPrice": 78.16
   },
   "cashFreed": "2026-10-05"
  },
@@ -490,6 +490,17 @@
    "benchmarkClose": 79.19,
    "growthValue": 1124.9,
    "coreValue": 675.38,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-19",
+   "nav": 10129.16,
+   "cash": 2458.49,
+   "positionsValue": 7670.67,
+   "benchmarkNav": 9903.71,
+   "benchmarkClose": 78.16,
+   "growthValue": 1098.23,
+   "coreValue": 678.01,
    "daytradeValue": 0.0
   }
  ],
