@@ -3,8 +3,8 @@
   "cash": 3932.4495837109453,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No held positions, fully in cash. The only trend-UP names (NEAR, UNI) still lack a fresh catalyst - NEAR's news remains the stale issuance-cut/ETF-outflow/AI-security-incident story and UNI's fee-switch narrative dates to the UNIfication vote from late 2025/Jan 2026, both already priced in, with vol_x well below 1 on each confirming no fresh volume interest. BTC and the broader market are in a confirmed downtrend amid extreme-fear sentiment, and today's broad small gains across nearly every watchlist name look like market-wide beta rather than an asset-specific signal. Holding fully in cash again this session.",
-  "lastUpdated": "2026-11-19T14:15:53Z",
+  "lastRunNotes": "No active positions, fully in cash. All watchlist names except NEAR are trend-DOWN (no buys allowed). NEAR is trend-UP with strong 12-1 momentum, but fresh news is purely negative: continued price slide toward multi-week lows, ongoing US spot ETF outflows, and a Nov 10 NEAR AI data-exposure incident - no bullish catalyst to act on, so the momentum looks stale/priced-in rather than actionable. Broader market is in a confirmed downtrend (BTC broke below $70k, extreme-fear sentiment), consistent with prior sessions' read that today's moves are market-wide beta. Holding fully in cash again; no growth/core rebalancing needed since there are zero open positions.",
+  "lastUpdated": "2026-11-19T20:11:40Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 63865.37
+   "lastPrice": 62042.16
   },
   "cashFreed": "2026-10-03"
  },
@@ -606,11 +606,11 @@
   },
   {
    "date": "2026-11-19",
-   "nav": 5624.79,
+   "nav": 5576.48,
    "cash": 3932.45,
-   "positionsValue": 1692.34,
-   "benchmarkNav": 5314.98,
-   "benchmarkClose": 63865.37,
+   "positionsValue": 1644.03,
+   "benchmarkNav": 5163.25,
+   "benchmarkClose": 62042.16,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1539,7 +1539,7 @@
   },
   {
    "date": "2026-11-19",
-   "rank": 28
+   "rank": 35
   }
  ]
 }
