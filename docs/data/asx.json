@@ -1,30 +1,15 @@
 {
  "state": {
-  "cash": 2458.4882314023093,
+  "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked TLS, XRO, STO, WOW and CPU for fresh catalysts; found nothing dated this week beyond stale earnings/outlook items already priced in. TLS is close to its 5.2 target but not flagged TARGET REACHED, so holding. XRO remains inside its 14-day lock (11 days left) with its post-earnings plan unchanged. Growth/core balance unchanged at ~11%/7% of NAV; no trades this session.",
-  "lastUpdated": "2026-11-19T01:11:35Z",
+  "lastRunNotes": "Checked TLS, WOW, STO and CPU for fresh catalysts. TLS hit its 5.20 target with no new news this week (outage/buyback story is stale and priced in), so taking profit rather than stretching the plan. WOW's momentum score reflects a low base from its FY26 profit slump; no fresh investor-day details were found, and STO/CPU catalysts (Papua LNG stake, Nov 12 earnings beat) are already a week-plus old and largely priced in, so no new buys. XRO stays locked (11 days left on its post-earnings thesis). Growth/core balance shifts to ~11%/0% of NAV after the TLS sale; no rebalance forced since no new core catalyst exists.",
+  "lastUpdated": "2026-11-19T03:13:19Z",
   "positions": {
-   "TLS.AX": {
-    "avgCost": 4.835,
-    "bucket": "core",
-    "lastPrice": 5.165,
-    "shares": 131.525577,
-    "plan": {
-     "target": 5.2,
-     "stop": 4.4,
-     "prob": 0.55,
-     "rr": 1.08,
-     "evPct": 1.15,
-     "entryRef": 4.785,
-     "setLater": true
-    }
-   },
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 79.5,
+    "lastPrice": 78.08,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -47,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.5
+   "lastPrice": 78.34
   },
   "cashFreed": "2026-10-05"
  },
@@ -494,13 +479,13 @@
   },
   {
    "date": "2026-11-19",
-   "nav": 10170.89,
-   "cash": 2458.49,
-   "positionsValue": 7712.4,
-   "benchmarkNav": 9946.79,
-   "benchmarkClose": 78.5,
-   "growthValue": 1113.0,
-   "coreValue": 679.33,
+   "nav": 10139.63,
+   "cash": 3138.5,
+   "positionsValue": 7001.12,
+   "benchmarkNav": 9926.52,
+   "benchmarkClose": 78.34,
+   "growthValue": 1093.12,
+   "coreValue": 0.0,
    "daytradeValue": 0.0
   }
  ],
@@ -693,6 +678,20 @@
     "entryRef": 80.745
    },
    "sentimentSummary": "Commentary is mixed: bulls point to the guidance raise and buyback, bears still flag Melio losses and a brutal YTD decline, so sentiment is cautiously improving rather than euphoric."
+  },
+  {
+   "id": "2026-11-19-TLS.AX-9f10mk",
+   "ticker": "TLS.AX",
+   "action": "sell",
+   "shares": 131.525577,
+   "price": 5.215824,
+   "refPrice": 5.22,
+   "fee": 6.0,
+   "date": "2026-11-19T03:13:19Z",
+   "bucket": "core",
+   "rationale": "Target of 5.20 reached with no fresh catalyst this week to justify a higher plan; taking the +8% profit per the target-reached rule rather than holding on stale buyback/outage news.",
+   "realizedPnL": 44.09,
+   "realizedPnLPct": 6.93
   }
  ],
  "lessons": [],
@@ -738,6 +737,24 @@
     "verdict": "sound",
     "lesson": "Bought on a concrete durable catalyst (NSW banking contract), sold at the pre-set target once the AGM confirmed no fresh upside catalyst, instead of inventing a higher target to keep riding it."
    }
+  },
+  {
+   "id": "2026-11-19-TLS.AX-9f10mk",
+   "date": "2026-11-19T03:13:19Z",
+   "ticker": "TLS.AX",
+   "bucket": "core",
+   "entryPrice": 4.8778,
+   "exitPrice": 5.215824,
+   "pnl": 44.09,
+   "pnlPct": 6.93,
+   "daysHeld": 62,
+   "whyBought": "Barrenjoey upgraded TLS to Overweight (Sep 2) and an external probe confirmed the July network outage was a resolved technical timing issue, removing an overhang; defensive telco anchor for the core sleeve.",
+   "horizon": "Hold through next trading update; reassess if analyst sentiment reverses or outage-related churn shows up in ARPU/subscriber metrics.",
+   "whySold": "Target of 5.20 reached with no fresh catalyst this week to justify a higher plan; taking the +8% profit per the target-reached rule rather than holding on stale buyback/outage news.",
+   "prob": null,
+   "rr": null,
+   "exitReason": null,
+   "review": null
   }
  ]
 }
