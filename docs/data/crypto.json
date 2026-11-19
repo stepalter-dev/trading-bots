@@ -3,8 +3,8 @@
   "cash": 3932.4495837109453,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No held positions and fully in cash. NEAR and UNI remain the only trend-UP names eligible for new buys, but neither has a fresh dated catalyst: NEAR's recent news is still the negative/stale issuance-cut vote, ETF outflows, and an AI-unit security incident, while UNI's UNIfication fee-switch/burn narrative traces back to late 2025 governance votes, not a new trigger this week. Today's NEAR move (day +3.49%, 5d +13.2%) comes with vol_x only 0.93, so it's not volume-confirmed either. Holding fully in cash again this session.",
-  "lastUpdated": "2026-11-19T08:13:15Z",
+  "lastRunNotes": "No held positions, fully in cash. The only trend-UP names (NEAR, UNI) still lack a fresh catalyst - NEAR's news remains the stale issuance-cut/ETF-outflow/AI-security-incident story and UNI's fee-switch narrative dates to the UNIfication vote from late 2025/Jan 2026, both already priced in, with vol_x well below 1 on each confirming no fresh volume interest. BTC and the broader market are in a confirmed downtrend amid extreme-fear sentiment, and today's broad small gains across nearly every watchlist name look like market-wide beta rather than an asset-specific signal. Holding fully in cash again this session.",
+  "lastUpdated": "2026-11-19T14:15:53Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 63643.5
+   "lastPrice": 63865.37
   },
   "cashFreed": "2026-10-03"
  },
@@ -606,11 +606,11 @@
   },
   {
    "date": "2026-11-19",
-   "nav": 5618.91,
+   "nav": 5624.79,
    "cash": 3932.45,
-   "positionsValue": 1686.46,
-   "benchmarkNav": 5296.52,
-   "benchmarkClose": 63643.5,
+   "positionsValue": 1692.34,
+   "benchmarkNav": 5314.98,
+   "benchmarkClose": 63865.37,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1539,7 +1539,7 @@
   },
   {
    "date": "2026-11-19",
-   "rank": 27
+   "rank": 28
   }
  ]
 }
