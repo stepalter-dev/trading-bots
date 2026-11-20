@@ -3,8 +3,8 @@
   "cash": 3932.4495837109453,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Fully in cash, no held positions. Entire watchlist except NEAR remains trend-DOWN (no new buys allowed), and today is another broad market-wide decline (BTC -2.6%, essentially every name down together with vol_x near 1.0x) rather than an asset-specific catalyst. NEAR is still trend-UP but the news flow since last session is unchanged-to-worse: a governance-driven issuance-cut selloff, continued long liquidations, ongoing US spot ETF outflows, and the Nov 10 NEAR AI data-exposure incident - no fresh bullish trigger, so the momentum stays stale/priced-in. AVAX has elevated Wikipedia attention (1.9x) but no confirming news catalyst, and it's trend-DOWN anyway. Holding fully in cash again.",
-  "lastUpdated": "2026-11-20T02:11:43Z",
+  "lastRunNotes": "Fully in cash with no held positions. 17 of 18 watchlist names remain trend-DOWN (no new buys allowed); only NEAR-USD is trend-UP, but its news since last session is unchanged-to-worse (same issuance-cut governance story now finalized Nov 16, continued NEAR AI data-exposure fallout, ongoing US spot NEAR ETF outflows since Oct 27) with no fresh bullish catalyst, so its momentum reading is stale/priced-in, not a live signal. AVAX's Wikipedia attention spike traces to giving back its Nov 9 NYSE-tokenization pop and is trend-DOWN anyway, so it's not tradeable. Holding this session: no asset-specific catalyst clears the bar, and growth/core allocation is moot at zero active positions.",
+  "lastUpdated": "2026-11-20T08:15:39Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 61336.39
+   "lastPrice": 61804.83
   },
   "cashFreed": "2026-10-03"
  },
@@ -617,11 +617,11 @@
   },
   {
    "date": "2026-11-20",
-   "nav": 5557.77,
+   "nav": 5570.19,
    "cash": 3932.45,
-   "positionsValue": 1625.32,
-   "benchmarkNav": 5104.51,
-   "benchmarkClose": 61336.39,
+   "positionsValue": 1637.74,
+   "benchmarkNav": 5143.49,
+   "benchmarkClose": 61804.83,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1554,7 +1554,7 @@
   },
   {
    "date": "2026-11-20",
-   "rank": 40
+   "rank": 45
   }
  ]
 }
