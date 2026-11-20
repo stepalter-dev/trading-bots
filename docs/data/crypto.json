@@ -3,8 +3,8 @@
   "cash": 3932.4495837109453,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Fully in cash with no held positions. 17 of 18 watchlist names remain trend-DOWN (no new buys allowed); only NEAR-USD is trend-UP, but its news since last session is unchanged-to-worse (same issuance-cut governance story now finalized Nov 16, continued NEAR AI data-exposure fallout, ongoing US spot NEAR ETF outflows since Oct 27) with no fresh bullish catalyst, so its momentum reading is stale/priced-in, not a live signal. AVAX's Wikipedia attention spike traces to giving back its Nov 9 NYSE-tokenization pop and is trend-DOWN anyway, so it's not tradeable. Holding this session: no asset-specific catalyst clears the bar, and growth/core allocation is moot at zero active positions.",
-  "lastUpdated": "2026-11-20T08:15:39Z",
+  "lastRunNotes": "Fully in cash, no held positions. 17 of 18 watchlist names remain trend-DOWN (no new buys allowed). NEAR-USD is the only trend-UP name but is down 7.25% today (vs BTC -0.14%) with no fresh bullish catalyst found - its huge mom12_1 reflects the July 2026 quantum-resistant signing upgrade, which is stale/priced-in, same conclusion as last session. Broad market is in a continued risk-off selloff (BTC near 4-month lows), which is market-wide beta, not an asset-specific signal. Holding this session, no trades.",
+  "lastUpdated": "2026-11-20T14:15:03Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 61804.83
+   "lastPrice": 61865.95
   },
   "cashFreed": "2026-10-03"
  },
@@ -617,11 +617,11 @@
   },
   {
    "date": "2026-11-20",
-   "nav": 5570.19,
+   "nav": 5571.81,
    "cash": 3932.45,
-   "positionsValue": 1637.74,
-   "benchmarkNav": 5143.49,
-   "benchmarkClose": 61804.83,
+   "positionsValue": 1639.36,
+   "benchmarkNav": 5148.58,
+   "benchmarkClose": 61865.95,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
