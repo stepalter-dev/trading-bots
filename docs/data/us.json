@@ -3,8 +3,8 @@
   "cash": 2620.677371731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad AI-trade-unwind risk-off day (SPY -2.27%, chips/megacap tech down hard) continuing the post-Nov 12 Nvidia CEO resignation and AI-capex valuation drift, not a fresh single-stock catalyst. No confirmed company-specific negative news for AMD (its insider sales are scheduled 10b5-1 activity, not fresh signal) or NVDA/AVGO beyond sector-wide selling, and AMD/NVDA/AVGO trend is DOWN or lacks a real catalyst despite AMD's top momentum rank - chasing it again without a catalyst would repeat the exact mistake flagged last session. MSFT's attention spike traces to last week's multi-country Outlook/Teams outage (already stale, not a buy trigger) and energy/financials strength looks like generic defensive rotation rather than a specific catalyst. Staying fully in cash again; no positions to balance between growth and core.",
-  "lastUpdated": "2026-11-20T19:13:08Z",
+  "lastRunNotes": "Broad AI-bubble-unwind risk-off continues (SPY -3.05%), driven by macro AI-capex/valuation fears since the Nov 12 Nvidia CEO resignation and the Nov 5 selloff, not any fresh single-name catalyst. Web search turned up no new company-specific news for AMZN or the UP-trend core defensives (AAPL, MSFT, XOM, XLE, COST, PG, KO, etc.) beyond the market-wide move, so there is no concrete trigger to justify a new buy today. Account is fully in cash with no held positions, so there is nothing to review or re-plan either. Holding this session per the standing lesson against chasing moves without a real catalyst.",
+  "lastUpdated": "2026-11-20T20:12:10Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 697.945
+   "lastPrice": 693.98
   },
   "cashFreed": "2026-10-05"
  },
@@ -492,11 +492,11 @@
   },
   {
    "date": "2026-11-20",
-   "nav": 6541.57,
+   "nav": 6519.29,
    "cash": 2620.68,
-   "positionsValue": 3920.89,
-   "benchmarkNav": 6444.0,
-   "benchmarkClose": 697.945,
+   "positionsValue": 3898.62,
+   "benchmarkNav": 6407.39,
+   "benchmarkClose": 693.98,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
