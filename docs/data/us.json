@@ -3,8 +3,8 @@
   "cash": 2620.677371731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No active positions (fully in cash, 39% of NAV) so no existing plans needed. Web search on AMD, the broader AI-valuation selloff, UNH, and energy/oil names turned up nothing dated to today with a specific, confirmed catalyst - results were mostly stale or ambiguous on timing, consistent with the continuing broad AI-capex-valuation risk-off drift noted in prior sessions. AMD still shows extreme momentum (mom12_1 +168%, rank 2/31) but is down 5.2% today/13.2% over 5 days with no fresh news, and chasing it already cost a loss on the 11/04-11/06 round trip, so not re-entering without a real trigger. Holding fully in cash this session; growth/core balance is moot with zero active positions.",
-  "lastUpdated": "2026-11-20T15:14:45Z",
+  "lastRunNotes": "Broad risk-off day (SPY -1.86%, chip names NVDA/AMD/AVGO down sharply) with no confirmed fresh company-specific catalyst found via web search for AMD, NVDA, UNH, or the energy names (XLE/XOM) that showed relative strength - results were stale or undated, consistent with the ongoing AI-capex-valuation drift noted in prior sessions. AMD's insider activity this period is just open-market sales (pre-scheduled, not a signal) and the account already has a fresh loss from chasing AMD momentum without a catalyst. No active positions and no held plans to update, so holding fully in cash this session.",
+  "lastUpdated": "2026-11-20T17:13:24Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 713.79
+   "lastPrice": 701.73
   },
   "cashFreed": "2026-10-05"
  },
@@ -492,11 +492,11 @@
   },
   {
    "date": "2026-11-20",
-   "nav": 6630.58,
+   "nav": 6562.83,
    "cash": 2620.68,
-   "positionsValue": 4009.9,
-   "benchmarkNav": 6590.3,
-   "benchmarkClose": 713.79,
+   "positionsValue": 3942.15,
+   "benchmarkNav": 6478.95,
+   "benchmarkClose": 701.73,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
