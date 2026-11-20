@@ -2,7 +2,7 @@
  "markets": {
   "us": {
    "prices": {
-    "SPY": 715.87
+    "SPY": 702.79
    },
    "benchmark": "SPY"
   },
@@ -15,10 +15,10 @@
   },
   "crypto": {
    "prices": {
-    "BTC-USD": 61979.49
+    "BTC-USD": 58519.04
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-11-20T10:55:09Z"
+ "updatedAt": "2026-11-20T18:57:52Z"
 }
