@@ -3,13 +3,13 @@
   "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "All watchlist names are trend-DOWN except NEAR-USD, which is UP with by far the strongest momentum (mom12_1 +161.9%, rank 1/18) and a real catalyst: governance finalized a 36% cut to annual token issuance on Nov 16, and institutional infrastructure (Talos order/execution integration, record Intents volume/fees) continues to build, though ETF outflows and a minor NEAR AI data incident are offsetting negatives. Today's broad +1-4% move across almost the whole watchlist looks like market-wide BTC beta, not an asset-specific signal, so I'm not reading anything into that. Opened a modest NEAR swing (7% of NAV, well under the 12% cap) with a stop wide enough to survive normal crypto volatility, keeping core/cash otherwise untouched.",
-  "lastUpdated": "2026-11-21T14:12:02Z",
+  "lastRunNotes": "Holding. Watchlist is still trend-DOWN across every name except NEAR-USD, so no new swing buys are eligible. The one active position, NEAR-USD, was opened today and is neither at its stop nor target, so the 14-day minimum hold blocks any sell. Checked NEAR news: the House of Stake issuance cut (2.5%->1.6%) is confirmed finalized, but reports on the price reaction are mixed, and broader crypto remains in a multi-week risk-off selloff (BTC near 4-month lows before today's bounce) with no fresh asset-specific catalyst since yesterday. Growth/core balance is irrelevant this session since the only open position is the existing NEAR swing and no trade is being made.",
+  "lastUpdated": "2026-11-21T20:11:14Z",
   "positions": {
    "NEAR-USD": {
     "shares": 136.934459,
     "avgCost": 2.921085756812793,
-    "lastPrice": 2.9106,
+    "lastPrice": 2.8792,
     "bucket": "growth",
     "openedDate": "2026-11-21",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 60356.11
+   "lastPrice": 60264.68
   },
   "cashFreed": "2026-10-03"
  },
@@ -644,12 +644,12 @@
   },
   {
    "date": "2026-11-21",
-   "nav": 5530.36,
+   "nav": 5523.64,
    "cash": 3532.45,
-   "positionsValue": 1997.91,
-   "benchmarkNav": 5022.93,
-   "benchmarkClose": 60356.11,
-   "growthValue": 398.56,
+   "positionsValue": 1991.19,
+   "benchmarkNav": 5015.32,
+   "benchmarkClose": 60264.68,
+   "growthValue": 394.26,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1607,7 +1607,7 @@
   },
   {
    "date": "2026-11-21",
-   "rank": 52
+   "rank": 55
   }
  ]
 }
