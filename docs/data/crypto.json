@@ -3,8 +3,8 @@
   "cash": 3932.4495837109453,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad crypto risk-off continues (BTC -4.80% today, 17 of 18 watchlist names trend-DOWN so no new buys allowed there). NEAR-USD is the only trend-UP name but is today's worst mover (-13.35%, -13.55% 5d); its issuance-cut (ratified Nov 16), ETF outflows, and NEAR AI data-exposure incident are all stale catalysts already priced in, with no fresh news found via search. No held positions, fully in cash. Holding again this session, no trades.",
-  "lastUpdated": "2026-11-21T02:11:27Z",
+  "lastRunNotes": "All 18 watchlist names are trend-DOWN (no new swing buys allowed) and day-trading is paused, so no buys were possible regardless of catalyst. No positions are held (fully in cash, 72% of NAV), so there's nothing to sell or plan for either. Web search turned up no November 2026 crypto news; broader context (BTC far below the $75k-110k levels in recent coverage) confirms this is a prolonged, market-wide downtrend rather than an asset-specific event. Holding again this session, no trades.",
+  "lastUpdated": "2026-11-21T08:11:10Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 58969.64
+   "lastPrice": 57668.31
   },
   "cashFreed": "2026-10-03"
  },
@@ -628,11 +628,11 @@
   },
   {
    "date": "2026-11-21",
-   "nav": 5495.06,
+   "nav": 5460.57,
    "cash": 3932.45,
-   "positionsValue": 1562.61,
-   "benchmarkNav": 4907.55,
-   "benchmarkClose": 58969.64,
+   "positionsValue": 1528.12,
+   "benchmarkNav": 4799.25,
+   "benchmarkClose": 57668.31,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1569,7 +1569,7 @@
   },
   {
    "date": "2026-11-21",
-   "rank": 59
+   "rank": 57
   }
  ]
 }
