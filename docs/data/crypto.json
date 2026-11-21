@@ -3,8 +3,8 @@
   "cash": 3932.4495837109453,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad continued crypto risk-off selloff (BTC -5.52% today, near multi-month lows); 17 of 18 watchlist names are trend-DOWN so no new buys are allowed there. NEAR-USD is the only trend-UP name but is down -11.88% today, worse than the market; its issuance-cut proposal already ratified Nov 16 and priced in, ETF outflows continue, and a minor NEAR AI data-exposure incident (not funds-related) adds no fresh bullish case - same stale-catalyst conclusion as prior sessions. No held positions, fully in cash. Holding again this session, no trades.",
-  "lastUpdated": "2026-11-20T20:11:49Z",
+  "lastRunNotes": "Broad crypto risk-off continues (BTC -4.80% today, 17 of 18 watchlist names trend-DOWN so no new buys allowed there). NEAR-USD is the only trend-UP name but is today's worst mover (-13.35%, -13.55% 5d); its issuance-cut (ratified Nov 16), ETF outflows, and NEAR AI data-exposure incident are all stale catalysts already priced in, with no fresh news found via search. No held positions, fully in cash. Holding again this session, no trades.",
+  "lastUpdated": "2026-11-21T02:11:27Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 58396.12
+   "lastPrice": 58969.64
   },
   "cashFreed": "2026-10-03"
  },
@@ -622,6 +622,17 @@
    "positionsValue": 1547.41,
    "benchmarkNav": 4859.82,
    "benchmarkClose": 58396.12,
+   "growthValue": 0.0,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-21",
+   "nav": 5495.06,
+   "cash": 3932.45,
+   "positionsValue": 1562.61,
+   "benchmarkNav": 4907.55,
+   "benchmarkClose": 58969.64,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1555,6 +1566,10 @@
   {
    "date": "2026-11-20",
    "rank": 55
+  },
+  {
+   "date": "2026-11-21",
+   "rank": 59
   }
  ]
 }
