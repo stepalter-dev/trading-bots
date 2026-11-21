@@ -1,11 +1,27 @@
 {
  "state": {
-  "cash": 3932.4495837109453,
+  "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "All 18 watchlist names are trend-DOWN (no new swing buys allowed) and day-trading is paused, so no buys were possible regardless of catalyst. No positions are held (fully in cash, 72% of NAV), so there's nothing to sell or plan for either. Web search turned up no November 2026 crypto news; broader context (BTC far below the $75k-110k levels in recent coverage) confirms this is a prolonged, market-wide downtrend rather than an asset-specific event. Holding again this session, no trades.",
-  "lastUpdated": "2026-11-21T08:11:10Z",
-  "positions": {},
+  "lastRunNotes": "All watchlist names are trend-DOWN except NEAR-USD, which is UP with by far the strongest momentum (mom12_1 +161.9%, rank 1/18) and a real catalyst: governance finalized a 36% cut to annual token issuance on Nov 16, and institutional infrastructure (Talos order/execution integration, record Intents volume/fees) continues to build, though ETF outflows and a minor NEAR AI data incident are offsetting negatives. Today's broad +1-4% move across almost the whole watchlist looks like market-wide BTC beta, not an asset-specific signal, so I'm not reading anything into that. Opened a modest NEAR swing (7% of NAV, well under the 12% cap) with a stop wide enough to survive normal crypto volatility, keeping core/cash otherwise untouched.",
+  "lastUpdated": "2026-11-21T14:12:02Z",
+  "positions": {
+   "NEAR-USD": {
+    "shares": 136.934459,
+    "avgCost": 2.921085756812793,
+    "lastPrice": 2.9106,
+    "bucket": "growth",
+    "openedDate": "2026-11-21",
+    "plan": {
+     "target": 3.85,
+     "stop": 2.45,
+     "prob": 0.38,
+     "rr": 2.04,
+     "evPct": 1.73,
+     "entryRef": 2.9106
+    }
+   }
+  },
   "startingCash": 7025.0,
   "rescaled": {
    "factor": 0.15495258,
@@ -16,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 57668.31
+   "lastPrice": 60356.11
   },
   "cashFreed": "2026-10-03"
  },
@@ -628,12 +644,12 @@
   },
   {
    "date": "2026-11-21",
-   "nav": 5460.57,
-   "cash": 3932.45,
-   "positionsValue": 1528.12,
-   "benchmarkNav": 4799.25,
-   "benchmarkClose": 57668.31,
-   "growthValue": 0.0,
+   "nav": 5530.36,
+   "cash": 3532.45,
+   "positionsValue": 1997.91,
+   "benchmarkNav": 5022.93,
+   "benchmarkClose": 60356.11,
+   "growthValue": 398.56,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1154,6 +1170,28 @@
    "rationale": "Rebalance: trimmed the index anchor back to 30% of NAV (core-satellite rule) (reduced: BTC-USD is below its 200-day average).",
    "realizedPnL": -502.42,
    "realizedPnLPct": -24.85
+  },
+  {
+   "id": "2026-11-21-NEAR-USD-6exs6v",
+   "ticker": "NEAR-USD",
+   "action": "buy",
+   "shares": 136.934459,
+   "price": 2.913511,
+   "refPrice": 2.9106,
+   "fee": 1.0373,
+   "date": "2026-11-21T14:12:02Z",
+   "bucket": "growth",
+   "rationale": "Only UP-trend name on the watchlist with by far the strongest 12-1 month momentum; issuance cut finalized Nov 16 reduces structural sell pressure and institutional adoption (Talos, Intents volume) is a genuine fundamental catalyst, but ETF outflows and market-wide downtrend keep the probability modest and the stop wide.",
+   "horizon": "Reassess in ~6 weeks, or immediately if NEAR closes back below its 200-day average (trend flips DOWN) or ETF outflows accelerate materially",
+   "plan": {
+    "target": 3.85,
+    "stop": 2.45,
+    "prob": 0.38,
+    "rr": 2.04,
+    "evPct": 1.73,
+    "entryRef": 2.9106
+   },
+   "sentimentSummary": "Mixed: bullish supply-cut and institutional-adoption narrative vs. bearish ETF outflow and broad crypto risk-off headlines"
   }
  ],
  "lessons": [
@@ -1569,7 +1607,7 @@
   },
   {
    "date": "2026-11-21",
-   "rank": 57
+   "rank": 52
   }
  ]
 }
