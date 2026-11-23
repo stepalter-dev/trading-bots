@@ -3,13 +3,13 @@
   "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked XRO (held), WOW (Nov 18 investor day - modest $10b FY29 sales ambition, stock +1% on the day, already known/priced in), and STO (Oct 22 Q3 report/guidance cut already priced in, no November news). No fresh, specific catalyst found; broad market softness (STW -0.17%, most names down 5-9% over 5 days) looks macro-driven, not stock-specific, and no watchlist name shows unusual volume (vol_x all well under 1.5). XRO stays under its existing plan (target $112, stop $68), well above stop, 7 more days left in mandatory hold. Holding - no new trades, no plan changes needed, no closed trades to review this session.",
-  "lastUpdated": "2026-11-23T00:12:02Z",
+  "lastRunNotes": "Checked held XRO (no fresh news since the Nov 12 result/buyback; still well above its $68 stop and under its $112 target, 7 days left in mandatory hold, no action needed) and screened the highest-momentum trend-UP names (WOW, STO, QBE, CPU, ANZ). WOW's Nov 18 investor day FY29 sales ambition was already priced in per the prior session's review; STO's last hard news is the Oct 22 Q3 report with no November update; QBE's only November news is a management/leadership reshuffle, not a trading catalyst. No watchlist name shows unusual volume (all vol_x well under 1.5) and broad weakness looks macro-driven, not stock-specific. Holding - no new trades. Active sleeve remains a single growth position (XRO), well within the growth/core band since core is currently empty.",
+  "lastUpdated": "2026-11-23T01:11:58Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 73.99,
+    "lastPrice": 74.245,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 76.91
+   "lastPrice": 77.04
   },
   "cashFreed": "2026-10-05"
  },
@@ -501,12 +501,12 @@
   },
   {
    "date": "2026-11-23",
-   "nav": 9974.52,
+   "nav": 9987.9,
    "cash": 3138.5,
-   "positionsValue": 6836.02,
-   "benchmarkNav": 9745.33,
-   "benchmarkClose": 76.91,
-   "growthValue": 1035.86,
+   "positionsValue": 6849.39,
+   "benchmarkNav": 9761.8,
+   "benchmarkClose": 77.04,
+   "growthValue": 1039.43,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
