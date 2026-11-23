@@ -3,13 +3,13 @@
   "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No new catalyst: NEAR's issuance cut, ETF outflow story and AI-unit security incident are all already known from last session, and BTC/crypto sentiment remains bearish (extreme fear, Citi trimming BTC/ETH forecasts) with no fresh broad-market trigger either. NEAR is only 2 days into its 14-day minimum hold with no stop/target hit, and every other watchlist name is still trend-DOWN, blocking new swing buys under the trend filter. Active sleeve stays 100% growth (NEAR) vs 0% core, outside the 35-65% band, but there is no genuine catalyst to force a core buy, so holding.",
-  "lastUpdated": "2026-11-23T08:13:21Z",
+  "lastRunNotes": "Broad market-wide rally today (BTC +3.94%, most alts +5-9%) with vol_x still near/below 1.0x everywhere - this is an oversold relief bounce, not an asset-specific catalyst (matches standing lesson 5). NEAR's issuance cut and AI-unit security incident are stale news already priced in; UNI7083/Uniswap's recent news (Nov 11 selloff, fee-switch vote closed Nov 20) has no fresh trigger either. NEAR is only 2 days into its 14-day hold with no stop/target hit and already has a plan. Active sleeve stays 100% growth (NEAR) vs 0% core, outside the 35-65% band, but no genuine catalyst justifies forcing a core buy. Holding.",
+  "lastUpdated": "2026-11-23T14:18:10Z",
   "positions": {
    "NEAR-USD": {
     "shares": 136.934459,
     "avgCost": 2.921085756812793,
-    "lastPrice": 3.0055,
+    "lastPrice": 3.2519,
     "bucket": "growth",
     "openedDate": "2026-11-21",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 61219.66
+   "lastPrice": 63670.15
   },
   "cashFreed": "2026-10-03"
  },
@@ -666,12 +666,12 @@
   },
   {
    "date": "2026-11-23",
-   "nav": 5566.24,
+   "nav": 5664.91,
    "cash": 3532.45,
-   "positionsValue": 2033.79,
-   "benchmarkNav": 5094.8,
-   "benchmarkClose": 61219.66,
-   "growthValue": 411.56,
+   "positionsValue": 2132.46,
+   "benchmarkNav": 5298.73,
+   "benchmarkClose": 63670.15,
+   "growthValue": 445.3,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
