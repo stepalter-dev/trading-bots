@@ -3,13 +3,13 @@
   "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad ASX weakness today (-0.23% benchmark, most watchlist names down 5d%) looks macro, not stock-specific; no watchlist name shows unusual volume (all vol_x well under 1.5) and no fresh catalysts turned up for XRO, CPU, WOW or STO beyond already-priced-in mid-November news. Held XRO is still mid-mandatory-hold (7 days left), well above its A$68 stop and under its A$112 target with an existing plan, so no action needed. Growth/core balance unaffected; holding with no trades this session.",
-  "lastUpdated": "2026-11-23T03:11:38Z",
+  "lastRunNotes": "No unusual volume anywhere on the watchlist (all vol_x well under 1x) and no fresh catalysts beyond already-priced-in news: Xero's Nov 12 buyback/results are a week old and the stock's slide since looks like broad market/macro drag rather than a new negative signal, while searches on energy names (STO/WDS) and the general ASX tape turned up nothing dated to this week. Held XRO stays in its mandatory hold window, well above its A$68 stop and below its A$112 target with an existing plan, so continuing to hold. Growth/core balance unaffected; no new trades this session.",
+  "lastUpdated": "2026-11-23T04:11:31Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 74.39,
+    "lastPrice": 74.49,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 76.86
+   "lastPrice": 76.98
   },
   "cashFreed": "2026-10-05"
  },
@@ -501,12 +501,12 @@
   },
   {
    "date": "2026-11-23",
-   "nav": 9976.35,
+   "nav": 9986.8,
    "cash": 3138.5,
-   "positionsValue": 6837.85,
-   "benchmarkNav": 9738.99,
-   "benchmarkClose": 76.86,
-   "growthValue": 1041.46,
+   "positionsValue": 6848.3,
+   "benchmarkNav": 9754.2,
+   "benchmarkClose": 76.98,
+   "growthValue": 1042.86,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
