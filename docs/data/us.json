@@ -3,13 +3,13 @@
   "cash": 2165.690491731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Confirmed via web search: Nvidia's board reinstated Jensen Huang as CEO on Nov 23, 2026, reversing his Nov 12 resignation and ending the leadership-overhang that drove last week's AI selloff; this is the real cause of today's broad rally (NVDA +30%, semis +13%, Nasdaq +6%+). NVDA itself is trend-DOWN so ineligible. Bought AMD, the only UP-trend, top-momentum (#1/31) direct AI-chip peer, sized to the 12%-of-NAV cap (1 whole share). Left core at 0% of the active sleeve again since no core name has an equally direct, dated catalyst today; growth stays 100% of the (still tiny) active sleeve for now.",
-  "lastUpdated": "2026-11-23T19:13:39Z",
+  "lastRunNotes": "Confirmed via web search: Nvidia's board did reinstate Jensen Huang as CEO today (Nov 23) after Trump pressure, which is the real, dated catalyst behind NVDA +31% and the broad semis/Nasdaq rally (QQQ +6.6%, XLK +8.4%) - matches the previous session's AMD buy thesis. NVDA itself stays trend-DOWN and ineligible. The existing AMD position (bought earlier today, min-hold 14 days, already has a target/stop/prob plan) cannot and need not be touched. Scanned UP-trend core names (AAPL, MSFT, V, XOM, XLE, etc.) for a genuine core-specific catalyst to balance the 100%-growth active sleeve, but today's core moves look like broad risk-on beta from the Nvidia news rather than stock-specific catalysts, so no core buy is justified. Holding with no new trades; growth remains 100% of the (still small, 6.7% of NAV) active sleeve and cash stays high.",
+  "lastUpdated": "2026-11-23T20:12:46Z",
   "positions": {
    "AMD": {
     "shares": 1,
     "avgCost": 454.98688,
-    "lastPrice": 453.76,
+    "lastPrice": 448.85,
     "bucket": "growth",
     "openedDate": "2026-11-23",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 723.59
+   "lastPrice": 722.84
   },
   "cashFreed": "2026-10-05"
  },
@@ -519,12 +519,12 @@
   },
   {
    "date": "2026-11-23",
-   "nav": 6684.41,
+   "nav": 6675.29,
    "cash": 2165.69,
-   "positionsValue": 4518.72,
-   "benchmarkNav": 6680.77,
-   "benchmarkClose": 723.59,
-   "growthValue": 453.76,
+   "positionsValue": 4509.59,
+   "benchmarkNav": 6673.85,
+   "benchmarkClose": 722.84,
+   "growthValue": 448.85,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
