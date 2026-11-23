@@ -3,13 +3,13 @@
   "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked held XRO (no fresh news since the Nov 12 result/buyback; still well above its $68 stop and under its $112 target, 7 days left in mandatory hold, no action needed) and screened the highest-momentum trend-UP names (WOW, STO, QBE, CPU, ANZ). WOW's Nov 18 investor day FY29 sales ambition was already priced in per the prior session's review; STO's last hard news is the Oct 22 Q3 report with no November update; QBE's only November news is a management/leadership reshuffle, not a trading catalyst. No watchlist name shows unusual volume (all vol_x well under 1.5) and broad weakness looks macro-driven, not stock-specific. Holding - no new trades. Active sleeve remains a single growth position (XRO), well within the growth/core band since core is currently empty.",
-  "lastUpdated": "2026-11-23T01:11:58Z",
+  "lastRunNotes": "Broad ASX weakness today (-0.23% benchmark, most watchlist names down 5d%) looks macro, not stock-specific; no watchlist name shows unusual volume (all vol_x well under 1.5) and no fresh catalysts turned up for XRO, CPU, WOW or STO beyond already-priced-in mid-November news. Held XRO is still mid-mandatory-hold (7 days left), well above its A$68 stop and under its A$112 target with an existing plan, so no action needed. Growth/core balance unaffected; holding with no trades this session.",
+  "lastUpdated": "2026-11-23T03:11:38Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 74.245,
+    "lastPrice": 74.39,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.04
+   "lastPrice": 76.86
   },
   "cashFreed": "2026-10-05"
  },
@@ -501,12 +501,12 @@
   },
   {
    "date": "2026-11-23",
-   "nav": 9987.9,
+   "nav": 9976.35,
    "cash": 3138.5,
-   "positionsValue": 6849.39,
-   "benchmarkNav": 9761.8,
-   "benchmarkClose": 77.04,
-   "growthValue": 1039.43,
+   "positionsValue": 6837.85,
+   "benchmarkNav": 9738.99,
+   "benchmarkClose": 76.86,
+   "growthValue": 1041.46,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
