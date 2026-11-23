@@ -1,6 +1,6 @@
 {
  "state": {
-  "cash": 8788.0,
+  "cash": 8648.0,
   "startingCash": 10000.0,
   "holdings": {
    "yc-lyon": {
@@ -26,7 +26,7 @@
     "thesis": "Trains proprietary foundation models directly on a customer's own transaction/event data (28B transactions for one fintech, plus a major insurer pilot), beating rules-based baselines 4x on premium-card conversion. Small team but real enterprise traction is a strong early signal in a crowded vertical-AI space.",
     "pRaise12m": 0.55,
     "pAlive12m": 0.85,
-    "lastChecked": "2026-11-09"
+    "lastChecked": "2026-11-23"
    },
    "yc-herdr": {
     "id": "yc-herdr",
@@ -51,7 +51,7 @@
     "thesis": "Open agent runtime with genuine bottom-up adoption (25k GitHub stars, 340k downloads, 500+ community plugins) and already closed a $6M seed led by Bessemer with a strong angel syndicate. Infra bet on agent fleets becoming standard dev workflow; main risk is monetizing an OSS-first project against well-funded competitors.",
     "pRaise12m": 0.45,
     "pAlive12m": 0.88,
-    "lastChecked": "2026-11-09"
+    "lastChecked": "2026-11-23"
    },
    "yc-useforward": {
     "id": "yc-useforward",
@@ -76,7 +76,7 @@
     "thesis": "Agentic matching between borrowers and private-credit funds, built by founders with direct deal-diligence experience ($1B+) and a 5-person team already shipping. Real workflow pain point in an underdigitized market, but conservative buyers and long enterprise sales cycles are a risk.",
     "pRaise12m": 0.35,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-11-09"
+    "lastChecked": "2026-11-23"
    },
    "hn-49833867": {
     "id": "hn-49833867",
@@ -101,7 +101,7 @@
     "thesis": "Open-source IDE (YC W26) that lets coding agents draw architecture/sequence diagrams of their own changes for review - a timely wedge as teams struggle to review AI-generated code. Strong Show HN reception (415 points) and built on VS Code/CodeOSS for fast distribution, though it competes for attention in a busy devtools category.",
     "pRaise12m": 0.4,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-11-09"
+    "lastChecked": "2026-11-23"
    },
    "yc-agent-relay": {
     "id": "yc-agent-relay",
@@ -126,7 +126,7 @@
     "thesis": "Messaging/infra layer for coordinating fleets of coding agents, already open-source with real GitHub adoption and a public enterprise partnership (Coder) covered by GlobeNewswire. Agent-orchestration infra is a hot, well-funded category and this team already has a distribution channel through Coder.",
     "pRaise12m": 0.45,
     "pAlive12m": 0.85,
-    "lastChecked": "2026-11-09"
+    "lastChecked": "2026-11-23"
    },
    "yc-rystic": {
     "id": "yc-rystic",
@@ -151,7 +151,7 @@
     "thesis": "Local, stateful simulators of third-party APIs (Stripe, GitHub, Slack, Kalshi, etc.) for testing and training agents without hitting production services. Narrow but real pain point for every team building agents; named integrations suggest actual usage rather than a toy demo.",
     "pRaise12m": 0.3,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-11-09"
+    "lastChecked": "2026-11-23"
    },
    "yc-talos-us": {
     "id": "yc-talos-us",
@@ -176,7 +176,7 @@
     "thesis": "Predictive maintenance hardware/software for large power transformers, a capital-intensive but high-value market (grid operators pay dearly to avoid unplanned outages). Hardware/enterprise sales cycles are slower, which tempers near-term funding odds, but the problem is real and durable.",
     "pRaise12m": 0.25,
     "pAlive12m": 0.7,
-    "lastChecked": "2026-11-09"
+    "lastChecked": "2026-11-23"
    },
    "yc-veltha": {
     "id": "yc-veltha",
@@ -201,7 +201,7 @@
     "thesis": "AI-native TPA for workers' comp claims, founded by two ex-Palantir engineers with deployment experience at large institutions. Regulated-insurance niche has real budget and the team pedigree suggests it can navigate the compliance-heavy sales cycle.",
     "pRaise12m": 0.4,
     "pAlive12m": 0.75,
-    "lastChecked": "2026-11-09"
+    "lastChecked": "2026-11-23"
    },
    "yc-hopper": {
     "id": "yc-hopper",
@@ -226,7 +226,7 @@
     "thesis": "Trains speech models on a customer's own production call data for fast, specialized voice inference. Multiple open senior full-stack/voice-infra roles across job boards suggest real funded hiring and early customer traction.",
     "pRaise12m": 0.35,
     "pAlive12m": 0.7,
-    "lastChecked": "2026-11-09"
+    "lastChecked": "2026-11-23"
    },
    "yc-tilion": {
     "id": "yc-tilion",
@@ -251,7 +251,7 @@
     "thesis": "Recompiled Chromium ('Fortress') for undetectable agent browsing, with a shipped PyPI package and MCP server already in beta use. Crowded space (Kernel, Browserbase, Browser Use) keeps odds modest, but agent browser infra is a real and growing need.",
     "pRaise12m": 0.25,
     "pAlive12m": 0.55,
-    "lastChecked": "2026-11-09"
+    "lastChecked": "2026-11-23"
    },
    "yc-tire-swing": {
     "id": "yc-tire-swing",
@@ -902,6 +902,106 @@
     "pRaise12m": 0.28,
     "pAlive12m": 0.68,
     "lastChecked": "2026-11-16"
+   },
+   "yc-caladh": {
+    "id": "yc-caladh",
+    "name": "Caladh",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/caladh",
+    "website": "https://caladh.com",
+    "oneLiner": "Anti-drone defense for the maritime domain ",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/caladh.json",
+    "teamSizeAtEntry": null,
+    "investedDate": "2026-11-23",
+    "tranches": [
+     {
+      "amount": 45.0,
+      "valuation": 16000000.0,
+      "date": "2026-11-23"
+     }
+    ],
+    "entryValuation": 16000000.0,
+    "markValuation": 16000000.0,
+    "status": "active",
+    "thesis": "Non-kinetic counter-drone system for ports and naval vessels, founded by an MIT PhD and former DARPA maritime-autonomy program lead. Drone threats to maritime infrastructure are a growing, well-funded defense priority, and the founder-market fit is unusually strong for this stage.",
+    "pRaise12m": 0.4,
+    "pAlive12m": 0.8,
+    "lastChecked": "2026-11-23"
+   },
+   "yc-halmos-labs": {
+    "id": "yc-halmos-labs",
+    "name": "Halmos Labs",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/halmos-labs",
+    "website": "https://halmoslabs.com/",
+    "oneLiner": "One API to any physical experiment",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/halmos-labs.json",
+    "teamSizeAtEntry": 3,
+    "investedDate": "2026-11-23",
+    "tranches": [
+     {
+      "amount": 40.0,
+      "valuation": 15000000.0,
+      "date": "2026-11-23"
+     }
+    ],
+    "entryValuation": 15000000.0,
+    "markValuation": 15000000.0,
+    "status": "active",
+    "thesis": "Automated, maximally-informative biotech R&D platform (simulates experiments before wet-lab work) from Lund, Sweden founders who already secured $500k pre-YC. Picks-and-shovels play on a real bottleneck in experimental biology, though hardware/lab integration cycles are slow.",
+    "pRaise12m": 0.35,
+    "pAlive12m": 0.75,
+    "lastChecked": "2026-11-23"
+   },
+   "yc-truemile": {
+    "id": "yc-truemile",
+    "name": "TrueMile",
+    "source": "YC Fall 2026",
+    "url": "https://www.ycombinator.com/companies/truemile",
+    "website": "https://TrueMile.AI/",
+    "oneLiner": "The trucking company run by AI agents.",
+    "ycApi": "https://yc-oss.github.io/api/batches/fall-2026/truemile.json",
+    "teamSizeAtEntry": 3,
+    "investedDate": "2026-11-23",
+    "tranches": [
+     {
+      "amount": 35.0,
+      "valuation": 14000000.0,
+      "date": "2026-11-23"
+     }
+    ],
+    "entryValuation": 14000000.0,
+    "markValuation": 14000000.0,
+    "status": "active",
+    "thesis": "AI dispatch for mid-market trucking fleets, tested on the founders' own fleet with a reported 8-17% revenue-per-mile uplift. Real operational traction, but logistics/dispatch is a crowded YC vertical (FleetWorks, Fleetline, Hemut, Oway) so differentiation risk is high.",
+    "pRaise12m": 0.3,
+    "pAlive12m": 0.7,
+    "lastChecked": "2026-11-23"
+   },
+   "hn-50526023": {
+    "id": "hn-50526023",
+    "name": "I made an audio-to-MIDI model 60x more efficient",
+    "source": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=50526023",
+    "website": "https://kobi.music/research/dettato",
+    "oneLiner": "",
+    "ycApi": null,
+    "teamSizeAtEntry": null,
+    "investedDate": "2026-11-23",
+    "tranches": [
+     {
+      "amount": 20.0,
+      "valuation": 10000000.0,
+      "date": "2026-11-23"
+     }
+    ],
+    "entryValuation": 10000000.0,
+    "markValuation": 10000000.0,
+    "status": "active",
+    "thesis": "Solo/small-team research project claiming a 60x more efficient audio-to-MIDI model, with strong Show HN reception (308 points, 70 comments) suggesting real technical differentiation versus incumbents like Spotify's Basic Pitch. Pre-company stage and unverified business plan, so a small speculative cheque.",
+    "pRaise12m": 0.15,
+    "pAlive12m": 0.5,
+    "lastChecked": "2026-11-23"
    }
   },
   "seen": [
@@ -913,8 +1013,15 @@
    "gh-google-research/harness2",
    "gh-heydamir/unslop",
    "gh-horizon-rust/horizon",
+   "gh-itsnotrexed/leonida",
    "gh-jakeschincariol/replica-skill",
+   "gh-janestreet/agent_skills",
+   "gh-juneyaooo/rea-video",
+   "gh-kingcharleslzy-ai/dsh-purge",
    "gh-knifelemon/filee",
+   "gh-l0ng-ai/openidea",
+   "gh-libracoder/kiri",
+   "gh-minireel/hghub",
    "gh-niko1221/strata",
    "gh-pengchujin/aerial-tv",
    "gh-seedds/nxnative",
@@ -925,6 +1032,7 @@
    "gh-storytold/photocraft",
    "gh-storytold/wordcraft",
    "gh-tangency-labs/solidcraft",
+   "gh-wangzan101/mika",
    "gh-wheresryan22/anatomy",
    "gh-yetone/magpie",
    "gh-zagitta/gpu-unlock",
@@ -993,6 +1101,14 @@
    "hn-50470488",
    "hn-50487228",
    "hn-50497589",
+   "hn-50526023",
+   "hn-50532385",
+   "hn-50541568",
+   "hn-50547980",
+   "hn-50548161",
+   "hn-50561515",
+   "hn-50590279",
+   "hn-50599762",
    "ph-1203994",
    "ph-1238671",
    "ph-1249438",
@@ -1046,6 +1162,7 @@
    "ph-1302640",
    "ph-1302760",
    "ph-1306739",
+   "ph-1307253",
    "ph-1307385",
    "ph-1307607",
    "ph-1307742",
@@ -1053,10 +1170,17 @@
    "ph-1307870",
    "ph-1307984",
    "ph-1308240",
+   "ph-1310082",
+   "ph-1312026",
    "ph-1313926",
    "ph-1314362",
    "ph-1314673",
    "ph-1316260",
+   "ph-1317808",
+   "ph-1318840",
+   "ph-1322636",
+   "ph-1322851",
+   "ph-1323133",
    "yc-adalat-ai",
    "yc-agent-relay",
    "yc-altair-health",
@@ -1066,9 +1190,11 @@
    "yc-asakana",
    "yc-aviern",
    "yc-axiomat",
+   "yc-biomes",
    "yc-blinka",
    "yc-boat",
    "yc-boxesdev",
+   "yc-caladh",
    "yc-canos",
    "yc-capveon",
    "yc-cesara",
@@ -1079,11 +1205,13 @@
    "yc-deepmark",
    "yc-deploy",
    "yc-dydema",
+   "yc-everyapp",
    "yc-fire-wallet",
    "yc-frontrunner",
    "yc-graypass",
    "yc-grep-ai",
    "yc-habu",
+   "yc-halmos-labs",
    "yc-herdr",
    "yc-hillstar",
    "yc-hopper",
@@ -1103,8 +1231,10 @@
    "yc-munito-ai",
    "yc-native",
    "yc-neomatter",
+   "yc-nuum-robotics",
    "yc-open-actuation",
    "yc-openhack",
+   "yc-openlake-technologies",
    "yc-openseo",
    "yc-orca-aerospace",
    "yc-organizely",
@@ -1115,13 +1245,16 @@
    "yc-ploid",
    "yc-pomerado",
    "yc-praxis",
+   "yc-proto",
    "yc-quivly-ai",
    "yc-ratlog",
    "yc-ravenphone",
+   "yc-reason-machines",
    "yc-reconero",
    "yc-reific",
    "yc-rhem-labs",
    "yc-rivereditor",
+   "yc-rook-space",
    "yc-rote",
    "yc-rystic",
    "yc-saccade",
@@ -1132,6 +1265,7 @@
    "yc-sinter-systems",
    "yc-sintropix",
    "yc-sona8",
+   "yc-spacesheep",
    "yc-streamline-systems",
    "yc-super-powers-mobility-spm",
    "yc-superradiant",
@@ -1144,6 +1278,7 @@
    "yc-tilo",
    "yc-tire-swing",
    "yc-trepo",
+   "yc-truemile",
    "yc-trylatent",
    "yc-twentyfour26",
    "yc-ufoai",
@@ -1152,10 +1287,11 @@
    "yc-vexo",
    "yc-vouchwealth",
    "yc-voyager",
-   "yc-vyra"
+   "yc-vyra",
+   "yc-xulux"
   ],
-  "lastUpdated": "2026-11-16T00:13:08Z",
-  "lastRunNotes": "Reviewed the 36 new candidates; no holdings were due for a news check this week (all last checked 2026-11-09, inside the 21-day window), so no updates/followons. Skipped the hobby Show HN/GitHub/Product Hunt entries (open-source side projects, not fundable companies) and Adalat AI (confirmed nonprofit, no equity to price) and HillStar (couldn't find enough independent confirmation to size a cheque confidently). Backed five YC Fall 2026 vertical-AI startups with small, real teams and sizable incumbent-light markets: insurance brokerage ops, police report/video workflows, construction takeoffs, veterinary cancer diagnostics, and medical billing."
+  "lastUpdated": "2026-11-23T00:13:04Z",
+  "lastRunNotes": "Researched Caladh, Halmos Labs, TrueMile, Reason Machines, Rook Space, Xulux, OpenLake and the Dettato Show HN post, plus checked in on the 10 oldest holdings (Lyon, herdr, Forward, Agent Relay, Rystic, Talos, Whiteboard, Veltha, Hopper, Tilion). Backed Caladh (DARPA-pedigree maritime counter-drone founder, timely defense tailwind), Halmos Labs (automated biotech R&D with $500k already raised), TrueMile (AI trucking dispatch with reported revenue-per-mile gains, though crowded vertical), and a small speculative cheque into the Dettato audio-to-MIDI Show HN project given its strong 308-point reception. No new verified funding/shutdown events surfaced for the checked holdings beyond their original YC seed rounds (herdr's $6M seed and Tilion's $500k YC deal both predate or match our entry marks, so no update filed); skipped Reason Machines due to conflicting YC-batch/product-name signals."
  },
  "nav_history": [
   {
@@ -1213,6 +1349,13 @@
    "cash": 8788.0,
    "holdingsValue": 1212.0,
    "deployed": 1212.0
+  },
+  {
+   "date": "2026-11-23",
+   "nav": 10000.0,
+   "cash": 8648.0,
+   "holdingsValue": 1352.0,
+   "deployed": 1352.0
   }
  ],
  "deals": [
@@ -1683,6 +1826,58 @@
    "pAlive12m": 0.68,
    "thesis": "AI medical billing/revenue-cycle automation for provider practices, pitched as 'Stripe for medical billing.' Hot sub-sector right now (Candid Health, Quill Bills, Taiga are active comps) which helps fundraising odds but also means crowded competition for this small cheque.",
    "url": "https://www.ycombinator.com/companies/altair-health"
+  },
+  {
+   "type": "invest",
+   "id": "yc-caladh",
+   "name": "Caladh",
+   "source": "YC Fall 2026",
+   "date": "2026-11-23T00:13:04Z",
+   "amount": 45.0,
+   "valuation": 16000000.0,
+   "pRaise12m": 0.4,
+   "pAlive12m": 0.8,
+   "thesis": "Non-kinetic counter-drone system for ports and naval vessels, founded by an MIT PhD and former DARPA maritime-autonomy program lead. Drone threats to maritime infrastructure are a growing, well-funded defense priority, and the founder-market fit is unusually strong for this stage.",
+   "url": "https://www.ycombinator.com/companies/caladh"
+  },
+  {
+   "type": "invest",
+   "id": "yc-halmos-labs",
+   "name": "Halmos Labs",
+   "source": "YC Fall 2026",
+   "date": "2026-11-23T00:13:04Z",
+   "amount": 40.0,
+   "valuation": 15000000.0,
+   "pRaise12m": 0.35,
+   "pAlive12m": 0.75,
+   "thesis": "Automated, maximally-informative biotech R&D platform (simulates experiments before wet-lab work) from Lund, Sweden founders who already secured $500k pre-YC. Picks-and-shovels play on a real bottleneck in experimental biology, though hardware/lab integration cycles are slow.",
+   "url": "https://www.ycombinator.com/companies/halmos-labs"
+  },
+  {
+   "type": "invest",
+   "id": "yc-truemile",
+   "name": "TrueMile",
+   "source": "YC Fall 2026",
+   "date": "2026-11-23T00:13:04Z",
+   "amount": 35.0,
+   "valuation": 14000000.0,
+   "pRaise12m": 0.3,
+   "pAlive12m": 0.7,
+   "thesis": "AI dispatch for mid-market trucking fleets, tested on the founders' own fleet with a reported 8-17% revenue-per-mile uplift. Real operational traction, but logistics/dispatch is a crowded YC vertical (FleetWorks, Fleetline, Hemut, Oway) so differentiation risk is high.",
+   "url": "https://www.ycombinator.com/companies/truemile"
+  },
+  {
+   "type": "invest",
+   "id": "hn-50526023",
+   "name": "I made an audio-to-MIDI model 60x more efficient",
+   "source": "Show HN",
+   "date": "2026-11-23T00:13:04Z",
+   "amount": 20.0,
+   "valuation": 10000000.0,
+   "pRaise12m": 0.15,
+   "pAlive12m": 0.5,
+   "thesis": "Solo/small-team research project claiming a 60x more efficient audio-to-MIDI model, with strong Show HN reception (308 points, 70 comments) suggesting real technical differentiation versus incumbents like Spotify's Basic Pitch. Pre-company stage and unverified business plan, so a small speculative cheque.",
+   "url": "https://news.ycombinator.com/item?id=50526023"
   }
  ],
  "forecasts": [
@@ -2260,6 +2455,70 @@
    "prob": 0.68,
    "made": "2026-11-16",
    "due": "2027-11-16",
+   "outcome": null
+  },
+  {
+   "id": "yc-caladh",
+   "event": "raise_12m",
+   "prob": 0.4,
+   "made": "2026-11-23",
+   "due": "2027-11-23",
+   "outcome": null
+  },
+  {
+   "id": "yc-caladh",
+   "event": "alive_12m",
+   "prob": 0.8,
+   "made": "2026-11-23",
+   "due": "2027-11-23",
+   "outcome": null
+  },
+  {
+   "id": "yc-halmos-labs",
+   "event": "raise_12m",
+   "prob": 0.35,
+   "made": "2026-11-23",
+   "due": "2027-11-23",
+   "outcome": null
+  },
+  {
+   "id": "yc-halmos-labs",
+   "event": "alive_12m",
+   "prob": 0.75,
+   "made": "2026-11-23",
+   "due": "2027-11-23",
+   "outcome": null
+  },
+  {
+   "id": "yc-truemile",
+   "event": "raise_12m",
+   "prob": 0.3,
+   "made": "2026-11-23",
+   "due": "2027-11-23",
+   "outcome": null
+  },
+  {
+   "id": "yc-truemile",
+   "event": "alive_12m",
+   "prob": 0.7,
+   "made": "2026-11-23",
+   "due": "2027-11-23",
+   "outcome": null
+  },
+  {
+   "id": "hn-50526023",
+   "event": "raise_12m",
+   "prob": 0.15,
+   "made": "2026-11-23",
+   "due": "2027-11-23",
+   "outcome": null
+  },
+  {
+   "id": "hn-50526023",
+   "event": "alive_12m",
+   "prob": 0.5,
+   "made": "2026-11-23",
+   "due": "2027-11-23",
    "outcome": null
   }
  ]
