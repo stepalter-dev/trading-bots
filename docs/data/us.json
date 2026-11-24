@@ -3,22 +3,23 @@
   "cash": 2165.690491731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No same-day news coverage turned up for the broad chip selloff (AMD -9.7%, NVDA -6.5%) or for any UP-trend core name (AAPL, MSFT, V, XOM, XLE, LLY, etc.) - today's moves look like profit-taking/rotation after yesterday's Huang-reinstatement rally rather than a fresh, specific catalyst. AMD is already within 1.1% of its stop and under the 14-day min-hold, so it's left untouched. INTC's insider buy is real but trend is DOWN so it's ineligible. Holding with no new trades; active sleeve stays 100% growth (AMD) vs the 35-65% band, but forcing a core buy without a genuine catalyst would just add churn/costs.",
-  "lastUpdated": "2026-11-24T15:14:10Z",
+  "lastRunNotes": "Today's broad chip pullback (AMD -9.4%, NVDA -7.1%, INTC -8.0%) is confirmed as profit-taking after Monday's +31% Nvidia rally on the board reinstating Jensen Huang as CEO, not a fresh negative catalyst, but reports note lingering uncertainty (ongoing investigations, China exposure, Dec 1 congressional hearings) that kept the bounce from holding. AMD's trend has flipped DOWN, exactly the reassessment trigger set in its horizon; min-hold and the automatic stop leave nothing to trade there today, so I'm lowering my confidence in its plan rather than touching the position. No other watchlist name has a fresh, specific catalyst: AMZN/TSLA are UP-trend but just drifting with the market, CRM's attention spike and INTC's insider buy are both trend-DOWN and ineligible, and the UP-trend core names (AAPL, MSFT, V, XOM, LLY, COST, HD, PG, KO, DIS, XLF, XLE) show no dated news today. Holding with no new trades; active sleeve stays 100% growth (AMD) vs the 35-65% band, but forcing a core buy without a real catalyst would just add churn.",
+  "lastUpdated": "2026-11-24T17:13:37Z",
   "positions": {
    "AMD": {
     "shares": 1,
     "avgCost": 454.98688,
-    "lastPrice": 410.303,
+    "lastPrice": 410.47,
     "bucket": "growth",
     "openedDate": "2026-11-23",
     "plan": {
      "target": 565.0,
      "stop": 405.0,
-     "prob": 0.45,
-     "rr": 2.28,
-     "evPct": 4.77,
-     "entryRef": 453.76
+     "prob": 0.35,
+     "rr": 28.25,
+     "evPct": 12.31,
+     "entryRef": 410.47,
+     "setLater": true
     }
    }
   },
@@ -32,7 +33,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 718.73
+   "lastPrice": 718.58
   },
   "cashFreed": "2026-10-05"
  },
@@ -530,12 +531,12 @@
   },
   {
    "date": "2026-11-24",
-   "nav": 6613.65,
+   "nav": 6612.97,
    "cash": 2165.69,
-   "positionsValue": 4447.96,
-   "benchmarkNav": 6635.9,
-   "benchmarkClose": 718.73,
-   "growthValue": 410.3,
+   "positionsValue": 4447.28,
+   "benchmarkNav": 6634.52,
+   "benchmarkClose": 718.58,
+   "growthValue": 410.47,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
