@@ -2,8 +2,8 @@
  "markets": {
   "us": {
    "prices": {
-    "AMD": 453.46,
-    "SPY": 722.29
+    "AMD": 413.115,
+    "SPY": 718.515
    },
    "benchmark": "SPY"
   },
@@ -16,11 +16,11 @@
   },
   "crypto": {
    "prices": {
-    "NEAR-USD": 3.0127,
-    "BTC-USD": 60341.14
+    "NEAR-USD": 2.8778,
+    "BTC-USD": 60075.1
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-11-24T06:45:59Z"
+ "updatedAt": "2026-11-24T18:38:35Z"
 }
