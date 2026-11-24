@@ -3,13 +3,13 @@
   "cash": 2165.690491731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad chip-sector rout continues (AMD -8.4%, NVDA -7.4%, INTC -7.2%) as profit-taking after Monday's Huang-reinstatement rally, not a fresh negative catalyst; AMD's trend flipped DOWN last session and remains DOWN, so no new buys there and the position (6.3% of NAV, min-hold 13 more days, stop at $405 not yet hit) just holds per its existing plan. Other momentum names with insider buys or attention spikes (INTC, CRM) are trend-DOWN and barred from new swing buys; UP-trend core/growth names (AAPL, MSFT, XOM, XLE, DIS, etc.) show no fresh, dated catalyst today beyond generic broad-market weakness (SPY -0.64%), so no new position clears the real-catalyst bar. Growth/core balance unaffected by inaction; holding cash (33% of NAV) and making no trades this session.",
-  "lastUpdated": "2026-11-24T19:12:05Z",
+  "lastRunNotes": "No new, dated catalyst today: the chip-sector rout (AMD -9.4%, NVDA -7.8%, INTC -8.0%, AVGO 5d -11.7%) reads as continued broad profit-taking rather than fresh news, UNH's weakness traces back to the Nov 16-18 CMS Medicare Advantage audit rule already priced in, and Intel's insider buy is three weeks old — all three are also trend-DOWN and barred from new swing buys. No UP-trend name surfaced a concrete trigger. AMD stays held per its existing plan (stop $405 not hit, 13 days left on min-hold); growth/core split within band given the single position. Holding this session with trades less the priority.",
+  "lastUpdated": "2026-11-24T20:11:54Z",
   "positions": {
    "AMD": {
     "shares": 1,
     "avgCost": 454.98688,
-    "lastPrice": 415.36,
+    "lastPrice": 411.608,
     "bucket": "growth",
     "openedDate": "2026-11-23",
     "plan": {
@@ -33,7 +33,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 717.915
+   "lastPrice": 716.43
   },
   "cashFreed": "2026-10-05"
  },
@@ -531,12 +531,12 @@
   },
   {
    "date": "2026-11-24",
-   "nav": 6614.13,
+   "nav": 6602.03,
    "cash": 2165.69,
-   "positionsValue": 4448.44,
-   "benchmarkNav": 6628.38,
-   "benchmarkClose": 717.915,
-   "growthValue": 415.36,
+   "positionsValue": 4436.34,
+   "benchmarkNav": 6614.67,
+   "benchmarkClose": 716.43,
+   "growthValue": 411.61,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
