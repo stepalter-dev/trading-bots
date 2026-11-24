@@ -3,13 +3,13 @@
   "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked WiseTech (ACCC probe/CFO news is from Aug-Sep, stale), TechnologyOne (record FY26 results already out Nov 17, priced in), and Xero (A$1b buyback and HY27 beat already priced in from Nov 11-13); no fresh dated catalysts today despite the broad ~2% market-wide rally, and no unusual volume anywhere (vol_x all <=0.41). XRO remains in its mandatory 14-day hold window (6 days left) with an existing plan (target A$112, stop A$68), trading within range. Holding with no trades; growth/core balance unaffected (100% growth exposure via XRO, no core positions, well within cash buffer).",
-  "lastUpdated": "2026-11-24T01:11:37Z",
+  "lastRunNotes": "Checked Woolworths, Santos, Computershare and QBE (the standout momentum/attention names) plus the broad market rally itself; found no fresh, dated catalyst specific to today - the ~1.8% market-wide gain came with no unusual volume anywhere on the watchlist (max vol_x 0.74), pointing to a macro move rather than stock news. XRO remains in its mandatory 14-day hold (6 days left) with its existing plan (target A$112, stop A$68) unchanged and still in range. Holding with no trades; growth/core balance unaffected (100% active exposure via XRO growth, no core positions, well within cash buffer).",
+  "lastUpdated": "2026-11-24T03:12:08Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 74.82,
+    "lastPrice": 76.21,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.16
+   "lastPrice": 78.2
   },
   "cashFreed": "2026-10-05"
  },
@@ -512,12 +512,12 @@
   },
   {
    "date": "2026-11-24",
-   "nav": 10080.41,
+   "nav": 10102.89,
    "cash": 3138.5,
-   "positionsValue": 6941.91,
-   "benchmarkNav": 9903.72,
-   "benchmarkClose": 78.16,
-   "growthValue": 1047.48,
+   "positionsValue": 6964.38,
+   "benchmarkNav": 9908.79,
+   "benchmarkClose": 78.2,
+   "growthValue": 1066.94,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
