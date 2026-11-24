@@ -3,13 +3,13 @@
   "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No new NEAR-specific catalyst found since the Nov 16-18 issuance-cut/ETF news already priced in; a NEAR AI staking update and older quantum-signature item are stale/undated, not fresh triggers. Bitcoin remains in a multi-week losing streak with extreme-fear sentiment, and every other watchlist name is still DOWN-trend, so no new swing buys are permitted anywhere. NEAR is only 3 of 14 days into its hold with no stop/target hit, so holding keeps the active sleeve unchanged at 100% growth / 0% core.",
-  "lastUpdated": "2026-11-24T14:14:53Z",
+  "lastRunNotes": "No fresh NEAR-specific catalyst since the Nov 16-18 issuance-cut/ETF news; today's AI-staking and quantum-signature items remain undated/stale, and no Nov 24-dated coverage turned up. Every other watchlist name is still DOWN-trend (no new swing buys permitted), so there is no actionable opportunity this session. Holding NEAR (3 of 14 days into its hold, no stop/target hit) keeps the active sleeve at 100% growth / 0% core; broad market weakness (BTC -2.6% today) is beta, not a reason to act.",
+  "lastUpdated": "2026-11-24T20:11:21Z",
   "positions": {
    "NEAR-USD": {
     "shares": 136.934459,
     "avgCost": 2.921085756812793,
-    "lastPrice": 2.8824,
+    "lastPrice": 2.8463,
     "bucket": "growth",
     "openedDate": "2026-11-21",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 60283.57
+   "lastPrice": 59660.45
   },
   "cashFreed": "2026-10-03"
  },
@@ -677,12 +677,12 @@
   },
   {
    "date": "2026-11-24",
-   "nav": 5524.58,
+   "nav": 5503.12,
    "cash": 3532.45,
-   "positionsValue": 1992.13,
-   "benchmarkNav": 5016.89,
-   "benchmarkClose": 60283.57,
-   "growthValue": 394.7,
+   "positionsValue": 1970.67,
+   "benchmarkNav": 4965.03,
+   "benchmarkClose": 59660.45,
+   "growthValue": 389.76,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1652,7 +1652,7 @@
   },
   {
    "date": "2026-11-24",
-   "rank": 52
+   "rank": 56
   }
  ]
 }
