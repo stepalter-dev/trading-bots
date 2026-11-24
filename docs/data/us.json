@@ -3,13 +3,13 @@
   "cash": 2165.690491731581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Today's broad chip pullback (AMD -9.4%, NVDA -7.1%, INTC -8.0%) is confirmed as profit-taking after Monday's +31% Nvidia rally on the board reinstating Jensen Huang as CEO, not a fresh negative catalyst, but reports note lingering uncertainty (ongoing investigations, China exposure, Dec 1 congressional hearings) that kept the bounce from holding. AMD's trend has flipped DOWN, exactly the reassessment trigger set in its horizon; min-hold and the automatic stop leave nothing to trade there today, so I'm lowering my confidence in its plan rather than touching the position. No other watchlist name has a fresh, specific catalyst: AMZN/TSLA are UP-trend but just drifting with the market, CRM's attention spike and INTC's insider buy are both trend-DOWN and ineligible, and the UP-trend core names (AAPL, MSFT, V, XOM, LLY, COST, HD, PG, KO, DIS, XLF, XLE) show no dated news today. Holding with no new trades; active sleeve stays 100% growth (AMD) vs the 35-65% band, but forcing a core buy without a real catalyst would just add churn.",
-  "lastUpdated": "2026-11-24T17:13:37Z",
+  "lastRunNotes": "Broad chip-sector rout continues (AMD -8.4%, NVDA -7.4%, INTC -7.2%) as profit-taking after Monday's Huang-reinstatement rally, not a fresh negative catalyst; AMD's trend flipped DOWN last session and remains DOWN, so no new buys there and the position (6.3% of NAV, min-hold 13 more days, stop at $405 not yet hit) just holds per its existing plan. Other momentum names with insider buys or attention spikes (INTC, CRM) are trend-DOWN and barred from new swing buys; UP-trend core/growth names (AAPL, MSFT, XOM, XLE, DIS, etc.) show no fresh, dated catalyst today beyond generic broad-market weakness (SPY -0.64%), so no new position clears the real-catalyst bar. Growth/core balance unaffected by inaction; holding cash (33% of NAV) and making no trades this session.",
+  "lastUpdated": "2026-11-24T19:12:05Z",
   "positions": {
    "AMD": {
     "shares": 1,
     "avgCost": 454.98688,
-    "lastPrice": 410.47,
+    "lastPrice": 415.36,
     "bucket": "growth",
     "openedDate": "2026-11-23",
     "plan": {
@@ -33,7 +33,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 718.58
+   "lastPrice": 717.915
   },
   "cashFreed": "2026-10-05"
  },
@@ -531,12 +531,12 @@
   },
   {
    "date": "2026-11-24",
-   "nav": 6612.97,
+   "nav": 6614.13,
    "cash": 2165.69,
-   "positionsValue": 4447.28,
-   "benchmarkNav": 6634.52,
-   "benchmarkClose": 718.58,
-   "growthValue": 410.47,
+   "positionsValue": 4448.44,
+   "benchmarkNav": 6628.38,
+   "benchmarkClose": 717.915,
+   "growthValue": 415.36,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
