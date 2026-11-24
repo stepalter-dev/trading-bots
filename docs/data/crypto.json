@@ -3,13 +3,13 @@
   "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "NEAR remains the only UP-trend watchlist name, but a fresh check found no new catalyst since Nov 18: the issuance-cut and NEAR AI security-incident news are stale and already priced in, NEAR ETF outflows are from mid-November, and the broader market (BTC near 4-month lows, alts all DOWN-trend) is still risk-off. No DOWN-trend buys are allowed and there's no fresh reason to add to NEAR 2 days into its 14-day hold, so holding with no trades. Active sleeve stays 100% growth (NEAR) vs 0% core, outside the 35-65% band, but forcing a core buy without a catalyst would just add churn costs.",
-  "lastUpdated": "2026-11-23T20:11:35Z",
+  "lastRunNotes": "Checked for a fresh NEAR catalyst and broader market tone. NEAR news (issuance cut, NEAR AI incident, ETF outflows) is all from Nov 9-18 and already priced in; no new development since last session. Social sentiment reads positive but that's a lagging/noisy signal, not a catalyst. Broader crypto market remains risk-off (BTC near multi-month lows), and every other watchlist name is still DOWN-trend so no new buys are allowed there. NEAR is only 3 days into its 14-day hold and hasn't hit stop or target, so holding with no trades keeps the active sleeve at 100% growth (NEAR) vs 0% core, outside the 35-65% band, but adding exposure or churning without a real catalyst would just add cost.",
+  "lastUpdated": "2026-11-24T02:11:23Z",
   "positions": {
    "NEAR-USD": {
     "shares": 136.934459,
     "avgCost": 2.921085756812793,
-    "lastPrice": 3.0074,
+    "lastPrice": 2.9678,
     "bucket": "growth",
     "openedDate": "2026-11-21",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 61084.19
+   "lastPrice": 60819.55
   },
   "cashFreed": "2026-10-03"
  },
@@ -672,6 +672,17 @@
    "benchmarkNav": 5083.52,
    "benchmarkClose": 61084.19,
    "growthValue": 411.82,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-24",
+   "nav": 5550.47,
+   "cash": 3532.45,
+   "positionsValue": 2018.02,
+   "benchmarkNav": 5061.5,
+   "benchmarkClose": 60819.55,
+   "growthValue": 406.39,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1638,6 +1649,10 @@
   {
    "date": "2026-11-23",
    "rank": 56
+  },
+  {
+   "date": "2026-11-24",
+   "rank": 58
   }
  ]
 }
