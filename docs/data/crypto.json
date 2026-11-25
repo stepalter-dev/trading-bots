@@ -3,13 +3,13 @@
   "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No dated NEAR-specific catalyst found (searches turned up only stale/undated AI-staking and governance items); broader crypto market is in a continuing risk-off decline (BTC down from ~$63k to ~$58.8k over the past week, broad-based), consistent with standing lesson #5 rather than an asset-specific signal. Every watchlist name except NEAR is DOWN-trend so no new swing buys are permitted, and NEAR itself (4 of 14 days held, well above its stop, below target) cannot be sold or added to without a genuine catalyst. Active sleeve stays 100% growth / 0% core; holding, no trades this session.",
-  "lastUpdated": "2026-11-25T08:11:48Z",
+  "lastRunNotes": "Trend filter blocks new swing buys on every name except NEAR (all others DOWN vs 200-day avg); NEAR itself is only 4/14 days into its minimum hold, well above its stop and below target, so it cannot be sold or added to. Web search found no fresh, dated NEAR-specific catalyst (only undated/stale items: an undated House of Stake vote ending dev gas rebates, and ETF/trust filing chatter already priced in) - today's broad -2 to -5% move across nearly the whole watchlist with vol_x near 1.0x looks like market-wide BTC-driven risk-off, not an asset-specific signal (standing lesson #5). Active sleeve stays 100% growth / 0% core. Holding, no trades this session.",
+  "lastUpdated": "2026-11-25T14:13:25Z",
   "positions": {
    "NEAR-USD": {
     "shares": 136.934459,
     "avgCost": 2.921085756812793,
-    "lastPrice": 2.8439,
+    "lastPrice": 2.7733,
     "bucket": "growth",
     "openedDate": "2026-11-21",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 58788.96
+   "lastPrice": 58286.33
   },
   "cashFreed": "2026-10-03"
  },
@@ -688,12 +688,12 @@
   },
   {
    "date": "2026-11-25",
-   "nav": 5479.7,
+   "nav": 5456.71,
    "cash": 3532.45,
-   "positionsValue": 1947.25,
-   "benchmarkNav": 4892.5,
-   "benchmarkClose": 58788.96,
-   "growthValue": 389.43,
+   "positionsValue": 1924.26,
+   "benchmarkNav": 4850.67,
+   "benchmarkClose": 58286.33,
+   "growthValue": 379.76,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1667,7 +1667,7 @@
   },
   {
    "date": "2026-11-25",
-   "rank": 54
+   "rank": 52
   }
  ]
 }
