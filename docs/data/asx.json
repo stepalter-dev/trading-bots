@@ -3,13 +3,13 @@
   "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked XRO (held) and the watchlist's strongest movers/momentum names (WOW, STO, QBE, CPU) plus overnight ASX/Wall St tone; found no dated, stock-specific catalyst for today - WOW's regional report (Nov 18), QBE's AusPac leadership reshuffle, and CPU's AGM (Nov 12) are all old news already priced in, and volumes across the whole watchlist are below average (vol_x 0.2-0.5x), confirming nothing fresh is moving. XRO's Nov 12 result/buyback thesis is unchanged but the rally has reversed (now -8.3% from avg cost, -6.06% over 5 days); it remains in its mandatory 14-day hold (5 days left), well above its A$68 stop, so no action is possible or warranted - existing target A$112/stop A$68 plan stands. Holding with no trades; portfolio stays XRO growth-only (10.4% of NAV), well within cash buffer, no rebalancing needed since there is only one active position.",
-  "lastUpdated": "2026-11-25T03:12:23Z",
+  "lastRunNotes": "Checked XRO (held, in mandatory hold, plan intact), plus today's notable movers PME (+3.3%, normal volume, no fresh ASX announcement found), MIN (-6.1%, DOWN trend anyway), STO (Santos takeover saga is stale/collapsed, not a current catalyst), and TNE (Wikipedia attention 1.5x but driven by the Nov 17 FY26 results, already old news). Volumes across the whole watchlist remain below-average (vol_x mostly 0.2-1.0x), confirming nothing fresh is moving. No dated, stock-specific catalyst found anywhere, so holding with no trades; growth/core balance unchanged (XRO is the only active sleeve position).",
+  "lastUpdated": "2026-11-25T04:12:00Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 74.52,
+    "lastPrice": 74.39,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 77.88
+   "lastPrice": 77.81
   },
   "cashFreed": "2026-10-05"
  },
@@ -523,12 +523,12 @@
   },
   {
    "date": "2026-11-25",
-   "nav": 10055.09,
+   "nav": 10048.0,
    "cash": 3138.5,
-   "positionsValue": 6916.59,
-   "benchmarkNav": 9868.24,
-   "benchmarkClose": 77.88,
-   "growthValue": 1043.28,
+   "positionsValue": 6909.49,
+   "benchmarkNav": 9859.37,
+   "benchmarkClose": 77.81,
+   "growthValue": 1041.46,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
