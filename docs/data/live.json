@@ -2,25 +2,25 @@
  "markets": {
   "us": {
    "prices": {
-    "AMD": 413.115,
-    "SPY": 718.515
+    "AMD": 413.27,
+    "SPY": 718.78
    },
    "benchmark": "SPY"
   },
   "asx": {
    "prices": {
-    "XRO.AX": 76.54,
-    "STW.AX": 78.28
+    "XRO.AX": 74.79,
+    "STW.AX": 77.88
    },
    "benchmark": "STW.AX"
   },
   "crypto": {
    "prices": {
-    "NEAR-USD": 2.8778,
-    "BTC-USD": 60075.1
+    "NEAR-USD": 2.8229,
+    "BTC-USD": 59204.48
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-11-24T18:38:35Z"
+ "updatedAt": "2026-11-25T02:47:31Z"
 }
