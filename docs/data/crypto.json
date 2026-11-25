@@ -3,13 +3,13 @@
   "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Trend filter blocks new swing buys on every name except NEAR (all others DOWN vs 200-day avg); NEAR itself is only 4/14 days into its minimum hold, well above its stop and below target, so it cannot be sold or added to. Web search found no fresh, dated NEAR-specific catalyst (only undated/stale items: an undated House of Stake vote ending dev gas rebates, and ETF/trust filing chatter already priced in) - today's broad -2 to -5% move across nearly the whole watchlist with vol_x near 1.0x looks like market-wide BTC-driven risk-off, not an asset-specific signal (standing lesson #5). Active sleeve stays 100% growth / 0% core. Holding, no trades this session.",
-  "lastUpdated": "2026-11-25T14:13:25Z",
+  "lastRunNotes": "NEAR is still the only UP-trend watchlist name but is only 4/14 days into its minimum hold (opened Nov 21), sits above cost and below target, so it cannot be sold or sized up. Web search found no new NEAR-specific catalyst since last session - same issuance-cut and ETF-outflow stories already priced in, no fresh dated news. All other 17 watchlist names remain DOWN vs their 200-day average, so the trend filter blocks any new swing buys there regardless of momentum rank. Broader crypto news (BTC near a four-month low around $62k, market cap down ~4%, 'bears firmly in control') confirms this looks like continued market-wide risk-off rather than an asset-specific setup, consistent with standing lessons #3 and #5. Holding with no trades; active sleeve stays at NEAR 7.3% of NAV, well within band and cap.",
+  "lastUpdated": "2026-11-25T20:11:38Z",
   "positions": {
    "NEAR-USD": {
     "shares": 136.934459,
     "avgCost": 2.921085756812793,
-    "lastPrice": 2.7733,
+    "lastPrice": 2.9357,
     "bucket": "growth",
     "openedDate": "2026-11-21",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 58286.33
+   "lastPrice": 59890.76
   },
   "cashFreed": "2026-10-03"
  },
@@ -688,12 +688,12 @@
   },
   {
    "date": "2026-11-25",
-   "nav": 5456.71,
+   "nav": 5521.47,
    "cash": 3532.45,
-   "positionsValue": 1924.26,
-   "benchmarkNav": 4850.67,
-   "benchmarkClose": 58286.33,
-   "growthValue": 379.76,
+   "positionsValue": 1989.01,
+   "benchmarkNav": 4984.19,
+   "benchmarkClose": 59890.76,
+   "growthValue": 402.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1667,7 +1667,7 @@
   },
   {
    "date": "2026-11-25",
-   "rank": 52
+   "rank": 59
   }
  ]
 }
