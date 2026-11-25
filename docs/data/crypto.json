@@ -3,13 +3,13 @@
   "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh NEAR-specific catalyst since the Nov 16-18 issuance-cut/ETF news; today's AI-staking and quantum-signature items remain undated/stale, and no Nov 24-dated coverage turned up. Every other watchlist name is still DOWN-trend (no new swing buys permitted), so there is no actionable opportunity this session. Holding NEAR (3 of 14 days into its hold, no stop/target hit) keeps the active sleeve at 100% growth / 0% core; broad market weakness (BTC -2.6% today) is beta, not a reason to act.",
-  "lastUpdated": "2026-11-24T20:11:21Z",
+  "lastRunNotes": "No dated (Nov 24-25) NEAR-specific news found; the AI-staking and gas-rebate-governance items remain undated/stale and the issuance-cut catalyst from Nov 16-18 is already priced in. Today's broad decline (BTC -3.67%, nearly every watchlist name down 2-6% with vol_x near 0.7-0.9x) is market-wide risk-off, not an asset-specific catalyst, per standing lesson #5. Every other watchlist name is DOWN-trend so no new swing buys are permitted. Holding NEAR (4 of 14 days into its hold, well above its stop) keeps the active sleeve at 100% growth / 0% core; no trade this session.",
+  "lastUpdated": "2026-11-25T02:12:05Z",
   "positions": {
    "NEAR-USD": {
     "shares": 136.934459,
     "avgCost": 2.921085756812793,
-    "lastPrice": 2.8463,
+    "lastPrice": 2.8372,
     "bucket": "growth",
     "openedDate": "2026-11-21",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 59660.45
+   "lastPrice": 58993.23
   },
   "cashFreed": "2026-10-03"
  },
@@ -683,6 +683,17 @@
    "benchmarkNav": 4965.03,
    "benchmarkClose": 59660.45,
    "growthValue": 389.76,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-25",
+   "nav": 5484.2,
+   "cash": 3532.45,
+   "positionsValue": 1951.74,
+   "benchmarkNav": 4909.5,
+   "benchmarkClose": 58993.23,
+   "growthValue": 388.51,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1653,6 +1664,10 @@
   {
    "date": "2026-11-24",
    "rank": 56
+  },
+  {
+   "date": "2026-11-25",
+   "rank": 58
   }
  ]
 }
