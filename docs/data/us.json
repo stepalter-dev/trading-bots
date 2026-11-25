@@ -3,8 +3,8 @@
   "cash": 2545.045219231581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Today is a continuation of the broad AI-bubble/chip risk-off tape (SPY -1.72%, QQQ -2.96%, NVDA/AMD/INTC/ORCL down 6-7%), not a fresh name-specific catalyst. Every growth-bucket ticker is trend-DOWN and barred from new buys. Checked the UP-trend core names (HD, XOM, V, COST, KO, PG, DIS, XLF, XLE, AAPL, MSFT, LLY) for a dated trigger: HD's news is stale (11/17 earnings/CEO transition, already priced in), and the INTC insider buy is from early November, not new. No concrete, dated catalyst clears the bar, so holding 100% cash in the active sleeve this session; no open positions exist so no plans are needed.",
-  "lastUpdated": "2026-11-25T17:12:42Z",
+  "lastRunNotes": "Continuation of the AI-bubble/chip risk-off tape with every growth-bucket name still trend-DOWN and barred from new buys. Checked the UP-trend candidates with a pulse (CRM's Wikipedia attention spike, AMZN's 5-day drop, TSLA): CRM's acquisitions (Braze, Cresta) and BofA upgrade are stale from October/early November and next earnings isn't until Dec 2, AMZN has no fresh headline beyond continued drift, and TSLA has no dated catalyst for today. No concrete, dated catalyst clears the bar, so holding 100% cash in the active sleeve again; no open positions exist so no plans needed.",
+  "lastUpdated": "2026-11-25T19:12:15Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 706.8
+   "lastPrice": 717.36
   },
   "cashFreed": "2026-10-05"
  },
@@ -525,11 +525,11 @@
   },
   {
    "date": "2026-11-25",
-   "nav": 6515.68,
+   "nav": 6575.0,
    "cash": 2545.05,
-   "positionsValue": 3970.64,
-   "benchmarkNav": 6525.76,
-   "benchmarkClose": 706.8,
+   "positionsValue": 4029.96,
+   "benchmarkNav": 6623.26,
+   "benchmarkClose": 717.36,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
