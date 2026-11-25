@@ -3,8 +3,8 @@
   "cash": 2545.045219231581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Continuation of the AI-bubble/chip risk-off tape with every growth-bucket name still trend-DOWN and barred from new buys. Checked the UP-trend candidates with a pulse (CRM's Wikipedia attention spike, AMZN's 5-day drop, TSLA): CRM's acquisitions (Braze, Cresta) and BofA upgrade are stale from October/early November and next earnings isn't until Dec 2, AMZN has no fresh headline beyond continued drift, and TSLA has no dated catalyst for today. No concrete, dated catalyst clears the bar, so holding 100% cash in the active sleeve again; no open positions exist so no plans needed.",
-  "lastUpdated": "2026-11-25T19:12:15Z",
+  "lastRunNotes": "Broad chip/AI risk-off continues: every growth-bucket name is still trend-DOWN and barred from new buys, with AMD specifically flagged by continued insider selling (Lisa Su ~$35M) and sector-wide chip-selloff commentary, confirming no fresh bullish catalyst there. Checked today's UP-trend movers (HD, DIS, V, XOM/XLE) for a dated catalyst: HD's move traces back to stale Nov 17 earnings/Nov 19 dividend news with no unusual volume, DIS's only big story is a Dec 2025 OpenAI/Sora deal (nearly a year stale) plus vague layoff rumors, V and XOM/XLE show no confirmed November-specific news, and the macro backdrop is hawkish (no rate cut, chatter of a possible December hike) rather than a tailwind. No concrete, dated catalyst clears the bar on any eligible UP-trend name, so holding 100% cash in the active sleeve again; no open positions exist so no plans needed.",
+  "lastUpdated": "2026-11-25T20:12:49Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 717.36
+   "lastPrice": 716.223
   },
   "cashFreed": "2026-10-05"
  },
@@ -525,11 +525,11 @@
   },
   {
    "date": "2026-11-25",
-   "nav": 6575.0,
+   "nav": 6568.62,
    "cash": 2545.05,
-   "positionsValue": 4029.96,
-   "benchmarkNav": 6623.26,
-   "benchmarkClose": 717.36,
+   "positionsValue": 4023.57,
+   "benchmarkNav": 6612.76,
+   "benchmarkClose": 716.223,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
