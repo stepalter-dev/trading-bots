@@ -3,8 +3,8 @@
   "cash": 2545.045219231581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Broad risk-off day (SPY -2.3%, QQQ -3.6%, chips down 5-8%) with no dated, name-specific catalyst found for today - it reads as continued AI-bubble profit-taking, not fresh news. Every growth-bucket name on the watchlist is trend-DOWN and barred from new buys; the UP-trend core names (AAPL, MSFT, V, XOM, LLY, COST, HD, PG, KO, DIS, XLF, XLE) show no concrete trigger today either, so no new swing buy clears the bar. AMD already has a plan (target $565, stop $405, 35% prob) and is within its minimum hold; its stop is below the current price so the referee's automatic stop-check will handle it if triggered. Holding this session with zero new trades. Stop-loss exits: AMD.",
-  "lastUpdated": "2026-11-25T15:13:53Z",
+  "lastRunNotes": "Today is a continuation of the broad AI-bubble/chip risk-off tape (SPY -1.72%, QQQ -2.96%, NVDA/AMD/INTC/ORCL down 6-7%), not a fresh name-specific catalyst. Every growth-bucket ticker is trend-DOWN and barred from new buys. Checked the UP-trend core names (HD, XOM, V, COST, KO, PG, DIS, XLF, XLE, AAPL, MSFT, LLY) for a dated trigger: HD's news is stale (11/17 earnings/CEO transition, already priced in), and the INTC insider buy is from early November, not new. No concrete, dated catalyst clears the bar, so holding 100% cash in the active sleeve this session; no open positions exist so no plans are needed.",
+  "lastUpdated": "2026-11-25T17:12:42Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 702.67
+   "lastPrice": 706.8
   },
   "cashFreed": "2026-10-05"
  },
@@ -525,11 +525,11 @@
   },
   {
    "date": "2026-11-25",
-   "nav": 6492.48,
+   "nav": 6515.68,
    "cash": 2545.05,
-   "positionsValue": 3947.43,
-   "benchmarkNav": 6487.63,
-   "benchmarkClose": 702.67,
+   "positionsValue": 3970.64,
+   "benchmarkNav": 6525.76,
+   "benchmarkClose": 706.8,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
@@ -1055,7 +1055,10 @@
    "prob": 0.45,
    "rr": 2.28,
    "exitReason": "stop",
-   "review": null
+   "review": {
+    "verdict": "flawed",
+    "lesson": "A reversal thesis built on a peer company's catalyst (Nvidia CEO news) rather than an AMD-specific trigger, bought into a stock still in a severe multi-day decline (-27% over 5d) during a broad sector risk-off tape, is w"
+   }
   }
  ]
 }
