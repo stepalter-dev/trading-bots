@@ -1,28 +1,11 @@
 {
  "state": {
-  "cash": 2165.690491731581,
+  "cash": 2545.045219231581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No new, dated catalyst today: the chip-sector rout (AMD -9.4%, NVDA -7.8%, INTC -8.0%, AVGO 5d -11.7%) reads as continued broad profit-taking rather than fresh news, UNH's weakness traces back to the Nov 16-18 CMS Medicare Advantage audit rule already priced in, and Intel's insider buy is three weeks old — all three are also trend-DOWN and barred from new swing buys. No UP-trend name surfaced a concrete trigger. AMD stays held per its existing plan (stop $405 not hit, 13 days left on min-hold); growth/core split within band given the single position. Holding this session with trades less the priority.",
-  "lastUpdated": "2026-11-24T20:11:54Z",
-  "positions": {
-   "AMD": {
-    "shares": 1,
-    "avgCost": 454.98688,
-    "lastPrice": 411.608,
-    "bucket": "growth",
-    "openedDate": "2026-11-23",
-    "plan": {
-     "target": 565.0,
-     "stop": 405.0,
-     "prob": 0.35,
-     "rr": 28.25,
-     "evPct": 12.31,
-     "entryRef": 410.47,
-     "setLater": true
-    }
-   }
-  },
+  "lastRunNotes": "Broad risk-off day (SPY -2.3%, QQQ -3.6%, chips down 5-8%) with no dated, name-specific catalyst found for today - it reads as continued AI-bubble profit-taking, not fresh news. Every growth-bucket name on the watchlist is trend-DOWN and barred from new buys; the UP-trend core names (AAPL, MSFT, V, XOM, LLY, COST, HD, PG, KO, DIS, XLF, XLE) show no concrete trigger today either, so no new swing buy clears the bar. AMD already has a plan (target $565, stop $405, 35% prob) and is within its minimum hold; its stop is below the current price so the referee's automatic stop-check will handle it if triggered. Holding this session with zero new trades. Stop-loss exits: AMD.",
+  "lastUpdated": "2026-11-25T15:13:53Z",
+  "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
    "factor": 0.15611111,
@@ -33,7 +16,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 716.43
+   "lastPrice": 702.67
   },
   "cashFreed": "2026-10-05"
  },
@@ -539,6 +522,17 @@
    "growthValue": 411.61,
    "coreValue": 0.0,
    "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-25",
+   "nav": 6492.48,
+   "cash": 2545.05,
+   "positionsValue": 3947.43,
+   "benchmarkNav": 6487.63,
+   "benchmarkClose": 702.67,
+   "growthValue": 0.0,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
   }
  ],
  "trades": [
@@ -882,6 +876,21 @@
     "entryRef": 453.76
    },
    "sentimentSummary": "Relief-rally sentiment broadly positive across AI/semis names today; no AMD-specific insider signal."
+  },
+  {
+   "id": "2026-11-25-AMD-w1sfuc",
+   "ticker": "AMD",
+   "action": "sell",
+   "shares": 1,
+   "price": 380.354728,
+   "refPrice": 380.545,
+   "fee": 1.0,
+   "date": "2026-11-25T15:13:53Z",
+   "bucket": "growth",
+   "rationale": "Stop hit: price 380.545 is at/below the planned stop 405 - the thesis was proven wrong, exiting per plan.",
+   "realizedPnL": -75.63,
+   "realizedPnLPct": -16.62,
+   "exitReason": "stop"
   }
  ],
  "lessons": [],
@@ -1029,6 +1038,24 @@
     "verdict": "unlucky",
     "lesson": "A confirmed beat-and-raise with analyst target hikes was a sound thesis; the loss came from a broad risk-off/rising-yield move hitting nearly every name that day, not from a flaw in the UNH-specific reasoning."
    }
+  },
+  {
+   "id": "2026-11-25-AMD-w1sfuc",
+   "date": "2026-11-25T15:13:53Z",
+   "ticker": "AMD",
+   "bucket": "growth",
+   "entryPrice": 456.1702,
+   "exitPrice": 380.354728,
+   "pnl": -75.63,
+   "pnlPct": -16.62,
+   "daysHeld": 2,
+   "whyBought": "Direct AI-chip peer rebounding on the confirmed, dated removal of Nvidia's leadership-uncertainty overhang (Huang reinstated as CEO 11/23); strongest momentum in the watchlist (#1/31, mom12_1 +153.6%) and trend UP, unlike NVDA/INTC which are trend-DOWN and ineligible. Stop set below recent swing low",
+   "horizon": "Reassess within 2-3 weeks or sooner if AMD breaks back below the 200-day trend (trend flips DOWN) or if new Nvidia leadership/legal news reverses the relief rally.",
+   "whySold": "Stop hit: price 380.545 is at/below the planned stop 405 - the thesis was proven wrong, exiting per plan.",
+   "prob": 0.45,
+   "rr": 2.28,
+   "exitReason": "stop",
+   "review": null
   }
  ]
 }
