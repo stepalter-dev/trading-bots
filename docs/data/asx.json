@@ -3,13 +3,13 @@
   "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, dated catalyst found across the watchlist today. XRO (held) remains in its mandatory hold with no news beyond the already-priced-in Nov 12 results/buyback. TNE's strong FY26 results are a week old and already reflected in the price. WOW has strong momentum (#1 rank, near 52-week highs) but no specific new trigger, just broad strength. PME, MIN, FMG, PLS, BHP, RIO, WDS moved on commodity/sector noise (iron ore weakness) or no identifiable company-specific news, and most of these are DOWN-trend anyway. Volumes remain unremarkable across the board. Holding with no trades; active sleeve balance unchanged (XRO only, 100% growth, within tolerance given its small size).",
-  "lastUpdated": "2026-11-26T00:11:51Z",
+  "lastRunNotes": "No fresh, dated, company-specific catalyst found in UP-trend names (STO, WOW, QBE, CPU, ANZ, IAG) - all recent news (earnings, leadership changes, M&A chatter) is 2+ weeks old and already priced in, or mixed/bearish. XRO remains in its mandatory hold with no new news since the Nov 12 result/buyback; existing plan (target A$112, stop A$68) stands. Holding with no trades; active sleeve is 10.1% growth (XRO), 0% core, well within cash buffer.",
+  "lastUpdated": "2026-11-26T01:12:02Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 72.56,
+    "lastPrice": 72.925,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.17
+   "lastPrice": 78.38
   },
   "cashFreed": "2026-10-05"
  },
@@ -534,12 +534,12 @@
   },
   {
    "date": "2026-11-26",
-   "nav": 10049.52,
+   "nav": 10070.47,
    "cash": 3138.5,
-   "positionsValue": 6911.02,
-   "benchmarkNav": 9904.99,
-   "benchmarkClose": 78.17,
-   "growthValue": 1015.84,
+   "positionsValue": 6931.97,
+   "benchmarkNav": 9931.6,
+   "benchmarkClose": 78.38,
+   "growthValue": 1020.95,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
