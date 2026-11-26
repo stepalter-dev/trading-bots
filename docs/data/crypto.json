@@ -3,13 +3,13 @@
   "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Checked NEAR-specific news and broader crypto market conditions; found no new NEAR catalyst (issuance cut and ETF filings are already known/priced in) and crypto remains in a multi-week drawdown (BTC near 4-month lows, risk-off sentiment). NEAR is 5 days into its 14-day minimum hold with an active plan and hasn't reached target, so it can't be resized or sold. All 17 other watchlist names remain DOWN vs their 200-day average, blocking new swing buys, and day-trading is still paused. Holding with growth 100% / core 0% of the active sleeve; no trades this session.",
-  "lastUpdated": "2026-11-26T14:11:51Z",
+  "lastRunNotes": "Checked NEAR Protocol news and broader crypto conditions; no new NEAR-specific catalyst (the issuance cut and ETF outflows are already known/priced in). BTC and crypto broadly remain in a multi-week risk-off drawdown with extreme-fear sentiment, reinforcing caution on new risk. NEAR is only 5 days into its 14-day minimum hold, well short of its $3.85 target and above its $2.45 stop, so it cannot be resized or sold. All 17 other watchlist names remain DOWN vs their 200-day average, blocking new swing buys, and day-trading is paused. Holding with growth 100% / core 0% of the active sleeve; no trades this session.",
+  "lastUpdated": "2026-11-26T20:11:56Z",
   "positions": {
    "NEAR-USD": {
     "shares": 136.934459,
     "avgCost": 2.921085756812793,
-    "lastPrice": 3.0878,
+    "lastPrice": 3.0808,
     "bucket": "growth",
     "openedDate": "2026-11-21",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 60844.19
+   "lastPrice": 60681.58
   },
   "cashFreed": "2026-10-03"
  },
@@ -699,12 +699,12 @@
   },
   {
    "date": "2026-11-26",
-   "nav": 5567.56,
+   "nav": 5562.29,
    "cash": 3532.45,
-   "positionsValue": 2035.11,
-   "benchmarkNav": 5063.54,
-   "benchmarkClose": 60844.19,
-   "growthValue": 422.83,
+   "positionsValue": 2029.84,
+   "benchmarkNav": 5050.01,
+   "benchmarkClose": 60681.58,
+   "growthValue": 421.87,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1682,7 +1682,7 @@
   },
   {
    "date": "2026-11-26",
-   "rank": 50
+   "rank": 52
   }
  ]
 }
