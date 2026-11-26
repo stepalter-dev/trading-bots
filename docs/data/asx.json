@@ -3,13 +3,13 @@
   "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, dated, company-specific catalyst found in UP-trend names (STO, WOW, QBE, CPU, ANZ, IAG) - all recent news (earnings, leadership changes, M&A chatter) is 2+ weeks old and already priced in, or mixed/bearish. XRO remains in its mandatory hold with no new news since the Nov 12 result/buyback; existing plan (target A$112, stop A$68) stands. Holding with no trades; active sleeve is 10.1% growth (XRO), 0% core, well within cash buffer.",
-  "lastUpdated": "2026-11-26T01:12:02Z",
+  "lastRunNotes": "No genuine, dated, stock-specific catalyst found for any watchlist name today: WTC's and STO's gains look like broad moves (STO/BHP/RIO/WDS/FMG all up together, consistent with a commodity/macro tailwind rather than company news), PME's recent 5-day gain is still riding stale contract wins with no fresh announcement, and WTC/CPU/ANZ/WOW/QBE/IAG remain on stale news as in the prior session. XRO stays in its mandatory 14-day hold (10/14 days, target not reached, no new news) with its existing plan unchanged. Holding with no trades; active sleeve remains 10.4% growth (XRO), 0% core.",
+  "lastUpdated": "2026-11-26T03:12:29Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 72.925,
+    "lastPrice": 74.92,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.38
+   "lastPrice": 78.7
   },
   "cashFreed": "2026-10-05"
  },
@@ -534,12 +534,12 @@
   },
   {
    "date": "2026-11-26",
-   "nav": 10070.47,
+   "nav": 10122.53,
    "cash": 3138.5,
-   "positionsValue": 6931.97,
-   "benchmarkNav": 9931.6,
-   "benchmarkClose": 78.38,
-   "growthValue": 1020.95,
+   "positionsValue": 6984.03,
+   "benchmarkNav": 9972.15,
+   "benchmarkClose": 78.7,
+   "growthValue": 1048.88,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
