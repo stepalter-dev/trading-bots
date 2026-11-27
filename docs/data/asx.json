@@ -3,13 +3,13 @@
   "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No genuine new catalyst found. WTC.AX's further ~17% move today has no identifiable fresh news (AGM reaffirmation was already last session's catalyst) — looks like continued momentum/short-covering, and stale price-target data gives no reliable reward:risk read, so passed again. SUN.AX's 1.5x Wikipedia attention spike has no Suncorp-specific news behind it (only routine buyback/AGM items) — treated as noise, no trade. XRO.AX (held, growth) has no concerning news since the Nov 12 result; Citi (A$95.40) and JPMorgan (A$95.00) both reiterated Buy post-result, supportive of the existing plan, and it's only 11 of 14 min-hold days with no stop or target hit, so holding unchanged. Growth/core balance unchanged (XRO.AX is the only active-sleeve position, ~10% of NAV).",
-  "lastUpdated": "2026-11-27T01:12:12Z",
+  "lastRunNotes": "Held XRO.AX (growth) has no new news since the Nov 12 result; still within its 14-day minimum hold (3 days left) and well short of its A$112 target, so holding per the existing plan. WTC.AX's huge move (+15.7% today, +20.4% 5d) traces back to the mid-October ASIC investigation closures plus a broader November tech-sector rotation — no fresh company-specific catalyst today, so passed again as in the prior session. PME.AX's contract wins (Virtua Health, Billings Clinic) are weeks old and already stale; no new announcement found. BHP/RIO/STO/WDS are up on what looks like a broad commodity/mining move but I could not confirm a specific today-dated catalyst, and those miners are already covered via the index anchor, so no active-sleeve trade. No trades this session; growth/core balance unchanged (only one held position, XRO growth, 10.4% of NAV).",
+  "lastUpdated": "2026-11-27T03:12:00Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 74.71,
+    "lastPrice": 75.765,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.89
+   "lastPrice": 79.11
   },
   "cashFreed": "2026-10-05"
  },
@@ -545,12 +545,12 @@
   },
   {
    "date": "2026-11-27",
-   "nav": 10133.92,
+   "nav": 10165.28,
    "cash": 3138.5,
-   "positionsValue": 6995.42,
-   "benchmarkNav": 9996.22,
-   "benchmarkClose": 78.89,
-   "growthValue": 1045.94,
+   "positionsValue": 7026.78,
+   "benchmarkNav": 10024.1,
+   "benchmarkClose": 79.11,
+   "growthValue": 1060.71,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
