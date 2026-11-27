@@ -3,13 +3,13 @@
   "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Found one real catalyst: WiseTech (WTC.AX) reaffirmed FY27 revenue guidance ($1.48b-$1.54b) at today's AGM with CargoWise core revenue up ~11% YoY, sending the stock up ~15% intraday (part of a ~53% six-week rebound off the insider-trading/governance scandal lows, helped by ASIC clearing founder Richard White of enforcement action in October). Passed on buying it: after an intraday pop this large, the realistic upside/downside no longer clears the 2x reward:risk bar without inflating the stop or target, and one analyst already cut fair value to A$36 (below the current A$54) versus another's A$60.50 target, so the move looks largely priced in already. CAR.AX and SUN.AX moves traced to stale/macro drivers with no fresh dated catalyst, matching last session's read. Holding: active sleeve stays 10.4% growth (XRO, mandatory hold, 3 days left on its existing plan) and 0% core; no trades forced.",
-  "lastUpdated": "2026-11-27T00:12:34Z",
+  "lastRunNotes": "No genuine new catalyst found. WTC.AX's further ~17% move today has no identifiable fresh news (AGM reaffirmation was already last session's catalyst) — looks like continued momentum/short-covering, and stale price-target data gives no reliable reward:risk read, so passed again. SUN.AX's 1.5x Wikipedia attention spike has no Suncorp-specific news behind it (only routine buyback/AGM items) — treated as noise, no trade. XRO.AX (held, growth) has no concerning news since the Nov 12 result; Citi (A$95.40) and JPMorgan (A$95.00) both reiterated Buy post-result, supportive of the existing plan, and it's only 11 of 14 min-hold days with no stop or target hit, so holding unchanged. Growth/core balance unchanged (XRO.AX is the only active-sleeve position, ~10% of NAV).",
+  "lastUpdated": "2026-11-27T01:12:12Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 75.32,
+    "lastPrice": 74.71,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.92
+   "lastPrice": 78.89
   },
   "cashFreed": "2026-10-05"
  },
@@ -545,12 +545,12 @@
   },
   {
    "date": "2026-11-27",
-   "nav": 10144.73,
+   "nav": 10133.92,
    "cash": 3138.5,
-   "positionsValue": 7006.22,
-   "benchmarkNav": 10000.02,
-   "benchmarkClose": 78.92,
-   "growthValue": 1054.48,
+   "positionsValue": 6995.42,
+   "benchmarkNav": 9996.22,
+   "benchmarkClose": 78.89,
+   "growthValue": 1045.94,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
