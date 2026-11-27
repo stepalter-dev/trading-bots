@@ -8,19 +8,19 @@
   },
   "asx": {
    "prices": {
-    "XRO.AX": 75.2,
-    "WTC.AX": 53.81,
-    "STW.AX": 79.26
+    "XRO.AX": 75.0,
+    "WTC.AX": 53.87,
+    "STW.AX": 79.21
    },
    "benchmark": "STW.AX"
   },
   "crypto": {
    "prices": {
-    "NEAR-USD": 3.1005,
-    "BTC-USD": 61405.24
+    "NEAR-USD": 3.0739,
+    "BTC-USD": 61333.45
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-11-27T04:33:06Z"
+ "updatedAt": "2026-11-27T14:22:35Z"
 }
