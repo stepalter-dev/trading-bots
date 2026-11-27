@@ -1,15 +1,15 @@
 {
  "state": {
-  "cash": 3138.502492532757,
+  "cash": 1943.111740532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Held XRO.AX (growth) has no new news since the Nov 12 result; still within its 14-day minimum hold (3 days left) and well short of its A$112 target, so holding per the existing plan. WTC.AX's huge move (+15.7% today, +20.4% 5d) traces back to the mid-October ASIC investigation closures plus a broader November tech-sector rotation — no fresh company-specific catalyst today, so passed again as in the prior session. PME.AX's contract wins (Virtua Health, Billings Clinic) are weeks old and already stale; no new announcement found. BHP/RIO/STO/WDS are up on what looks like a broad commodity/mining move but I could not confirm a specific today-dated catalyst, and those miners are already covered via the index anchor, so no active-sleeve trade. No trades this session; growth/core balance unchanged (only one held position, XRO growth, 10.4% of NAV).",
-  "lastUpdated": "2026-11-27T03:12:00Z",
+  "lastRunNotes": "Fresh, real catalyst found for WTC: 27-Nov AGM trading update reaffirmed FY27 revenue/EBITDA guidance, CargoWise revenue +11% through October, and e2open cost synergies running ahead of plan (A$64m vs A$50m FY27 target) - stock up ~15-16% on the news with trend UP, so adding a growth swing buy. XRO still has no new news and is within its 14-day minimum hold (3 days left, held toward its A$112 target) so left unchanged. WTC's prior ASIC-probe-closure news is from mid-October and stale; passed on that as a standalone reason as in prior sessions. No social-sentiment signal found for WTC specifically. Active sleeve stays growth-heavy (no fresh core catalyst found this session) with cash well above the 5% floor.",
+  "lastUpdated": "2026-11-27T04:12:35Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 75.765,
+    "lastPrice": 75.41,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -19,6 +19,21 @@
      "rr": 2.45,
      "evPct": 7.58,
      "entryRef": 80.745
+    }
+   },
+   "WTC.AX": {
+    "shares": 22,
+    "avgCost": 54.33594327272727,
+    "lastPrice": 54.02,
+    "bucket": "growth",
+    "openedDate": "2026-11-27",
+    "plan": {
+     "target": 72.0,
+     "stop": 47.0,
+     "prob": 0.45,
+     "rr": 2.56,
+     "evPct": 6.67,
+     "entryRef": 54.02
     }
    }
   },
@@ -32,7 +47,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 79.11
+   "lastPrice": 79.28
   },
   "cashFreed": "2026-10-05"
  },
@@ -545,12 +560,12 @@
   },
   {
    "date": "2026-11-27",
-   "nav": 10165.28,
-   "cash": 3138.5,
-   "positionsValue": 7026.78,
-   "benchmarkNav": 10024.1,
-   "benchmarkClose": 79.11,
-   "growthValue": 1060.71,
+   "nav": 10166.18,
+   "cash": 1943.11,
+   "positionsValue": 8223.07,
+   "benchmarkNav": 10045.64,
+   "benchmarkClose": 79.28,
+   "growthValue": 2244.18,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -758,6 +773,28 @@
    "rationale": "Target of 5.20 reached with no fresh catalyst this week to justify a higher plan; taking the +8% profit per the target-reached rule rather than holding on stale buyback/outage news.",
    "realizedPnL": 44.09,
    "realizedPnLPct": 6.93
+  },
+  {
+   "id": "2026-11-27-WTC.AX-meeuuz",
+   "ticker": "WTC.AX",
+   "action": "buy",
+   "shares": 22,
+   "price": 54.063216,
+   "refPrice": 54.02,
+   "fee": 6.0,
+   "date": "2026-11-27T04:12:35Z",
+   "bucket": "growth",
+   "rationale": "27-Nov AGM update reaffirmed FY27 guidance with CargoWise revenue +11% and e2open synergies ahead of plan; genuine fresh operational catalyst (not the stale October ASIC closure) with trend UP, so sizing a swing position for further re-rating while the stop sits below the pre-news close where the thesis would be clearly wrong.",
+   "horizon": "Reassess within 2-3 weeks or at the next CargoWise volume/pricing update; take profit if it reaches target, cut if it gives back the rally and breaks the stop.",
+   "plan": {
+    "target": 72.0,
+    "stop": 47.0,
+    "prob": 0.45,
+    "rr": 2.56,
+    "evPct": 6.67,
+    "entryRef": 54.02
+   },
+   "sentimentSummary": "No notable Reddit/Bluesky chatter found specific to today's move; mainstream coverage is matter-of-fact, not euphoric."
   }
  ],
  "lessons": [],
