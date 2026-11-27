@@ -3,13 +3,13 @@
   "cash": 3138.502492532757,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh, dated, stock-specific catalyst found for any watchlist name: SUN.AX's elevated Wikipedia attention traces to stale Tokio Marine takeover speculation and storm-cost pressure (no new dated announcement this week), XRO is still digesting its Nov 12 result amid a broader SaaS/growth rotation with no new company news, and the BHP/RIO/WDS/STO/FMG move looks like a broad commodity/macro tailwind rather than company-specific news (unconfirmed driver). Holding with no trades; active sleeve remains 10.4% growth (XRO, in mandatory hold at 10/14 days with its existing plan unchanged) and 0% core, cash still high at 31% of NAV awaiting a genuine catalyst.",
-  "lastUpdated": "2026-11-26T04:12:30Z",
+  "lastRunNotes": "Found one real catalyst: WiseTech (WTC.AX) reaffirmed FY27 revenue guidance ($1.48b-$1.54b) at today's AGM with CargoWise core revenue up ~11% YoY, sending the stock up ~15% intraday (part of a ~53% six-week rebound off the insider-trading/governance scandal lows, helped by ASIC clearing founder Richard White of enforcement action in October). Passed on buying it: after an intraday pop this large, the realistic upside/downside no longer clears the 2x reward:risk bar without inflating the stop or target, and one analyst already cut fair value to A$36 (below the current A$54) versus another's A$60.50 target, so the move looks largely priced in already. CAR.AX and SUN.AX moves traced to stale/macro drivers with no fresh dated catalyst, matching last session's read. Holding: active sleeve stays 10.4% growth (XRO, mandatory hold, 3 days left on its existing plan) and 0% core; no trades forced.",
+  "lastUpdated": "2026-11-27T00:12:34Z",
   "positions": {
    "XRO.AX": {
     "shares": 14,
     "avgCost": 81.23816742857142,
-    "lastPrice": 75.08,
+    "lastPrice": 75.32,
     "bucket": "growth",
     "openedDate": "2026-11-16",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "STW.AX",
    "shares": 75.414891,
    "avgCost": 78.6623758842674,
-   "lastPrice": 78.66
+   "lastPrice": 78.92
   },
   "cashFreed": "2026-10-05"
  },
@@ -540,6 +540,17 @@
    "benchmarkNav": 9967.08,
    "benchmarkClose": 78.66,
    "growthValue": 1051.12,
+   "coreValue": 0.0,
+   "daytradeValue": 0.0
+  },
+  {
+   "date": "2026-11-27",
+   "nav": 10144.73,
+   "cash": 3138.5,
+   "positionsValue": 7006.22,
+   "benchmarkNav": 10000.02,
+   "benchmarkClose": 78.92,
+   "growthValue": 1054.48,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
