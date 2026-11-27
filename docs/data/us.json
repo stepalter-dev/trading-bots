@@ -3,8 +3,8 @@
   "cash": 2545.045219231581,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "Fully in cash, Black Friday half-session with thin volume (vol_x <1 across the whole watchlist) and no unusual-volume signal anywhere. Checked CRM (Wikipedia 3x attention spike, but traces to stale Oct BofA upgrade/Braze-Cresta deals and looming Dec 2 earnings, not a fresh dated catalyst, plus the AI-native-competition overhang that's been pressuring the stock), XOM/XLE (strong momentum but mixed analyst views and a recent DZ Bank downgrade to sell, no new catalyst), TSLA and AMZN (today's gains look like broad market drift, no company-specific news found, and AMZN has heavy insider selling). No held positions, so nothing to trade or re-plan. Holding this session.",
-  "lastUpdated": "2026-11-27T15:13:00Z",
+  "lastRunNotes": "Checked today's biggest movers (TSLA +5.0%, AMZN +3.9%, META +3.0%) and the INTC insider-buy signal via web search; found no specific, dated catalyst for any of them, only stale/generic coverage, consistent with the still-thin Black Friday volume (vol_x under 0.6 across the entire watchlist, no unusual-volume signal). INTC's CEO Form 4 buy is real but INTC trend is DOWN so it's not buyable anyway. No active positions and no new trades this session; staying fully in cash in the active sleeve, 62% in the index anchor.",
+  "lastUpdated": "2026-11-27T17:11:54Z",
   "positions": {},
   "startingCash": 7025.0,
   "rescaled": {
@@ -16,7 +16,7 @@
    "ticker": "SPY",
    "shares": 5.617764,
    "avgCost": 768.0367442656811,
-   "lastPrice": 722.0
+   "lastPrice": 725.93
   },
   "cashFreed": "2026-10-05"
  },
@@ -536,11 +536,11 @@
   },
   {
    "date": "2026-11-27",
-   "nav": 6601.07,
+   "nav": 6623.15,
    "cash": 2545.05,
-   "positionsValue": 4056.03,
-   "benchmarkNav": 6666.1,
-   "benchmarkClose": 722.0,
+   "positionsValue": 4078.1,
+   "benchmarkNav": 6702.39,
+   "benchmarkClose": 725.93,
    "growthValue": 0.0,
    "coreValue": 0.0,
    "daytradeValue": 0.0
