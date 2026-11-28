@@ -3,13 +3,13 @@
   "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No new catalyst found for NEAR (searches turned up only undated/older items, nothing dated today) and broad crypto remains soft with BTC near four-month lows, consistent with the market-wide risk-off already noted. NEAR is 7 of 14 days into its minimum hold, above its stop and below its target, so it cannot be sold, and every other watchlist name is DOWN-trend so no new swing buys are eligible. Growth/core balance is unchanged (100% growth, no core) - holding with no trades.",
-  "lastUpdated": "2026-11-28T14:11:28Z",
+  "lastRunNotes": "No dated catalyst found for NEAR beyond the already-priced-in issuance cut and ongoing ETF outflows (~$10.58M since Oct 27); searches turned up nothing newer than Nov 18. Every other watchlist name remains DOWN-trend, so no new swing buys are eligible, and NEAR is only 7 of 14 days into its minimum hold (above stop, below target), so it cannot be sold. Broad market is risk-off (BTC -0.98% today, -3.15% 5d). Growth/core balance unchanged (100% growth via NEAR, no core) - holding with no trades.",
+  "lastUpdated": "2026-11-28T20:11:57Z",
   "positions": {
    "NEAR-USD": {
     "shares": 136.934459,
     "avgCost": 2.921085756812793,
-    "lastPrice": 2.9534,
+    "lastPrice": 2.9368,
     "bucket": "growth",
     "openedDate": "2026-11-21",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 59051.32
+   "lastPrice": 59281.44
   },
   "cashFreed": "2026-10-03"
  },
@@ -721,12 +721,12 @@
   },
   {
    "date": "2026-11-28",
-   "nav": 5501.65,
+   "nav": 5505.47,
    "cash": 3532.45,
-   "positionsValue": 1969.19,
-   "benchmarkNav": 4914.33,
-   "benchmarkClose": 59051.32,
-   "growthValue": 404.42,
+   "positionsValue": 1973.02,
+   "benchmarkNav": 4933.48,
+   "benchmarkClose": 59281.44,
+   "growthValue": 402.15,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
@@ -1712,7 +1712,7 @@
   },
   {
    "date": "2026-11-28",
-   "rank": 52
+   "rank": 60
   }
  ]
 }
