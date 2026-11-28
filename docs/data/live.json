@@ -16,11 +16,11 @@
   },
   "crypto": {
    "prices": {
-    "NEAR-USD": 2.9515,
-    "BTC-USD": 59121.11
+    "NEAR-USD": 2.9312,
+    "BTC-USD": 59246.42
    },
    "benchmark": "BTC-USD"
   }
  },
- "updatedAt": "2026-11-28T13:38:02Z"
+ "updatedAt": "2026-11-28T21:22:04Z"
 }
