@@ -3,13 +3,13 @@
   "cash": 3532.45228590918,
   "dataFeedAlert": null,
   "dataFeedFailures": 0,
-  "lastRunNotes": "No fresh NEAR-specific catalyst found; the only coverage surfaced was a stale May 2026 rally article, irrelevant to today. BTC remains below its 200-day average and crypto markets are still soft (BTC near four-month lows as of mid-November, now 59701, confirming the ongoing downtrend). NEAR is still the sole UP-trend watchlist name and the only active position (7 of 14 days into its minimum hold, above its stop, below its target), so it cannot be sold and no other watchlist name is eligible for a new buy (all DOWN-trend). Growth/core balance unchanged (100% growth, no core); holding with no trades this session.",
-  "lastUpdated": "2026-11-28T08:11:54Z",
+  "lastRunNotes": "No new catalyst found for NEAR (searches turned up only undated/older items, nothing dated today) and broad crypto remains soft with BTC near four-month lows, consistent with the market-wide risk-off already noted. NEAR is 7 of 14 days into its minimum hold, above its stop and below its target, so it cannot be sold, and every other watchlist name is DOWN-trend so no new swing buys are eligible. Growth/core balance is unchanged (100% growth, no core) - holding with no trades.",
+  "lastUpdated": "2026-11-28T14:11:28Z",
   "positions": {
    "NEAR-USD": {
     "shares": 136.934459,
     "avgCost": 2.921085756812793,
-    "lastPrice": 3.0205,
+    "lastPrice": 2.9534,
     "bucket": "growth",
     "openedDate": "2026-11-21",
     "plan": {
@@ -32,7 +32,7 @@
    "ticker": "BTC-USD",
    "shares": 0.02649852,
    "avgCost": 84447.72255577098,
-   "lastPrice": 59708.83
+   "lastPrice": 59051.32
   },
   "cashFreed": "2026-10-03"
  },
@@ -721,12 +721,12 @@
   },
   {
    "date": "2026-11-28",
-   "nav": 5528.26,
+   "nav": 5501.65,
    "cash": 3532.45,
-   "positionsValue": 1995.81,
-   "benchmarkNav": 4969.05,
-   "benchmarkClose": 59708.83,
-   "growthValue": 413.61,
+   "positionsValue": 1969.19,
+   "benchmarkNav": 4914.33,
+   "benchmarkClose": 59051.32,
+   "growthValue": 404.42,
    "coreValue": 0.0,
    "daytradeValue": 0.0
   }
